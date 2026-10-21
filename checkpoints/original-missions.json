@@ -1,0 +1,642 @@
+[
+  {
+    "title": "A crack in the quay",
+    "place": "01 / THE OLD DOCKS",
+    "goal": "clear",
+    "objective": "Disable both sentinels. Keep at least one crew member alive.",
+    "brief": "The city of Bellwether once borrowed its weather from a machine. Last night, the machine called in its debt. The docks are empty. The sentinels are not.",
+    "dialogue": "Mara: “Keep cover close. Those sentinels choose their shots when they move.”",
+    "tip": "Push a sentinel into water to carry it away, or into a wall for extra collision damage. Trees and objects intercept shots. Enemies choose their targets during their turn.",
+    "crew": [
+      "vanguard",
+      "ranger",
+      "gardener"
+    ],
+    "allies": [
+      [
+        1,
+        5
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        5,
+        5
+      ]
+    ],
+    "enemies": [
+      [
+        2,
+        2
+      ],
+      [
+        4,
+        2
+      ]
+    ],
+    "tiles": [
+      [
+        2,
+        1,
+        "water"
+      ],
+      [
+        3,
+        1,
+        "water"
+      ],
+      [
+        4,
+        1,
+        "water"
+      ],
+      [
+        1,
+        3,
+        "ice"
+      ],
+      [
+        2,
+        3,
+        "ice"
+      ],
+      [
+        3,
+        3,
+        "ice"
+      ]
+    ],
+    "objects": [
+      [
+        2,
+        0,
+        "wall"
+      ],
+      [
+        4,
+        0,
+        "wall"
+      ],
+      [
+        3,
+        2,
+        "column"
+      ],
+      [
+        0,
+        4,
+        "tree"
+      ],
+      [
+        6,
+        4,
+        "tree"
+      ]
+    ]
+  },
+  {
+    "title": "The green shortcut",
+    "place": "02 / GLASSHOUSE ROW",
+    "goal": "collect",
+    "count": 3,
+    "objective": "Recover all 3 seed capsules. Walk onto a capsule to collect it.",
+    "brief": "Fern finds a message scratched into a greenhouse door: SAVE THE SEEDS, NOT THE GLASS. Somewhere beyond the overgrowth, someone is still tending the city.",
+    "dialogue": "Fern: “A tree can take a shot for us. It doesn’t need to live forever to matter.”",
+    "tip": "You can move and act in either order. Plant a barrier to intercept a shot, then cross exposed ground.",
+    "crew": [
+      "vanguard",
+      "gardener",
+      "tidecaller"
+    ],
+    "allies": [
+      [
+        0,
+        6
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        4,
+        6
+      ]
+    ],
+    "enemies": [
+      [
+        1,
+        1
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        3,
+        2
+      ]
+    ],
+    "tiles": [
+      [
+        2,
+        3,
+        "fire"
+      ],
+      [
+        3,
+        3,
+        "fire"
+      ],
+      [
+        5,
+        4,
+        "water"
+      ],
+      [
+        5,
+        5,
+        "water"
+      ]
+    ],
+    "objects": [
+      [
+        1,
+        4,
+        "seed"
+      ],
+      [
+        5,
+        3,
+        "seed"
+      ],
+      [
+        3,
+        0,
+        "seed"
+      ],
+      [
+        2,
+        2,
+        "tree"
+      ],
+      [
+        4,
+        2,
+        "tree"
+      ],
+      [
+        0,
+        3,
+        "wall"
+      ],
+      [
+        6,
+        3,
+        "wall"
+      ]
+    ]
+  },
+  {
+    "title": "Borrowed time",
+    "place": "03 / THE SWITCHYARD",
+    "goal": "reach",
+    "objective": "Bring any crew member to the northern exit. Open the gate by activating the lever from an adjacent tile.",
+    "brief": "A signal pulses from the observatory. The direct route is sealed by a flood gate. Pip knows how to open it. Pip also knows how to make most things stop being in the way.",
+    "dialogue": "Pip: “The lever opens every gate. The column opens everything else.”",
+    "tip": "Use Interact next to the lever. Columns fall two tiles in the push direction, dealing 2 damage and crushing obstacles.",
+    "crew": [
+      "vanguard",
+      "engineer",
+      "ranger"
+    ],
+    "allies": [
+      [
+        1,
+        6
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        5,
+        6
+      ]
+    ],
+    "enemies": [
+      [
+        1,
+        1
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        3,
+        1
+      ]
+    ],
+    "tiles": [
+      [
+        1,
+        4,
+        "ice"
+      ],
+      [
+        2,
+        4,
+        "ice"
+      ],
+      [
+        3,
+        4,
+        "ice"
+      ],
+      [
+        4,
+        4,
+        "ice"
+      ],
+      [
+        5,
+        4,
+        "ice"
+      ],
+      [
+        3,
+        0,
+        "goal"
+      ]
+    ],
+    "objects": [
+      [
+        0,
+        2,
+        "wall"
+      ],
+      [
+        1,
+        2,
+        "wall"
+      ],
+      [
+        2,
+        2,
+        "wall"
+      ],
+      [
+        3,
+        2,
+        "gate"
+      ],
+      [
+        4,
+        2,
+        "wall"
+      ],
+      [
+        5,
+        2,
+        "wall"
+      ],
+      [
+        6,
+        2,
+        "wall"
+      ],
+      [
+        0,
+        4,
+        "lever"
+      ],
+      [
+        2,
+        3,
+        "column"
+      ],
+      [
+        4,
+        5,
+        "crate"
+      ]
+    ]
+  },
+  {
+    "title": "A place to stand",
+    "place": "04 / THE RAIN GARDEN",
+    "goal": "hold",
+    "count": 2,
+    "objective": "Occupy both gold relay pads at the end of a round. Hold them together for 2 rounds.",
+    "brief": "Neri has found the source of the signal: two hand-operated relays, abandoned in the rain. They must be held together long enough to wake the observatory.",
+    "dialogue": "Neri: “The current moves everyone. Even those who think they’re in charge.”",
+    "tip": "Currents carry entrants two tiles east. You must finish on a relay, then end the round. Trees can shield the operators.",
+    "crew": [
+      "gardener",
+      "tidecaller",
+      "ranger"
+    ],
+    "allies": [
+      [
+        0,
+        6
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        6,
+        6
+      ]
+    ],
+    "enemies": [
+      [
+        1,
+        0
+      ],
+      [
+        5,
+        0
+      ],
+      [
+        3,
+        1
+      ]
+    ],
+    "tiles": [
+      [
+        1,
+        3,
+        "goal"
+      ],
+      [
+        5,
+        3,
+        "goal"
+      ],
+      [
+        2,
+        4,
+        "water"
+      ],
+      [
+        3,
+        4,
+        "water"
+      ],
+      [
+        4,
+        4,
+        "water"
+      ],
+      [
+        1,
+        4,
+        "water"
+      ]
+    ],
+    "objects": [
+      [
+        2,
+        2,
+        "wall"
+      ],
+      [
+        4,
+        2,
+        "wall"
+      ],
+      [
+        0,
+        2,
+        "tree"
+      ],
+      [
+        6,
+        2,
+        "tree"
+      ],
+      [
+        3,
+        3,
+        "fan"
+      ]
+    ]
+  },
+  {
+    "title": "The long evening",
+    "place": "05 / CINDER DISTRICT",
+    "goal": "survive",
+    "count": 5,
+    "objective": "Keep at least one crew member alive for 5 rounds.",
+    "brief": "The observatory answers. A child named Sol is inside. The weather engine is overheating, and its guardians are converging. “Keep them busy,” Sol says. “I can close the intake.”",
+    "dialogue": "Pip: “Charges detonate after they attack. Use cover to draw them toward the charges.”",
+    "tip": "Reinforcements arrive on round 3. Save room to retreat. Rain extinguishes fire; trees burn and spread fire to adjacent wood.",
+    "crew": [
+      "engineer",
+      "tidecaller",
+      "vanguard"
+    ],
+    "allies": [
+      [
+        1,
+        5
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        5,
+        5
+      ]
+    ],
+    "enemies": [
+      [
+        1,
+        0
+      ],
+      [
+        5,
+        0
+      ],
+      [
+        3,
+        1
+      ]
+    ],
+    "tiles": [
+      [
+        0,
+        3,
+        "fire"
+      ],
+      [
+        6,
+        3,
+        "fire"
+      ],
+      [
+        2,
+        4,
+        "ice"
+      ],
+      [
+        3,
+        4,
+        "ice"
+      ],
+      [
+        4,
+        4,
+        "ice"
+      ]
+    ],
+    "objects": [
+      [
+        0,
+        4,
+        "tree"
+      ],
+      [
+        0,
+        5,
+        "tree"
+      ],
+      [
+        6,
+        4,
+        "tree"
+      ],
+      [
+        6,
+        5,
+        "tree"
+      ],
+      [
+        2,
+        2,
+        "column"
+      ],
+      [
+        4,
+        2,
+        "column"
+      ],
+      [
+        3,
+        3,
+        "crate"
+      ]
+    ]
+  },
+  {
+    "title": "Let the city breathe",
+    "place": "06 / THE WEATHER HEART",
+    "goal": "boss",
+    "objective": "Destroy the Weather Heart (8 HP). Its guardians stop when it falls.",
+    "brief": "Sol opens the final door. Inside, the engine is not angry. It is afraid. It has been trying to hold back every storm at once. There is only one thing left to do: let go.",
+    "dialogue": "Sol: “It doesn’t know how to stop.” Mara: “Then we’ll help it.”",
+    "tip": "The Heart fires in all four directions. Break its lines with trees or use its own guardians against it. No one has to fight alone.",
+    "crew": [
+      "vanguard",
+      "engineer",
+      "gardener"
+    ],
+    "allies": [
+      [
+        1,
+        6
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        5,
+        6
+      ]
+    ],
+    "enemies": [
+      [
+        1,
+        1
+      ],
+      [
+        5,
+        1
+      ]
+    ],
+    "boss": [
+      3,
+      2
+    ],
+    "tiles": [
+      [
+        0,
+        3,
+        "water"
+      ],
+      [
+        1,
+        3,
+        "water"
+      ],
+      [
+        5,
+        3,
+        "water"
+      ],
+      [
+        6,
+        3,
+        "water"
+      ],
+      [
+        2,
+        5,
+        "ice"
+      ],
+      [
+        3,
+        5,
+        "ice"
+      ],
+      [
+        4,
+        5,
+        "ice"
+      ]
+    ],
+    "objects": [
+      [
+        2,
+        2,
+        "column"
+      ],
+      [
+        4,
+        2,
+        "column"
+      ],
+      [
+        0,
+        1,
+        "wall"
+      ],
+      [
+        6,
+        1,
+        "wall"
+      ],
+      [
+        3,
+        4,
+        "crate"
+      ]
+    ]
+  }
+]

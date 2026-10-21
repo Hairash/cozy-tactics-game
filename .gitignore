@@ -1,0 +1,30 @@
+.DS_Store
+.openai/*.tar.gz
+*.zip
+
+# Transient search diagnostics
+tests/failure-[0-9]*.json
+
+# Local art pilot runtime is outside this repository; transient Python caches only.
+art-pilot/**/__pycache__/
+
+# Large original art and prior experiments remain on this device and in the
+# local-art-archive-df99c55 Git snapshot; publish runtime exports and provenance.
+art-production/**/raw/
+art-pilot/**/raw/
+art-pilot/raw/
+art-pilot/archive/
+art-pilot/reference/
+
+# Local hosting identity, account/session state, machine logs and private inputs
+.openai/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+art-pilot/logs/*.log
+local-only/
+
+# Optional local Python environment for art utilities
+.venv/

@@ -1,0 +1,305 @@
+{
+  "category": "roles-extra",
+  "assets": {
+    "harvester": {
+      "status": "reviewed",
+      "source": "art-production/roles-extra/raw/harvester.png",
+      "originalToolPath": "art-production/roles-extra/raw/harvester.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "file": "processed/harvester.png",
+      "prompt": "prompts/harvester.txt",
+      "sha256": "569c434ce84d95d74226e47a6ec4f8cb28726ade6b699ac86401a47c896d2bd3",
+      "runtimeSize": [
+        80,
+        80
+      ],
+      "anchor": [
+        0.5,
+        0.9
+      ],
+      "sourceSHA256": "a320292ccc8228f349b8b8d3a36820beb424eee18b1832ae9cf4e4a64135478b",
+      "qa": {
+        "runtime": [
+          80,
+          80
+        ],
+        "alphaPreserved": true,
+        "processing": "visible-alpha>16 bounds crop, Lanczos resize, common ground anchor; no pixel alpha thresholding",
+        "visualReview": "80px and40px combined role sheet reviewed; broad distinct equipment and shared palette"
+      }
+    },
+    "plumber": {
+      "status": "reviewed",
+      "source": "art-production/roles-extra/raw/plumber.png",
+      "originalToolPath": "art-production/roles-extra/raw/plumber.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "file": "processed/plumber.png",
+      "prompt": "prompts/plumber.txt",
+      "sha256": "b6d9e3f76ff86dd92214027efcd0dc39cf90d48d246e01fbd408bffcb012158c",
+      "runtimeSize": [
+        80,
+        80
+      ],
+      "anchor": [
+        0.5,
+        0.9
+      ],
+      "sourceSHA256": "12c8c82e47f647722a65d658f40e0655b832ed469b63f1cceb6cf7c12d8f5bd2",
+      "qa": {
+        "runtime": [
+          80,
+          80
+        ],
+        "alphaPreserved": true,
+        "processing": "visible-alpha>16 bounds crop, Lanczos resize, common ground anchor; no pixel alpha thresholding",
+        "visualReview": "80px and40px combined role sheet reviewed; broad distinct equipment and shared palette"
+      }
+    },
+    "rainmaker": {
+      "status": "reviewed",
+      "source": "art-production/roles-extra/raw/rainmaker.png",
+      "originalToolPath": "art-production/roles-extra/raw/rainmaker.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "file": "processed/rainmaker.png",
+      "prompt": "prompts/rainmaker.txt",
+      "sha256": "7476e755b90eaa1c2eeb996835c2998a27505c9fecf5dcf77680795e6fec2a26",
+      "runtimeSize": [
+        80,
+        80
+      ],
+      "anchor": [
+        0.5,
+        0.9
+      ],
+      "sourceSHA256": "b85f3516c9bd8068db457acaca1d9f856f2e713e59b0c3ed85a76549e472f969",
+      "qa": {
+        "runtime": [
+          80,
+          80
+        ],
+        "alphaPreserved": true,
+        "processing": "visible-alpha>16 bounds crop, Lanczos resize, common ground anchor; no pixel alpha thresholding",
+        "visualReview": "80px and40px combined role sheet reviewed; broad distinct equipment and shared palette"
+      }
+    },
+    "firefighter": {
+      "status": "reviewed",
+      "source": "art-production/roles-extra/raw/firefighter.png",
+      "originalToolPath": "art-production/roles-extra/raw/firefighter.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "file": "processed/firefighter.png",
+      "prompt": "prompts/firefighter.txt",
+      "sha256": "f2e2bbdb0250dfeba614f2989a369968663813258db8c8d1762392ec719e09d5",
+      "runtimeSize": [
+        80,
+        80
+      ],
+      "anchor": [
+        0.5,
+        0.9
+      ],
+      "sourceSHA256": "0ea07fd522162398641bd6f5c6cec7f9c6befcaa98dcc0f164b595ef694a5c3d",
+      "qa": {
+        "runtime": [
+          80,
+          80
+        ],
+        "alphaPreserved": true,
+        "processing": "visible-alpha>16 bounds crop, Lanczos resize, common ground anchor; no pixel alpha thresholding",
+        "visualReview": "80px and40px combined role sheet reviewed; broad distinct equipment and shared palette"
+      }
+    },
+    "mason": {
+      "status": "reviewed",
+      "source": "art-production/roles-extra/raw/mason.png",
+      "originalToolPath": "art-production/roles-extra/raw/mason.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "file": "processed/mason.png",
+      "prompt": "prompts/mason.txt",
+      "sha256": "da9b413530167039ebcbf463afb6819d75511614478045995bdebc4e58bad2a5",
+      "runtimeSize": [
+        80,
+        80
+      ],
+      "anchor": [
+        0.5,
+        0.9
+      ],
+      "sourceSHA256": "e7ca05c168a0e7bb423cac6b37e58b6276bc2338dda1e21e055b9f4c766e032d",
+      "qa": {
+        "runtime": [
+          80,
+          80
+        ],
+        "alphaPreserved": true,
+        "processing": "visible-alpha>16 bounds crop, Lanczos resize, common ground anchor; no pixel alpha thresholding",
+        "visualReview": "80px and40px combined role sheet reviewed; broad distinct equipment and shared palette"
+      }
+    },
+    "lantern": {
+      "status": "reviewed",
+      "source": "art-production/roles-extra/raw/lantern.png",
+      "originalToolPath": "art-production/roles-extra/raw/lantern.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "file": "processed/lantern.png",
+      "prompt": "prompts/lantern.txt",
+      "sha256": "c37c57a73cee921234627396181fc19eed7fa5b2bbdbf80b89a95e6c1db710c5",
+      "runtimeSize": [
+        80,
+        80
+      ],
+      "anchor": [
+        0.5,
+        0.9
+      ],
+      "sourceSHA256": "784ee2f65238986aca9ad4131a2dec0f280ffa2a19f7f6e021425013183ce3aa",
+      "qa": {
+        "runtime": [
+          80,
+          80
+        ],
+        "alphaPreserved": true,
+        "processing": "visible-alpha>16 bounds crop, Lanczos resize, common ground anchor; no pixel alpha thresholding",
+        "visualReview": "80px and40px combined role sheet reviewed; broad distinct equipment and shared palette"
+      }
+    },
+    "spore": {
+      "status": "reviewed",
+      "source": "art-production/roles-extra/raw/spore.png",
+      "originalToolPath": "art-production/roles-extra/raw/spore.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "file": "processed/spore.png",
+      "prompt": "prompts/spore.txt",
+      "sha256": "444760ccaf769abe8bbf2e1d1bd1736e19826221a327b28cfbd87d66979dc789",
+      "runtimeSize": [
+        80,
+        80
+      ],
+      "anchor": [
+        0.5,
+        0.9
+      ],
+      "sourceSHA256": "d06f23e769aaf407b5cee5f0f2b6dbc44668ab3cedf9444f88c18ec9ee0670a5",
+      "qa": {
+        "runtime": [
+          80,
+          80
+        ],
+        "alphaPreserved": true,
+        "processing": "visible-alpha>16 bounds crop, Lanczos resize, common ground anchor; no pixel alpha thresholding",
+        "visualReview": "80px and40px combined role sheet reviewed; broad distinct equipment and shared palette"
+      }
+    },
+    "puppeteer": {
+      "status": "reviewed",
+      "source": "art-production/roles-extra/raw/puppeteer.png",
+      "originalToolPath": "art-production/roles-extra/raw/puppeteer.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "file": "processed/puppeteer.png",
+      "prompt": "prompts/puppeteer.txt",
+      "sha256": "9d0d44196c58e5244d5571cd83ab73a5f6788d7c4100fa2c37484a03b0b03db1",
+      "runtimeSize": [
+        80,
+        80
+      ],
+      "anchor": [
+        0.5,
+        0.9
+      ],
+      "sourceSHA256": "a3012b474bc4f1f87405d95e0d97725b220f519f7dc4720b9571281eeccc45d5",
+      "qa": {
+        "runtime": [
+          80,
+          80
+        ],
+        "alphaPreserved": true,
+        "processing": "visible-alpha>16 bounds crop, Lanczos resize, common ground anchor; no pixel alpha thresholding",
+        "visualReview": "80px and40px combined role sheet reviewed; broad distinct equipment and shared palette"
+      }
+    },
+    "rigger": {
+      "status": "reviewed",
+      "source": "art-production/roles-extra/raw/rigger.png",
+      "originalToolPath": "art-production/roles-extra/raw/rigger.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "file": "processed/rigger.png",
+      "prompt": "prompts/rigger.txt",
+      "sha256": "a825a118ff8ddc21eb44f9ebcccf42b6eaf3fd381f8a15c28e92224cce090bc4",
+      "runtimeSize": [
+        80,
+        80
+      ],
+      "anchor": [
+        0.5,
+        0.9
+      ],
+      "sourceSHA256": "aa37c088edd37112f298d33d1f6440512982d766c501a1a0e3854547e917803d",
+      "qa": {
+        "runtime": [
+          80,
+          80
+        ],
+        "alphaPreserved": true,
+        "processing": "visible-alpha>16 bounds crop, Lanczos resize, common ground anchor; no pixel alpha thresholding",
+        "visualReview": "80px and40px combined role sheet reviewed; broad distinct equipment and shared palette"
+      }
+    },
+    "bombardier": {
+      "status": "reviewed",
+      "source": "art-production/roles-extra/raw/bombardier.png",
+      "originalToolPath": "art-production/roles-extra/raw/bombardier.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "file": "processed/bombardier.png",
+      "prompt": "prompts/bombardier.txt",
+      "sha256": "6389666348159ef1eccef1067a768d782f0b86cb21f5e407e21f4195a20b82f2",
+      "runtimeSize": [
+        80,
+        80
+      ],
+      "anchor": [
+        0.5,
+        0.9
+      ],
+      "sourceSHA256": "5a47b68ee74cd37b26cedad25be6a852c661815ae1ce39b7b4725fa58c2180f4",
+      "qa": {
+        "runtime": [
+          80,
+          80
+        ],
+        "alphaPreserved": true,
+        "processing": "visible-alpha>16 bounds crop, Lanczos resize, common ground anchor; no pixel alpha thresholding",
+        "visualReview": "80px and40px combined role sheet reviewed; broad distinct equipment and shared palette"
+      }
+    }
+  }
+}

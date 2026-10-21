@@ -1,0 +1,202 @@
+{
+  "ally-1": {
+    "raw_size": [
+      1254,
+      1254
+    ],
+    "raw_bbox": [
+      307,
+      114,
+      965,
+      1149
+    ],
+    "size": [
+      80,
+      80
+    ],
+    "bbox": [
+      20,
+      10,
+      59,
+      72
+    ],
+    "coverage": 0.2223,
+    "alpha_preserved": true,
+    "sha256": "0521bbd016244a7ed6066ebcb487803163bc933d91fd15f8b9f520ba7c189dc7"
+  },
+  "ally-2": {
+    "raw_size": [
+      1254,
+      1254
+    ],
+    "raw_bbox": [
+      343,
+      84,
+      1135,
+      1190
+    ],
+    "size": [
+      80,
+      80
+    ],
+    "bbox": [
+      18,
+      10,
+      62,
+      72
+    ],
+    "coverage": 0.205,
+    "alpha_preserved": true,
+    "sha256": "aa0f43dbeeab4c4c3a63a6077f73004bb4ce514a858b1f43b70c36b342dc214f"
+  },
+  "enemy-1": {
+    "raw_size": [
+      1254,
+      1254
+    ],
+    "raw_bbox": [
+      322,
+      40,
+      1000,
+      1188
+    ],
+    "size": [
+      80,
+      80
+    ],
+    "bbox": [
+      21,
+      10,
+      58,
+      72
+    ],
+    "coverage": 0.1452,
+    "alpha_preserved": true,
+    "sha256": "7c3e8a606b66bd5de56340754cdb818619f400182d9966a4a291be522f2d7f70"
+  },
+  "enemy-2": {
+    "raw_size": [
+      1254,
+      1254
+    ],
+    "raw_bbox": [
+      64,
+      106,
+      1191,
+      1137
+    ],
+    "size": [
+      80,
+      80
+    ],
+    "bbox": [
+      7,
+      12,
+      73,
+      72
+    ],
+    "coverage": 0.3895,
+    "alpha_preserved": true,
+    "sha256": "9d33797bc588a1fa51fa38923db8f036629ff7b8c7880746941189f4611edb3a"
+  },
+  "tree": {
+    "raw_size": [
+      1254,
+      1254
+    ],
+    "raw_bbox": [
+      238,
+      124,
+      1104,
+      1134
+    ],
+    "size": [
+      80,
+      80
+    ],
+    "bbox": [
+      13,
+      10,
+      66,
+      72
+    ],
+    "coverage": 0.2562,
+    "alpha_preserved": true,
+    "sha256": "a600462775c58e209e808de8cba969f4d455f8c06455c8d8d3d53852e219310d"
+  },
+  "column": {
+    "raw_size": [
+      1024,
+      1536
+    ],
+    "raw_bbox": [
+      190,
+      68,
+      839,
+      1461
+    ],
+    "size": [
+      80,
+      80
+    ],
+    "bbox": [
+      21,
+      10,
+      59,
+      72
+    ],
+    "coverage": 0.2459,
+    "alpha_preserved": true,
+    "sha256": "9dd482d9987ad05200cdf03c3c20cbb804ecd4dd221d93046897f1fd9fe3a035"
+  },
+  "wall": {
+    "raw_size": [
+      1774,
+      887
+    ],
+    "raw_bbox": [
+      145,
+      268,
+      1633,
+      714
+    ],
+    "size": [
+      80,
+      80
+    ],
+    "bbox": [
+      7,
+      40,
+      73,
+      72
+    ],
+    "coverage": 0.3073,
+    "alpha_preserved": true,
+    "sha256": "0e529854882657c68eb0f09c34e0c2c305d43819b1c5c2e22434922f7d5437c9"
+  },
+  "fan": {
+    "raw_size": [
+      1254,
+      1254
+    ],
+    "raw_bbox": [
+      282,
+      99,
+      1021,
+      1167
+    ],
+    "size": [
+      80,
+      80
+    ],
+    "bbox": [
+      18,
+      10,
+      61,
+      72
+    ],
+    "coverage": 0.2184,
+    "alpha_preserved": true,
+    "sha256": "fb46ae7b02c741d0be9bc861b1291d63fb09ffd91940390c8f154b30c2f5268c"
+  }
+}

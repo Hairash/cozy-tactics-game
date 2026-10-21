@@ -1,0 +1,1 @@
+{"busy":false,"maxCell":79.71875,"effects":1,"effectsNoOverlap":true,"moveHighlights":9,"targetHighlights":0,"riversClipped":true,"bridges":["90deg","0deg"],"sealed":0,"acted":true,"pending":null,"riverChoices":{"entry":3,"exit":1},"flows":{"1,1":[0,-1],"1,2":[0,-1],"2,2":[-1,0],"3,2":[-1,0],"3,3":[0,-1],"4,3":[-1,0],"5,1":[0,-1],"5,2":[0,-1],"5,3":[0,-1]}}

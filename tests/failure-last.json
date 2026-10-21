@@ -1,0 +1,1432 @@
+{
+  "mission": 88,
+  "s": {
+    "mission": 87,
+    "width": 9,
+    "height": 11,
+    "voids": [],
+    "round": 8,
+    "tiles": {
+      "7,1": "water",
+      "7,2": "water",
+      "7,3": "water",
+      "6,3": "water",
+      "5,3": "water",
+      "4,3": "water",
+      "4,2": "water",
+      "3,2": "water",
+      "3,5": "grass",
+      "6,2": "quicksand",
+      "2,3": "grass",
+      "1,6": "ground",
+      "1,7": "ground",
+      "2,6": "ground",
+      "2,7": "ground",
+      "3,6": "ground",
+      "3,7": "ground",
+      "4,6": "ground",
+      "4,7": "ground",
+      "1,10": "ground",
+      "2,10": "ground",
+      "3,10": "ground",
+      "4,10": "ground",
+      "0,7": "moss"
+    },
+    "objects": {
+      "5,4": "haste",
+      "6,5": "beacon",
+      "7,5": "nest",
+      "7,8": "crate",
+      "0,9": "column",
+      "7,1": "bomb"
+    },
+    "flow": {
+      "7,1": [
+        0,
+        1
+      ],
+      "7,2": [
+        0,
+        1
+      ],
+      "7,3": [
+        -1,
+        0
+      ],
+      "6,3": [
+        -1,
+        0
+      ],
+      "5,3": [
+        -1,
+        0
+      ],
+      "4,3": [
+        0,
+        -1
+      ],
+      "4,2": [
+        -1,
+        0
+      ],
+      "3,2": [
+        -1,
+        0
+      ]
+    },
+    "dirs": {
+      "5,4": 3,
+      "6,5": 0,
+      "1,4": 1
+    },
+    "units": [
+      {
+        "id": "a0",
+        "role": "archer",
+        "team": "ally",
+        "x": 0,
+        "y": 2,
+        "hp": 0,
+        "maxHp": 3,
+        "moveSpent": 2,
+        "movementClosed": false,
+        "acted": false,
+        "start": {
+          "x": 1,
+          "y": 10
+        },
+        "shield": false,
+        "root": 0,
+        "sleep": 0,
+        "charm": 0,
+        "bonus": 0,
+        "runway": false
+      },
+      {
+        "id": "a1",
+        "role": "beekeeper",
+        "team": "ally",
+        "x": 0,
+        "y": 2,
+        "hp": 0,
+        "maxHp": 3,
+        "moveSpent": 1,
+        "movementClosed": true,
+        "acted": true,
+        "start": {
+          "x": 2,
+          "y": 10
+        },
+        "shield": false,
+        "root": 0,
+        "sleep": 0,
+        "charm": 0,
+        "bonus": 0,
+        "runway": false
+      },
+      {
+        "id": "a2",
+        "role": "puppeteer",
+        "team": "ally",
+        "x": 1,
+        "y": 4,
+        "hp": 3,
+        "maxHp": 3,
+        "moveSpent": 0,
+        "movementClosed": false,
+        "acted": false,
+        "start": {
+          "x": 3,
+          "y": 10
+        },
+        "shield": true,
+        "root": 0,
+        "sleep": 0,
+        "charm": 0,
+        "bonus": 0,
+        "runway": false
+      },
+      {
+        "id": "a3",
+        "role": "warden",
+        "team": "ally",
+        "x": 0,
+        "y": 4,
+        "hp": 3,
+        "maxHp": 3,
+        "moveSpent": 0,
+        "movementClosed": false,
+        "acted": false,
+        "start": {
+          "x": 4,
+          "y": 10
+        },
+        "shield": true,
+        "root": 0,
+        "sleep": 0,
+        "charm": 0,
+        "bonus": 0,
+        "runway": false
+      },
+      {
+        "id": "e0",
+        "role": "foundry",
+        "team": "enemy",
+        "x": 1,
+        "y": 1,
+        "hp": 0,
+        "maxHp": 4,
+        "moveSpent": 0,
+        "movementClosed": false,
+        "acted": false,
+        "start": {
+          "x": 1,
+          "y": 0
+        },
+        "shield": false,
+        "root": 0,
+        "sleep": 0,
+        "charm": 0,
+        "bonus": 0
+      },
+      {
+        "id": "e1",
+        "role": "warden",
+        "team": "enemy",
+        "x": 2,
+        "y": 0,
+        "hp": 2,
+        "maxHp": 3,
+        "moveSpent": 0,
+        "movementClosed": false,
+        "acted": false,
+        "start": {
+          "x": 3,
+          "y": 0
+        },
+        "shield": false,
+        "root": 0,
+        "sleep": 0,
+        "charm": 0,
+        "bonus": 0
+      },
+      {
+        "id": "e2",
+        "role": "sapper",
+        "team": "enemy",
+        "x": 6,
+        "y": 1,
+        "hp": 2,
+        "maxHp": 2,
+        "moveSpent": 0,
+        "movementClosed": false,
+        "acted": false,
+        "start": {
+          "x": 5,
+          "y": 0
+        },
+        "shield": false,
+        "root": 0,
+        "sleep": 0,
+        "charm": 0,
+        "bonus": 0
+      },
+      {
+        "id": "e3",
+        "role": "sentinel",
+        "team": "enemy",
+        "x": 0,
+        "y": 2,
+        "hp": 0,
+        "maxHp": 2,
+        "moveSpent": 0,
+        "movementClosed": false,
+        "acted": false,
+        "start": {
+          "x": 0,
+          "y": 2
+        },
+        "shield": false,
+        "root": 0,
+        "sleep": 0,
+        "charm": 0,
+        "bonus": 0
+      },
+      {
+        "id": "e4",
+        "role": "brute",
+        "team": "enemy",
+        "x": 0,
+        "y": 3,
+        "hp": 3,
+        "maxHp": 3,
+        "moveSpent": 0,
+        "movementClosed": false,
+        "acted": false,
+        "start": {
+          "x": 2,
+          "y": 1
+        },
+        "shield": false,
+        "root": 0,
+        "sleep": 0,
+        "charm": 0,
+        "bonus": 0
+      },
+      {
+        "id": "machine1",
+        "role": "sentinel",
+        "team": "enemy",
+        "x": 1,
+        "y": 0,
+        "hp": 0,
+        "maxHp": 2,
+        "moveSpent": 0,
+        "movementClosed": false,
+        "acted": false,
+        "start": {
+          "x": 1,
+          "y": 0
+        },
+        "shield": false,
+        "root": 0,
+        "sleep": 0,
+        "charm": 0,
+        "bonus": 0
+      },
+      {
+        "id": "machine2",
+        "role": "sentinel",
+        "team": "enemy",
+        "x": 5,
+        "y": 2,
+        "hp": 0,
+        "maxHp": 2,
+        "moveSpent": 0,
+        "movementClosed": false,
+        "acted": false,
+        "start": {
+          "x": 7,
+          "y": 4
+        },
+        "shield": false,
+        "root": 0,
+        "sleep": 0,
+        "charm": 0,
+        "bonus": 0
+      },
+      {
+        "id": "reinforcement3",
+        "role": "beekeeper",
+        "team": "ally",
+        "x": 3,
+        "y": 2,
+        "hp": 0,
+        "maxHp": 3,
+        "moveSpent": 0,
+        "movementClosed": false,
+        "acted": true,
+        "start": {
+          "x": 3,
+          "y": 2
+        },
+        "shield": false,
+        "root": 0,
+        "sleep": 0,
+        "charm": 0,
+        "bonus": 0,
+        "name": "Worker drone",
+        "drone": true,
+        "life": 3
+      },
+      {
+        "id": "reinforcement4",
+        "role": "beekeeper",
+        "team": "ally",
+        "x": 2,
+        "y": 2,
+        "hp": 0,
+        "maxHp": 3,
+        "moveSpent": 0,
+        "movementClosed": false,
+        "acted": false,
+        "start": {
+          "x": 3,
+          "y": 5
+        },
+        "shield": false,
+        "root": 0,
+        "sleep": 0,
+        "charm": 0,
+        "bonus": 0,
+        "name": "Worker drone",
+        "drone": true,
+        "life": 0,
+        "runway": false
+      },
+      {
+        "id": "reinforcement5",
+        "role": "beekeeper",
+        "team": "ally",
+        "x": 4,
+        "y": 4,
+        "hp": 0,
+        "maxHp": 3,
+        "moveSpent": 0,
+        "movementClosed": false,
+        "acted": false,
+        "start": {
+          "x": 5,
+          "y": 5
+        },
+        "shield": false,
+        "root": 0,
+        "sleep": 0,
+        "charm": 0,
+        "bonus": 1,
+        "name": "Worker drone",
+        "drone": true,
+        "life": 0,
+        "runway": false
+      },
+      {
+        "id": "reinforcement6",
+        "role": "beekeeper",
+        "team": "ally",
+        "x": 1,
+        "y": 3,
+        "hp": 0,
+        "maxHp": 3,
+        "moveSpent": 0,
+        "movementClosed": false,
+        "acted": true,
+        "start": {
+          "x": 6,
+          "y": 4
+        },
+        "shield": false,
+        "root": 0,
+        "sleep": 0,
+        "charm": 0,
+        "bonus": 0,
+        "name": "Worker drone",
+        "drone": true,
+        "life": 0,
+        "runway": false
+      },
+      {
+        "id": "reinforcement7",
+        "role": "beekeeper",
+        "team": "ally",
+        "x": 8,
+        "y": 5,
+        "hp": 0,
+        "maxHp": 3,
+        "moveSpent": 0,
+        "movementClosed": false,
+        "acted": false,
+        "start": {
+          "x": 7,
+          "y": 6
+        },
+        "shield": false,
+        "root": 0,
+        "sleep": 0,
+        "charm": 0,
+        "bonus": 0,
+        "name": "Worker drone",
+        "drone": true,
+        "life": 0,
+        "runway": false
+      },
+      {
+        "id": "reinforcement8",
+        "role": "beekeeper",
+        "team": "ally",
+        "x": 8,
+        "y": 5,
+        "hp": 0,
+        "maxHp": 3,
+        "moveSpent": 0,
+        "movementClosed": false,
+        "acted": false,
+        "start": {
+          "x": 6,
+          "y": 6
+        },
+        "shield": false,
+        "root": 0,
+        "sleep": 0,
+        "charm": 0,
+        "bonus": 0,
+        "name": "Worker drone",
+        "drone": true,
+        "life": 0,
+        "runway": false
+      },
+      {
+        "id": "reinforcement9",
+        "role": "beekeeper",
+        "team": "ally",
+        "x": 6,
+        "y": 9,
+        "hp": 0,
+        "maxHp": 3,
+        "moveSpent": 0,
+        "movementClosed": false,
+        "acted": false,
+        "start": {
+          "x": 5,
+          "y": 7
+        },
+        "shield": false,
+        "root": 0,
+        "sleep": 0,
+        "charm": 0,
+        "bonus": 0,
+        "name": "Worker drone",
+        "drone": true,
+        "life": 0,
+        "runway": false
+      },
+      {
+        "id": "reinforcement10",
+        "role": "beekeeper",
+        "team": "ally",
+        "x": 4,
+        "y": 4,
+        "hp": 0,
+        "maxHp": 3,
+        "moveSpent": 0,
+        "movementClosed": false,
+        "acted": true,
+        "start": {
+          "x": 5,
+          "y": 6
+        },
+        "shield": false,
+        "root": 0,
+        "sleep": 0,
+        "charm": 0,
+        "bonus": 0,
+        "name": "Worker drone",
+        "drone": true,
+        "life": 0,
+        "runway": false
+      },
+      {
+        "id": "reinforcement11",
+        "role": "beekeeper",
+        "team": "ally",
+        "x": 5,
+        "y": 3,
+        "hp": 3,
+        "maxHp": 3,
+        "moveSpent": 0,
+        "movementClosed": false,
+        "acted": false,
+        "start": {
+          "x": 6,
+          "y": 4
+        },
+        "shield": false,
+        "root": 0,
+        "sleep": 0,
+        "charm": 0,
+        "bonus": 1,
+        "name": "Worker drone",
+        "drone": true,
+        "life": 1,
+        "runway": false
+      },
+      {
+        "id": "reinforcement12",
+        "role": "beekeeper",
+        "team": "ally",
+        "x": 6,
+        "y": 6,
+        "hp": 2,
+        "maxHp": 3,
+        "moveSpent": 0,
+        "movementClosed": false,
+        "acted": false,
+        "start": {
+          "x": 6,
+          "y": 6
+        },
+        "shield": false,
+        "root": 0,
+        "sleep": 0,
+        "charm": 0,
+        "bonus": 0,
+        "name": "Worker drone",
+        "drone": true,
+        "life": 1,
+        "runway": false
+      },
+      {
+        "id": "reinforcement13",
+        "role": "beekeeper",
+        "team": "ally",
+        "x": 4,
+        "y": 5,
+        "hp": 2,
+        "maxHp": 3,
+        "moveSpent": 0,
+        "movementClosed": false,
+        "acted": false,
+        "start": {
+          "x": 5,
+          "y": 6
+        },
+        "shield": false,
+        "root": 0,
+        "sleep": 0,
+        "charm": 0,
+        "bonus": 0,
+        "name": "Worker drone",
+        "drone": true,
+        "life": 1,
+        "runway": false
+      },
+      {
+        "id": "reinforcement14",
+        "role": "beekeeper",
+        "team": "ally",
+        "x": 5,
+        "y": 7,
+        "hp": 1,
+        "maxHp": 3,
+        "moveSpent": 0,
+        "movementClosed": false,
+        "acted": false,
+        "start": {
+          "x": 5,
+          "y": 9
+        },
+        "shield": false,
+        "root": 0,
+        "sleep": 0,
+        "charm": 0,
+        "bonus": 0,
+        "name": "Worker drone",
+        "drone": true,
+        "life": 1,
+        "runway": false
+      },
+      {
+        "id": "reinforcement15",
+        "role": "beekeeper",
+        "team": "ally",
+        "x": 3,
+        "y": 3,
+        "hp": 1,
+        "maxHp": 3,
+        "moveSpent": 0,
+        "movementClosed": false,
+        "acted": false,
+        "start": {
+          "x": 3,
+          "y": 5
+        },
+        "shield": false,
+        "root": 0,
+        "sleep": 0,
+        "charm": 0,
+        "bonus": 0,
+        "name": "Worker drone",
+        "drone": true,
+        "life": 1,
+        "runway": false
+      },
+      {
+        "id": "reinforcement16",
+        "role": "beekeeper",
+        "team": "ally",
+        "x": 8,
+        "y": 3,
+        "hp": 1,
+        "maxHp": 3,
+        "moveSpent": 0,
+        "movementClosed": false,
+        "acted": false,
+        "start": {
+          "x": 8,
+          "y": 4
+        },
+        "shield": false,
+        "root": 0,
+        "sleep": 0,
+        "charm": 0,
+        "bonus": 0,
+        "name": "Worker drone",
+        "drone": true,
+        "life": 1,
+        "runway": false
+      },
+      {
+        "id": "reinforcement17",
+        "role": "beekeeper",
+        "team": "ally",
+        "x": 8,
+        "y": 7,
+        "hp": 1,
+        "maxHp": 3,
+        "moveSpent": 0,
+        "movementClosed": false,
+        "acted": false,
+        "start": {
+          "x": 8,
+          "y": 7
+        },
+        "shield": false,
+        "root": 0,
+        "sleep": 0,
+        "charm": 0,
+        "bonus": 0,
+        "name": "Worker drone",
+        "drone": true,
+        "life": 1,
+        "runway": false
+      },
+      {
+        "id": "reinforcement18",
+        "role": "beekeeper",
+        "team": "ally",
+        "x": 2,
+        "y": 2,
+        "hp": 1,
+        "maxHp": 3,
+        "moveSpent": 0,
+        "movementClosed": false,
+        "acted": false,
+        "start": {
+          "x": 5,
+          "y": 3
+        },
+        "shield": false,
+        "root": 0,
+        "sleep": 0,
+        "charm": 0,
+        "bonus": 0,
+        "name": "Worker drone",
+        "drone": true,
+        "life": 1,
+        "runway": false
+      },
+      {
+        "id": "reinforcement19",
+        "role": "beekeeper",
+        "team": "ally",
+        "x": 7,
+        "y": 7,
+        "hp": 1,
+        "maxHp": 3,
+        "moveSpent": 0,
+        "movementClosed": false,
+        "acted": false,
+        "start": {
+          "x": 7,
+          "y": 7
+        },
+        "shield": false,
+        "root": 0,
+        "sleep": 0,
+        "charm": 0,
+        "bonus": 0,
+        "name": "Worker drone",
+        "drone": true,
+        "life": 1,
+        "runway": false
+      },
+      {
+        "id": "machine20",
+        "role": "sentinel",
+        "team": "enemy",
+        "x": 7,
+        "y": 4,
+        "hp": 0,
+        "maxHp": 2,
+        "moveSpent": 0,
+        "movementClosed": false,
+        "acted": false,
+        "start": {
+          "x": 7,
+          "y": 4
+        },
+        "shield": false,
+        "root": 0,
+        "sleep": 0,
+        "charm": 0,
+        "bonus": 0
+      },
+      {
+        "id": "reinforcement21",
+        "role": "beekeeper",
+        "team": "ally",
+        "x": 8,
+        "y": 9,
+        "hp": 1,
+        "maxHp": 3,
+        "moveSpent": 0,
+        "movementClosed": false,
+        "acted": false,
+        "start": {
+          "x": 8,
+          "y": 10
+        },
+        "shield": false,
+        "root": 0,
+        "sleep": 0,
+        "charm": 0,
+        "bonus": 0,
+        "name": "Worker drone",
+        "drone": true,
+        "life": 2,
+        "runway": false
+      },
+      {
+        "id": "reinforcement22",
+        "role": "beekeeper",
+        "team": "ally",
+        "x": 2,
+        "y": 3,
+        "hp": 1,
+        "maxHp": 3,
+        "moveSpent": 0,
+        "movementClosed": false,
+        "acted": false,
+        "start": {
+          "x": 2,
+          "y": 4
+        },
+        "shield": false,
+        "root": 0,
+        "sleep": 0,
+        "charm": 0,
+        "bonus": 0,
+        "name": "Worker drone",
+        "drone": true,
+        "life": 2,
+        "runway": false
+      },
+      {
+        "id": "reinforcement23",
+        "role": "beekeeper",
+        "team": "ally",
+        "x": 3,
+        "y": 6,
+        "hp": 1,
+        "maxHp": 3,
+        "moveSpent": 0,
+        "movementClosed": false,
+        "acted": false,
+        "start": {
+          "x": 4,
+          "y": 6
+        },
+        "shield": false,
+        "root": 0,
+        "sleep": 0,
+        "charm": 0,
+        "bonus": 0,
+        "name": "Worker drone",
+        "drone": true,
+        "life": 2,
+        "runway": false
+      },
+      {
+        "id": "reinforcement24",
+        "role": "beekeeper",
+        "team": "ally",
+        "x": 6,
+        "y": 2,
+        "hp": 1,
+        "maxHp": 3,
+        "moveSpent": 0,
+        "movementClosed": false,
+        "acted": false,
+        "start": {
+          "x": 7,
+          "y": 2
+        },
+        "shield": false,
+        "root": 0,
+        "sleep": 0,
+        "charm": 0,
+        "bonus": 0,
+        "name": "Worker drone",
+        "drone": true,
+        "life": 2,
+        "runway": false
+      },
+      {
+        "id": "reinforcement25",
+        "role": "beekeeper",
+        "team": "ally",
+        "x": 3,
+        "y": 4,
+        "hp": 1,
+        "maxHp": 3,
+        "moveSpent": 0,
+        "movementClosed": false,
+        "acted": false,
+        "start": {
+          "x": 3,
+          "y": 5
+        },
+        "shield": false,
+        "root": 0,
+        "sleep": 0,
+        "charm": 0,
+        "bonus": 0,
+        "name": "Worker drone",
+        "drone": true,
+        "life": 2,
+        "runway": false
+      },
+      {
+        "id": "reinforcement26",
+        "role": "beekeeper",
+        "team": "ally",
+        "x": 5,
+        "y": 5,
+        "hp": 1,
+        "maxHp": 3,
+        "moveSpent": 0,
+        "movementClosed": false,
+        "acted": false,
+        "start": {
+          "x": 5,
+          "y": 6
+        },
+        "shield": false,
+        "root": 0,
+        "sleep": 0,
+        "charm": 0,
+        "bonus": 1,
+        "name": "Worker drone",
+        "drone": true,
+        "life": 2,
+        "runway": false
+      },
+      {
+        "id": "reinforcement27",
+        "role": "beekeeper",
+        "team": "ally",
+        "x": 5,
+        "y": 8,
+        "hp": 1,
+        "maxHp": 3,
+        "moveSpent": 0,
+        "movementClosed": false,
+        "acted": false,
+        "start": {
+          "x": 4,
+          "y": 8
+        },
+        "shield": false,
+        "root": 0,
+        "sleep": 0,
+        "charm": 0,
+        "bonus": 0,
+        "name": "Worker drone",
+        "drone": true,
+        "life": 2,
+        "runway": false
+      },
+      {
+        "id": "reinforcement28",
+        "role": "beekeeper",
+        "team": "ally",
+        "x": 4,
+        "y": 6,
+        "hp": 1,
+        "maxHp": 3,
+        "moveSpent": 0,
+        "movementClosed": false,
+        "acted": false,
+        "start": {
+          "x": 4,
+          "y": 7
+        },
+        "shield": false,
+        "root": 0,
+        "sleep": 0,
+        "charm": 0,
+        "bonus": 0,
+        "name": "Worker drone",
+        "drone": true,
+        "life": 2,
+        "runway": false
+      },
+      {
+        "id": "reinforcement29",
+        "role": "beekeeper",
+        "team": "ally",
+        "x": 2,
+        "y": 5,
+        "hp": 1,
+        "maxHp": 3,
+        "moveSpent": 0,
+        "movementClosed": false,
+        "acted": false,
+        "start": {
+          "x": 2,
+          "y": 6
+        },
+        "shield": false,
+        "root": 0,
+        "sleep": 0,
+        "charm": 0,
+        "bonus": 0,
+        "name": "Worker drone",
+        "drone": true,
+        "life": 2,
+        "runway": false
+      }
+    ],
+    "bombs": [
+      {
+        "x": 7,
+        "y": 1,
+        "fuse": 1
+      }
+    ],
+    "portals": {},
+    "log": [
+      "Round 8 · your crew is ready.",
+      "Ash is disabled.",
+      "Ash takes 1 damage.",
+      "Worker drone takes 1 damage.",
+      "Ash · 1 move points left.",
+      "Round 7 · your crew is ready.",
+      "Sentinel is disabled.",
+      "Sentinel takes 1 damage.",
+      "Sentinel takes 1 damage.",
+      "Ash takes 1 damage.",
+      "Sentinel is disabled.",
+      "Sentinel takes 2 damage."
+    ],
+    "collected": 0,
+    "held": 0,
+    "rescued": 0,
+    "sealed": 0,
+    "disarmed": 0,
+    "evacuated": 0,
+    "weather": "clear",
+    "weatherTurns": 0,
+    "eventDone": false,
+    "failed": null,
+    "ended": false,
+    "serial": 29,
+    "objectiveCells": [],
+    "firedEvents": [],
+    "journal": [],
+    "markers": [],
+    "required": {
+      "collect": 0,
+      "rescue": 0,
+      "seal": 0,
+      "disarm": 0
+    },
+    "escortId": "a0"
+  },
+  "v": 366.4776146992112,
+  "actions": [
+    {
+      "type": "move",
+      "id": "a0",
+      "x": 0,
+      "y": 8
+    },
+    {
+      "type": "act",
+      "id": "a0",
+      "x": 0,
+      "y": 7
+    },
+    {
+      "type": "move",
+      "id": "a1",
+      "x": 1,
+      "y": 8
+    },
+    {
+      "type": "move",
+      "id": "a2",
+      "x": 1,
+      "y": 9
+    },
+    {
+      "type": "act",
+      "id": "a2",
+      "x": 0,
+      "y": 8,
+      "dir": 0
+    },
+    {
+      "type": "move",
+      "id": "a3",
+      "x": 1,
+      "y": 10
+    },
+    {
+      "type": "act",
+      "id": "a3",
+      "x": 1,
+      "y": 10
+    },
+    {
+      "type": "end"
+    },
+    {
+      "type": "move",
+      "id": "a0",
+      "x": 1,
+      "y": 5
+    },
+    {
+      "type": "move",
+      "id": "a1",
+      "x": 2,
+      "y": 6
+    },
+    {
+      "type": "move",
+      "id": "a2",
+      "x": 1,
+      "y": 7
+    },
+    {
+      "type": "act",
+      "id": "a2",
+      "x": 2,
+      "y": 6,
+      "dir": 0
+    },
+    {
+      "type": "move",
+      "id": "a3",
+      "x": 1,
+      "y": 8
+    },
+    {
+      "type": "act",
+      "id": "a3",
+      "x": 1,
+      "y": 5
+    },
+    {
+      "type": "end"
+    },
+    {
+      "type": "move",
+      "id": "a1",
+      "x": 3,
+      "y": 3
+    },
+    {
+      "type": "move",
+      "id": "a0",
+      "x": 0,
+      "y": 3
+    },
+    {
+      "type": "move",
+      "id": "a2",
+      "x": 1,
+      "y": 5
+    },
+    {
+      "type": "act",
+      "id": "a3",
+      "x": 1,
+      "y": 5
+    },
+    {
+      "type": "act",
+      "id": "a2",
+      "x": 1,
+      "y": 0,
+      "dir": 2
+    },
+    {
+      "type": "act",
+      "id": "a0",
+      "x": 2,
+      "y": 3
+    },
+    {
+      "type": "move",
+      "id": "a3",
+      "x": 1,
+      "y": 7
+    },
+    {
+      "type": "move",
+      "id": "a3",
+      "x": 0,
+      "y": 6
+    },
+    {
+      "type": "end"
+    },
+    {
+      "type": "move",
+      "id": "a1",
+      "x": 1,
+      "y": 2
+    },
+    {
+      "type": "move",
+      "id": "a0",
+      "x": 0,
+      "y": 1
+    },
+    {
+      "type": "act",
+      "id": "a2",
+      "x": 1,
+      "y": 0,
+      "dir": 1
+    },
+    {
+      "type": "act",
+      "id": "a0",
+      "x": 1,
+      "y": 1
+    },
+    {
+      "type": "move",
+      "id": "a2",
+      "x": 1,
+      "y": 4
+    },
+    {
+      "type": "move",
+      "id": "a3",
+      "x": 0,
+      "y": 4
+    },
+    {
+      "type": "act",
+      "id": "a3",
+      "x": 0,
+      "y": 1
+    },
+    {
+      "type": "end"
+    },
+    {
+      "type": "act",
+      "id": "a2",
+      "x": 1,
+      "y": 1,
+      "dir": 0
+    },
+    {
+      "type": "move",
+      "id": "a1",
+      "x": 0,
+      "y": 2
+    },
+    {
+      "type": "act",
+      "id": "a1",
+      "x": 3,
+      "y": 2
+    },
+    {
+      "type": "act",
+      "id": "reinforcement3",
+      "x": 3,
+      "y": 5
+    },
+    {
+      "type": "act",
+      "id": "reinforcement4",
+      "x": 5,
+      "y": 5
+    },
+    {
+      "type": "act",
+      "id": "reinforcement5",
+      "x": 6,
+      "y": 4
+    },
+    {
+      "type": "move",
+      "id": "a0",
+      "x": 1,
+      "y": 2
+    },
+    {
+      "type": "act",
+      "id": "reinforcement6",
+      "x": 7,
+      "y": 6
+    },
+    {
+      "type": "act",
+      "id": "reinforcement7",
+      "x": 6,
+      "y": 6
+    },
+    {
+      "type": "act",
+      "id": "reinforcement8",
+      "x": 5,
+      "y": 7
+    },
+    {
+      "type": "act",
+      "id": "reinforcement9",
+      "x": 5,
+      "y": 6
+    },
+    {
+      "type": "end"
+    },
+    {
+      "type": "act",
+      "id": "a0",
+      "x": 5,
+      "y": 2
+    },
+    {
+      "type": "act",
+      "id": "a2",
+      "x": 2,
+      "y": 0,
+      "dir": 1
+    },
+    {
+      "type": "act",
+      "id": "reinforcement8",
+      "x": 6,
+      "y": 4
+    },
+    {
+      "type": "act",
+      "id": "reinforcement10",
+      "x": 6,
+      "y": 6
+    },
+    {
+      "type": "act",
+      "id": "reinforcement11",
+      "x": 5,
+      "y": 6
+    },
+    {
+      "type": "act",
+      "id": "reinforcement13",
+      "x": 5,
+      "y": 9
+    },
+    {
+      "type": "act",
+      "id": "reinforcement6",
+      "x": 3,
+      "y": 5
+    },
+    {
+      "type": "act",
+      "id": "reinforcement7",
+      "x": 8,
+      "y": 4
+    },
+    {
+      "type": "act",
+      "id": "reinforcement12",
+      "x": 8,
+      "y": 7
+    },
+    {
+      "type": "act",
+      "id": "reinforcement4",
+      "x": 5,
+      "y": 3
+    },
+    {
+      "type": "act",
+      "id": "reinforcement17",
+      "x": 7,
+      "y": 7
+    },
+    {
+      "type": "end"
+    },
+    {
+      "type": "move",
+      "id": "a0",
+      "x": 0,
+      "y": 2
+    },
+    {
+      "type": "act",
+      "id": "a2",
+      "x": 2,
+      "y": 2,
+      "dir": 2
+    },
+    {
+      "type": "act",
+      "id": "reinforcement17",
+      "x": 8,
+      "y": 10
+    },
+    {
+      "type": "act",
+      "id": "reinforcement6",
+      "x": 2,
+      "y": 4
+    },
+    {
+      "type": "act",
+      "id": "reinforcement18",
+      "x": 4,
+      "y": 6
+    },
+    {
+      "type": "act",
+      "id": "reinforcement11",
+      "x": 7,
+      "y": 2
+    },
+    {
+      "type": "act",
+      "id": "reinforcement10",
+      "x": 3,
+      "y": 5
+    },
+    {
+      "type": "act",
+      "id": "reinforcement14",
+      "x": 5,
+      "y": 6
+    },
+    {
+      "type": "act",
+      "id": "reinforcement19",
+      "x": 4,
+      "y": 8
+    },
+    {
+      "type": "act",
+      "id": "reinforcement23",
+      "x": 4,
+      "y": 7
+    },
+    {
+      "type": "act",
+      "id": "reinforcement26",
+      "x": 2,
+      "y": 6
+    },
+    {
+      "type": "end"
+    }
+  ]
+}

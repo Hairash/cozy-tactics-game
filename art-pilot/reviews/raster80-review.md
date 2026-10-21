@@ -1,0 +1,18 @@
+# Independent review — raster80 midpoint pilot
+
+**Decision: ready to present for human style review, with visible cleanup caveats. Not production or catalog approval.** Reviewed `reviews/raster80-assets.png`, current 80 px processed Breaker, Wall and Fan directly, and PNG header sizes for all twenty current processed exports. All are 80 × 80 px. No script, manifest or asset edits made.
+
+## Fit to the request
+
+- **Midpoint is credible.** The original schematic silhouettes remain, while irregular painted edges, small material marks and two/three-tone surfaces restore some of the earlier illustration. This is recognizably raster generation rather than simply delivering the SVGs again. Mara, tree and column receive the greatest painted change; Neri and Breaker remain closer to schematic. The family is reasonably cohesive through palette and dark contour, though finish is not completely uniform.
+- **Crew are distinguishable.** Mara's warm rust cloak, broad shield and compact boots read separately from Neri's teal split coat, pale crescent/angular hood and long hooked staff. At 40 px the staff versus shield is the strongest cue; tiny faces and hand details do not need further elaboration. Sentinel and Breaker preserve narrow versus heavy silhouettes.
+- **Coverage is broadly consistent.** All eight occupy a similar contact band and useful portion of the canvas; the tree no longer has an empty canopy and Breaker's feet are present. Mara is slightly visually smaller/narrower than Neri including staff and the broad props, but not enough to require a new generation before human review. Confirm in the shared-anchor board rather than normalizing every object's width.
+- **No obvious cast ground shadows remain.** Inspected Breaker and Wall show no former lateral ground-shadow patch. Fan has a clearly outlined pedestal, which is an object base rather than a cast shadow. Terrain remains quiet and unchanged; its painted texture is a closer match to these raster sprites than to schematic80.
+
+## Material caveats
+
+1. **Light edge/matting artifacts remain.** Pale fringes are visible around parts of the column cap/base and fan rim/pedestal in the sheet; the fan pedestal contains a conspicuous nearly white interior unlike the cream material palette. The enlarged sheet makes these more visible, but they may read as stickers over dark terrain. Check native exports on dark teal, cream and grass; distinguish intentional cream paint from background residue. Fix matting/paint locally if needed, not by another broad generation round.
+2. **Some added marks exceed the quiet target.** Wall has many high-contrast crack polygons and tree has finer scalloped foliage/fruit shading; at 40 px these become texture rather than information. Fan rim ticks also add density. Still simpler than the first painterly pilot, but these are the first places to simplify if the user wants a calmer result. Neri's relatively flat treatment is the opposite endpoint within this set.
+3. **Runtime readability is not established by the sheet.** Show shared-anchor placement at 40/64/80 px, runtime current/fan direction and health/status overlays, neighboring unit/prop occlusion and repeated terrain boundaries. The three-spoke fan must not imply a fixed push direction. The river fill alone does not establish connected sockets or flow behavior.
+
+No new identity blocker is visible: broad ram shield, hooked tide staff, machine enemies, solid wall, topplable column, complete tree and readable fan all survive. Present this as a concrete midpoint candidate and invite the user's judgment of the finish. Preserve existing live-game art and mechanics until an explicitly authorized integration step.

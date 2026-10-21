@@ -1,0 +1,20 @@
+{
+  "canal-vista": {
+    "status": "reviewed",
+    "source": "art-production/shared/raw/canal-vista.png",
+    "prompt": "art-production/shared/prompts/canal-vista.txt",
+    "tool": "built-in image_gen",
+    "sourceSize": [
+      2172,
+      724
+    ],
+    "sourceSHA256": "cad09cb3d72840701caa866c4852aa58486654decaed3c0fb5b22151c3231ef2",
+    "runtime": "dist/assets/canal-vista.webp",
+    "runtimeSize": [
+      1200,
+      400
+    ],
+    "runtimeSHA256": "bd51863015a95e6359ca4b3bde69bf5d0042cf2397d45f52d0714fe262b37f55",
+    "review": "Broad quiet shapes; matches sprite palette; separate panorama rather than cell asset."
+  }
+}

@@ -1,0 +1,1241 @@
+{
+  "category": "terrain",
+  "canvas": [
+    80,
+    80
+  ],
+  "backend": "built-in image_gen; native output dimensions recorded per asset",
+  "items": {
+    "ground": {
+      "name": "Ground",
+      "text": "Normal ground. One voluntary step costs 1 point.",
+      "color": "#e9edd3",
+      "status": "reused",
+      "source": "art-pilot/builtin-terrain-simple/processed/ground.png",
+      "processed": "art-pilot/builtin-terrain-simple/processed/ground.png"
+    },
+    "water": {
+      "name": "Current",
+      "text": "Follow the arrow to the next river segment, at most 2 cells per entry. After leaving water, stop on the first land tile. The direction may turn at each segment.",
+      "color": "#a9d0cd",
+      "status": "reused",
+      "source": "art-pilot/builtin-terrain-simple/processed/water.png",
+      "processed": "art-pilot/builtin-terrain-simple/processed/water.png"
+    },
+    "ice": {
+      "name": "Ice",
+      "text": "Entering slides in the entry direction until blocked or off the ice. Sliding is free.",
+      "color": "#c0dfe3",
+      "status": "reviewed",
+      "source": "art-production/terrain/raw/ice.png",
+      "processed": "art-production/terrain/processed/ice.png",
+      "inputpaths": [
+        "art-pilot/builtin-terrain-simple/raw/ground.png",
+        "art-pilot/builtin-terrain-simple/raw/grass.png",
+        "art-pilot/builtin-terrain-simple/raw/water.png",
+        "art-pilot/reference/concept-board.png"
+      ],
+      "actual_source_path": "art-production/terrain/raw/ice.png",
+      "tool_output_path": "art-production/terrain/raw/ice.png",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "source_alpha_extrema": [
+        255,
+        255
+      ],
+      "processed_sha256": "28b20c66224f95f51ccb907a9b5ceb7577f3a78263a9a20d6677769d47e36b9f",
+      "prompt_path": "art-production/terrain/prompts/ice.txt",
+      "qa": {
+        "canvas": [
+          80,
+          80
+        ],
+        "bounds": [
+          0,
+          0,
+          80,
+          80
+        ],
+        "generated_alpha_preserved": true,
+        "processing": "crop + Lanczos resize + transparent canvas positioning only",
+        "dimensions": [
+          80,
+          80
+        ],
+        "sha256": "28b20c66224f95f51ccb907a9b5ceb7577f3a78263a9a20d6677769d47e36b9f",
+        "alpha_extrema": [
+          255,
+          255
+        ],
+        "alpha_zero_fraction": 0.0,
+        "visible_alpha_gt16_bounds": [
+          0,
+          0,
+          80,
+          80
+        ],
+        "intended_transparent_overlay": false,
+        "opaque_pass": true,
+        "native80": false,
+        "visual_review": "Actual80/40 light/dark, repeated2x2, and natural-alpha overlay unit checks visually reviewed."
+      }
+    },
+    "fire": {
+      "name": "Fire",
+      "text": "1 damage on entering and at round end. Spreads into adjacent wooden objects or grass. Rain extinguishes it.",
+      "color": "#e9b381",
+      "status": "reviewed",
+      "source": "art-production/terrain/raw/fire.png",
+      "processed": "art-production/terrain/processed/fire.png",
+      "inputpaths": [
+        "art-pilot/builtin-terrain-simple/raw/ground.png",
+        "art-pilot/builtin-terrain-simple/raw/grass.png",
+        "art-pilot/builtin-terrain-simple/raw/water.png"
+      ],
+      "actual_source_path": "art-production/terrain/raw/fire.png",
+      "tool_output_path": "art-production/terrain/raw/fire.png",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "source_alpha_extrema": [
+        255,
+        255
+      ],
+      "processed_sha256": "77f3a5773d1912c902ae924b9098bb1ab098f2291d491855884ae6e8ba467c00",
+      "prompt_path": "art-production/terrain/prompts/fire.txt",
+      "qa": {
+        "canvas": [
+          80,
+          80
+        ],
+        "bounds": [
+          0,
+          0,
+          80,
+          80
+        ],
+        "generated_alpha_preserved": true,
+        "processing": "alpha>16 bounding box crop only (original alpha retained inside crop) + Lanczos resize + transparent canvas positioning only",
+        "dimensions": [
+          80,
+          80
+        ],
+        "sha256": "77f3a5773d1912c902ae924b9098bb1ab098f2291d491855884ae6e8ba467c00",
+        "alpha_extrema": [
+          255,
+          255
+        ],
+        "alpha_zero_fraction": 0.0,
+        "visible_alpha_gt16_bounds": [
+          0,
+          0,
+          80,
+          80
+        ],
+        "intended_transparent_overlay": false,
+        "opaque_pass": true,
+        "native80": false,
+        "visual_review": "Actual80/40 light/dark, repeated2x2, and natural-alpha overlay unit checks visually reviewed."
+      },
+      "alternates": [
+        {
+          "name": "Fire",
+          "text": "1 damage on entering and at round end. Spreads into adjacent wooden objects or grass. Rain extinguishes it.",
+          "color": "#e9b381",
+          "status": "processed",
+          "source": "art-production/terrain/raw/fire.png",
+          "processed": "art-production/terrain/processed/fire.png",
+          "inputpaths": [
+            "art-pilot/builtin-terrain-simple/raw/ground.png",
+            "art-pilot/builtin-terrain-simple/raw/grass.png",
+            "art-pilot/builtin-terrain-simple/raw/water.png",
+            "art-pilot/reference/concept-board.png"
+          ],
+          "actual_source_path": "art-production/terrain/raw/fire.png",
+          "tool_output_path": "art-production/terrain/raw/fire.png",
+          "source_dimensions": [
+            1254,
+            1254
+          ],
+          "source_alpha_extrema": [
+            255,
+            255
+          ],
+          "processed_sha256": "703fdc0d6eb93df61eef1120fdb04b839c4062cf0227d3f3aee6c4a3fdb2a01f",
+          "prompt_path": "art-production/terrain/prompts/fire.txt",
+          "qa": {
+            "canvas": [
+              80,
+              80
+            ],
+            "bounds": [
+              0,
+              0,
+              80,
+              80
+            ],
+            "generated_alpha_preserved": true,
+            "processing": "crop + Lanczos resize + transparent canvas positioning only"
+          }
+        }
+      ]
+    },
+    "goal": {
+      "name": "Objective pad",
+      "text": "A marked exit, relay or delivery point. Read this mission\u2019s objective for its purpose.",
+      "color": "#e7d6a0",
+      "status": "reviewed",
+      "source": "art-production/terrain/raw/goal.png",
+      "processed": "art-production/terrain/processed/goal.png",
+      "inputpaths": [
+        "art-pilot/builtin-terrain-simple/raw/ground.png",
+        "art-pilot/builtin-terrain-simple/raw/grass.png",
+        "art-pilot/builtin-terrain-simple/raw/water.png",
+        "art-pilot/reference/concept-board.png"
+      ],
+      "actual_source_path": "art-production/terrain/raw/goal.png",
+      "tool_output_path": "art-production/terrain/raw/goal.png",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "source_alpha_extrema": [
+        255,
+        255
+      ],
+      "processed_sha256": "189272e99301c5cdc13c64f534f972a63d313ef05595a0f619b4fb0183becda5",
+      "prompt_path": "art-production/terrain/prompts/goal.txt",
+      "qa": {
+        "canvas": [
+          80,
+          80
+        ],
+        "bounds": [
+          0,
+          0,
+          80,
+          80
+        ],
+        "generated_alpha_preserved": true,
+        "processing": "crop + Lanczos resize + transparent canvas positioning only",
+        "dimensions": [
+          80,
+          80
+        ],
+        "sha256": "189272e99301c5cdc13c64f534f972a63d313ef05595a0f619b4fb0183becda5",
+        "alpha_extrema": [
+          255,
+          255
+        ],
+        "alpha_zero_fraction": 0.0,
+        "visible_alpha_gt16_bounds": [
+          0,
+          0,
+          80,
+          80
+        ],
+        "intended_transparent_overlay": false,
+        "opaque_pass": true,
+        "native80": false,
+        "visual_review": "Actual80/40 light/dark, repeated2x2, and natural-alpha overlay unit checks visually reviewed."
+      }
+    },
+    "mud": {
+      "name": "Mud",
+      "text": "Entering costs 2 movement points. Forced movement is not slowed.",
+      "color": "#beae8a",
+      "status": "reviewed",
+      "source": "art-production/terrain/raw/mud.png",
+      "processed": "art-production/terrain/processed/mud.png",
+      "inputpaths": [
+        "art-pilot/builtin-terrain-simple/raw/ground.png",
+        "art-pilot/builtin-terrain-simple/raw/grass.png",
+        "art-pilot/builtin-terrain-simple/raw/water.png",
+        "art-pilot/reference/concept-board.png"
+      ],
+      "actual_source_path": "art-production/terrain/raw/mud.png",
+      "tool_output_path": "art-production/terrain/raw/mud.png",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "source_alpha_extrema": [
+        255,
+        255
+      ],
+      "processed_sha256": "bd76d2951e588794099daca2412f6b811f97116eec954bdc662319ffaac3467a",
+      "prompt_path": "art-production/terrain/prompts/mud.txt",
+      "qa": {
+        "canvas": [
+          80,
+          80
+        ],
+        "bounds": [
+          0,
+          0,
+          80,
+          80
+        ],
+        "generated_alpha_preserved": true,
+        "processing": "crop + Lanczos resize + transparent canvas positioning only",
+        "dimensions": [
+          80,
+          80
+        ],
+        "sha256": "bd76d2951e588794099daca2412f6b811f97116eec954bdc662319ffaac3467a",
+        "alpha_extrema": [
+          255,
+          255
+        ],
+        "alpha_zero_fraction": 0.0,
+        "visible_alpha_gt16_bounds": [
+          0,
+          0,
+          80,
+          80
+        ],
+        "intended_transparent_overlay": false,
+        "opaque_pass": true,
+        "native80": false,
+        "visual_review": "Actual80/40 light/dark, repeated2x2, and natural-alpha overlay unit checks visually reviewed."
+      }
+    },
+    "poison": {
+      "name": "Poisoned ground",
+      "text": "Deals 1 damage to its occupant at round end. Cleansing or rain removes it.",
+      "color": "#b5bf87",
+      "status": "reviewed",
+      "source": "art-production/terrain/raw/poison.png",
+      "processed": "art-production/terrain/processed/poison.png",
+      "inputpaths": [
+        "art-pilot/builtin-terrain-simple/raw/ground.png",
+        "art-pilot/builtin-terrain-simple/raw/grass.png",
+        "art-pilot/builtin-terrain-simple/raw/water.png",
+        "art-pilot/reference/concept-board.png"
+      ],
+      "actual_source_path": "art-production/terrain/raw/poison.png",
+      "tool_output_path": "art-production/terrain/raw/poison.png",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "source_alpha_extrema": [
+        255,
+        255
+      ],
+      "processed_sha256": "8fd5e1ffc3660ffd9991580107e8324c19ec806c810a05f632445c4c1f44c464",
+      "prompt_path": "art-production/terrain/prompts/poison.txt",
+      "qa": {
+        "canvas": [
+          80,
+          80
+        ],
+        "bounds": [
+          0,
+          0,
+          80,
+          80
+        ],
+        "generated_alpha_preserved": true,
+        "processing": "crop + Lanczos resize + transparent canvas positioning only",
+        "dimensions": [
+          80,
+          80
+        ],
+        "sha256": "8fd5e1ffc3660ffd9991580107e8324c19ec806c810a05f632445c4c1f44c464",
+        "alpha_extrema": [
+          255,
+          255
+        ],
+        "alpha_zero_fraction": 0.0,
+        "visible_alpha_gt16_bounds": [
+          0,
+          0,
+          80,
+          80
+        ],
+        "intended_transparent_overlay": false,
+        "opaque_pass": true,
+        "native80": false,
+        "visual_review": "Actual80/40 light/dark, repeated2x2, and natural-alpha overlay unit checks visually reviewed."
+      }
+    },
+    "conveyor": {
+      "name": "Conveyor",
+      "text": "At round end, pushes its occupant one tile in its arrow direction. Can be rotated.",
+      "color": "#b4c5b4",
+      "status": "reviewed",
+      "source": "art-production/terrain/raw/conveyor.png",
+      "processed": "art-production/terrain/processed/conveyor.png",
+      "inputpaths": [
+        "art-pilot/builtin-terrain-simple/raw/ground.png",
+        "art-pilot/builtin-terrain-simple/raw/grass.png",
+        "art-pilot/builtin-terrain-simple/raw/water.png",
+        "art-pilot/reference/concept-board.png"
+      ],
+      "actual_source_path": "art-production/terrain/raw/conveyor.png",
+      "tool_output_path": "art-production/terrain/raw/conveyor.png",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "source_alpha_extrema": [
+        255,
+        255
+      ],
+      "processed_sha256": "cfafc350c0bca59afca1caf1846452a08608492ef77e0aa74e68e7545aaddad6",
+      "prompt_path": "art-production/terrain/prompts/conveyor.txt",
+      "qa": {
+        "canvas": [
+          80,
+          80
+        ],
+        "bounds": [
+          0,
+          0,
+          80,
+          80
+        ],
+        "generated_alpha_preserved": true,
+        "processing": "crop + Lanczos resize + transparent canvas positioning only",
+        "dimensions": [
+          80,
+          80
+        ],
+        "sha256": "cfafc350c0bca59afca1caf1846452a08608492ef77e0aa74e68e7545aaddad6",
+        "alpha_extrema": [
+          255,
+          255
+        ],
+        "alpha_zero_fraction": 0.0,
+        "visible_alpha_gt16_bounds": [
+          0,
+          0,
+          80,
+          80
+        ],
+        "intended_transparent_overlay": false,
+        "opaque_pass": true,
+        "native80": false,
+        "visual_review": "Actual80/40 light/dark, repeated2x2, and natural-alpha overlay unit checks visually reviewed."
+      }
+    },
+    "cracked": {
+      "name": "Cracked floor",
+      "text": "Collapses into a pit when a unit voluntarily leaves it. Forced entry is possible; plan your way out.",
+      "color": "#d0c19a",
+      "status": "reviewed",
+      "source": "art-production/terrain/raw/cracked.png",
+      "processed": "art-production/terrain/processed/cracked.png",
+      "inputpaths": [
+        "art-pilot/builtin-terrain-simple/raw/ground.png",
+        "art-pilot/builtin-terrain-simple/raw/grass.png",
+        "art-pilot/builtin-terrain-simple/raw/water.png",
+        "art-pilot/reference/concept-board.png"
+      ],
+      "actual_source_path": "art-production/terrain/raw/cracked.png",
+      "tool_output_path": "art-production/terrain/raw/cracked.png",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "source_alpha_extrema": [
+        255,
+        255
+      ],
+      "processed_sha256": "b08eb98fae06c9848c90864d7eb97160a1fccaccfc4eb46cc309580317a130aa",
+      "prompt_path": "art-production/terrain/prompts/cracked.txt",
+      "qa": {
+        "canvas": [
+          80,
+          80
+        ],
+        "bounds": [
+          0,
+          0,
+          80,
+          80
+        ],
+        "generated_alpha_preserved": true,
+        "processing": "crop + Lanczos resize + transparent canvas positioning only",
+        "dimensions": [
+          80,
+          80
+        ],
+        "sha256": "b08eb98fae06c9848c90864d7eb97160a1fccaccfc4eb46cc309580317a130aa",
+        "alpha_extrema": [
+          255,
+          255
+        ],
+        "alpha_zero_fraction": 0.0,
+        "visible_alpha_gt16_bounds": [
+          0,
+          0,
+          80,
+          80
+        ],
+        "intended_transparent_overlay": false,
+        "opaque_pass": true,
+        "native80": false,
+        "visual_review": "Actual80/40 light/dark, repeated2x2, and natural-alpha overlay unit checks visually reviewed."
+      }
+    },
+    "pit": {
+      "name": "Open pit",
+      "text": "Cannot be walked onto. A unit pushed into it is disabled. June can bridge it.",
+      "color": "#45676a",
+      "status": "reviewed",
+      "source": "art-production/terrain/raw/pit.png",
+      "processed": "art-production/terrain/processed/pit.png",
+      "inputpaths": [
+        "art-pilot/builtin-terrain-simple/raw/ground.png",
+        "art-pilot/builtin-terrain-simple/raw/grass.png",
+        "art-pilot/builtin-terrain-simple/raw/water.png"
+      ],
+      "actual_source_path": "art-production/terrain/raw/pit.png",
+      "tool_output_path": "art-production/terrain/raw/pit.png",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "source_alpha_extrema": [
+        255,
+        255
+      ],
+      "processed_sha256": "235e59d52ae7c2f0aee226f61d5db176d80c9505f4b78012166b86c0e0fa365b",
+      "prompt_path": "art-production/terrain/prompts/pit.txt",
+      "qa": {
+        "canvas": [
+          80,
+          80
+        ],
+        "bounds": [
+          0,
+          0,
+          80,
+          80
+        ],
+        "generated_alpha_preserved": true,
+        "processing": "alpha>16 bounding box crop only (original alpha retained inside crop) + Lanczos resize + transparent canvas positioning only",
+        "dimensions": [
+          80,
+          80
+        ],
+        "sha256": "235e59d52ae7c2f0aee226f61d5db176d80c9505f4b78012166b86c0e0fa365b",
+        "alpha_extrema": [
+          255,
+          255
+        ],
+        "alpha_zero_fraction": 0.0,
+        "visible_alpha_gt16_bounds": [
+          0,
+          0,
+          80,
+          80
+        ],
+        "intended_transparent_overlay": false,
+        "opaque_pass": true,
+        "native80": false,
+        "visual_review": "Actual80/40 light/dark, repeated2x2, and natural-alpha overlay unit checks visually reviewed."
+      },
+      "alternates": [
+        {
+          "name": "Open pit",
+          "text": "Cannot be walked onto. A unit pushed into it is disabled. June can bridge it.",
+          "color": "#45676a",
+          "status": "processed",
+          "source": "art-production/terrain/raw/pit.png",
+          "processed": "art-production/terrain/processed/pit.png",
+          "inputpaths": [
+            "art-pilot/builtin-terrain-simple/raw/ground.png",
+            "art-pilot/builtin-terrain-simple/raw/grass.png",
+            "art-pilot/builtin-terrain-simple/raw/water.png",
+            "art-pilot/reference/concept-board.png"
+          ],
+          "actual_source_path": "art-production/terrain/raw/pit.png",
+          "tool_output_path": "art-production/terrain/raw/pit.png",
+          "source_dimensions": [
+            1254,
+            1254
+          ],
+          "source_alpha_extrema": [
+            255,
+            255
+          ],
+          "processed_sha256": "9a00ef132cb59df2c643e6820943a876250616278d634ea5912b7e8a699174ea",
+          "prompt_path": "art-production/terrain/prompts/pit.txt",
+          "qa": {
+            "canvas": [
+              80,
+              80
+            ],
+            "bounds": [
+              0,
+              0,
+              80,
+              80
+            ],
+            "generated_alpha_preserved": true,
+            "processing": "crop + Lanczos resize + transparent canvas positioning only"
+          }
+        }
+      ]
+    },
+    "lava": {
+      "name": "Lava",
+      "text": "Deals 2 damage on entering and at round end. Can be bridged or cleansed.",
+      "color": "#dc8963",
+      "status": "reviewed",
+      "source": "art-production/terrain/raw/lava.png",
+      "processed": "art-production/terrain/processed/lava.png",
+      "inputpaths": [
+        "art-pilot/builtin-terrain-simple/raw/ground.png",
+        "art-pilot/builtin-terrain-simple/raw/grass.png",
+        "art-pilot/builtin-terrain-simple/raw/water.png",
+        "art-pilot/reference/concept-board.png"
+      ],
+      "actual_source_path": "art-production/terrain/raw/lava.png",
+      "tool_output_path": "art-production/terrain/raw/lava.png",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "source_alpha_extrema": [
+        255,
+        255
+      ],
+      "processed_sha256": "0f532e52bd2ef2f39a93a116d0c27007e21013f92b201361459fc857950f6e3d",
+      "prompt_path": "art-production/terrain/prompts/lava.txt",
+      "qa": {
+        "canvas": [
+          80,
+          80
+        ],
+        "bounds": [
+          0,
+          0,
+          80,
+          80
+        ],
+        "generated_alpha_preserved": true,
+        "processing": "crop + Lanczos resize + transparent canvas positioning only",
+        "dimensions": [
+          80,
+          80
+        ],
+        "sha256": "0f532e52bd2ef2f39a93a116d0c27007e21013f92b201361459fc857950f6e3d",
+        "alpha_extrema": [
+          255,
+          255
+        ],
+        "alpha_zero_fraction": 0.0,
+        "visible_alpha_gt16_bounds": [
+          0,
+          0,
+          80,
+          80
+        ],
+        "intended_transparent_overlay": false,
+        "opaque_pass": true,
+        "native80": false,
+        "visual_review": "Actual80/40 light/dark, repeated2x2, and natural-alpha overlay unit checks visually reviewed."
+      }
+    },
+    "thorns": {
+      "name": "Thorns",
+      "text": "Deals 1 damage on entry. Does not hurt units standing still. Can be burned or cleared.",
+      "color": "#a8b78d",
+      "status": "reviewed",
+      "source": "art-production/terrain/raw/thorns.png",
+      "processed": "art-production/terrain/processed/thorns.png",
+      "inputpaths": [
+        "art-pilot/builtin-terrain-simple/raw/ground.png",
+        "art-pilot/builtin-terrain-simple/raw/grass.png",
+        "art-pilot/builtin-terrain-simple/raw/water.png"
+      ],
+      "actual_source_path": "art-production/terrain/raw/thorns.png",
+      "tool_output_path": "art-production/terrain/raw/thorns.png",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "source_alpha_extrema": [
+        255,
+        255
+      ],
+      "processed_sha256": "574cd780b7b6bb489ee9b207d0dc6fc9e4725bfb09bee8da28bb8098b589a4b0",
+      "prompt_path": "art-production/terrain/prompts/thorns.txt",
+      "qa": {
+        "canvas": [
+          80,
+          80
+        ],
+        "bounds": [
+          0,
+          0,
+          80,
+          80
+        ],
+        "generated_alpha_preserved": true,
+        "processing": "alpha>16 bounding box crop only (original alpha retained inside crop) + Lanczos resize + transparent canvas positioning only",
+        "dimensions": [
+          80,
+          80
+        ],
+        "sha256": "574cd780b7b6bb489ee9b207d0dc6fc9e4725bfb09bee8da28bb8098b589a4b0",
+        "alpha_extrema": [
+          255,
+          255
+        ],
+        "alpha_zero_fraction": 0.0,
+        "visible_alpha_gt16_bounds": [
+          0,
+          0,
+          80,
+          80
+        ],
+        "intended_transparent_overlay": false,
+        "opaque_pass": true,
+        "native80": false,
+        "visual_review": "Actual80/40 light/dark, repeated2x2, and natural-alpha overlay unit checks visually reviewed."
+      },
+      "alternates": [
+        {
+          "name": "Thorns",
+          "text": "Deals 1 damage on entry. Does not hurt units standing still. Can be burned or cleared.",
+          "color": "#a8b78d",
+          "status": "processed",
+          "source": "art-production/terrain/raw/thorns.png",
+          "processed": "art-production/terrain/processed/thorns.png",
+          "inputpaths": [
+            "art-pilot/builtin-terrain-simple/raw/ground.png",
+            "art-pilot/builtin-terrain-simple/raw/grass.png",
+            "art-pilot/builtin-terrain-simple/raw/water.png",
+            "art-pilot/reference/concept-board.png"
+          ],
+          "actual_source_path": "art-production/terrain/raw/thorns.png",
+          "tool_output_path": "art-production/terrain/raw/thorns.png",
+          "source_dimensions": [
+            1254,
+            1254
+          ],
+          "source_alpha_extrema": [
+            255,
+            255
+          ],
+          "processed_sha256": "f7bfe474082d11e81472ab0f5cdff30c2eb74fb494d3bcc05fa29b865ea582e3",
+          "prompt_path": "art-production/terrain/prompts/thorns.txt",
+          "qa": {
+            "canvas": [
+              80,
+              80
+            ],
+            "bounds": [
+              0,
+              0,
+              80,
+              80
+            ],
+            "generated_alpha_preserved": true,
+            "processing": "alpha>16 bounding box crop only (original alpha retained inside crop) + Lanczos resize + transparent canvas positioning only"
+          }
+        }
+      ]
+    },
+    "grass": {
+      "name": "Dry grass",
+      "text": "Safe to walk on. Adjacent fire ignites it at round end.",
+      "color": "#bdca99",
+      "status": "reused",
+      "source": "art-pilot/builtin-terrain-simple/processed/grass.png",
+      "processed": "art-pilot/builtin-terrain-simple/processed/grass.png"
+    },
+    "smoke": {
+      "name": "Smoke",
+      "text": "Blocks straight shots and line-of-sight abilities. Walking through it clears it.",
+      "color": "#adb8ae",
+      "status": "reviewed",
+      "source": "art-production/terrain/raw/smoke.png",
+      "processed": "art-production/terrain/processed/smoke.png",
+      "inputpaths": [
+        "art-pilot/builtin-terrain-simple/raw/ground.png",
+        "art-pilot/builtin-terrain-simple/raw/grass.png",
+        "art-pilot/builtin-terrain-simple/raw/water.png",
+        "art-pilot/reference/concept-board.png"
+      ],
+      "actual_source_path": "art-production/terrain/raw/smoke.png",
+      "tool_output_path": "art-production/terrain/raw/smoke.png",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "source_alpha_extrema": [
+        0,
+        189
+      ],
+      "processed_sha256": "79735088b0d0d3e317b89b5383a1de0536ed06472f67676dbfa3686f34479f8e",
+      "prompt_path": "art-production/terrain/prompts/smoke.txt",
+      "qa": {
+        "canvas": [
+          80,
+          80
+        ],
+        "bounds": [
+          0,
+          0,
+          80,
+          80
+        ],
+        "generated_alpha_preserved": true,
+        "processing": "alpha>16 bounding box crop only (original alpha retained inside crop) + Lanczos resize + transparent canvas positioning only",
+        "dimensions": [
+          80,
+          80
+        ],
+        "sha256": "79735088b0d0d3e317b89b5383a1de0536ed06472f67676dbfa3686f34479f8e",
+        "alpha_extrema": [
+          0,
+          188
+        ],
+        "alpha_zero_fraction": 0.4147,
+        "visible_alpha_gt16_bounds": [
+          1,
+          5,
+          79,
+          76
+        ],
+        "intended_transparent_overlay": true,
+        "opaque_pass": true,
+        "native80": false,
+        "visual_review": "Actual80/40 light/dark, repeated2x2, and natural-alpha overlay unit checks visually reviewed."
+      },
+      "render_opacity": 1.0,
+      "opacity_note": "Use generated natural alpha at opacity1; sparse gaps preserve unit readability. No additional opacity reduction required in reviewed composite."
+    },
+    "mist": {
+      "name": "Deep mist",
+      "text": "Units inside cannot use ranged abilities beyond 1 tile. Rain or a scout clears it.",
+      "color": "#c8d6cd",
+      "status": "reviewed",
+      "source": "art-production/terrain/raw/mist.png",
+      "processed": "art-production/terrain/processed/mist.png",
+      "inputpaths": [
+        "art-pilot/builtin-terrain-simple/raw/ground.png",
+        "art-pilot/builtin-terrain-simple/raw/grass.png",
+        "art-pilot/builtin-terrain-simple/raw/water.png",
+        "art-pilot/reference/concept-board.png"
+      ],
+      "actual_source_path": "art-production/terrain/raw/mist.png",
+      "tool_output_path": "art-production/terrain/raw/mist.png",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "source_alpha_extrema": [
+        0,
+        255
+      ],
+      "processed_sha256": "12424a253b9a5385637f3a51862ef8db37a2c12f27e7339a40878432213f3058",
+      "prompt_path": "art-production/terrain/prompts/mist.txt",
+      "qa": {
+        "canvas": [
+          80,
+          80
+        ],
+        "bounds": [
+          0,
+          8,
+          80,
+          76
+        ],
+        "generated_alpha_preserved": true,
+        "processing": "alpha>16 bounding box crop only (original alpha retained inside crop) + Lanczos resize + transparent canvas positioning only",
+        "dimensions": [
+          80,
+          80
+        ],
+        "sha256": "12424a253b9a5385637f3a51862ef8db37a2c12f27e7339a40878432213f3058",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "alpha_zero_fraction": 0.6773,
+        "visible_alpha_gt16_bounds": [
+          0,
+          10,
+          80,
+          74
+        ],
+        "intended_transparent_overlay": true,
+        "opaque_pass": true,
+        "native80": false,
+        "visual_review": "Actual80/40 light/dark, repeated2x2, and natural-alpha overlay unit checks visually reviewed."
+      },
+      "render_opacity": 1.0,
+      "opacity_note": "Use generated natural alpha at opacity1; sparse gaps preserve unit readability. No additional opacity reduction required in reviewed composite."
+    },
+    "charged": {
+      "name": "Charged floor",
+      "text": "Harmless normally; deals 1 damage to its occupant during storm weather.",
+      "color": "#c6c8a1",
+      "status": "reviewed",
+      "source": "art-production/terrain/raw/charged.png",
+      "processed": "art-production/terrain/processed/charged.png",
+      "inputpaths": [
+        "art-pilot/builtin-terrain-simple/raw/ground.png",
+        "art-pilot/builtin-terrain-simple/raw/grass.png",
+        "art-pilot/builtin-terrain-simple/raw/water.png",
+        "art-pilot/reference/concept-board.png"
+      ],
+      "actual_source_path": "art-production/terrain/raw/charged.png",
+      "tool_output_path": "art-production/terrain/raw/charged.png",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "source_alpha_extrema": [
+        255,
+        255
+      ],
+      "processed_sha256": "49f8fa1f02b9b271ae1c194955c562c6667bb414755880844c13265d794cdee7",
+      "prompt_path": "art-production/terrain/prompts/charged.txt",
+      "qa": {
+        "canvas": [
+          80,
+          80
+        ],
+        "bounds": [
+          0,
+          0,
+          80,
+          80
+        ],
+        "generated_alpha_preserved": true,
+        "processing": "alpha>16 bounding box crop only (original alpha retained inside crop) + Lanczos resize + transparent canvas positioning only",
+        "dimensions": [
+          80,
+          80
+        ],
+        "sha256": "49f8fa1f02b9b271ae1c194955c562c6667bb414755880844c13265d794cdee7",
+        "alpha_extrema": [
+          255,
+          255
+        ],
+        "alpha_zero_fraction": 0.0,
+        "visible_alpha_gt16_bounds": [
+          0,
+          0,
+          80,
+          80
+        ],
+        "intended_transparent_overlay": false,
+        "opaque_pass": true,
+        "native80": false,
+        "visual_review": "Actual80/40 light/dark, repeated2x2, and natural-alpha overlay unit checks visually reviewed."
+      }
+    },
+    "quicksand": {
+      "name": "Quicksand",
+      "text": "Roots its occupant at round end, taking away next round\u2019s movement.",
+      "color": "#d7c18f",
+      "status": "reviewed",
+      "source": "art-production/terrain/raw/quicksand.png",
+      "processed": "art-production/terrain/processed/quicksand.png",
+      "inputpaths": [
+        "art-pilot/builtin-terrain-simple/raw/ground.png",
+        "art-pilot/builtin-terrain-simple/raw/grass.png",
+        "art-pilot/builtin-terrain-simple/raw/water.png",
+        "art-pilot/reference/concept-board.png"
+      ],
+      "actual_source_path": "art-production/terrain/raw/quicksand.png",
+      "tool_output_path": "art-production/terrain/raw/quicksand.png",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "source_alpha_extrema": [
+        255,
+        255
+      ],
+      "processed_sha256": "5f4b447cbe82c633b0c129b3ac275e089dcc00f0d63f647848db0130e38bf63c",
+      "prompt_path": "art-production/terrain/prompts/quicksand.txt",
+      "qa": {
+        "canvas": [
+          80,
+          80
+        ],
+        "bounds": [
+          0,
+          0,
+          80,
+          80
+        ],
+        "generated_alpha_preserved": true,
+        "processing": "alpha>16 bounding box crop only (original alpha retained inside crop) + Lanczos resize + transparent canvas positioning only",
+        "dimensions": [
+          80,
+          80
+        ],
+        "sha256": "5f4b447cbe82c633b0c129b3ac275e089dcc00f0d63f647848db0130e38bf63c",
+        "alpha_extrema": [
+          255,
+          255
+        ],
+        "alpha_zero_fraction": 0.0,
+        "visible_alpha_gt16_bounds": [
+          0,
+          0,
+          80,
+          80
+        ],
+        "intended_transparent_overlay": false,
+        "opaque_pass": true,
+        "native80": false,
+        "visual_review": "Actual80/40 light/dark, repeated2x2, and natural-alpha overlay unit checks visually reviewed."
+      }
+    },
+    "moss": {
+      "name": "Restoring moss",
+      "text": "Heals its occupant by 1 at round end. Helps both teams.",
+      "color": "#a7bf9a",
+      "status": "reviewed",
+      "source": "art-production/terrain/raw/moss.png",
+      "processed": "art-production/terrain/processed/moss.png",
+      "inputpaths": [
+        "art-pilot/builtin-terrain-simple/raw/ground.png",
+        "art-pilot/builtin-terrain-simple/raw/grass.png",
+        "art-pilot/builtin-terrain-simple/raw/water.png",
+        "art-pilot/reference/concept-board.png"
+      ],
+      "actual_source_path": "art-production/terrain/raw/moss.png",
+      "tool_output_path": "art-production/terrain/raw/moss.png",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "source_alpha_extrema": [
+        255,
+        255
+      ],
+      "processed_sha256": "a7687f967391a57d1750843d2a121c68175191012d7c328540411153cdbf78d4",
+      "prompt_path": "art-production/terrain/prompts/moss.txt",
+      "qa": {
+        "canvas": [
+          80,
+          80
+        ],
+        "bounds": [
+          0,
+          0,
+          80,
+          80
+        ],
+        "generated_alpha_preserved": true,
+        "processing": "alpha>16 bounding box crop only (original alpha retained inside crop) + Lanczos resize + transparent canvas positioning only",
+        "dimensions": [
+          80,
+          80
+        ],
+        "sha256": "a7687f967391a57d1750843d2a121c68175191012d7c328540411153cdbf78d4",
+        "alpha_extrema": [
+          255,
+          255
+        ],
+        "alpha_zero_fraction": 0.0,
+        "visible_alpha_gt16_bounds": [
+          0,
+          0,
+          80,
+          80
+        ],
+        "intended_transparent_overlay": false,
+        "opaque_pass": true,
+        "native80": false,
+        "visual_review": "Actual80/40 light/dark, repeated2x2, and natural-alpha overlay unit checks visually reviewed."
+      }
+    },
+    "runway": {
+      "name": "Old runway",
+      "text": "First entry each round grants the unit 1 extra move point. Cannot be farmed by walking back and forth.",
+      "color": "#c4c9b4",
+      "status": "reviewed",
+      "source": "art-production/terrain/raw/runway.png",
+      "processed": "art-production/terrain/processed/runway.png",
+      "inputpaths": [
+        "art-pilot/builtin-terrain-simple/raw/ground.png",
+        "art-pilot/builtin-terrain-simple/raw/grass.png",
+        "art-pilot/builtin-terrain-simple/raw/water.png",
+        "art-pilot/reference/concept-board.png"
+      ],
+      "actual_source_path": "art-production/terrain/raw/runway.png",
+      "tool_output_path": "art-production/terrain/raw/runway.png",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "source_alpha_extrema": [
+        255,
+        255
+      ],
+      "processed_sha256": "2061024c04c969ff6a4cebbd688d861d59419d090fc9f8d7650cbbf37b8a6117",
+      "prompt_path": "art-production/terrain/prompts/runway.txt",
+      "qa": {
+        "canvas": [
+          80,
+          80
+        ],
+        "bounds": [
+          0,
+          0,
+          80,
+          80
+        ],
+        "generated_alpha_preserved": true,
+        "processing": "alpha>16 bounding box crop only (original alpha retained inside crop) + Lanczos resize + transparent canvas positioning only",
+        "dimensions": [
+          80,
+          80
+        ],
+        "sha256": "2061024c04c969ff6a4cebbd688d861d59419d090fc9f8d7650cbbf37b8a6117",
+        "alpha_extrema": [
+          255,
+          255
+        ],
+        "alpha_zero_fraction": 0.0,
+        "visible_alpha_gt16_bounds": [
+          0,
+          0,
+          80,
+          80
+        ],
+        "intended_transparent_overlay": false,
+        "opaque_pass": true,
+        "native80": false,
+        "visual_review": "Actual80/40 light/dark, repeated2x2, and natural-alpha overlay unit checks visually reviewed."
+      }
+    },
+    "snow": {
+      "name": "Deep snow",
+      "text": "Costs 2 movement points to enter. Fire melts it into normal ground.",
+      "color": "#e0e7dc",
+      "status": "reviewed",
+      "source": "art-production/terrain/raw/snow.png",
+      "processed": "art-production/terrain/processed/snow.png",
+      "inputpaths": [
+        "art-pilot/builtin-terrain-simple/raw/ground.png",
+        "art-pilot/builtin-terrain-simple/raw/grass.png",
+        "art-pilot/builtin-terrain-simple/raw/water.png",
+        "art-pilot/reference/concept-board.png"
+      ],
+      "actual_source_path": "art-production/terrain/raw/snow.png",
+      "tool_output_path": "art-production/terrain/raw/snow.png",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "source_alpha_extrema": [
+        255,
+        255
+      ],
+      "processed_sha256": "435b9c4e8f2b6b5275c69847de29c6163a08f5ba18fcac6b39282b65c90044df",
+      "prompt_path": "art-production/terrain/prompts/snow.txt",
+      "qa": {
+        "canvas": [
+          80,
+          80
+        ],
+        "bounds": [
+          0,
+          0,
+          80,
+          80
+        ],
+        "generated_alpha_preserved": true,
+        "processing": "alpha>16 bounding box crop only (original alpha retained inside crop) + Lanczos resize + transparent canvas positioning only",
+        "dimensions": [
+          80,
+          80
+        ],
+        "sha256": "435b9c4e8f2b6b5275c69847de29c6163a08f5ba18fcac6b39282b65c90044df",
+        "alpha_extrema": [
+          255,
+          255
+        ],
+        "alpha_zero_fraction": 0.0,
+        "visible_alpha_gt16_bounds": [
+          0,
+          0,
+          80,
+          80
+        ],
+        "intended_transparent_overlay": false,
+        "opaque_pass": true,
+        "native80": false,
+        "visual_review": "Actual80/40 light/dark, repeated2x2, and natural-alpha overlay unit checks visually reviewed."
+      }
+    },
+    "springwater": {
+      "name": "Still water",
+      "text": "Extinguishes fire on entry and removes root. No current: it does not carry units.",
+      "color": "#b0d5d4",
+      "status": "reviewed",
+      "source": "art-production/terrain/raw/springwater.png",
+      "processed": "art-production/terrain/processed/springwater.png",
+      "inputpaths": [
+        "art-pilot/builtin-terrain-simple/raw/ground.png",
+        "art-pilot/builtin-terrain-simple/raw/grass.png",
+        "art-pilot/builtin-terrain-simple/raw/water.png",
+        "art-pilot/reference/concept-board.png"
+      ],
+      "actual_source_path": "art-production/terrain/raw/springwater.png",
+      "tool_output_path": "art-production/terrain/raw/springwater.png",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "source_alpha_extrema": [
+        255,
+        255
+      ],
+      "processed_sha256": "32383475e5d0bb6189d07c36bcc4507b7f905584ba575d6bdec6038967a1856e",
+      "prompt_path": "art-production/terrain/prompts/springwater.txt",
+      "qa": {
+        "canvas": [
+          80,
+          80
+        ],
+        "bounds": [
+          0,
+          0,
+          80,
+          80
+        ],
+        "generated_alpha_preserved": true,
+        "processing": "alpha>16 bounding box crop only (original alpha retained inside crop) + Lanczos resize + transparent canvas positioning only",
+        "dimensions": [
+          80,
+          80
+        ],
+        "sha256": "32383475e5d0bb6189d07c36bcc4507b7f905584ba575d6bdec6038967a1856e",
+        "alpha_extrema": [
+          255,
+          255
+        ],
+        "alpha_zero_fraction": 0.0,
+        "visible_alpha_gt16_bounds": [
+          0,
+          0,
+          80,
+          80
+        ],
+        "intended_transparent_overlay": false,
+        "opaque_pass": true,
+        "native80": false,
+        "visual_review": "Actual80/40 light/dark, repeated2x2, and natural-alpha overlay unit checks visually reviewed."
+      }
+    }
+  }
+}

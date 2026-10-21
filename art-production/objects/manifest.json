@@ -1,0 +1,2207 @@
+{
+  "category": "objects",
+  "runtimeCanvas": [
+    80,
+    80
+  ],
+  "anchor": [
+    0.5,
+    0.9
+  ],
+  "items": {
+    "wall": {
+      "id": "wall",
+      "description": {
+        "name": "Stone wall",
+        "text": "Blocks movement and shots. Ram, demolition, charges and falling columns destroy it.",
+        "icon": "\u25a6",
+        "block": true,
+        "wood": false,
+        "metal": false
+      },
+      "status": "reused",
+      "processed": "art-pilot/builtin-simple80/processed/wall.png",
+      "source": "art-pilot/builtin-simple80/raw/wall.png",
+      "maxBounds": [
+        66,
+        32
+      ],
+      "reuseNote": "Approved pilot source; parent owns production copy.",
+      "sourceSize": [
+        1774,
+        887
+      ],
+      "sourceSHA256": "ab836bad7e510a98ac57f626c04b72a59f106432cd9b63e8b8b3764dc2d912bb",
+      "visualReview": "80px light and 40px dark contact sheets inspected; clear differentiated silhouette, no serious alpha/style defect"
+    },
+    "tree": {
+      "id": "tree",
+      "description": {
+        "name": "Briar tree",
+        "text": "Blocks shots and movement. Burns beside fire. A shot destroys it.",
+        "icon": "\u2660",
+        "block": true,
+        "wood": true,
+        "metal": false
+      },
+      "status": "reused",
+      "processed": "art-pilot/builtin-simple80/processed/tree.png",
+      "source": "art-pilot/builtin-simple80/raw/tree.png",
+      "maxBounds": [
+        56,
+        62
+      ],
+      "reuseNote": "Approved pilot source; parent owns production copy.",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceSHA256": "30cd406200a5620be2017a6d1108aec83dba565816091140ec740d499c96888f",
+      "visualReview": "80px light and 40px dark contact sheets inspected; clear differentiated silhouette, no serious alpha/style defect"
+    },
+    "column": {
+      "id": "column",
+      "description": {
+        "name": "Column",
+        "text": "Ram topples it along 2 tiles for 2 damage, crushing objects. Shots can shatter it.",
+        "icon": "\u265c",
+        "block": true,
+        "wood": false,
+        "metal": false
+      },
+      "status": "reused",
+      "processed": "art-pilot/builtin-simple80/processed/column.png",
+      "source": "art-pilot/builtin-simple80/raw/column.png",
+      "maxBounds": [
+        38,
+        62
+      ],
+      "reuseNote": "Approved pilot source; parent owns production copy.",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceSHA256": "ea5cdf4e4832535c4f2ba17895bb94521c836c67d40bcbb7e8ba1498995333ee",
+      "visualReview": "80px light and 40px dark contact sheets inspected; clear differentiated silhouette, no serious alpha/style defect"
+    },
+    "crate": {
+      "id": "crate",
+      "description": {
+        "name": "Wooden crate",
+        "text": "Can be pushed or grappled. Blocks shots and movement. Burns easily.",
+        "icon": "\u25a7",
+        "block": true,
+        "wood": true,
+        "metal": false
+      },
+      "status": "reviewed",
+      "processed": "art-production/objects/processed/crate.png",
+      "source": "art-production/objects/raw/crate.png",
+      "maxBounds": [
+        66,
+        62
+      ],
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceSHA256": "cf0b2c64f0a48e0ed2fbe77921707e1c3c69ec65ca4d1e022a234d95f8e92eb2",
+      "processedSHA256": "2c83cee54b7d7933e01c0548f7bc97a448fb3ba623421ffb46f3e281dcf4651e",
+      "bounds": [
+        9,
+        10,
+        70,
+        72
+      ],
+      "qa": {
+        "transparentCorners": true,
+        "alphaPreserved": true,
+        "resize": "visible alpha >16 crop and Lanczos only; original alpha preserved inside crop",
+        "visualReview": "broad simple silhouette; review contact sheet"
+      },
+      "footprintMax": [
+        66,
+        62
+      ],
+      "promptPath": "art-production/objects/prompts/crate.txt",
+      "referencePaths": [
+        "art-pilot/builtin-simple80/reference-character-strip.png",
+        "art-pilot/builtin-simple80/raw/ally-1.png",
+        "art-pilot/builtin-simple80/raw/tree.png",
+        "art-pilot/builtin-simple80/raw/wall.png",
+        "art-pilot/builtin-simple80/raw/fan.png"
+      ],
+      "generationTool": "built-in image_gen; backend model ID not exposed",
+      "native80": false,
+      "visibleBounds": [
+        9,
+        10,
+        70,
+        72
+      ],
+      "defaultGeneratedSource": "art-production/objects/raw/crate.png",
+      "visualReview": "80px light and 40px dark contact sheets inspected; clear differentiated silhouette, no serious alpha/style defect"
+    },
+    "seed": {
+      "id": "seed",
+      "description": {
+        "name": "Seed capsule",
+        "text": "Walk onto it to collect it. Counts toward collection objectives.",
+        "icon": "\u2726",
+        "block": false,
+        "wood": false,
+        "metal": false
+      },
+      "status": "reviewed",
+      "processed": "art-production/objects/processed/seed.png",
+      "source": "art-production/objects/raw/seed.png",
+      "maxBounds": [
+        66,
+        62
+      ],
+      "defaultGeneratedSource": "art-production/objects/raw/seed.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceSHA256": "2a8cce13c89d9254c37240849df4e0b318d47fc037cc05fcb3ef860d994692bb",
+      "processedSHA256": "347ecfaf9b4b6ae78162ca7c328452815f4c8f824827b6d103d2f376980fe2e2",
+      "bounds": [
+        15,
+        10,
+        64,
+        72
+      ],
+      "qa": {
+        "transparentCorners": true,
+        "alphaPreserved": true,
+        "resize": "visible alpha >16 crop and Lanczos only; original alpha preserved inside crop",
+        "visualReview": "broad simple silhouette; review contact sheet"
+      },
+      "footprintMax": [
+        66,
+        62
+      ],
+      "promptPath": "art-production/objects/prompts/seed.txt",
+      "referencePaths": [
+        "art-pilot/builtin-simple80/reference-character-strip.png",
+        "art-pilot/builtin-simple80/raw/ally-1.png",
+        "art-pilot/builtin-simple80/raw/tree.png",
+        "art-pilot/builtin-simple80/raw/wall.png",
+        "art-pilot/builtin-simple80/raw/fan.png"
+      ],
+      "generationTool": "built-in image_gen; backend model ID not exposed",
+      "native80": false,
+      "visibleBounds": [
+        15,
+        10,
+        64,
+        72
+      ],
+      "visualReview": "80px light and 40px dark contact sheets inspected; clear differentiated silhouette, no serious alpha/style defect"
+    },
+    "lever": {
+      "id": "lever",
+      "description": {
+        "name": "Lever",
+        "text": "Interact from an adjacent tile to open all gates and activate nearby mechanisms.",
+        "icon": "\u2691",
+        "block": false,
+        "wood": false,
+        "metal": false
+      },
+      "status": "reviewed",
+      "processed": "art-production/objects/processed/lever.png",
+      "source": "art-production/objects/raw/lever.png",
+      "maxBounds": [
+        66,
+        62
+      ],
+      "defaultGeneratedSource": "art-production/objects/raw/lever.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceSHA256": "280eeb28607c4741549315945a4d4c64eaa4addea99f24a1cba6699c82c89b98",
+      "processedSHA256": "1937ce973302f58b0b21e994f1cb509bd4b9055d1e1bd891178639386d540fe8",
+      "bounds": [
+        16,
+        10,
+        63,
+        72
+      ],
+      "qa": {
+        "transparentCorners": true,
+        "alphaPreserved": true,
+        "resize": "visible alpha >16 crop and Lanczos only; original alpha preserved inside crop",
+        "visualReview": "broad simple silhouette; review contact sheet"
+      },
+      "footprintMax": [
+        66,
+        62
+      ],
+      "promptPath": "art-production/objects/prompts/lever.txt",
+      "referencePaths": [
+        "art-pilot/builtin-simple80/reference-character-strip.png",
+        "art-pilot/builtin-simple80/raw/ally-1.png",
+        "art-pilot/builtin-simple80/raw/tree.png",
+        "art-pilot/builtin-simple80/raw/wall.png",
+        "art-pilot/builtin-simple80/raw/fan.png"
+      ],
+      "generationTool": "built-in image_gen; backend model ID not exposed",
+      "native80": false,
+      "visibleBounds": [
+        16,
+        10,
+        63,
+        72
+      ],
+      "visualReview": "80px light and 40px dark contact sheets inspected; clear differentiated silhouette, no serious alpha/style defect"
+    },
+    "gate": {
+      "id": "gate",
+      "description": {
+        "name": "Flood gate",
+        "text": "Blocks movement and shots until a lever or circuit opens it.",
+        "icon": "\u25a5",
+        "block": true,
+        "wood": false,
+        "metal": true
+      },
+      "status": "reviewed",
+      "processed": "art-production/objects/processed/gate.png",
+      "source": "art-production/objects/raw/gate.png",
+      "maxBounds": [
+        66,
+        62
+      ],
+      "defaultGeneratedSource": "art-production/objects/raw/gate.png",
+      "sourceSize": [
+        1316,
+        1195
+      ],
+      "sourceSHA256": "9fa5c722961c11b4bf49ca22a04ec993fd84bb34ca90c53f50181606b452ee88",
+      "processedSHA256": "a4ab55b9a0de5e37baecbe47e0615f9f00f57394c56c533ca13704404209e31b",
+      "bounds": [
+        7,
+        23,
+        73,
+        72
+      ],
+      "qa": {
+        "transparentCorners": true,
+        "alphaPreserved": true,
+        "resize": "visible alpha >16 crop and Lanczos only; original alpha preserved inside crop",
+        "visualReview": "broad simple silhouette; review contact sheet"
+      },
+      "footprintMax": [
+        66,
+        62
+      ],
+      "promptPath": "art-production/objects/prompts/gate.txt",
+      "referencePaths": [
+        "art-pilot/builtin-simple80/reference-character-strip.png",
+        "art-pilot/builtin-simple80/raw/ally-1.png",
+        "art-pilot/builtin-simple80/raw/tree.png",
+        "art-pilot/builtin-simple80/raw/wall.png",
+        "art-pilot/builtin-simple80/raw/fan.png"
+      ],
+      "generationTool": "built-in image_gen; backend model ID not exposed",
+      "native80": false,
+      "visibleBounds": [
+        7,
+        23,
+        73,
+        72
+      ],
+      "visualReview": "80px light and 40px dark contact sheets inspected; clear differentiated silhouette, no serious alpha/style defect"
+    },
+    "bomb": {
+      "id": "bomb",
+      "description": {
+        "name": "Armed charge",
+        "text": "Detonates after the enemy turn: 2 damage in a cross. Both teams can be hurt. Movable.",
+        "icon": "\u2739",
+        "block": true,
+        "wood": false,
+        "metal": true
+      },
+      "status": "reviewed",
+      "processed": "art-production/objects/processed/bomb.png",
+      "source": "art-production/objects/raw/bomb.png",
+      "maxBounds": [
+        66,
+        62
+      ],
+      "defaultGeneratedSource": "art-production/objects/raw/bomb.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceSHA256": "88baca6a9724bfc33aad621aa52ff41ef4ba4f68f6073a489487f5d893c68d95",
+      "processedSHA256": "2f7f6e0c184be9676ef26614bb972583927bcb7e316db85707aea54b4c75c5da",
+      "bounds": [
+        16,
+        10,
+        63,
+        72
+      ],
+      "qa": {
+        "transparentCorners": true,
+        "alphaPreserved": true,
+        "resize": "visible alpha >16 crop and Lanczos only; original alpha preserved inside crop",
+        "visualReview": "broad simple silhouette; review contact sheet"
+      },
+      "footprintMax": [
+        66,
+        62
+      ],
+      "promptPath": "art-production/objects/prompts/bomb.txt",
+      "referencePaths": [
+        "art-pilot/builtin-simple80/reference-character-strip.png",
+        "art-pilot/builtin-simple80/raw/ally-1.png",
+        "art-pilot/builtin-simple80/raw/tree.png",
+        "art-pilot/builtin-simple80/raw/wall.png",
+        "art-pilot/builtin-simple80/raw/fan.png"
+      ],
+      "generationTool": "built-in image_gen; backend model ID not exposed",
+      "native80": false,
+      "visibleBounds": [
+        16,
+        10,
+        63,
+        72
+      ],
+      "visualReview": "80px light and 40px dark contact sheets inspected; clear differentiated silhouette, no serious alpha/style defect"
+    },
+    "fan": {
+      "id": "fan",
+      "description": {
+        "name": "Directional fan",
+        "text": "At round end pushes units along its arrow direction. Rotation changes that direction.",
+        "icon": "\u2723",
+        "block": true,
+        "wood": false,
+        "metal": true
+      },
+      "status": "reused",
+      "processed": "art-pilot/builtin-simple80/processed/fan.png",
+      "source": "art-pilot/builtin-simple80/raw/fan.png",
+      "maxBounds": [
+        50,
+        62
+      ],
+      "reuseNote": "Approved pilot source; parent owns production copy.",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceSHA256": "b8394d60daecc2522fd49337c2755360a0d2d7ae5d6cd1013b7174ce61d019a9",
+      "visualReview": "80px light and 40px dark contact sheets inspected; clear differentiated silhouette, no serious alpha/style defect"
+    },
+    "barrel": {
+      "id": "barrel",
+      "description": {
+        "name": "Explosive barrel",
+        "text": "Explodes for 2 damage in a cross when hit. Can be pushed or grappled.",
+        "icon": "\u25c9",
+        "block": true,
+        "wood": false,
+        "metal": false
+      },
+      "status": "reviewed",
+      "processed": "art-production/objects/processed/barrel.png",
+      "source": "art-production/objects/raw/barrel.png",
+      "maxBounds": [
+        66,
+        62
+      ],
+      "defaultGeneratedSource": "art-production/objects/raw/barrel.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceSHA256": "e0c9b410a3f61faaae1895eb73cca5e317d53763a356a5829b741a451647d278",
+      "processedSHA256": "c27e81cb9b8ba0e4fb4fa201d1b9d550afc76d50b36502445945ec51930a5285",
+      "bounds": [
+        17,
+        10,
+        62,
+        72
+      ],
+      "qa": {
+        "transparentCorners": true,
+        "alphaPreserved": true,
+        "resize": "visible alpha >16 crop and Lanczos only; original alpha preserved inside crop",
+        "visualReview": "broad simple silhouette; review contact sheet"
+      },
+      "footprintMax": [
+        66,
+        62
+      ],
+      "promptPath": "art-production/objects/prompts/barrel.txt",
+      "referencePaths": [
+        "art-pilot/builtin-simple80/reference-character-strip.png",
+        "art-pilot/builtin-simple80/raw/ally-1.png",
+        "art-pilot/builtin-simple80/raw/tree.png",
+        "art-pilot/builtin-simple80/raw/wall.png",
+        "art-pilot/builtin-simple80/raw/fan.png"
+      ],
+      "generationTool": "built-in image_gen; backend model ID not exposed",
+      "native80": false,
+      "visibleBounds": [
+        17,
+        10,
+        62,
+        72
+      ],
+      "visualReview": "80px light and 40px dark contact sheets inspected; clear differentiated silhouette, no serious alpha/style defect"
+    },
+    "boulder": {
+      "id": "boulder",
+      "description": {
+        "name": "Boulder",
+        "text": "A movable stone barrier. Can be pushed, grappled or relocated.",
+        "icon": "\u2b1f",
+        "block": true,
+        "wood": false,
+        "metal": false
+      },
+      "status": "reviewed",
+      "processed": "art-production/objects/processed/boulder.png",
+      "source": "art-production/objects/raw/boulder.png",
+      "maxBounds": [
+        66,
+        62
+      ],
+      "defaultGeneratedSource": "art-production/objects/raw/boulder.png",
+      "sourceSize": [
+        1402,
+        1122
+      ],
+      "sourceSHA256": "b4de7ddca7d5c25c8f54c3c6d2251a26285e00c3821584c931e508ffd9b1c9cf",
+      "processedSHA256": "cfe5637023a6bce4c8320653fe4a7c62b919da8d54af17adf33e3c1fa10ac7ee",
+      "bounds": [
+        7,
+        11,
+        73,
+        72
+      ],
+      "qa": {
+        "transparentCorners": true,
+        "alphaPreserved": true,
+        "resize": "visible alpha >16 crop and Lanczos only; original alpha preserved inside crop",
+        "visualReview": "broad simple silhouette; review contact sheet"
+      },
+      "footprintMax": [
+        66,
+        62
+      ],
+      "promptPath": "art-production/objects/prompts/boulder.txt",
+      "referencePaths": [
+        "art-pilot/builtin-simple80/reference-character-strip.png",
+        "art-pilot/builtin-simple80/raw/ally-1.png",
+        "art-pilot/builtin-simple80/raw/tree.png",
+        "art-pilot/builtin-simple80/raw/wall.png",
+        "art-pilot/builtin-simple80/raw/fan.png"
+      ],
+      "generationTool": "built-in image_gen; backend model ID not exposed",
+      "native80": false,
+      "visibleBounds": [
+        7,
+        11,
+        73,
+        72
+      ],
+      "visualReview": "80px light and 40px dark contact sheets inspected; clear differentiated silhouette, no serious alpha/style defect"
+    },
+    "mirror": {
+      "id": "mirror",
+      "description": {
+        "name": "Turning mirror",
+        "text": "Reflects straight shots 90\u00b0 clockwise. Can be rotated to choose the outgoing direction.",
+        "icon": "\u25c7",
+        "block": true,
+        "wood": false,
+        "metal": true
+      },
+      "status": "reviewed",
+      "processed": "art-production/objects/processed/mirror.png",
+      "source": "art-production/objects/raw/mirror.png",
+      "maxBounds": [
+        66,
+        62
+      ],
+      "defaultGeneratedSource": "art-production/objects/raw/mirror.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceSHA256": "c5e4b07d456e59c99665265695a13e949f6f741e6d355f1228276246f2c5834a",
+      "processedSHA256": "f6fd586842f45a8156903efbf67aeb11fccb35d23ec75bc9e39b6abc26950319",
+      "bounds": [
+        21,
+        10,
+        59,
+        72
+      ],
+      "qa": {
+        "transparentCorners": true,
+        "alphaPreserved": true,
+        "resize": "visible alpha >16 crop and Lanczos only; original alpha preserved inside crop",
+        "visualReview": "broad simple silhouette; review contact sheet"
+      },
+      "footprintMax": [
+        66,
+        62
+      ],
+      "promptPath": "art-production/objects/prompts/mirror.txt",
+      "referencePaths": [
+        "art-pilot/builtin-simple80/reference-character-strip.png",
+        "art-pilot/builtin-simple80/raw/ally-1.png",
+        "art-pilot/builtin-simple80/raw/tree.png",
+        "art-pilot/builtin-simple80/raw/wall.png",
+        "art-pilot/builtin-simple80/raw/fan.png"
+      ],
+      "generationTool": "built-in image_gen; backend model ID not exposed",
+      "native80": false,
+      "visibleBounds": [
+        21,
+        10,
+        59,
+        72
+      ],
+      "visualReview": "80px light and 40px dark contact sheets inspected; clear differentiated silhouette, no serious alpha/style defect"
+    },
+    "spring": {
+      "id": "spring",
+      "description": {
+        "name": "Launch spring",
+        "text": "On entry, launches the unit 2 tiles in its arrow direction; collisions stop it.",
+        "icon": "\u219f",
+        "block": false,
+        "wood": false,
+        "metal": true
+      },
+      "status": "reviewed",
+      "processed": "art-production/objects/processed/spring.png",
+      "source": "art-production/objects/raw/spring.png",
+      "maxBounds": [
+        66,
+        62
+      ],
+      "defaultGeneratedSource": "art-production/objects/raw/spring.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceSHA256": "34df885544294292c573a13b8fecc72efd07d6918c091ae5a345f1f65f9806f5",
+      "processedSHA256": "361f6e40a0d759e6041b16cf87f143f18a303300e5ec2a827745d92f28a07c62",
+      "bounds": [
+        22,
+        32,
+        58,
+        72
+      ],
+      "qa": {
+        "transparentCorners": true,
+        "alphaPreserved": true,
+        "resize": "visible alpha >16 crop and Lanczos only; original alpha preserved inside crop",
+        "visualReview": "broad simple silhouette; review contact sheet"
+      },
+      "footprintMax": [
+        58,
+        40
+      ],
+      "promptPath": "art-production/objects/prompts/spring.txt",
+      "referencePaths": [
+        "art-pilot/builtin-simple80/reference-character-strip.png",
+        "art-pilot/builtin-simple80/raw/ally-1.png",
+        "art-pilot/builtin-simple80/raw/tree.png",
+        "art-pilot/builtin-simple80/raw/wall.png",
+        "art-pilot/builtin-simple80/raw/fan.png"
+      ],
+      "generationTool": "built-in image_gen; backend model ID not exposed",
+      "native80": false,
+      "visibleBounds": [
+        22,
+        32,
+        58,
+        72
+      ],
+      "visualReview": "80px light and 40px dark contact sheets inspected; clear differentiated silhouette, no serious alpha/style defect"
+    },
+    "portal": {
+      "id": "portal",
+      "description": {
+        "name": "Woven gate",
+        "text": "Entering transports you to its linked partner if that tile is empty.",
+        "icon": "\u221e",
+        "block": false,
+        "wood": false,
+        "metal": false
+      },
+      "status": "reviewed",
+      "processed": "art-production/objects/processed/portal.png",
+      "source": "art-production/objects/raw/portal.png",
+      "maxBounds": [
+        66,
+        62
+      ],
+      "defaultGeneratedSource": "art-production/objects/raw/portal.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "sourceSHA256": "05490b05ab8323900f70c3a3df7d4b11b9498f84839d5f3a2f7b32117bd4f142",
+      "processedSHA256": "3335340cb9e595f49903b86f33a32f3914765e3970627912971d6dc4b8f716b7",
+      "bounds": [
+        12,
+        44,
+        67,
+        72
+      ],
+      "qa": {
+        "transparentCorners": true,
+        "alphaPreserved": true,
+        "resize": "visible alpha >16 crop and Lanczos only; original alpha preserved inside crop",
+        "visualReview": "broad simple silhouette; review contact sheet"
+      },
+      "footprintMax": [
+        62,
+        28
+      ],
+      "promptPath": "art-production/objects/prompts/portal.txt",
+      "referencePaths": [
+        "art-pilot/builtin-simple80/reference-character-strip.png",
+        "art-pilot/builtin-simple80/raw/ally-1.png",
+        "art-pilot/builtin-simple80/raw/tree.png",
+        "art-pilot/builtin-simple80/raw/wall.png",
+        "art-pilot/builtin-simple80/raw/fan.png"
+      ],
+      "generationTool": "built-in image_gen; backend model ID not exposed",
+      "native80": false,
+      "visibleBounds": [
+        12,
+        44,
+        67,
+        72
+      ],
+      "visualReview": "80px light and 40px dark contact sheets inspected; clear differentiated silhouette, no serious alpha/style defect"
+    },
+    "bridge": {
+      "id": "bridge",
+      "description": {
+        "name": "Bridge",
+        "text": "Makes a gap, pit, river or lava safe to cross; suppresses terrain beneath.",
+        "icon": "\u256c",
+        "block": false,
+        "wood": false,
+        "metal": false
+      },
+      "status": "reviewed",
+      "processed": "art-production/objects/processed/bridge.png",
+      "source": "art-production/objects/raw/bridge.png",
+      "maxBounds": [
+        76,
+        20
+      ],
+      "defaultGeneratedSource": "art-production/objects/raw/bridge.png",
+      "sourceSize": [
+        1774,
+        887
+      ],
+      "sourceSHA256": "e3469258207bedb3f01538c6069ab045969c41abc5d3283e00ca23e8386f0cff",
+      "processedSHA256": "3b48c26a3cbb0188237517f29337b0a86f159217eedffdab49c4fb9db97227f3",
+      "bounds": [
+        2,
+        30,
+        78,
+        50
+      ],
+      "qa": {
+        "transparentCorners": true,
+        "alphaPreserved": true,
+        "resize": "visible alpha >16 crop and Lanczos only; original alpha preserved inside crop",
+        "visualReview": "broad simple silhouette; review contact sheet"
+      },
+      "footprintMax": [
+        76,
+        20
+      ],
+      "promptPath": "art-production/objects/prompts/bridge.txt",
+      "referencePaths": [
+        "art-pilot/builtin-simple80/raw/wall.png",
+        "art-pilot/builtin-simple80/raw/fan.png"
+      ],
+      "generationTool": "built-in image_gen; backend model ID not exposed",
+      "native80": false,
+      "visibleBounds": [
+        2,
+        30,
+        78,
+        50
+      ],
+      "visualReview": "Horizontal rectangular span parallel to cell edges; reviewed at80 and40",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "orientation": "horizontal; rotate90 for vertical",
+      "previousBridge": {
+        "id": "bridge",
+        "description": {
+          "name": "Bridge",
+          "text": "Makes a gap, pit, river or lava safe to cross; suppresses terrain beneath.",
+          "icon": "\u256c",
+          "block": false,
+          "wood": false,
+          "metal": false
+        },
+        "status": "reviewed",
+        "processed": "art-production/objects/processed/bridge.png",
+        "source": "art-production/objects/raw/bridge.png",
+        "maxBounds": [
+          66,
+          62
+        ],
+        "defaultGeneratedSource": "art-production/objects/raw/bridge.png",
+        "sourceSize": [
+          1536,
+          1024
+        ],
+        "sourceSHA256": "aa4d98de595ded3c9f377f0d494a98168842309c8580d46db4b1e82f4de18ec4",
+        "processedSHA256": "7325d3c55a744cc6ff815057cdc12f541cb2dc279165ddc8511f94e0479c44ca",
+        "bounds": [
+          7,
+          51,
+          73,
+          72
+        ],
+        "qa": {
+          "transparentCorners": true,
+          "alphaPreserved": true,
+          "resize": "visible alpha >16 crop and Lanczos only; original alpha preserved inside crop",
+          "visualReview": "broad simple silhouette; review contact sheet"
+        },
+        "footprintMax": [
+          66,
+          28
+        ],
+        "promptPath": "art-production/objects/prompts/bridge.txt",
+        "referencePaths": [
+          "art-pilot/builtin-simple80/reference-character-strip.png",
+          "art-pilot/builtin-simple80/raw/ally-1.png",
+          "art-pilot/builtin-simple80/raw/tree.png",
+          "art-pilot/builtin-simple80/raw/wall.png",
+          "art-pilot/builtin-simple80/raw/fan.png"
+        ],
+        "generationTool": "built-in image_gen; backend model ID not exposed",
+        "native80": false,
+        "visibleBounds": [
+          7,
+          51,
+          73,
+          72
+        ],
+        "visualReview": "80px light and 40px dark contact sheets inspected; clear differentiated silhouette, no serious alpha/style defect"
+      }
+    },
+    "plate": {
+      "id": "plate",
+      "description": {
+        "name": "Pressure plate",
+        "text": "Entering opens gates. No action needed.",
+        "icon": "\u229e",
+        "block": false,
+        "wood": false,
+        "metal": true
+      },
+      "status": "reviewed",
+      "processed": "art-production/objects/processed/plate.png",
+      "source": "art-production/objects/raw/plate.png",
+      "maxBounds": [
+        66,
+        62
+      ],
+      "defaultGeneratedSource": "art-production/objects/raw/plate.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "sourceSHA256": "d39b60eb170b70ceadbad7c57c3ad177e7698d50cf6aa4d22feab63f79874c26",
+      "processedSHA256": "9ce84186b0cd6c1170b8e29855cf980798a647853a5abf7842f9af83461d979f",
+      "bounds": [
+        18,
+        50,
+        62,
+        72
+      ],
+      "qa": {
+        "transparentCorners": true,
+        "alphaPreserved": true,
+        "resize": "visible alpha >16 crop and Lanczos only; original alpha preserved inside crop",
+        "visualReview": "broad simple silhouette; review contact sheet"
+      },
+      "footprintMax": [
+        58,
+        22
+      ],
+      "promptPath": "art-production/objects/prompts/plate.txt",
+      "referencePaths": [
+        "art-pilot/builtin-simple80/reference-character-strip.png",
+        "art-pilot/builtin-simple80/raw/ally-1.png",
+        "art-pilot/builtin-simple80/raw/tree.png",
+        "art-pilot/builtin-simple80/raw/wall.png",
+        "art-pilot/builtin-simple80/raw/fan.png"
+      ],
+      "generationTool": "built-in image_gen; backend model ID not exposed",
+      "native80": false,
+      "visibleBounds": [
+        18,
+        50,
+        62,
+        72
+      ],
+      "visualReview": "80px light and 40px dark contact sheets inspected; clear differentiated silhouette, no serious alpha/style defect"
+    },
+    "spikes": {
+      "id": "spikes",
+      "description": {
+        "name": "Spike bed",
+        "text": "1 damage to an occupant at round end. Can be disabled by interaction.",
+        "icon": "\u22c0",
+        "block": false,
+        "wood": false,
+        "metal": true
+      },
+      "status": "reviewed",
+      "processed": "art-production/objects/processed/spikes.png",
+      "source": "art-production/objects/raw/spikes.png",
+      "maxBounds": [
+        66,
+        62
+      ],
+      "defaultGeneratedSource": "art-production/objects/raw/spikes.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "sourceSHA256": "8d84541fdbcf957d244623ff341edd3ae3588470e30e1df9eb52f734c83f5946",
+      "processedSHA256": "07c16d50d96cd2309ae83292c04adca6ea1cdc1704ec00027cb281b3f4e17f2f",
+      "bounds": [
+        9,
+        55,
+        71,
+        72
+      ],
+      "qa": {
+        "transparentCorners": true,
+        "alphaPreserved": true,
+        "resize": "visible alpha >16 crop and Lanczos only; original alpha preserved inside crop",
+        "visualReview": "broad simple silhouette; review contact sheet"
+      },
+      "footprintMax": [
+        62,
+        32
+      ],
+      "promptPath": "art-production/objects/prompts/spikes.txt",
+      "referencePaths": [
+        "art-pilot/builtin-simple80/reference-character-strip.png",
+        "art-pilot/builtin-simple80/raw/ally-1.png",
+        "art-pilot/builtin-simple80/raw/tree.png",
+        "art-pilot/builtin-simple80/raw/wall.png",
+        "art-pilot/builtin-simple80/raw/fan.png"
+      ],
+      "generationTool": "built-in image_gen; backend model ID not exposed",
+      "native80": false,
+      "visibleBounds": [
+        9,
+        55,
+        71,
+        72
+      ],
+      "visualReview": "80px light and 40px dark contact sheets inspected; clear differentiated silhouette, no serious alpha/style defect"
+    },
+    "beacon": {
+      "id": "beacon",
+      "description": {
+        "name": "Healing lantern",
+        "text": "Heals adjacent crew by 1 at round end. Some missions require protecting it.",
+        "icon": "\u2727",
+        "block": true,
+        "wood": false,
+        "metal": false
+      },
+      "status": "reviewed",
+      "processed": "art-production/objects/processed/beacon.png",
+      "source": "art-production/objects/raw/beacon.png",
+      "maxBounds": [
+        66,
+        62
+      ],
+      "defaultGeneratedSource": "art-production/objects/raw/beacon.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceSHA256": "ce1eae7a2ec4ec0480b22c3241d45ff4caa4a5dca960dc8b53f4f50810529896",
+      "processedSHA256": "8a052d9056d4994b9c0e50b3924fd53549dcf81541924933df4992cf32c32530",
+      "bounds": [
+        19,
+        10,
+        60,
+        72
+      ],
+      "qa": {
+        "transparentCorners": true,
+        "alphaPreserved": true,
+        "resize": "visible alpha >16 crop and Lanczos only; original alpha preserved inside crop",
+        "visualReview": "broad simple silhouette; review contact sheet"
+      },
+      "footprintMax": [
+        66,
+        62
+      ],
+      "promptPath": "art-production/objects/prompts/beacon.txt",
+      "referencePaths": [
+        "art-pilot/builtin-simple80/reference-character-strip.png",
+        "art-pilot/builtin-simple80/raw/ally-1.png",
+        "art-pilot/builtin-simple80/raw/tree.png",
+        "art-pilot/builtin-simple80/raw/wall.png",
+        "art-pilot/builtin-simple80/raw/fan.png"
+      ],
+      "generationTool": "built-in image_gen; backend model ID not exposed",
+      "native80": false,
+      "visibleBounds": [
+        19,
+        10,
+        60,
+        72
+      ],
+      "visualReview": "80px light and 40px dark contact sheets inspected; clear differentiated silhouette, no serious alpha/style defect"
+    },
+    "vine": {
+      "id": "vine",
+      "description": {
+        "name": "Binding tree",
+        "text": "Roots adjacent enemies for their next turn. Also blocks shots and burns.",
+        "icon": "\u2767",
+        "block": true,
+        "wood": true,
+        "metal": false
+      },
+      "status": "reviewed",
+      "processed": "art-production/objects/processed/vine.png",
+      "source": "art-production/objects/raw/vine.png",
+      "maxBounds": [
+        66,
+        62
+      ],
+      "defaultGeneratedSource": "art-production/objects/raw/vine.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceSHA256": "6796da5e6ba5bf241954b8a40c6e7cac779a008ab2639017bd89f110c1326d29",
+      "processedSHA256": "89ed7fd405215b7f5b512b2512da1ecd8276a977bc12f4392dc2ddefcf06baa4",
+      "bounds": [
+        12,
+        10,
+        68,
+        72
+      ],
+      "qa": {
+        "transparentCorners": true,
+        "alphaPreserved": true,
+        "resize": "visible alpha >16 crop and Lanczos only; original alpha preserved inside crop",
+        "visualReview": "broad simple silhouette; review contact sheet"
+      },
+      "footprintMax": [
+        66,
+        62
+      ],
+      "promptPath": "art-production/objects/prompts/vine.txt",
+      "referencePaths": [
+        "art-pilot/builtin-simple80/reference-character-strip.png",
+        "art-pilot/builtin-simple80/raw/ally-1.png",
+        "art-pilot/builtin-simple80/raw/tree.png",
+        "art-pilot/builtin-simple80/raw/wall.png",
+        "art-pilot/builtin-simple80/raw/fan.png"
+      ],
+      "generationTool": "built-in image_gen; backend model ID not exposed",
+      "native80": false,
+      "visibleBounds": [
+        12,
+        10,
+        68,
+        72
+      ],
+      "visualReview": "80px light and 40px dark contact sheets inspected; clear differentiated silhouette, no serious alpha/style defect"
+    },
+    "maw": {
+      "id": "maw",
+      "description": {
+        "name": "Hungry maw",
+        "text": "Bites every neighboring unit for 1 at round end, including crew. Blocks shots.",
+        "icon": "\u2663",
+        "block": true,
+        "wood": true,
+        "metal": false
+      },
+      "status": "reviewed",
+      "processed": "art-production/objects/processed/maw.png",
+      "source": "art-production/objects/raw/maw.png",
+      "maxBounds": [
+        66,
+        62
+      ],
+      "errors": [
+        "First output moderation_blocked: other; no image source created, request 35e00df7-4202-4f4e-a24e-51b3af0f0f43"
+      ],
+      "defaultGeneratedSource": "art-production/objects/raw/maw.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceSHA256": "279be886fac25140f615b9d516950d4ed74dce9dbba7efbd2d3f7b0dc5723570",
+      "processedSHA256": "7bada9c80d2dfbd8a0bdc479570ee21540522ba065b462035cb39081dfeb0613",
+      "bounds": [
+        8,
+        10,
+        72,
+        72
+      ],
+      "qa": {
+        "transparentCorners": true,
+        "alphaPreserved": true,
+        "resize": "visible alpha >16 crop and Lanczos only; original alpha preserved inside crop",
+        "visualReview": "broad simple silhouette; review contact sheet"
+      },
+      "footprintMax": [
+        66,
+        62
+      ],
+      "promptPath": "art-production/objects/prompts/maw.txt",
+      "referencePaths": [
+        "art-pilot/builtin-simple80/reference-character-strip.png",
+        "art-pilot/builtin-simple80/raw/ally-1.png",
+        "art-pilot/builtin-simple80/raw/tree.png",
+        "art-pilot/builtin-simple80/raw/wall.png",
+        "art-pilot/builtin-simple80/raw/fan.png"
+      ],
+      "generationTool": "built-in image_gen; backend model ID not exposed",
+      "native80": false,
+      "visibleBounds": [
+        8,
+        10,
+        72,
+        72
+      ],
+      "visualReview": "80px light and 40px dark contact sheets inspected; clear differentiated silhouette, no serious alpha/style defect",
+      "previousPromptPath": "art-production/objects/prompts/maw-attempt1-rejected.txt"
+    },
+    "haste": {
+      "id": "haste",
+      "description": {
+        "name": "Hearth totem",
+        "text": "Allies within 1 tile begin the next round with 4 move points.",
+        "icon": "\u2668",
+        "block": true,
+        "wood": true,
+        "metal": false
+      },
+      "status": "reviewed",
+      "processed": "art-production/objects/processed/haste.png",
+      "source": "art-production/objects/raw/haste.png",
+      "maxBounds": [
+        66,
+        62
+      ],
+      "defaultGeneratedSource": "art-production/objects/raw/haste.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceSHA256": "215f3dea7f239a86a67da9b9a8a14142ff011635785aebf20927c81d986bad46",
+      "processedSHA256": "4ffa0936f026eed83c1e90797c716f7143032dee9f303f4b6e2c1e698e051f51",
+      "bounds": [
+        20,
+        10,
+        60,
+        72
+      ],
+      "qa": {
+        "transparentCorners": true,
+        "alphaPreserved": true,
+        "resize": "visible alpha >16 crop and Lanczos only; original alpha preserved inside crop",
+        "visualReview": "broad simple silhouette; review contact sheet"
+      },
+      "footprintMax": [
+        66,
+        62
+      ],
+      "promptPath": "art-production/objects/prompts/haste.txt",
+      "referencePaths": [
+        "art-pilot/builtin-simple80/reference-character-strip.png",
+        "art-pilot/builtin-simple80/raw/ally-1.png",
+        "art-pilot/builtin-simple80/raw/tree.png",
+        "art-pilot/builtin-simple80/raw/wall.png",
+        "art-pilot/builtin-simple80/raw/fan.png"
+      ],
+      "generationTool": "built-in image_gen; backend model ID not exposed",
+      "native80": false,
+      "visibleBounds": [
+        20,
+        10,
+        60,
+        72
+      ],
+      "visualReview": "80px light and 40px dark contact sheets inspected; clear differentiated silhouette, no serious alpha/style defect"
+    },
+    "blight": {
+      "id": "blight",
+      "description": {
+        "name": "Blight totem",
+        "text": "Turns neighboring ground to poison at round end. Burns like wood.",
+        "icon": "\u2637",
+        "block": true,
+        "wood": true,
+        "metal": false
+      },
+      "status": "reviewed",
+      "processed": "art-production/objects/processed/blight.png",
+      "source": "art-production/objects/raw/blight.png",
+      "maxBounds": [
+        66,
+        62
+      ],
+      "defaultGeneratedSource": "art-production/objects/raw/blight.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceSHA256": "b9f403d60129a3ec06a45bb6a38b5e2599f5d5266416d6147aa051e4a6dc484d",
+      "processedSHA256": "7e160c255eb58adf286fc3e6898d5f61ebae9bb1d6fa6b26a74004a8d35e37cd",
+      "bounds": [
+        18,
+        10,
+        61,
+        72
+      ],
+      "qa": {
+        "transparentCorners": true,
+        "alphaPreserved": true,
+        "resize": "visible alpha >16 crop and Lanczos only; original alpha preserved inside crop",
+        "visualReview": "broad simple silhouette; review contact sheet"
+      },
+      "footprintMax": [
+        66,
+        62
+      ],
+      "promptPath": "art-production/objects/prompts/blight.txt",
+      "referencePaths": [
+        "art-pilot/builtin-simple80/reference-character-strip.png",
+        "art-pilot/builtin-simple80/raw/ally-1.png",
+        "art-pilot/builtin-simple80/raw/tree.png",
+        "art-pilot/builtin-simple80/raw/wall.png",
+        "art-pilot/builtin-simple80/raw/fan.png"
+      ],
+      "generationTool": "built-in image_gen; backend model ID not exposed",
+      "native80": false,
+      "visibleBounds": [
+        18,
+        10,
+        61,
+        72
+      ],
+      "visualReview": "80px light and 40px dark contact sheets inspected; clear differentiated silhouette, no serious alpha/style defect"
+    },
+    "pump": {
+      "id": "pump",
+      "description": {
+        "name": "Flow pump",
+        "text": "Interact to rotate all river directions clockwise.",
+        "icon": "\u27f3",
+        "block": true,
+        "wood": false,
+        "metal": true
+      },
+      "status": "reviewed",
+      "processed": "art-production/objects/processed/pump.png",
+      "source": "art-production/objects/raw/pump.png",
+      "maxBounds": [
+        66,
+        62
+      ],
+      "defaultGeneratedSource": "art-production/objects/raw/pump.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceSHA256": "1d94a086514279e122c0a506cbf59a7a99f557939f6457d38692daf615e71933",
+      "processedSHA256": "430c2cd9ed8fa112f622434bee2425ad3f5bc7dd723928e5d28c20a24f140cb0",
+      "bounds": [
+        12,
+        10,
+        68,
+        72
+      ],
+      "qa": {
+        "transparentCorners": true,
+        "alphaPreserved": true,
+        "resize": "visible alpha >16 crop and Lanczos only; original alpha preserved inside crop",
+        "visualReview": "broad simple silhouette; review contact sheet"
+      },
+      "footprintMax": [
+        66,
+        62
+      ],
+      "promptPath": "art-production/objects/prompts/pump.txt",
+      "referencePaths": [
+        "art-pilot/builtin-simple80/reference-character-strip.png",
+        "art-pilot/builtin-simple80/raw/ally-1.png",
+        "art-pilot/builtin-simple80/raw/tree.png",
+        "art-pilot/builtin-simple80/raw/wall.png",
+        "art-pilot/builtin-simple80/raw/fan.png"
+      ],
+      "generationTool": "built-in image_gen; backend model ID not exposed",
+      "native80": false,
+      "visibleBounds": [
+        12,
+        10,
+        68,
+        72
+      ],
+      "visualReview": "80px light and 40px dark contact sheets inspected; clear differentiated silhouette, no serious alpha/style defect"
+    },
+    "generator": {
+      "id": "generator",
+      "description": {
+        "name": "Live generator",
+        "text": "During storms, damages all neighboring units for 1. Can be demolished.",
+        "icon": "\u03df",
+        "block": true,
+        "wood": false,
+        "metal": true
+      },
+      "status": "reviewed",
+      "processed": "art-production/objects/processed/generator.png",
+      "source": "art-production/objects/raw/generator.png",
+      "maxBounds": [
+        66,
+        62
+      ],
+      "defaultGeneratedSource": "art-production/objects/raw/generator.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceSHA256": "8329ba6dc19f676a1e04bd3fbbab7433486478cc74dd762f75c290360034cea2",
+      "processedSHA256": "2004b9ba388325d35ff7042d77c95990fe4150e1a4d308029da640a121510913",
+      "bounds": [
+        7,
+        20,
+        73,
+        72
+      ],
+      "qa": {
+        "transparentCorners": true,
+        "alphaPreserved": true,
+        "resize": "visible alpha >16 crop and Lanczos only; original alpha preserved inside crop",
+        "visualReview": "broad simple silhouette; review contact sheet"
+      },
+      "footprintMax": [
+        66,
+        62
+      ],
+      "promptPath": "art-production/objects/prompts/generator.txt",
+      "referencePaths": [
+        "art-pilot/builtin-simple80/reference-character-strip.png",
+        "art-pilot/builtin-simple80/raw/ally-1.png",
+        "art-pilot/builtin-simple80/raw/tree.png",
+        "art-pilot/builtin-simple80/raw/wall.png",
+        "art-pilot/builtin-simple80/raw/fan.png"
+      ],
+      "generationTool": "built-in image_gen; backend model ID not exposed",
+      "native80": false,
+      "visibleBounds": [
+        7,
+        20,
+        73,
+        72
+      ],
+      "visualReview": "80px light and 40px dark contact sheets inspected; clear differentiated silhouette, no serious alpha/style defect"
+    },
+    "switch": {
+      "id": "switch",
+      "description": {
+        "name": "Mechanism switch",
+        "text": "Interact to turn all fans and conveyors clockwise.",
+        "icon": "\u2318",
+        "block": false,
+        "wood": false,
+        "metal": true
+      },
+      "status": "reviewed",
+      "processed": "art-production/objects/processed/switch.png",
+      "source": "art-production/objects/raw/switch.png",
+      "maxBounds": [
+        66,
+        62
+      ],
+      "defaultGeneratedSource": "art-production/objects/raw/switch.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceSHA256": "262de3eced9bc8f90b4171d3f08d836778376fe008df48fe96081ca90ec4a8de",
+      "processedSHA256": "2588b065e89517e603e4d3d71a7873d4d35cf92e11cd908bbf476b78ab6fe5d4",
+      "bounds": [
+        13,
+        10,
+        66,
+        72
+      ],
+      "qa": {
+        "transparentCorners": true,
+        "alphaPreserved": true,
+        "resize": "visible alpha >16 crop and Lanczos only; original alpha preserved inside crop",
+        "visualReview": "broad simple silhouette; review contact sheet"
+      },
+      "footprintMax": [
+        66,
+        62
+      ],
+      "promptPath": "art-production/objects/prompts/switch.txt",
+      "referencePaths": [
+        "art-pilot/builtin-simple80/reference-character-strip.png",
+        "art-pilot/builtin-simple80/raw/ally-1.png",
+        "art-pilot/builtin-simple80/raw/tree.png",
+        "art-pilot/builtin-simple80/raw/wall.png",
+        "art-pilot/builtin-simple80/raw/fan.png"
+      ],
+      "generationTool": "built-in image_gen; backend model ID not exposed",
+      "native80": false,
+      "visibleBounds": [
+        13,
+        10,
+        66,
+        72
+      ],
+      "visualReview": "80px light and 40px dark contact sheets inspected; clear differentiated silhouette, no serious alpha/style defect"
+    },
+    "nest": {
+      "id": "nest",
+      "description": {
+        "name": "Machine nest",
+        "text": "Spawns a sentinel every 3 rounds if an adjacent tile is free.",
+        "icon": "\u25a5",
+        "block": true,
+        "wood": false,
+        "metal": true
+      },
+      "status": "reviewed",
+      "processed": "art-production/objects/processed/nest.png",
+      "source": "art-production/objects/raw/nest.png",
+      "maxBounds": [
+        66,
+        62
+      ],
+      "defaultGeneratedSource": "art-production/objects/raw/nest.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceSHA256": "4876604f98bbd1e867c4ef78b1a3bed32121d5b3846a850b554e823c934c47c4",
+      "processedSHA256": "63045eac8f2bffa0d354115898db2d1c82ed53645e852eef827c421ee98a6f1c",
+      "bounds": [
+        7,
+        11,
+        73,
+        72
+      ],
+      "qa": {
+        "transparentCorners": true,
+        "alphaPreserved": true,
+        "resize": "visible alpha >16 crop and Lanczos only; original alpha preserved inside crop",
+        "visualReview": "broad simple silhouette; review contact sheet"
+      },
+      "footprintMax": [
+        66,
+        62
+      ],
+      "promptPath": "art-production/objects/prompts/nest.txt",
+      "referencePaths": [
+        "art-pilot/builtin-simple80/reference-character-strip.png",
+        "art-pilot/builtin-simple80/raw/ally-1.png",
+        "art-pilot/builtin-simple80/raw/tree.png",
+        "art-pilot/builtin-simple80/raw/wall.png",
+        "art-pilot/builtin-simple80/raw/fan.png"
+      ],
+      "generationTool": "built-in image_gen; backend model ID not exposed",
+      "native80": false,
+      "visibleBounds": [
+        7,
+        11,
+        73,
+        72
+      ],
+      "visualReview": "80px light and 40px dark contact sheets inspected; clear differentiated silhouette, no serious alpha/style defect"
+    },
+    "cage": {
+      "id": "cage",
+      "description": {
+        "name": "Rescue cage",
+        "text": "Interact next to it or break it to free a controllable ally. The mission explains who is inside.",
+        "icon": "\u25a4",
+        "block": true,
+        "wood": false,
+        "metal": true
+      },
+      "status": "reviewed",
+      "processed": "art-production/objects/processed/cage.png",
+      "source": "art-production/objects/raw/cage.png",
+      "maxBounds": [
+        66,
+        62
+      ],
+      "defaultGeneratedSource": "art-production/objects/raw/cage.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceSHA256": "af1ec8cb840073105adb6425e6b7492540f5000fe8cbfd234001ee1ec2c01e54",
+      "processedSHA256": "ef30a0660aec09d531ebd403271e9a84089f5e51df3c74541c47aedc98d6d4f9",
+      "bounds": [
+        16,
+        10,
+        64,
+        72
+      ],
+      "qa": {
+        "transparentCorners": true,
+        "alphaPreserved": true,
+        "resize": "visible alpha >16 crop and Lanczos only; original alpha preserved inside crop",
+        "visualReview": "broad simple silhouette; review contact sheet"
+      },
+      "footprintMax": [
+        66,
+        62
+      ],
+      "promptPath": "art-production/objects/prompts/cage.txt",
+      "referencePaths": [
+        "art-pilot/builtin-simple80/reference-character-strip.png",
+        "art-pilot/builtin-simple80/raw/ally-1.png",
+        "art-pilot/builtin-simple80/raw/tree.png",
+        "art-pilot/builtin-simple80/raw/wall.png",
+        "art-pilot/builtin-simple80/raw/fan.png"
+      ],
+      "generationTool": "built-in image_gen; backend model ID not exposed",
+      "native80": false,
+      "visibleBounds": [
+        16,
+        10,
+        64,
+        72
+      ],
+      "visualReview": "80px light and 40px dark contact sheets inspected; clear differentiated silhouette, no serious alpha/style defect"
+    },
+    "supply": {
+      "id": "supply",
+      "description": {
+        "name": "Medical cache",
+        "text": "Collect by stepping onto it: restores 1 HP.",
+        "icon": "\u271a",
+        "block": false,
+        "wood": false,
+        "metal": false
+      },
+      "status": "reviewed",
+      "processed": "art-production/objects/processed/supply.png",
+      "source": "art-production/objects/raw/supply.png",
+      "maxBounds": [
+        66,
+        62
+      ],
+      "defaultGeneratedSource": "art-production/objects/raw/supply.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceSHA256": "9ddfac32f5e7019e8580a0e34c1c6dcff050c9b0374106e44ab5fee03b4d6236",
+      "processedSHA256": "ac4b0fb4447b264ce75fde807622a38a3f2c82036230e3c3fc64ca9386be19d5",
+      "bounds": [
+        7,
+        19,
+        73,
+        72
+      ],
+      "qa": {
+        "transparentCorners": true,
+        "alphaPreserved": true,
+        "resize": "visible alpha >16 crop and Lanczos only; original alpha preserved inside crop",
+        "visualReview": "broad simple silhouette; review contact sheet"
+      },
+      "footprintMax": [
+        66,
+        62
+      ],
+      "promptPath": "art-production/objects/prompts/supply.txt",
+      "referencePaths": [
+        "art-pilot/builtin-simple80/reference-character-strip.png",
+        "art-pilot/builtin-simple80/raw/ally-1.png",
+        "art-pilot/builtin-simple80/raw/tree.png",
+        "art-pilot/builtin-simple80/raw/wall.png",
+        "art-pilot/builtin-simple80/raw/fan.png"
+      ],
+      "generationTool": "built-in image_gen; backend model ID not exposed",
+      "native80": false,
+      "visibleBounds": [
+        7,
+        19,
+        73,
+        72
+      ],
+      "visualReview": "80px light and 40px dark contact sheets inspected; clear differentiated silhouette, no serious alpha/style defect"
+    },
+    "relic": {
+      "id": "relic",
+      "description": {
+        "name": "Archive fragment",
+        "text": "Collect by entering. Some missions require carrying a fragment to an exit. Its sealed casing withstands fire and shots.",
+        "icon": "\u25c8",
+        "block": false,
+        "wood": false,
+        "metal": false
+      },
+      "status": "reviewed",
+      "processed": "art-production/objects/processed/relic.png",
+      "source": "art-production/objects/raw/relic.png",
+      "maxBounds": [
+        66,
+        62
+      ],
+      "defaultGeneratedSource": "art-production/objects/raw/relic.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceSHA256": "d561189300f17d40d4fe51f1dfb7f80ce1c38085623db532647e00db65eaedf5",
+      "processedSHA256": "40fd9318f2f20ad762cf00de1e63806b0e71e76e1db34e2ecbf9072b3b141108",
+      "bounds": [
+        24,
+        10,
+        55,
+        72
+      ],
+      "qa": {
+        "transparentCorners": true,
+        "alphaPreserved": true,
+        "resize": "visible alpha >16 crop and Lanczos only; original alpha preserved inside crop",
+        "visualReview": "broad simple silhouette; review contact sheet"
+      },
+      "footprintMax": [
+        66,
+        62
+      ],
+      "promptPath": "art-production/objects/prompts/relic.txt",
+      "referencePaths": [
+        "art-pilot/builtin-simple80/reference-character-strip.png",
+        "art-pilot/builtin-simple80/raw/ally-1.png",
+        "art-pilot/builtin-simple80/raw/tree.png",
+        "art-pilot/builtin-simple80/raw/wall.png",
+        "art-pilot/builtin-simple80/raw/fan.png"
+      ],
+      "generationTool": "built-in image_gen; backend model ID not exposed",
+      "native80": false,
+      "visibleBounds": [
+        24,
+        10,
+        55,
+        72
+      ],
+      "visualReview": "80px light and 40px dark contact sheets inspected; clear differentiated silhouette, no serious alpha/style defect"
+    },
+    "console": {
+      "id": "console",
+      "description": {
+        "name": "Relay console",
+        "text": "Interact next to it to seal or repair it. Sealed consoles become safe ground.",
+        "icon": "\u25a3",
+        "block": true,
+        "wood": false,
+        "metal": true
+      },
+      "status": "reviewed",
+      "processed": "art-production/objects/processed/console.png",
+      "source": "art-production/objects/raw/console.png",
+      "maxBounds": [
+        66,
+        62
+      ],
+      "defaultGeneratedSource": "art-production/objects/raw/console.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceSHA256": "33029b1bcde4a7383a40810e8d99a0b5ad0aaa90b8493e4cf2b3163a7f241af0",
+      "processedSHA256": "510d93999ab20939f4b87bb8bbf5e846f6514965db0b361080ac93cb834d4c72",
+      "bounds": [
+        8,
+        10,
+        71,
+        72
+      ],
+      "qa": {
+        "transparentCorners": true,
+        "alphaPreserved": true,
+        "resize": "visible alpha >16 crop and Lanczos only; original alpha preserved inside crop",
+        "visualReview": "broad simple silhouette; review contact sheet"
+      },
+      "footprintMax": [
+        66,
+        62
+      ],
+      "promptPath": "art-production/objects/prompts/console.txt",
+      "referencePaths": [
+        "art-pilot/builtin-simple80/reference-character-strip.png",
+        "art-pilot/builtin-simple80/raw/ally-1.png",
+        "art-pilot/builtin-simple80/raw/tree.png",
+        "art-pilot/builtin-simple80/raw/wall.png",
+        "art-pilot/builtin-simple80/raw/fan.png"
+      ],
+      "generationTool": "built-in image_gen; backend model ID not exposed",
+      "native80": false,
+      "visibleBounds": [
+        8,
+        10,
+        71,
+        72
+      ],
+      "visualReview": "80px light and 40px dark contact sheets inspected; clear differentiated silhouette, no serious alpha/style defect"
+    },
+    "cart": {
+      "id": "cart",
+      "description": {
+        "name": "Evacuation cart",
+        "text": "Push or grapple this armored cart onto the gold delivery pad. It stops shots safely, but an explosion can destroy it.",
+        "icon": "\u25b0",
+        "block": true,
+        "wood": false,
+        "metal": true
+      },
+      "status": "reviewed",
+      "processed": "art-production/objects/processed/cart.png",
+      "source": "art-production/objects/raw/cart.png",
+      "maxBounds": [
+        66,
+        62
+      ],
+      "defaultGeneratedSource": "art-production/objects/raw/cart.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "sourceSHA256": "1538c8ea19e30064e856c007ef29403de9c9446cc23d768250d29734f60bc94b",
+      "processedSHA256": "eaf2a7fce03081f75f0e46d7d278507c98c76fe22fc44a0457f60f2ed6a8aa30",
+      "bounds": [
+        7,
+        27,
+        73,
+        72
+      ],
+      "qa": {
+        "transparentCorners": true,
+        "alphaPreserved": true,
+        "resize": "visible alpha >16 crop and Lanczos only; original alpha preserved inside crop",
+        "visualReview": "broad simple silhouette; review contact sheet"
+      },
+      "footprintMax": [
+        66,
+        62
+      ],
+      "promptPath": "art-production/objects/prompts/cart.txt",
+      "referencePaths": [
+        "art-pilot/builtin-simple80/reference-character-strip.png",
+        "art-pilot/builtin-simple80/raw/ally-1.png",
+        "art-pilot/builtin-simple80/raw/tree.png",
+        "art-pilot/builtin-simple80/raw/wall.png",
+        "art-pilot/builtin-simple80/raw/fan.png"
+      ],
+      "generationTool": "built-in image_gen; backend model ID not exposed",
+      "native80": false,
+      "visibleBounds": [
+        7,
+        27,
+        73,
+        72
+      ],
+      "visualReview": "80px light and 40px dark contact sheets inspected; clear differentiated silhouette, no serious alpha/style defect"
+    },
+    "anchor": {
+      "id": "anchor",
+      "description": {
+        "name": "Anchor stone",
+        "text": "Prevents forced movement of neighboring units. Can be demolished.",
+        "icon": "\u2693",
+        "block": true,
+        "wood": false,
+        "metal": false
+      },
+      "status": "reviewed",
+      "processed": "art-production/objects/processed/anchor.png",
+      "source": "art-production/objects/raw/anchor.png",
+      "maxBounds": [
+        66,
+        62
+      ],
+      "defaultGeneratedSource": "art-production/objects/raw/anchor.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceSHA256": "0d19415b41112f75daf725af80304c82788ef741bcbf8b691e41c001f9aae550",
+      "processedSHA256": "58a91d850483716ee543386557e52504a5b9cfbc3ba420878c8664c11e5d441d",
+      "bounds": [
+        12,
+        10,
+        67,
+        72
+      ],
+      "qa": {
+        "transparentCorners": true,
+        "alphaPreserved": true,
+        "resize": "visible alpha >16 crop and Lanczos only; original alpha preserved inside crop",
+        "visualReview": "broad simple silhouette; review contact sheet"
+      },
+      "footprintMax": [
+        66,
+        62
+      ],
+      "promptPath": "art-production/objects/prompts/anchor.txt",
+      "referencePaths": [
+        "art-pilot/builtin-simple80/reference-character-strip.png",
+        "art-pilot/builtin-simple80/raw/ally-1.png",
+        "art-pilot/builtin-simple80/raw/tree.png",
+        "art-pilot/builtin-simple80/raw/wall.png",
+        "art-pilot/builtin-simple80/raw/fan.png"
+      ],
+      "generationTool": "built-in image_gen; backend model ID not exposed",
+      "native80": false,
+      "visibleBounds": [
+        12,
+        10,
+        67,
+        72
+      ],
+      "visualReview": "80px light and 40px dark contact sheets inspected; clear differentiated silhouette, no serious alpha/style defect"
+    },
+    "emitter": {
+      "id": "emitter",
+      "description": {
+        "name": "Shield emitter",
+        "text": "At round end gives every adjacent unit a one-hit shield. Works for both teams.",
+        "icon": "\u2b21",
+        "block": true,
+        "wood": false,
+        "metal": true
+      },
+      "status": "reviewed",
+      "processed": "art-production/objects/processed/emitter.png",
+      "source": "art-production/objects/raw/emitter.png",
+      "maxBounds": [
+        66,
+        62
+      ],
+      "defaultGeneratedSource": "art-production/objects/raw/emitter.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceSHA256": "6eb0bbdc32d4257cd965394ca1e53f320e8b658ddc4d36d75260cff294d73546",
+      "processedSHA256": "58f3bb3f4a6e1ecd6d93d3881783018f855235f60d4515e9caf63febe401af16",
+      "bounds": [
+        18,
+        10,
+        62,
+        72
+      ],
+      "qa": {
+        "transparentCorners": true,
+        "alphaPreserved": true,
+        "resize": "visible alpha >16 crop and Lanczos only; original alpha preserved inside crop",
+        "visualReview": "broad simple silhouette; review contact sheet"
+      },
+      "footprintMax": [
+        66,
+        62
+      ],
+      "promptPath": "art-production/objects/prompts/emitter.txt",
+      "referencePaths": [
+        "art-pilot/builtin-simple80/reference-character-strip.png",
+        "art-pilot/builtin-simple80/raw/ally-1.png",
+        "art-pilot/builtin-simple80/raw/tree.png",
+        "art-pilot/builtin-simple80/raw/wall.png",
+        "art-pilot/builtin-simple80/raw/fan.png"
+      ],
+      "generationTool": "built-in image_gen; backend model ID not exposed",
+      "native80": false,
+      "visibleBounds": [
+        18,
+        10,
+        62,
+        72
+      ],
+      "visualReview": "80px light and 40px dark contact sheets inspected; clear differentiated silhouette, no serious alpha/style defect"
+    },
+    "glass": {
+      "id": "glass",
+      "description": {
+        "name": "Thin glass",
+        "text": "Shatters on entry. The tile remains walkable.",
+        "icon": "\u25b1",
+        "block": false,
+        "wood": false,
+        "metal": false
+      },
+      "status": "reviewed",
+      "processed": "art-production/objects/processed/glass.png",
+      "source": "art-production/objects/raw/glass.png",
+      "maxBounds": [
+        66,
+        62
+      ],
+      "defaultGeneratedSource": "art-production/objects/raw/glass.png",
+      "sourceSize": [
+        1774,
+        887
+      ],
+      "sourceSHA256": "c4dd0ed6b52e413b0b1faa6429847a9f7c48692d348704db31ca3dcaa9c7443d",
+      "processedSHA256": "9a5e6ceb701266c334c77eef12a8fdfea978f4283d110b4b23e12f38d8fb30ed",
+      "bounds": [
+        10,
+        55,
+        70,
+        72
+      ],
+      "qa": {
+        "transparentCorners": true,
+        "alphaPreserved": true,
+        "resize": "visible alpha >16 crop and Lanczos only; original alpha preserved inside crop",
+        "visualReview": "broad simple silhouette; review contact sheet"
+      },
+      "footprintMax": [
+        60,
+        24
+      ],
+      "promptPath": "art-production/objects/prompts/glass.txt",
+      "referencePaths": [
+        "art-pilot/builtin-simple80/reference-character-strip.png",
+        "art-pilot/builtin-simple80/raw/ally-1.png",
+        "art-pilot/builtin-simple80/raw/tree.png",
+        "art-pilot/builtin-simple80/raw/wall.png",
+        "art-pilot/builtin-simple80/raw/fan.png"
+      ],
+      "generationTool": "built-in image_gen; backend model ID not exposed",
+      "native80": false,
+      "visibleBounds": [
+        10,
+        55,
+        70,
+        72
+      ],
+      "visualReview": "80px light and 40px dark contact sheets inspected; clear differentiated silhouette, no serious alpha/style defect"
+    },
+    "oil": {
+      "id": "oil",
+      "description": {
+        "name": "Oil cask",
+        "text": "Ignites its cross when hit or burned. Can be pushed.",
+        "icon": "\u25cd",
+        "block": true,
+        "wood": true,
+        "metal": false
+      },
+      "status": "reviewed",
+      "processed": "art-production/objects/processed/oil.png",
+      "source": "art-production/objects/raw/oil.png",
+      "maxBounds": [
+        66,
+        62
+      ],
+      "defaultGeneratedSource": "art-production/objects/raw/oil.png",
+      "sourceSize": [
+        1312,
+        1199
+      ],
+      "sourceSHA256": "3db442282d5ef849c330d93df3b3cd028d512a5652700bc1ad842b3f28077990",
+      "processedSHA256": "4dbdd1f6ca91e3e3dbda97f0bbcbc2afe6d05832d44f48343d0e35a9cc3f9a95",
+      "bounds": [
+        9,
+        10,
+        70,
+        72
+      ],
+      "qa": {
+        "transparentCorners": true,
+        "alphaPreserved": true,
+        "resize": "visible alpha >16 crop and Lanczos only; original alpha preserved inside crop",
+        "visualReview": "broad simple silhouette; review contact sheet"
+      },
+      "footprintMax": [
+        66,
+        62
+      ],
+      "promptPath": "art-production/objects/prompts/oil.txt",
+      "referencePaths": [
+        "art-pilot/builtin-simple80/reference-character-strip.png",
+        "art-pilot/builtin-simple80/raw/ally-1.png",
+        "art-pilot/builtin-simple80/raw/tree.png",
+        "art-pilot/builtin-simple80/raw/wall.png",
+        "art-pilot/builtin-simple80/raw/fan.png"
+      ],
+      "generationTool": "built-in image_gen; backend model ID not exposed",
+      "native80": false,
+      "visibleBounds": [
+        9,
+        10,
+        70,
+        72
+      ],
+      "visualReview": "80px light and 40px dark contact sheets inspected; clear differentiated silhouette, no serious alpha/style defect"
+    },
+    "bell": {
+      "id": "bell",
+      "description": {
+        "name": "Signal bell",
+        "text": "Draws enemy movement toward itself. Ring by interacting to stun adjacent enemies.",
+        "icon": "\u266b",
+        "block": true,
+        "wood": false,
+        "metal": true
+      },
+      "status": "reviewed",
+      "processed": "art-production/objects/processed/bell.png",
+      "source": "art-production/objects/raw/bell.png",
+      "maxBounds": [
+        66,
+        62
+      ],
+      "defaultGeneratedSource": "art-production/objects/raw/bell.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceSHA256": "ca864b6016efb5a65b4d940d4a3dca8671b3232b653e3f70d02292d8fed933c0",
+      "processedSHA256": "8a82720fa220b764869ca3f03c4399d7ee20d0b4194b4b742e907849f18a1159",
+      "bounds": [
+        7,
+        10,
+        73,
+        72
+      ],
+      "qa": {
+        "transparentCorners": true,
+        "alphaPreserved": true,
+        "resize": "visible alpha >16 crop and Lanczos only; original alpha preserved inside crop",
+        "visualReview": "broad simple silhouette; review contact sheet"
+      },
+      "footprintMax": [
+        66,
+        62
+      ],
+      "promptPath": "art-production/objects/prompts/bell.txt",
+      "referencePaths": [
+        "art-pilot/builtin-simple80/reference-character-strip.png",
+        "art-pilot/builtin-simple80/raw/ally-1.png",
+        "art-pilot/builtin-simple80/raw/tree.png",
+        "art-pilot/builtin-simple80/raw/wall.png",
+        "art-pilot/builtin-simple80/raw/fan.png"
+      ],
+      "generationTool": "built-in image_gen; backend model ID not exposed",
+      "native80": false,
+      "visibleBounds": [
+        7,
+        10,
+        73,
+        72
+      ],
+      "visualReview": "80px light and 40px dark contact sheets inspected; clear differentiated silhouette, no serious alpha/style defect"
+    },
+    "rod": {
+      "id": "rod",
+      "description": {
+        "name": "Lightning rod",
+        "text": "Intercepts storm damage on itself and keeps adjacent units safe from storms.",
+        "icon": "\u03df",
+        "block": true,
+        "wood": false,
+        "metal": true
+      },
+      "status": "reviewed",
+      "processed": "art-production/objects/processed/rod.png",
+      "source": "art-production/objects/raw/rod.png",
+      "maxBounds": [
+        66,
+        62
+      ],
+      "defaultGeneratedSource": "art-production/objects/raw/rod.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceSHA256": "552a6ff8a950e4c7d126970dfef9cc573215b8ade4c7a5cb5eb3260ca64688a9",
+      "processedSHA256": "32e1a3ba23fef2030afcebe0772ddfbcabd071a9d93036b1e85e60ee1537dc92",
+      "bounds": [
+        29,
+        10,
+        51,
+        72
+      ],
+      "qa": {
+        "transparentCorners": true,
+        "alphaPreserved": true,
+        "resize": "visible alpha >16 crop and Lanczos only; original alpha preserved inside crop",
+        "visualReview": "broad simple silhouette; review contact sheet"
+      },
+      "footprintMax": [
+        66,
+        62
+      ],
+      "promptPath": "art-production/objects/prompts/rod.txt",
+      "referencePaths": [
+        "art-pilot/builtin-simple80/reference-character-strip.png",
+        "art-pilot/builtin-simple80/raw/ally-1.png",
+        "art-pilot/builtin-simple80/raw/tree.png",
+        "art-pilot/builtin-simple80/raw/wall.png",
+        "art-pilot/builtin-simple80/raw/fan.png"
+      ],
+      "generationTool": "built-in image_gen; backend model ID not exposed",
+      "native80": false,
+      "visibleBounds": [
+        29,
+        10,
+        51,
+        72
+      ],
+      "visualReview": "80px light and 40px dark contact sheets inspected; clear differentiated silhouette, no serious alpha/style defect"
+    },
+    "drain": {
+      "id": "drain",
+      "description": {
+        "name": "Drain grate",
+        "text": "Stops a current on this tile. Occupants leave water here and stop.",
+        "icon": "\u22a1",
+        "block": false,
+        "wood": false,
+        "metal": true
+      },
+      "status": "reviewed",
+      "processed": "art-production/objects/processed/drain.png",
+      "source": "art-production/objects/raw/drain.png",
+      "maxBounds": [
+        66,
+        62
+      ],
+      "defaultGeneratedSource": "art-production/objects/raw/drain.png",
+      "sourceSize": [
+        1375,
+        1144
+      ],
+      "sourceSHA256": "f0fed68418002dbf3d1d8c735524a728b70dfdf923bb19c31c0eced4b027f01e",
+      "processedSHA256": "970f1cf2f01fcd0373a3d9aa58f6611b5dfd08f51b2194aa003d2cef40882350",
+      "bounds": [
+        20,
+        48,
+        60,
+        72
+      ],
+      "qa": {
+        "transparentCorners": true,
+        "alphaPreserved": true,
+        "resize": "visible alpha >16 crop and Lanczos only; original alpha preserved inside crop",
+        "visualReview": "broad simple silhouette; review contact sheet"
+      },
+      "footprintMax": [
+        58,
+        24
+      ],
+      "promptPath": "art-production/objects/prompts/drain.txt",
+      "referencePaths": [
+        "art-pilot/builtin-simple80/reference-character-strip.png",
+        "art-pilot/builtin-simple80/raw/ally-1.png",
+        "art-pilot/builtin-simple80/raw/tree.png",
+        "art-pilot/builtin-simple80/raw/wall.png",
+        "art-pilot/builtin-simple80/raw/fan.png"
+      ],
+      "generationTool": "built-in image_gen; backend model ID not exposed",
+      "native80": false,
+      "visibleBounds": [
+        20,
+        48,
+        60,
+        72
+      ],
+      "visualReview": "80px light and 40px dark contact sheets inspected; clear differentiated silhouette, no serious alpha/style defect"
+    },
+    "sign": {
+      "id": "sign",
+      "description": {
+        "name": "Field marker",
+        "text": "Interact to hear an optional clue from the district\u2019s residents.",
+        "icon": "\u2690",
+        "block": false,
+        "wood": false,
+        "metal": false
+      },
+      "status": "reviewed",
+      "processed": "art-production/objects/processed/sign.png",
+      "source": "art-production/objects/raw/sign.png",
+      "maxBounds": [
+        66,
+        62
+      ],
+      "defaultGeneratedSource": "art-production/objects/raw/sign.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceSHA256": "ba83b34cb6c6fb8f6c1fb9e158f1b1dafa6796544f18373242c17fc67e02e4c9",
+      "processedSHA256": "b76e08319ee1c9767b691d0d166362bc9a438b7e9d0cda97eac3308fda5df0e7",
+      "bounds": [
+        10,
+        10,
+        70,
+        72
+      ],
+      "qa": {
+        "transparentCorners": true,
+        "alphaPreserved": true,
+        "resize": "visible alpha >16 crop and Lanczos only; original alpha preserved inside crop",
+        "visualReview": "broad simple silhouette; review contact sheet"
+      },
+      "footprintMax": [
+        66,
+        62
+      ],
+      "promptPath": "art-production/objects/prompts/sign.txt",
+      "referencePaths": [
+        "art-pilot/builtin-simple80/reference-character-strip.png",
+        "art-pilot/builtin-simple80/raw/ally-1.png",
+        "art-pilot/builtin-simple80/raw/tree.png",
+        "art-pilot/builtin-simple80/raw/wall.png",
+        "art-pilot/builtin-simple80/raw/fan.png"
+      ],
+      "generationTool": "built-in image_gen; backend model ID not exposed",
+      "native80": false,
+      "visibleBounds": [
+        10,
+        10,
+        70,
+        72
+      ],
+      "visualReview": "80px light and 40px dark contact sheets inspected; clear differentiated silhouette, no serious alpha/style defect"
+    }
+  }
+}

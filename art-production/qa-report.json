@@ -1,0 +1,3153 @@
+{
+  "total": 131,
+  "complete": 131,
+  "missing": [],
+  "errors": [],
+  "warnings": [],
+  "assets": [
+    {
+      "id": "roles/vanguard",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        18,
+        10,
+        62,
+        72
+      ],
+      "visibleBounds": [
+        18,
+        10,
+        62,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "ad314bcc7f11e81728f745f1efd5ea9a253626364da5eb3bdc050ddab6be758a"
+    },
+    {
+      "id": "roles/ranger",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        18,
+        10,
+        61,
+        72
+      ],
+      "visibleBounds": [
+        18,
+        10,
+        61,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "8df80b72809ebf69b03427044cc6af9d1f13f62e5b7d84d9374d4ab40dbd138d"
+    },
+    {
+      "id": "roles/gardener",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        15,
+        10,
+        65,
+        72
+      ],
+      "visibleBounds": [
+        15,
+        10,
+        65,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "9038474fbbc3b51de3e75b2abce0ef32b1a60ac2dda79ed24dfe0a06ceb0f908"
+    },
+    {
+      "id": "roles/engineer",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        12,
+        10,
+        68,
+        72
+      ],
+      "visibleBounds": [
+        12,
+        10,
+        68,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "5b7b4c82c9f64962b01d908b3937555cde266f47619a163f038d432be84c6781"
+    },
+    {
+      "id": "roles/tidecaller",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        16,
+        10,
+        63,
+        72
+      ],
+      "visibleBounds": [
+        16,
+        10,
+        63,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "48b5dbb26d8216785de8b735d7e74f6c0f153c0a9a727626b1b67fb797e4e00f"
+    },
+    {
+      "id": "roles/archer",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        12,
+        10,
+        67,
+        72
+      ],
+      "visibleBounds": [
+        12,
+        10,
+        67,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "430d728297ecfcb72246cafbd3a4dd87c63c66e09c180b52a30468122f91a6a7"
+    },
+    {
+      "id": "roles/medic",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        21,
+        10,
+        59,
+        72
+      ],
+      "visibleBounds": [
+        21,
+        10,
+        59,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "2854eb7cef4dc5e7b0d11bb727e82a4f9dc9bf8f2a7039bc8ad5ab6088f34e7e"
+    },
+    {
+      "id": "roles/carrier",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        19,
+        10,
+        61,
+        72
+      ],
+      "visibleBounds": [
+        19,
+        10,
+        61,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "fc65067313df2d202cdf19ed22f3005f5953ac8a2f51fc0ba1cbc64a181d6c44"
+    },
+    {
+      "id": "roles/mawkeeper",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        16,
+        10,
+        63,
+        72
+      ],
+      "visibleBounds": [
+        16,
+        10,
+        63,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "afde1cf4d445c2aaf33a3f2996f52cbeebb036bbe5eba97f95b0c091c7c513d9"
+    },
+    {
+      "id": "roles/vinekeeper",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        15,
+        10,
+        64,
+        72
+      ],
+      "visibleBounds": [
+        15,
+        10,
+        64,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "ca581fc4a55704481ff60780fab6687b0370b1ef9872bd351089b51a30ab71af"
+    },
+    {
+      "id": "roles/shaman",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        14,
+        10,
+        66,
+        72
+      ],
+      "visibleBounds": [
+        14,
+        10,
+        66,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "f346ca0239cba4ca11da8a38924649ec7071232f9ee430be2506119fc8c06e60"
+    },
+    {
+      "id": "roles/blight",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        17,
+        10,
+        62,
+        72
+      ],
+      "visibleBounds": [
+        17,
+        10,
+        62,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "2b622d43e8ab18fd77df7fa1836a51a1e879c21a1557f91a212d9fd4aa2f4b03"
+    },
+    {
+      "id": "roles/bulldozer",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        14,
+        10,
+        65,
+        72
+      ],
+      "visibleBounds": [
+        14,
+        10,
+        65,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "a80826fc6621eb37a39e23a02eb801c28b79b7c5e23b4d3894ffd04ffd8876aa"
+    },
+    {
+      "id": "roles/witch",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        16,
+        10,
+        63,
+        72
+      ],
+      "visibleBounds": [
+        16,
+        10,
+        63,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "15c02181f9c5e44097206c46f1f3b17e435114b284ee9e0c90b76d18ca214d7e"
+    },
+    {
+      "id": "roles/astronomer",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        19,
+        10,
+        61,
+        72
+      ],
+      "visibleBounds": [
+        19,
+        10,
+        61,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "e1ce84d027ff4bf369a38885b1e7dacaa10cb5acec3510ab2e7977393852eb05"
+    },
+    {
+      "id": "roles/digger",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        9,
+        10,
+        70,
+        72
+      ],
+      "visibleBounds": [
+        9,
+        10,
+        70,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "e35c8ed1ff833795fa7c70fc033b6d03d616461675c139d85283c0d6f517897a"
+    },
+    {
+      "id": "roles/geomancer",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        18,
+        10,
+        62,
+        72
+      ],
+      "visibleBounds": [
+        18,
+        10,
+        62,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "12ac4187a1977d7a956a6121ce24b30ae9c651d149f76fbb2dce76e8298b4a4a"
+    },
+    {
+      "id": "roles/sapper",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        14,
+        10,
+        66,
+        72
+      ],
+      "visibleBounds": [
+        14,
+        10,
+        66,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "d7e14b6e96e11fafc4b81e34b4490135f9b5db36d81c559195e65898c43ff0d2"
+    },
+    {
+      "id": "roles/mirror",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        14,
+        10,
+        66,
+        72
+      ],
+      "visibleBounds": [
+        14,
+        10,
+        66,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "1085e390b110601ee4b5b16dba14a45cfd0f6675cdf9f2baebde37ba2f5871ff"
+    },
+    {
+      "id": "roles/blink",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        10,
+        10,
+        70,
+        72
+      ],
+      "visibleBounds": [
+        10,
+        10,
+        70,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "138163d5c1b21bf53489cc31a144bbfb4b4ca8c3b93ce2ba604003bce62db543"
+    },
+    {
+      "id": "roles/ferryman",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        12,
+        10,
+        68,
+        72
+      ],
+      "visibleBounds": [
+        12,
+        10,
+        68,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "2fa1c38610fe88cd18ebbf844656e1137c19741358bb588d5356888ec7c2bb3f"
+    },
+    {
+      "id": "roles/builder",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        12,
+        10,
+        67,
+        72
+      ],
+      "visibleBounds": [
+        12,
+        10,
+        67,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "f904aa7d52bb3a64e8eea4f3aa5cbde7f5439e8715c2e7b07a6720bb83f5fbab"
+    },
+    {
+      "id": "roles/alchemist",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        18,
+        10,
+        61,
+        72
+      ],
+      "visibleBounds": [
+        18,
+        10,
+        61,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "fc5627241485977eed15a3bda4f36395f9723fcd0b0f7974d97a862393ce3ced"
+    },
+    {
+      "id": "roles/firestarter",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        14,
+        10,
+        66,
+        72
+      ],
+      "visibleBounds": [
+        14,
+        10,
+        66,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "9ed0ce8e0e2c37b444c8be60693cd18ba67671ca7967ceca446e9b8bcebfa126"
+    },
+    {
+      "id": "roles/warden",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        17,
+        10,
+        63,
+        72
+      ],
+      "visibleBounds": [
+        17,
+        10,
+        63,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "2c690ca17bd26910e92285afd9004d28aa67fa7d31e5bb4fc80291ef3269b892"
+    },
+    {
+      "id": "roles/herder",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        14,
+        10,
+        65,
+        72
+      ],
+      "visibleBounds": [
+        14,
+        10,
+        65,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "2402b3df44308a8846d1960a35579db007da296df4e97549d24b02a21e7c73a9"
+    },
+    {
+      "id": "roles/gust",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        8,
+        10,
+        71,
+        72
+      ],
+      "visibleBounds": [
+        8,
+        10,
+        71,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "425c4056191014f70983332d4ee44fdc34b30ac95a68ced214c36dbf20a3d2cf"
+    },
+    {
+      "id": "roles/magnet",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        12,
+        10,
+        67,
+        72
+      ],
+      "visibleBounds": [
+        12,
+        10,
+        67,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "406ee4deef89ca993d96d05f8ae321faa4dc705789628523b4bfeecefe5e6a4c"
+    },
+    {
+      "id": "roles/courier",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        12,
+        10,
+        68,
+        72
+      ],
+      "visibleBounds": [
+        12,
+        10,
+        68,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "c95d212f9c46f753417f3e13969c7e90b8f83deb441c9e9f21021b3eabefba47"
+    },
+    {
+      "id": "roles/anchorite",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        14,
+        10,
+        66,
+        72
+      ],
+      "visibleBounds": [
+        14,
+        10,
+        66,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "7b568d25d3f9f2acd76d15fe45d90aa82fa26d69f11f77ed3714d8cc11ac8ec8"
+    },
+    {
+      "id": "roles/tinkerer",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        13,
+        10,
+        66,
+        72
+      ],
+      "visibleBounds": [
+        13,
+        10,
+        66,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "f1f9ae0c7d4cdf6af490c328a1d5eb6edfb7e483241db16c9a4d9385ac262120"
+    },
+    {
+      "id": "roles/conductor",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        16,
+        10,
+        64,
+        72
+      ],
+      "visibleBounds": [
+        16,
+        10,
+        64,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "cd082f87468712b648c9e98644d1fb721b34d9247249829b848243378e95d1ed"
+    },
+    {
+      "id": "roles/weaver",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        11,
+        10,
+        69,
+        72
+      ],
+      "visibleBounds": [
+        11,
+        10,
+        69,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "71c663e106aba666032ca77344c9fa672496c5042ecce1cb1f186e1f5ad631e4"
+    },
+    {
+      "id": "roles/siren",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        14,
+        10,
+        65,
+        72
+      ],
+      "visibleBounds": [
+        14,
+        10,
+        65,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "30eadd5ed9d527c5cd2658f1f33f247cae709624c43ccc4ace214a06fa6cdc81"
+    },
+    {
+      "id": "roles/icewright",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        16,
+        10,
+        63,
+        72
+      ],
+      "visibleBounds": [
+        16,
+        10,
+        63,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "00909a0b60275083a9f25daa34250957f8a5601491826c65d66b7e1080fcfa34"
+    },
+    {
+      "id": "roles/beekeeper",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        13,
+        10,
+        66,
+        72
+      ],
+      "visibleBounds": [
+        13,
+        10,
+        66,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "f61a1a9fd3fc372bcba51e450e7e81c39852fd3f4bcc0fe6aea4cf2bcb2aac84"
+    },
+    {
+      "id": "roles/demolition",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        13,
+        10,
+        67,
+        72
+      ],
+      "visibleBounds": [
+        13,
+        10,
+        67,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "40fa21169a18b25a8ab097cc1321bcd2331e3513aba2fd7189525fe737fd8693"
+    },
+    {
+      "id": "roles/recaller",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        17,
+        10,
+        62,
+        72
+      ],
+      "visibleBounds": [
+        17,
+        10,
+        62,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "5907405af47b49b5479e348fa6f139cfbcf036f5444d34e8a58250815683eb72"
+    },
+    {
+      "id": "roles/scout",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        11,
+        10,
+        69,
+        72
+      ],
+      "visibleBounds": [
+        11,
+        10,
+        69,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "173422063c52a1fd7d151bba5acecbf083594442127d7279fef4fa04fbb872dd"
+    },
+    {
+      "id": "roles/liberator",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        10,
+        10,
+        69,
+        72
+      ],
+      "visibleBounds": [
+        10,
+        10,
+        69,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "412641675fc1222a9d2677168bf7067357210fd4602ff8915a537efa5d5d529b"
+    },
+    {
+      "id": "roles/harvester",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        7,
+        11,
+        73,
+        72
+      ],
+      "visibleBounds": [
+        7,
+        11,
+        73,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "569c434ce84d95d74226e47a6ec4f8cb28726ade6b699ac86401a47c896d2bd3"
+    },
+    {
+      "id": "roles/plumber",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        12,
+        10,
+        67,
+        72
+      ],
+      "visibleBounds": [
+        12,
+        10,
+        67,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "b6d9e3f76ff86dd92214027efcd0dc39cf90d48d246e01fbd408bffcb012158c"
+    },
+    {
+      "id": "roles/rainmaker",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        19,
+        10,
+        61,
+        72
+      ],
+      "visibleBounds": [
+        19,
+        10,
+        61,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "7476e755b90eaa1c2eeb996835c2998a27505c9fecf5dcf77680795e6fec2a26"
+    },
+    {
+      "id": "roles/firefighter",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        12,
+        10,
+        68,
+        72
+      ],
+      "visibleBounds": [
+        12,
+        10,
+        68,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "f2e2bbdb0250dfeba614f2989a369968663813258db8c8d1762392ec719e09d5"
+    },
+    {
+      "id": "roles/mason",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        15,
+        10,
+        65,
+        72
+      ],
+      "visibleBounds": [
+        15,
+        10,
+        65,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "da9b413530167039ebcbf463afb6819d75511614478045995bdebc4e58bad2a5"
+    },
+    {
+      "id": "roles/lantern",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        13,
+        10,
+        67,
+        72
+      ],
+      "visibleBounds": [
+        13,
+        10,
+        67,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "c37c57a73cee921234627396181fc19eed7fa5b2bbdbf80b89a95e6c1db710c5"
+    },
+    {
+      "id": "roles/spore",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        15,
+        10,
+        64,
+        72
+      ],
+      "visibleBounds": [
+        15,
+        10,
+        64,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "444760ccaf769abe8bbf2e1d1bd1736e19826221a327b28cfbd87d66979dc789"
+    },
+    {
+      "id": "roles/puppeteer",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        17,
+        10,
+        63,
+        72
+      ],
+      "visibleBounds": [
+        17,
+        10,
+        63,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "9d0d44196c58e5244d5571cd83ab73a5f6788d7c4100fa2c37484a03b0b03db1"
+    },
+    {
+      "id": "roles/rigger",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        13,
+        10,
+        66,
+        72
+      ],
+      "visibleBounds": [
+        13,
+        10,
+        66,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "a825a118ff8ddc21eb44f9ebcccf42b6eaf3fd381f8a15c28e92224cce090bc4"
+    },
+    {
+      "id": "roles/bombardier",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        8,
+        10,
+        71,
+        72
+      ],
+      "visibleBounds": [
+        8,
+        10,
+        71,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "6389666348159ef1eccef1067a768d782f0b86cb21f5e407e21f4195a20b82f2"
+    },
+    {
+      "id": "enemies/sentinel",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        19,
+        10,
+        60,
+        72
+      ],
+      "visibleBounds": [
+        19,
+        10,
+        60,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "2ca4fd0d2e64e2eeaf7058d9fde869b461ee27aad221cb1a3203fccc39278451"
+    },
+    {
+      "id": "enemies/brute",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        7,
+        26,
+        73,
+        72
+      ],
+      "visibleBounds": [
+        7,
+        26,
+        73,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "bc77aeca9b378a7cfe2f1c5bd076acabdacdf45d8afdc44c94a23f94bfb4d7d1"
+    },
+    {
+      "id": "enemies/gunner",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        7,
+        41,
+        73,
+        72
+      ],
+      "visibleBounds": [
+        7,
+        41,
+        73,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "1aca58d6ac587e554235fab529481ce6efd613719d00b60aacbf5385c4c9f0b1"
+    },
+    {
+      "id": "enemies/mortar",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        12,
+        10,
+        67,
+        72
+      ],
+      "visibleBounds": [
+        12,
+        10,
+        67,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "242c6ffe805c6b9e49e820601b187defebf8ac8d3aaf5f5b25f6d27c567fd8b6"
+    },
+    {
+      "id": "enemies/webber",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        7,
+        19,
+        73,
+        72
+      ],
+      "visibleBounds": [
+        7,
+        19,
+        73,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "f202c42550cca99e80e78d3b83f41cdc39d3a464b3dd6408c35b9e7ac71ef303"
+    },
+    {
+      "id": "enemies/arsonist",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        17,
+        10,
+        63,
+        72
+      ],
+      "visibleBounds": [
+        17,
+        10,
+        63,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "825caac837d30a8ae2ff9d52611b9365620d41a645d30435a6ec5bf4a19d48e3"
+    },
+    {
+      "id": "enemies/sower",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        14,
+        10,
+        66,
+        72
+      ],
+      "visibleBounds": [
+        14,
+        10,
+        66,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "d979ea8aed9cbaafa1cc4644821e62cd0048bb40ce430a77095b1bd3b018af27"
+    },
+    {
+      "id": "enemies/sapper",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        7,
+        15,
+        73,
+        72
+      ],
+      "visibleBounds": [
+        7,
+        15,
+        73,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "9762b0961c3a6db496b3ab02ae7f4d16d719bd47b4450bd77ac5a1c1026889be"
+    },
+    {
+      "id": "enemies/leech",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        7,
+        20,
+        73,
+        72
+      ],
+      "visibleBounds": [
+        7,
+        20,
+        73,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "c36307bc466f92a4d5cb0a27367b5b851df9ec99d58ba679be9c76b2021126bf"
+    },
+    {
+      "id": "enemies/healer",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        7,
+        33,
+        73,
+        72
+      ],
+      "visibleBounds": [
+        7,
+        33,
+        73,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "82e99999a666b7432bbd8a215c99acce8ea0d15a2a4a7b6517a546621f8401ac"
+    },
+    {
+      "id": "enemies/rammer",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        7,
+        34,
+        73,
+        72
+      ],
+      "visibleBounds": [
+        7,
+        34,
+        73,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "537ba73a54c563df94f61e54d1bf6ab039ec7e4b037d960fad8fd680145d8128"
+    },
+    {
+      "id": "enemies/mesmer",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        22,
+        10,
+        58,
+        72
+      ],
+      "visibleBounds": [
+        22,
+        10,
+        58,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "7da1d317ef92e5feec9094825eb7eac2a5d47f877f5e1a798ed6d5e65e8e961f"
+    },
+    {
+      "id": "enemies/warden",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        14,
+        10,
+        65,
+        72
+      ],
+      "visibleBounds": [
+        14,
+        10,
+        65,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "b728a7fec63f3d58f3cfb5ded1b1c3954315aa23580205fd18d9d919190b0f12"
+    },
+    {
+      "id": "enemies/drone",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        12,
+        10,
+        68,
+        72
+      ],
+      "visibleBounds": [
+        12,
+        10,
+        68,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "1c193b9081cdb9db2bd7aeceed4eabe04a9c7d297844754e7aa561543a772d3d"
+    },
+    {
+      "id": "enemies/foundry",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        7,
+        18,
+        73,
+        72
+      ],
+      "visibleBounds": [
+        7,
+        18,
+        73,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "eceacb2529afeec4cbdeb2bf8963f3aacdcf851c9c590704789fac14419bd1f6"
+    },
+    {
+      "id": "enemies/saboteur",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        7,
+        18,
+        73,
+        72
+      ],
+      "visibleBounds": [
+        7,
+        18,
+        73,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "7cada3938055b13e2729ae858efd3d00b3878001bf5eae473b4d4ecdad35a498"
+    },
+    {
+      "id": "enemies/bellkeeper",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        17,
+        10,
+        63,
+        72
+      ],
+      "visibleBounds": [
+        17,
+        10,
+        63,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "2b9a321614efb30a06c43bdc2f200f34d3f92fecd39377eb93b198856a2d0334"
+    },
+    {
+      "id": "enemies/frost",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        7,
+        19,
+        73,
+        72
+      ],
+      "visibleBounds": [
+        7,
+        19,
+        73,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "356952b1ac430a57a5237e42198c137f4384a2371db40b88ba7dfd0b353cb4f0"
+    },
+    {
+      "id": "enemies/heart",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        7,
+        14,
+        73,
+        72
+      ],
+      "visibleBounds": [
+        7,
+        14,
+        73,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "2f946f6d6e80f2fbaf33733a23a46ec7660ecd11e7e76d03ef808acec956e068"
+    },
+    {
+      "id": "enemies/sovereign",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        11,
+        14,
+        69,
+        72
+      ],
+      "visibleBounds": [
+        11,
+        14,
+        69,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "09029a00877c871bf3f1ffd25cf606389add6d7619956d4bdd213b3b5b9d5ded"
+    },
+    {
+      "id": "terrain/ground",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        0,
+        0,
+        80,
+        80
+      ],
+      "visibleBounds": [
+        0,
+        0,
+        80,
+        80
+      ],
+      "alpha": [
+        255,
+        255
+      ],
+      "sha256": "ad92aaa98c3062be1839f1cfd09904ffca1935f871a2919e4260f2ee6e0c9917"
+    },
+    {
+      "id": "terrain/water",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        0,
+        0,
+        80,
+        80
+      ],
+      "visibleBounds": [
+        0,
+        0,
+        80,
+        80
+      ],
+      "alpha": [
+        255,
+        255
+      ],
+      "sha256": "4507d74e63737856a0520d14a9986f5a8c424568716c20c55afafb99fa0a2a44"
+    },
+    {
+      "id": "terrain/ice",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        0,
+        0,
+        80,
+        80
+      ],
+      "visibleBounds": [
+        0,
+        0,
+        80,
+        80
+      ],
+      "alpha": [
+        255,
+        255
+      ],
+      "sha256": "28b20c66224f95f51ccb907a9b5ceb7577f3a78263a9a20d6677769d47e36b9f"
+    },
+    {
+      "id": "terrain/fire",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        0,
+        0,
+        80,
+        80
+      ],
+      "visibleBounds": [
+        0,
+        0,
+        80,
+        80
+      ],
+      "alpha": [
+        255,
+        255
+      ],
+      "sha256": "77f3a5773d1912c902ae924b9098bb1ab098f2291d491855884ae6e8ba467c00"
+    },
+    {
+      "id": "terrain/goal",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        0,
+        0,
+        80,
+        80
+      ],
+      "visibleBounds": [
+        0,
+        0,
+        80,
+        80
+      ],
+      "alpha": [
+        255,
+        255
+      ],
+      "sha256": "189272e99301c5cdc13c64f534f972a63d313ef05595a0f619b4fb0183becda5"
+    },
+    {
+      "id": "terrain/mud",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        0,
+        0,
+        80,
+        80
+      ],
+      "visibleBounds": [
+        0,
+        0,
+        80,
+        80
+      ],
+      "alpha": [
+        255,
+        255
+      ],
+      "sha256": "bd76d2951e588794099daca2412f6b811f97116eec954bdc662319ffaac3467a"
+    },
+    {
+      "id": "terrain/poison",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        0,
+        0,
+        80,
+        80
+      ],
+      "visibleBounds": [
+        0,
+        0,
+        80,
+        80
+      ],
+      "alpha": [
+        255,
+        255
+      ],
+      "sha256": "8fd5e1ffc3660ffd9991580107e8324c19ec806c810a05f632445c4c1f44c464"
+    },
+    {
+      "id": "terrain/conveyor",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        0,
+        0,
+        80,
+        80
+      ],
+      "visibleBounds": [
+        0,
+        0,
+        80,
+        80
+      ],
+      "alpha": [
+        255,
+        255
+      ],
+      "sha256": "cfafc350c0bca59afca1caf1846452a08608492ef77e0aa74e68e7545aaddad6"
+    },
+    {
+      "id": "terrain/cracked",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        0,
+        0,
+        80,
+        80
+      ],
+      "visibleBounds": [
+        0,
+        0,
+        80,
+        80
+      ],
+      "alpha": [
+        255,
+        255
+      ],
+      "sha256": "b08eb98fae06c9848c90864d7eb97160a1fccaccfc4eb46cc309580317a130aa"
+    },
+    {
+      "id": "terrain/pit",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        0,
+        0,
+        80,
+        80
+      ],
+      "visibleBounds": [
+        0,
+        0,
+        80,
+        80
+      ],
+      "alpha": [
+        255,
+        255
+      ],
+      "sha256": "235e59d52ae7c2f0aee226f61d5db176d80c9505f4b78012166b86c0e0fa365b"
+    },
+    {
+      "id": "terrain/lava",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        0,
+        0,
+        80,
+        80
+      ],
+      "visibleBounds": [
+        0,
+        0,
+        80,
+        80
+      ],
+      "alpha": [
+        255,
+        255
+      ],
+      "sha256": "0f532e52bd2ef2f39a93a116d0c27007e21013f92b201361459fc857950f6e3d"
+    },
+    {
+      "id": "terrain/thorns",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        0,
+        0,
+        80,
+        80
+      ],
+      "visibleBounds": [
+        0,
+        0,
+        80,
+        80
+      ],
+      "alpha": [
+        255,
+        255
+      ],
+      "sha256": "574cd780b7b6bb489ee9b207d0dc6fc9e4725bfb09bee8da28bb8098b589a4b0"
+    },
+    {
+      "id": "terrain/grass",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        0,
+        0,
+        80,
+        80
+      ],
+      "visibleBounds": [
+        0,
+        0,
+        80,
+        80
+      ],
+      "alpha": [
+        255,
+        255
+      ],
+      "sha256": "bb26b589fba948f2854ce123e63f9929600abdda13d8743bb50bf818e136352f"
+    },
+    {
+      "id": "terrain/smoke",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        0,
+        0,
+        80,
+        80
+      ],
+      "visibleBounds": [
+        1,
+        5,
+        79,
+        76
+      ],
+      "alpha": [
+        0,
+        188
+      ],
+      "sha256": "79735088b0d0d3e317b89b5383a1de0536ed06472f67676dbfa3686f34479f8e"
+    },
+    {
+      "id": "terrain/mist",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        0,
+        8,
+        80,
+        76
+      ],
+      "visibleBounds": [
+        0,
+        10,
+        80,
+        74
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "12424a253b9a5385637f3a51862ef8db37a2c12f27e7339a40878432213f3058"
+    },
+    {
+      "id": "terrain/charged",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        0,
+        0,
+        80,
+        80
+      ],
+      "visibleBounds": [
+        0,
+        0,
+        80,
+        80
+      ],
+      "alpha": [
+        255,
+        255
+      ],
+      "sha256": "49f8fa1f02b9b271ae1c194955c562c6667bb414755880844c13265d794cdee7"
+    },
+    {
+      "id": "terrain/quicksand",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        0,
+        0,
+        80,
+        80
+      ],
+      "visibleBounds": [
+        0,
+        0,
+        80,
+        80
+      ],
+      "alpha": [
+        255,
+        255
+      ],
+      "sha256": "5f4b447cbe82c633b0c129b3ac275e089dcc00f0d63f647848db0130e38bf63c"
+    },
+    {
+      "id": "terrain/moss",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        0,
+        0,
+        80,
+        80
+      ],
+      "visibleBounds": [
+        0,
+        0,
+        80,
+        80
+      ],
+      "alpha": [
+        255,
+        255
+      ],
+      "sha256": "a7687f967391a57d1750843d2a121c68175191012d7c328540411153cdbf78d4"
+    },
+    {
+      "id": "terrain/runway",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        0,
+        0,
+        80,
+        80
+      ],
+      "visibleBounds": [
+        0,
+        0,
+        80,
+        80
+      ],
+      "alpha": [
+        255,
+        255
+      ],
+      "sha256": "2061024c04c969ff6a4cebbd688d861d59419d090fc9f8d7650cbbf37b8a6117"
+    },
+    {
+      "id": "terrain/snow",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        0,
+        0,
+        80,
+        80
+      ],
+      "visibleBounds": [
+        0,
+        0,
+        80,
+        80
+      ],
+      "alpha": [
+        255,
+        255
+      ],
+      "sha256": "435b9c4e8f2b6b5275c69847de29c6163a08f5ba18fcac6b39282b65c90044df"
+    },
+    {
+      "id": "terrain/springwater",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        0,
+        0,
+        80,
+        80
+      ],
+      "visibleBounds": [
+        0,
+        0,
+        80,
+        80
+      ],
+      "alpha": [
+        255,
+        255
+      ],
+      "sha256": "32383475e5d0bb6189d07c36bcc4507b7f905584ba575d6bdec6038967a1856e"
+    },
+    {
+      "id": "objects/wall",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        7,
+        40,
+        73,
+        72
+      ],
+      "visibleBounds": [
+        7,
+        40,
+        73,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "bc60444f1afaf7c3b7102eb9865ceed140042cc6a17148b6302a8cb1ce95024f"
+    },
+    {
+      "id": "objects/tree",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        12,
+        10,
+        67,
+        72
+      ],
+      "visibleBounds": [
+        12,
+        10,
+        67,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "9ad02b83912447af19ff3bf657b0c78eddb51bb961a4f2f842df4baf181616cf"
+    },
+    {
+      "id": "objects/column",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        21,
+        10,
+        59,
+        72
+      ],
+      "visibleBounds": [
+        21,
+        10,
+        59,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "64890c8ec85d5fbe48aba297d2a3fe8de2894262348456a4fcdb3c602a8432af"
+    },
+    {
+      "id": "objects/crate",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        9,
+        10,
+        70,
+        72
+      ],
+      "visibleBounds": [
+        9,
+        10,
+        70,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "2c83cee54b7d7933e01c0548f7bc97a448fb3ba623421ffb46f3e281dcf4651e"
+    },
+    {
+      "id": "objects/seed",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        15,
+        10,
+        64,
+        72
+      ],
+      "visibleBounds": [
+        15,
+        10,
+        64,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "347ecfaf9b4b6ae78162ca7c328452815f4c8f824827b6d103d2f376980fe2e2"
+    },
+    {
+      "id": "objects/lever",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        16,
+        10,
+        63,
+        72
+      ],
+      "visibleBounds": [
+        16,
+        10,
+        63,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "1937ce973302f58b0b21e994f1cb509bd4b9055d1e1bd891178639386d540fe8"
+    },
+    {
+      "id": "objects/gate",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        7,
+        23,
+        73,
+        72
+      ],
+      "visibleBounds": [
+        7,
+        23,
+        73,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "a4ab55b9a0de5e37baecbe47e0615f9f00f57394c56c533ca13704404209e31b"
+    },
+    {
+      "id": "objects/bomb",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        16,
+        10,
+        63,
+        72
+      ],
+      "visibleBounds": [
+        16,
+        10,
+        63,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "2f7f6e0c184be9676ef26614bb972583927bcb7e316db85707aea54b4c75c5da"
+    },
+    {
+      "id": "objects/fan",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        16,
+        10,
+        63,
+        72
+      ],
+      "visibleBounds": [
+        16,
+        10,
+        63,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "6404227077d0ade89c07a1901804585501de2aa942fad7b2eeedbb280d0854c5"
+    },
+    {
+      "id": "objects/barrel",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        17,
+        10,
+        62,
+        72
+      ],
+      "visibleBounds": [
+        17,
+        10,
+        62,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "c27e81cb9b8ba0e4fb4fa201d1b9d550afc76d50b36502445945ec51930a5285"
+    },
+    {
+      "id": "objects/boulder",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        7,
+        11,
+        73,
+        72
+      ],
+      "visibleBounds": [
+        7,
+        11,
+        73,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "cfe5637023a6bce4c8320653fe4a7c62b919da8d54af17adf33e3c1fa10ac7ee"
+    },
+    {
+      "id": "objects/mirror",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        21,
+        10,
+        59,
+        72
+      ],
+      "visibleBounds": [
+        21,
+        10,
+        59,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "f6fd586842f45a8156903efbf67aeb11fccb35d23ec75bc9e39b6abc26950319"
+    },
+    {
+      "id": "objects/spring",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        22,
+        32,
+        58,
+        72
+      ],
+      "visibleBounds": [
+        22,
+        32,
+        58,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "361f6e40a0d759e6041b16cf87f143f18a303300e5ec2a827745d92f28a07c62"
+    },
+    {
+      "id": "objects/portal",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        12,
+        44,
+        67,
+        72
+      ],
+      "visibleBounds": [
+        12,
+        44,
+        67,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "3335340cb9e595f49903b86f33a32f3914765e3970627912971d6dc4b8f716b7"
+    },
+    {
+      "id": "objects/bridge",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        2,
+        30,
+        78,
+        50
+      ],
+      "visibleBounds": [
+        2,
+        30,
+        78,
+        50
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "3b48c26a3cbb0188237517f29337b0a86f159217eedffdab49c4fb9db97227f3"
+    },
+    {
+      "id": "objects/plate",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        18,
+        50,
+        62,
+        72
+      ],
+      "visibleBounds": [
+        18,
+        50,
+        62,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "9ce84186b0cd6c1170b8e29855cf980798a647853a5abf7842f9af83461d979f"
+    },
+    {
+      "id": "objects/spikes",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        9,
+        55,
+        71,
+        72
+      ],
+      "visibleBounds": [
+        9,
+        55,
+        71,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "07c16d50d96cd2309ae83292c04adca6ea1cdc1704ec00027cb281b3f4e17f2f"
+    },
+    {
+      "id": "objects/beacon",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        19,
+        10,
+        60,
+        72
+      ],
+      "visibleBounds": [
+        19,
+        10,
+        60,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "8a052d9056d4994b9c0e50b3924fd53549dcf81541924933df4992cf32c32530"
+    },
+    {
+      "id": "objects/vine",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        12,
+        10,
+        68,
+        72
+      ],
+      "visibleBounds": [
+        12,
+        10,
+        68,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "89ed7fd405215b7f5b512b2512da1ecd8276a977bc12f4392dc2ddefcf06baa4"
+    },
+    {
+      "id": "objects/maw",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        8,
+        10,
+        72,
+        72
+      ],
+      "visibleBounds": [
+        8,
+        10,
+        72,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "7bada9c80d2dfbd8a0bdc479570ee21540522ba065b462035cb39081dfeb0613"
+    },
+    {
+      "id": "objects/haste",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        20,
+        10,
+        60,
+        72
+      ],
+      "visibleBounds": [
+        20,
+        10,
+        60,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "4ffa0936f026eed83c1e90797c716f7143032dee9f303f4b6e2c1e698e051f51"
+    },
+    {
+      "id": "objects/blight",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        18,
+        10,
+        61,
+        72
+      ],
+      "visibleBounds": [
+        18,
+        10,
+        61,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "7e160c255eb58adf286fc3e6898d5f61ebae9bb1d6fa6b26a74004a8d35e37cd"
+    },
+    {
+      "id": "objects/pump",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        12,
+        10,
+        68,
+        72
+      ],
+      "visibleBounds": [
+        12,
+        10,
+        68,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "430c2cd9ed8fa112f622434bee2425ad3f5bc7dd723928e5d28c20a24f140cb0"
+    },
+    {
+      "id": "objects/generator",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        7,
+        20,
+        73,
+        72
+      ],
+      "visibleBounds": [
+        7,
+        20,
+        73,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "2004b9ba388325d35ff7042d77c95990fe4150e1a4d308029da640a121510913"
+    },
+    {
+      "id": "objects/switch",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        13,
+        10,
+        66,
+        72
+      ],
+      "visibleBounds": [
+        13,
+        10,
+        66,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "2588b065e89517e603e4d3d71a7873d4d35cf92e11cd908bbf476b78ab6fe5d4"
+    },
+    {
+      "id": "objects/nest",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        7,
+        11,
+        73,
+        72
+      ],
+      "visibleBounds": [
+        7,
+        11,
+        73,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "63045eac8f2bffa0d354115898db2d1c82ed53645e852eef827c421ee98a6f1c"
+    },
+    {
+      "id": "objects/cage",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        16,
+        10,
+        64,
+        72
+      ],
+      "visibleBounds": [
+        16,
+        10,
+        64,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "ef30a0660aec09d531ebd403271e9a84089f5e51df3c74541c47aedc98d6d4f9"
+    },
+    {
+      "id": "objects/supply",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        7,
+        19,
+        73,
+        72
+      ],
+      "visibleBounds": [
+        7,
+        19,
+        73,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "ac4b0fb4447b264ce75fde807622a38a3f2c82036230e3c3fc64ca9386be19d5"
+    },
+    {
+      "id": "objects/relic",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        24,
+        10,
+        55,
+        72
+      ],
+      "visibleBounds": [
+        24,
+        10,
+        55,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "40fd9318f2f20ad762cf00de1e63806b0e71e76e1db34e2ecbf9072b3b141108"
+    },
+    {
+      "id": "objects/console",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        8,
+        10,
+        71,
+        72
+      ],
+      "visibleBounds": [
+        8,
+        10,
+        71,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "510d93999ab20939f4b87bb8bbf5e846f6514965db0b361080ac93cb834d4c72"
+    },
+    {
+      "id": "objects/cart",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        7,
+        27,
+        73,
+        72
+      ],
+      "visibleBounds": [
+        7,
+        27,
+        73,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "eaf2a7fce03081f75f0e46d7d278507c98c76fe22fc44a0457f60f2ed6a8aa30"
+    },
+    {
+      "id": "objects/anchor",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        12,
+        10,
+        67,
+        72
+      ],
+      "visibleBounds": [
+        12,
+        10,
+        67,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "58a91d850483716ee543386557e52504a5b9cfbc3ba420878c8664c11e5d441d"
+    },
+    {
+      "id": "objects/emitter",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        18,
+        10,
+        62,
+        72
+      ],
+      "visibleBounds": [
+        18,
+        10,
+        62,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "58f3bb3f4a6e1ecd6d93d3881783018f855235f60d4515e9caf63febe401af16"
+    },
+    {
+      "id": "objects/glass",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        10,
+        55,
+        70,
+        72
+      ],
+      "visibleBounds": [
+        10,
+        55,
+        70,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "9a5e6ceb701266c334c77eef12a8fdfea978f4283d110b4b23e12f38d8fb30ed"
+    },
+    {
+      "id": "objects/oil",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        9,
+        10,
+        70,
+        72
+      ],
+      "visibleBounds": [
+        9,
+        10,
+        70,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "4dbdd1f6ca91e3e3dbda97f0bbcbc2afe6d05832d44f48343d0e35a9cc3f9a95"
+    },
+    {
+      "id": "objects/bell",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        7,
+        10,
+        73,
+        72
+      ],
+      "visibleBounds": [
+        7,
+        10,
+        73,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "8a82720fa220b764869ca3f03c4399d7ee20d0b4194b4b742e907849f18a1159"
+    },
+    {
+      "id": "objects/rod",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        29,
+        10,
+        51,
+        72
+      ],
+      "visibleBounds": [
+        29,
+        10,
+        51,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "32e1a3ba23fef2030afcebe0772ddfbcabd071a9d93036b1e85e60ee1537dc92"
+    },
+    {
+      "id": "objects/drain",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        20,
+        48,
+        60,
+        72
+      ],
+      "visibleBounds": [
+        20,
+        48,
+        60,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "970f1cf2f01fcd0373a3d9aa58f6611b5dfd08f51b2194aa003d2cef40882350"
+    },
+    {
+      "id": "objects/sign",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        10,
+        10,
+        70,
+        72
+      ],
+      "visibleBounds": [
+        10,
+        10,
+        70,
+        72
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "b76e08319ee1c9767b691d0d166362bc9a438b7e9d0cda97eac3308fda5df0e7"
+    },
+    {
+      "id": "companions/worker-drone",
+      "size": [
+        80,
+        80
+      ],
+      "bounds": [
+        7,
+        10,
+        73,
+        70
+      ],
+      "visibleBounds": [
+        7,
+        10,
+        73,
+        70
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "f32f5ac9b2e40cfe6de4af0f5e76e5408d19a5e8ae13bdc0ded8f195518dae5d"
+    }
+  ]
+}

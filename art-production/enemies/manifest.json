@@ -1,0 +1,1128 @@
+{
+  "category": "enemies",
+  "canvas": [
+    80,
+    80
+  ],
+  "backend": "built-in image_gen; native output dimensions recorded per asset",
+  "items": {
+    "sentinel": {
+      "name": "Sentinel",
+      "icon": "\u25c6",
+      "action": "shot",
+      "hp": 2,
+      "text": "Moves 1 tile, then fires for 1 at the first obstacle or unit in a straight line.",
+      "status": "reused",
+      "source": "art-pilot/builtin-simple80/processed/enemy-1.png",
+      "processed": "art-pilot/builtin-simple80/processed/enemy-1.png"
+    },
+    "brute": {
+      "name": "Breaker",
+      "icon": "\u25a3",
+      "action": "melee",
+      "hp": 3,
+      "text": "Closes in and hits an adjacent target for 1, pushing it away.",
+      "status": "reused",
+      "source": "art-pilot/builtin-simple80/processed/enemy-2.png",
+      "processed": "art-pilot/builtin-simple80/processed/enemy-2.png"
+    },
+    "gunner": {
+      "name": "Rail gunner",
+      "icon": "\u2197",
+      "action": "heavyShot",
+      "hp": 2,
+      "text": "Moves 1 tile and fires a 2-damage straight shot. Cover stops it.",
+      "status": "reviewed",
+      "source": "art-production/enemies/raw/gunner.png",
+      "processed": "art-production/enemies/processed/gunner.png",
+      "actual_source_path": "art-production/enemies/raw/gunner.png",
+      "tool_output_path": "art-production/enemies/raw/gunner.png",
+      "source_dimensions": [
+        1295,
+        1214
+      ],
+      "source_alpha_extrema": [
+        0,
+        255
+      ],
+      "processed_sha256": "1aca58d6ac587e554235fab529481ce6efd613719d00b60aacbf5385c4c9f0b1",
+      "prompt_path": "art-production/enemies/prompts/gunner.txt",
+      "qa": {
+        "canvas": [
+          80,
+          80
+        ],
+        "bounds": [
+          7,
+          41,
+          73,
+          72
+        ],
+        "generated_alpha_preserved": true,
+        "processing": "alpha>16 bounding box crop only (original alpha retained inside crop) + Lanczos resize + transparent canvas positioning only",
+        "dimensions": [
+          80,
+          80
+        ],
+        "sha256": "1aca58d6ac587e554235fab529481ce6efd613719d00b60aacbf5385c4c9f0b1",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "alpha_zero_fraction": 0.7897,
+        "visible_alpha_gt16_bounds": [
+          7,
+          41,
+          73,
+          72
+        ],
+        "transparent_background_pass": true,
+        "native80": false,
+        "visual_review": "Actual80/40 light/dark contact sheet reviewed; clear identity and no clipping."
+      },
+      "inputpaths": [
+        "art-pilot/builtin-simple80/raw/enemy-1.png",
+        "art-pilot/builtin-simple80/raw/enemy-2.png",
+        "art-pilot/builtin-simple80/reference-character-strip.png"
+      ]
+    },
+    "mortar": {
+      "name": "Mortar",
+      "icon": "\u273a",
+      "action": "mortar",
+      "hp": 2,
+      "text": "Lobs a 1-damage shell within 6 tiles, ignoring cover. Later patrols prioritize vulnerable crew.",
+      "status": "reviewed",
+      "source": "art-production/enemies/raw/mortar.png",
+      "processed": "art-production/enemies/processed/mortar.png",
+      "actual_source_path": "art-production/enemies/raw/mortar.png",
+      "tool_output_path": "art-production/enemies/raw/mortar.png",
+      "source_dimensions": [
+        1295,
+        1214
+      ],
+      "source_alpha_extrema": [
+        0,
+        255
+      ],
+      "processed_sha256": "242c6ffe805c6b9e49e820601b187defebf8ac8d3aaf5f5b25f6d27c567fd8b6",
+      "prompt_path": "art-production/enemies/prompts/mortar.txt",
+      "qa": {
+        "canvas": [
+          80,
+          80
+        ],
+        "bounds": [
+          12,
+          10,
+          67,
+          72
+        ],
+        "generated_alpha_preserved": true,
+        "processing": "alpha>16 bounding box crop only (original alpha retained inside crop) + Lanczos resize + transparent canvas positioning only",
+        "dimensions": [
+          80,
+          80
+        ],
+        "sha256": "242c6ffe805c6b9e49e820601b187defebf8ac8d3aaf5f5b25f6d27c567fd8b6",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "alpha_zero_fraction": 0.6494,
+        "visible_alpha_gt16_bounds": [
+          12,
+          10,
+          67,
+          72
+        ],
+        "transparent_background_pass": true,
+        "native80": false,
+        "visual_review": "Actual80/40 light/dark contact sheet reviewed; clear identity and no clipping."
+      },
+      "inputpaths": [
+        "art-pilot/builtin-simple80/raw/enemy-1.png",
+        "art-pilot/builtin-simple80/raw/enemy-2.png",
+        "art-pilot/builtin-simple80/reference-character-strip.png"
+      ]
+    },
+    "webber": {
+      "name": "Silk drone",
+      "icon": "\u2767",
+      "action": "root",
+      "hp": 2,
+      "text": "Roots a nearby crew member within 3 tiles, preventing movement next round. Recharges for a turn between webs.",
+      "status": "reviewed",
+      "source": "art-production/enemies/raw/webber.png",
+      "processed": "art-production/enemies/processed/webber.png",
+      "actual_source_path": "art-production/enemies/raw/webber.png",
+      "tool_output_path": "art-production/enemies/raw/webber.png",
+      "source_dimensions": [
+        1296,
+        1213
+      ],
+      "source_alpha_extrema": [
+        0,
+        255
+      ],
+      "processed_sha256": "f202c42550cca99e80e78d3b83f41cdc39d3a464b3dd6408c35b9e7ac71ef303",
+      "prompt_path": "art-production/enemies/prompts/webber.txt",
+      "qa": {
+        "canvas": [
+          80,
+          80
+        ],
+        "bounds": [
+          7,
+          19,
+          73,
+          72
+        ],
+        "generated_alpha_preserved": true,
+        "processing": "alpha>16 bounding box crop only (original alpha retained inside crop) + Lanczos resize + transparent canvas positioning only",
+        "dimensions": [
+          80,
+          80
+        ],
+        "sha256": "f202c42550cca99e80e78d3b83f41cdc39d3a464b3dd6408c35b9e7ac71ef303",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "alpha_zero_fraction": 0.6475,
+        "visible_alpha_gt16_bounds": [
+          7,
+          19,
+          73,
+          72
+        ],
+        "transparent_background_pass": true,
+        "native80": false,
+        "visual_review": "Actual80/40 light/dark contact sheet reviewed; clear identity and no clipping."
+      },
+      "inputpaths": [
+        "art-pilot/builtin-simple80/raw/enemy-1.png",
+        "art-pilot/builtin-simple80/raw/enemy-2.png",
+        "art-pilot/builtin-simple80/reference-character-strip.png"
+      ]
+    },
+    "arsonist": {
+      "name": "Cinder drone",
+      "icon": "\u2668",
+      "action": "ignite",
+      "hp": 2,
+      "text": "Ignites ground near the nearest crew member. Fire spreads through wood.",
+      "status": "reviewed",
+      "source": "art-production/enemies/raw/arsonist.png",
+      "processed": "art-production/enemies/processed/arsonist.png",
+      "inputpaths": [
+        "art-pilot/builtin-simple80/raw/enemy-1.png",
+        "art-pilot/builtin-simple80/raw/enemy-2.png",
+        "art-pilot/builtin-simple80/reference-character-strip.png"
+      ],
+      "actual_source_path": "art-production/enemies/raw/arsonist.png",
+      "tool_output_path": "art-production/enemies/raw/arsonist.png",
+      "source_dimensions": [
+        1298,
+        1212
+      ],
+      "source_alpha_extrema": [
+        0,
+        255
+      ],
+      "processed_sha256": "825caac837d30a8ae2ff9d52611b9365620d41a645d30435a6ec5bf4a19d48e3",
+      "prompt_path": "art-production/enemies/prompts/arsonist.txt",
+      "qa": {
+        "canvas": [
+          80,
+          80
+        ],
+        "bounds": [
+          17,
+          10,
+          63,
+          72
+        ],
+        "generated_alpha_preserved": true,
+        "processing": "alpha>16 bounding box crop only (original alpha retained inside crop) + Lanczos resize + transparent canvas positioning only",
+        "dimensions": [
+          80,
+          80
+        ],
+        "sha256": "825caac837d30a8ae2ff9d52611b9365620d41a645d30435a6ec5bf4a19d48e3",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "alpha_zero_fraction": 0.6816,
+        "visible_alpha_gt16_bounds": [
+          17,
+          10,
+          63,
+          72
+        ],
+        "transparent_background_pass": true,
+        "native80": false,
+        "visual_review": "Actual80/40 light/dark contact sheet reviewed; clear identity and no clipping."
+      }
+    },
+    "sower": {
+      "name": "Iron gardener",
+      "icon": "\u2667",
+      "action": "grow",
+      "hp": 2,
+      "text": "Plants a blocking vine near the crew, closing routes instead of shooting.",
+      "status": "reviewed",
+      "source": "art-production/enemies/raw/sower.png",
+      "processed": "art-production/enemies/processed/sower.png",
+      "inputpaths": [
+        "art-pilot/builtin-simple80/raw/enemy-1.png",
+        "art-pilot/builtin-simple80/raw/enemy-2.png",
+        "art-pilot/builtin-simple80/reference-character-strip.png"
+      ],
+      "actual_source_path": "art-production/enemies/raw/sower.png",
+      "tool_output_path": "art-production/enemies/raw/sower.png",
+      "source_dimensions": [
+        1300,
+        1210
+      ],
+      "source_alpha_extrema": [
+        0,
+        255
+      ],
+      "processed_sha256": "d979ea8aed9cbaafa1cc4644821e62cd0048bb40ce430a77095b1bd3b018af27",
+      "prompt_path": "art-production/enemies/prompts/sower.txt",
+      "qa": {
+        "canvas": [
+          80,
+          80
+        ],
+        "bounds": [
+          14,
+          10,
+          66,
+          72
+        ],
+        "generated_alpha_preserved": true,
+        "processing": "alpha>16 bounding box crop only (original alpha retained inside crop) + Lanczos resize + transparent canvas positioning only",
+        "dimensions": [
+          80,
+          80
+        ],
+        "sha256": "d979ea8aed9cbaafa1cc4644821e62cd0048bb40ce430a77095b1bd3b018af27",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "alpha_zero_fraction": 0.6147,
+        "visible_alpha_gt16_bounds": [
+          14,
+          10,
+          66,
+          72
+        ],
+        "transparent_background_pass": true,
+        "native80": false,
+        "visual_review": "Actual80/40 light/dark contact sheet reviewed; clear identity and no clipping."
+      }
+    },
+    "sapper": {
+      "name": "Charge layer",
+      "icon": "\u2739",
+      "action": "bomb",
+      "hp": 2,
+      "text": "Places a charge near a crew member within 4 tiles. It explodes after the following enemy turn, leaving one player turn to escape or disarm it.",
+      "status": "reviewed",
+      "source": "art-production/enemies/raw/sapper.png",
+      "processed": "art-production/enemies/processed/sapper.png",
+      "inputpaths": [
+        "art-pilot/builtin-simple80/raw/enemy-1.png",
+        "art-pilot/builtin-simple80/raw/enemy-2.png",
+        "art-pilot/builtin-simple80/reference-character-strip.png"
+      ],
+      "actual_source_path": "art-production/enemies/raw/sapper.png",
+      "tool_output_path": "art-production/enemies/raw/sapper.png",
+      "source_dimensions": [
+        1303,
+        1207
+      ],
+      "source_alpha_extrema": [
+        0,
+        255
+      ],
+      "processed_sha256": "9762b0961c3a6db496b3ab02ae7f4d16d719bd47b4450bd77ac5a1c1026889be",
+      "prompt_path": "art-production/enemies/prompts/sapper.txt",
+      "qa": {
+        "canvas": [
+          80,
+          80
+        ],
+        "bounds": [
+          7,
+          15,
+          73,
+          72
+        ],
+        "generated_alpha_preserved": true,
+        "processing": "alpha>16 bounding box crop only (original alpha retained inside crop) + Lanczos resize + transparent canvas positioning only",
+        "dimensions": [
+          80,
+          80
+        ],
+        "sha256": "9762b0961c3a6db496b3ab02ae7f4d16d719bd47b4450bd77ac5a1c1026889be",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "alpha_zero_fraction": 0.6802,
+        "visible_alpha_gt16_bounds": [
+          7,
+          15,
+          73,
+          72
+        ],
+        "transparent_background_pass": true,
+        "native80": false,
+        "visual_review": "Actual80/40 light/dark contact sheet reviewed; clear identity and no clipping."
+      }
+    },
+    "leech": {
+      "name": "Siphon",
+      "icon": "\u263e",
+      "action": "drain",
+      "hp": 2,
+      "text": "Drains 1 HP from an adjacent unit, healing itself.",
+      "status": "reviewed",
+      "source": "art-production/enemies/raw/leech.png",
+      "processed": "art-production/enemies/processed/leech.png",
+      "inputpaths": [
+        "art-pilot/builtin-simple80/raw/enemy-1.png",
+        "art-pilot/builtin-simple80/raw/enemy-2.png",
+        "art-pilot/builtin-simple80/reference-character-strip.png"
+      ],
+      "actual_source_path": "art-production/enemies/raw/leech.png",
+      "tool_output_path": "art-production/enemies/raw/leech.png",
+      "source_dimensions": [
+        1295,
+        1214
+      ],
+      "source_alpha_extrema": [
+        0,
+        255
+      ],
+      "processed_sha256": "c36307bc466f92a4d5cb0a27367b5b851df9ec99d58ba679be9c76b2021126bf",
+      "prompt_path": "art-production/enemies/prompts/leech.txt",
+      "qa": {
+        "canvas": [
+          80,
+          80
+        ],
+        "bounds": [
+          7,
+          20,
+          73,
+          72
+        ],
+        "generated_alpha_preserved": true,
+        "processing": "alpha>16 bounding box crop only (original alpha retained inside crop) + Lanczos resize + transparent canvas positioning only",
+        "dimensions": [
+          80,
+          80
+        ],
+        "sha256": "c36307bc466f92a4d5cb0a27367b5b851df9ec99d58ba679be9c76b2021126bf",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "alpha_zero_fraction": 0.5964,
+        "visible_alpha_gt16_bounds": [
+          7,
+          20,
+          73,
+          72
+        ],
+        "transparent_background_pass": true,
+        "native80": false,
+        "visual_review": "Actual80/40 light/dark contact sheet reviewed; clear identity and no clipping."
+      }
+    },
+    "healer": {
+      "name": "Repair drone",
+      "icon": "\u271a",
+      "action": "heal",
+      "hp": 2,
+      "text": "Repairs an injured machine within 3 tiles. Fires only if no repair is needed.",
+      "status": "reviewed",
+      "source": "art-production/enemies/raw/healer.png",
+      "processed": "art-production/enemies/processed/healer.png",
+      "errors": [
+        {
+          "type": "image_generation_user_error",
+          "code": "moderation_blocked",
+          "stage": "output",
+          "category": "other",
+          "request_id": "e4e1d3fb-3200-47bb-888e-a8ab640065e6"
+        }
+      ],
+      "inputpaths": [
+        "art-pilot/builtin-simple80/raw/enemy-1.png",
+        "art-pilot/builtin-simple80/raw/enemy-2.png",
+        "art-pilot/builtin-simple80/reference-character-strip.png"
+      ],
+      "actual_source_path": "art-production/enemies/raw/healer.png",
+      "tool_output_path": "art-production/enemies/raw/healer.png",
+      "source_dimensions": [
+        1295,
+        1214
+      ],
+      "source_alpha_extrema": [
+        0,
+        255
+      ],
+      "processed_sha256": "82e99999a666b7432bbd8a215c99acce8ea0d15a2a4a7b6517a546621f8401ac",
+      "prompt_path": "art-production/enemies/prompts/healer.txt",
+      "qa": {
+        "canvas": [
+          80,
+          80
+        ],
+        "bounds": [
+          7,
+          33,
+          73,
+          72
+        ],
+        "generated_alpha_preserved": true,
+        "processing": "alpha>16 bounding box crop only (original alpha retained inside crop) + Lanczos resize + transparent canvas positioning only",
+        "dimensions": [
+          80,
+          80
+        ],
+        "sha256": "82e99999a666b7432bbd8a215c99acce8ea0d15a2a4a7b6517a546621f8401ac",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "alpha_zero_fraction": 0.763,
+        "visible_alpha_gt16_bounds": [
+          7,
+          33,
+          73,
+          72
+        ],
+        "transparent_background_pass": true,
+        "native80": false,
+        "visual_review": "Actual80/40 light/dark contact sheet reviewed; clear identity and no clipping."
+      }
+    },
+    "rammer": {
+      "name": "Ram engine",
+      "icon": "\u21e5",
+      "action": "ram",
+      "hp": 3,
+      "text": "Moves up to 2 tiles, then pushes an adjacent target. Collisions hurt.",
+      "status": "reviewed",
+      "source": "art-production/enemies/raw/rammer.png",
+      "processed": "art-production/enemies/processed/rammer.png",
+      "inputpaths": [
+        "art-pilot/builtin-simple80/raw/enemy-1.png",
+        "art-pilot/builtin-simple80/raw/enemy-2.png",
+        "art-pilot/builtin-simple80/reference-character-strip.png"
+      ],
+      "actual_source_path": "art-production/enemies/raw/rammer.png",
+      "tool_output_path": "art-production/enemies/raw/rammer.png",
+      "source_dimensions": [
+        1312,
+        1199
+      ],
+      "source_alpha_extrema": [
+        0,
+        255
+      ],
+      "processed_sha256": "537ba73a54c563df94f61e54d1bf6ab039ec7e4b037d960fad8fd680145d8128",
+      "prompt_path": "art-production/enemies/prompts/rammer.txt",
+      "qa": {
+        "canvas": [
+          80,
+          80
+        ],
+        "bounds": [
+          7,
+          34,
+          73,
+          72
+        ],
+        "generated_alpha_preserved": true,
+        "processing": "alpha>16 bounding box crop only (original alpha retained inside crop) + Lanczos resize + transparent canvas positioning only",
+        "dimensions": [
+          80,
+          80
+        ],
+        "sha256": "537ba73a54c563df94f61e54d1bf6ab039ec7e4b037d960fad8fd680145d8128",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "alpha_zero_fraction": 0.6772,
+        "visible_alpha_gt16_bounds": [
+          7,
+          34,
+          73,
+          72
+        ],
+        "transparent_background_pass": true,
+        "native80": false,
+        "visual_review": "Actual80/40 light/dark contact sheet reviewed; clear identity and no clipping."
+      }
+    },
+    "mesmer": {
+      "name": "Hush unit",
+      "icon": "\u25cc",
+      "action": "sleep",
+      "hp": 2,
+      "text": "Silences a crew member within 3 tiles, taking away its next action. Must recharge between uses.",
+      "status": "reviewed",
+      "source": "art-production/enemies/raw/mesmer.png",
+      "processed": "art-production/enemies/processed/mesmer.png",
+      "inputpaths": [
+        "art-pilot/builtin-simple80/raw/enemy-1.png",
+        "art-pilot/builtin-simple80/raw/enemy-2.png",
+        "art-pilot/builtin-simple80/reference-character-strip.png"
+      ],
+      "actual_source_path": "art-production/enemies/raw/mesmer.png",
+      "tool_output_path": "art-production/enemies/raw/mesmer.png",
+      "source_dimensions": [
+        1298,
+        1212
+      ],
+      "source_alpha_extrema": [
+        0,
+        255
+      ],
+      "processed_sha256": "7da1d317ef92e5feec9094825eb7eac2a5d47f877f5e1a798ed6d5e65e8e961f",
+      "prompt_path": "art-production/enemies/prompts/mesmer.txt",
+      "qa": {
+        "canvas": [
+          80,
+          80
+        ],
+        "bounds": [
+          22,
+          10,
+          58,
+          72
+        ],
+        "generated_alpha_preserved": true,
+        "processing": "alpha>16 bounding box crop only (original alpha retained inside crop) + Lanczos resize + transparent canvas positioning only",
+        "dimensions": [
+          80,
+          80
+        ],
+        "sha256": "7da1d317ef92e5feec9094825eb7eac2a5d47f877f5e1a798ed6d5e65e8e961f",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "alpha_zero_fraction": 0.7381,
+        "visible_alpha_gt16_bounds": [
+          22,
+          10,
+          58,
+          72
+        ],
+        "transparent_background_pass": true,
+        "native80": false,
+        "visual_review": "Actual80/40 light/dark contact sheet reviewed; clear identity and no clipping."
+      }
+    },
+    "warden": {
+      "name": "Shield bearer",
+      "icon": "\u2b21",
+      "action": "shield",
+      "hp": 3,
+      "text": "Shields another machine nearby. Shields absorb one damaging hit.",
+      "status": "reviewed",
+      "source": "art-production/enemies/raw/warden.png",
+      "processed": "art-production/enemies/processed/warden.png",
+      "inputpaths": [
+        "art-pilot/builtin-simple80/raw/enemy-1.png",
+        "art-pilot/builtin-simple80/raw/enemy-2.png",
+        "art-pilot/builtin-simple80/reference-character-strip.png"
+      ],
+      "actual_source_path": "art-production/enemies/raw/warden.png",
+      "tool_output_path": "art-production/enemies/raw/warden.png",
+      "source_dimensions": [
+        1295,
+        1214
+      ],
+      "source_alpha_extrema": [
+        0,
+        255
+      ],
+      "processed_sha256": "b728a7fec63f3d58f3cfb5ded1b1c3954315aa23580205fd18d9d919190b0f12",
+      "prompt_path": "art-production/enemies/prompts/warden.txt",
+      "qa": {
+        "canvas": [
+          80,
+          80
+        ],
+        "bounds": [
+          14,
+          10,
+          65,
+          72
+        ],
+        "generated_alpha_preserved": true,
+        "processing": "alpha>16 bounding box crop only (original alpha retained inside crop) + Lanczos resize + transparent canvas positioning only",
+        "dimensions": [
+          80,
+          80
+        ],
+        "sha256": "b728a7fec63f3d58f3cfb5ded1b1c3954315aa23580205fd18d9d919190b0f12",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "alpha_zero_fraction": 0.6036,
+        "visible_alpha_gt16_bounds": [
+          14,
+          10,
+          65,
+          72
+        ],
+        "transparent_background_pass": true,
+        "native80": false,
+        "visual_review": "Actual80/40 light/dark contact sheet reviewed; clear identity and no clipping."
+      }
+    },
+    "drone": {
+      "name": "Leaping drone",
+      "icon": "\u22c4",
+      "action": "leap",
+      "hp": 1,
+      "text": "Leaps over intervening objects, then bites an adjacent crew member.",
+      "status": "reviewed",
+      "source": "art-production/enemies/raw/drone.png",
+      "processed": "art-production/enemies/processed/drone.png",
+      "inputpaths": [
+        "art-pilot/builtin-simple80/raw/enemy-1.png",
+        "art-pilot/builtin-simple80/raw/enemy-2.png",
+        "art-pilot/builtin-simple80/reference-character-strip.png"
+      ],
+      "actual_source_path": "art-production/enemies/raw/drone.png",
+      "tool_output_path": "art-production/enemies/raw/drone.png",
+      "source_dimensions": [
+        1295,
+        1214
+      ],
+      "source_alpha_extrema": [
+        0,
+        255
+      ],
+      "processed_sha256": "1c193b9081cdb9db2bd7aeceed4eabe04a9c7d297844754e7aa561543a772d3d",
+      "prompt_path": "art-production/enemies/prompts/drone.txt",
+      "qa": {
+        "canvas": [
+          80,
+          80
+        ],
+        "bounds": [
+          12,
+          10,
+          68,
+          72
+        ],
+        "generated_alpha_preserved": true,
+        "processing": "alpha>16 bounding box crop only (original alpha retained inside crop) + Lanczos resize + transparent canvas positioning only",
+        "dimensions": [
+          80,
+          80
+        ],
+        "sha256": "1c193b9081cdb9db2bd7aeceed4eabe04a9c7d297844754e7aa561543a772d3d",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "alpha_zero_fraction": 0.6447,
+        "visible_alpha_gt16_bounds": [
+          12,
+          10,
+          68,
+          72
+        ],
+        "transparent_background_pass": true,
+        "native80": false,
+        "visual_review": "Actual80/40 light/dark contact sheet reviewed; clear identity and no clipping."
+      }
+    },
+    "foundry": {
+      "name": "Foundry",
+      "icon": "\u25a5",
+      "action": "spawn",
+      "hp": 4,
+      "text": "Stationary. Manufactures a sentinel every 3 rounds if there is space.",
+      "status": "reviewed",
+      "source": "art-production/enemies/raw/foundry.png",
+      "processed": "art-production/enemies/processed/foundry.png",
+      "inputpaths": [
+        "art-pilot/builtin-simple80/raw/enemy-1.png",
+        "art-pilot/builtin-simple80/raw/enemy-2.png",
+        "art-pilot/builtin-simple80/reference-character-strip.png"
+      ],
+      "actual_source_path": "art-production/enemies/raw/foundry.png",
+      "tool_output_path": "art-production/enemies/raw/foundry.png",
+      "source_dimensions": [
+        1294,
+        1216
+      ],
+      "source_alpha_extrema": [
+        0,
+        255
+      ],
+      "processed_sha256": "eceacb2529afeec4cbdeb2bf8963f3aacdcf851c9c590704789fac14419bd1f6",
+      "prompt_path": "art-production/enemies/prompts/foundry.txt",
+      "qa": {
+        "canvas": [
+          80,
+          80
+        ],
+        "bounds": [
+          7,
+          18,
+          73,
+          72
+        ],
+        "generated_alpha_preserved": true,
+        "processing": "alpha>16 bounding box crop only (original alpha retained inside crop) + Lanczos resize + transparent canvas positioning only",
+        "dimensions": [
+          80,
+          80
+        ],
+        "sha256": "eceacb2529afeec4cbdeb2bf8963f3aacdcf851c9c590704789fac14419bd1f6",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "alpha_zero_fraction": 0.5495,
+        "visible_alpha_gt16_bounds": [
+          7,
+          18,
+          73,
+          72
+        ],
+        "transparent_background_pass": true,
+        "native80": false,
+        "visual_review": "Actual80/40 light/dark contact sheet reviewed; clear identity and no clipping."
+      }
+    },
+    "saboteur": {
+      "name": "Flow saboteur",
+      "icon": "\u27f3",
+      "action": "rotate",
+      "hp": 2,
+      "text": "Rotates nearby fans and reverses nearby currents before firing.",
+      "status": "reviewed",
+      "source": "art-production/enemies/raw/saboteur.png",
+      "processed": "art-production/enemies/processed/saboteur.png",
+      "errors": [
+        {
+          "type": "image_generation_user_error",
+          "code": "moderation_blocked",
+          "stage": "output",
+          "category": "other",
+          "request_id": "09ce0a40-a963-4e65-8256-e42358667556"
+        }
+      ],
+      "inputpaths": [
+        "art-pilot/builtin-simple80/raw/enemy-1.png",
+        "art-pilot/builtin-simple80/raw/enemy-2.png",
+        "art-pilot/builtin-simple80/reference-character-strip.png"
+      ],
+      "actual_source_path": "art-production/enemies/raw/saboteur.png",
+      "tool_output_path": "art-production/enemies/raw/saboteur.png",
+      "source_dimensions": [
+        1295,
+        1214
+      ],
+      "source_alpha_extrema": [
+        0,
+        255
+      ],
+      "processed_sha256": "7cada3938055b13e2729ae858efd3d00b3878001bf5eae473b4d4ecdad35a498",
+      "prompt_path": "art-production/enemies/prompts/saboteur.txt",
+      "qa": {
+        "canvas": [
+          80,
+          80
+        ],
+        "bounds": [
+          7,
+          18,
+          73,
+          72
+        ],
+        "generated_alpha_preserved": true,
+        "processing": "alpha>16 bounding box crop only (original alpha retained inside crop) + Lanczos resize + transparent canvas positioning only",
+        "dimensions": [
+          80,
+          80
+        ],
+        "sha256": "7cada3938055b13e2729ae858efd3d00b3878001bf5eae473b4d4ecdad35a498",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "alpha_zero_fraction": 0.6903,
+        "visible_alpha_gt16_bounds": [
+          7,
+          18,
+          73,
+          72
+        ],
+        "transparent_background_pass": true,
+        "native80": false,
+        "visual_review": "Actual80/40 light/dark contact sheet reviewed; clear identity and no clipping."
+      }
+    },
+    "bellkeeper": {
+      "name": "Bell keeper",
+      "icon": "\u266b",
+      "action": "lure",
+      "hp": 3,
+      "text": "Pulls the nearest crew member toward itself, letting terrain do the harm.",
+      "status": "reviewed",
+      "source": "art-production/enemies/raw/bellkeeper.png",
+      "processed": "art-production/enemies/processed/bellkeeper.png",
+      "inputpaths": [
+        "art-pilot/builtin-simple80/raw/enemy-1.png",
+        "art-pilot/builtin-simple80/raw/enemy-2.png",
+        "art-pilot/builtin-simple80/reference-character-strip.png"
+      ],
+      "actual_source_path": "art-production/enemies/raw/bellkeeper.png",
+      "tool_output_path": "art-production/enemies/raw/bellkeeper.png",
+      "source_dimensions": [
+        1278,
+        1230
+      ],
+      "source_alpha_extrema": [
+        0,
+        255
+      ],
+      "processed_sha256": "2b9a321614efb30a06c43bdc2f200f34d3f92fecd39377eb93b198856a2d0334",
+      "prompt_path": "art-production/enemies/prompts/bellkeeper.txt",
+      "qa": {
+        "canvas": [
+          80,
+          80
+        ],
+        "bounds": [
+          17,
+          10,
+          63,
+          72
+        ],
+        "generated_alpha_preserved": true,
+        "processing": "alpha>16 bounding box crop only (original alpha retained inside crop) + Lanczos resize + transparent canvas positioning only",
+        "dimensions": [
+          80,
+          80
+        ],
+        "sha256": "2b9a321614efb30a06c43bdc2f200f34d3f92fecd39377eb93b198856a2d0334",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "alpha_zero_fraction": 0.7375,
+        "visible_alpha_gt16_bounds": [
+          17,
+          10,
+          63,
+          72
+        ],
+        "transparent_background_pass": true,
+        "native80": false,
+        "visual_review": "Actual80/40 light/dark contact sheet reviewed; clear identity and no clipping."
+      }
+    },
+    "frost": {
+      "name": "Frost engine",
+      "icon": "\u2744",
+      "action": "freeze",
+      "hp": 2,
+      "text": "Freezes ground beneath a crew member within 4 tiles and roots it for a turn. Recharges between freezes.",
+      "status": "reviewed",
+      "source": "art-production/enemies/raw/frost.png",
+      "processed": "art-production/enemies/processed/frost.png",
+      "inputpaths": [
+        "art-pilot/builtin-simple80/raw/enemy-1.png",
+        "art-pilot/builtin-simple80/raw/enemy-2.png",
+        "art-pilot/builtin-simple80/reference-character-strip.png"
+      ],
+      "actual_source_path": "art-production/enemies/raw/frost.png",
+      "tool_output_path": "art-production/enemies/raw/frost.png",
+      "source_dimensions": [
+        1295,
+        1214
+      ],
+      "source_alpha_extrema": [
+        0,
+        255
+      ],
+      "processed_sha256": "356952b1ac430a57a5237e42198c137f4384a2371db40b88ba7dfd0b353cb4f0",
+      "prompt_path": "art-production/enemies/prompts/frost.txt",
+      "qa": {
+        "canvas": [
+          80,
+          80
+        ],
+        "bounds": [
+          7,
+          19,
+          73,
+          72
+        ],
+        "generated_alpha_preserved": true,
+        "processing": "alpha>16 bounding box crop only (original alpha retained inside crop) + Lanczos resize + transparent canvas positioning only",
+        "dimensions": [
+          80,
+          80
+        ],
+        "sha256": "356952b1ac430a57a5237e42198c137f4384a2371db40b88ba7dfd0b353cb4f0",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "alpha_zero_fraction": 0.6431,
+        "visible_alpha_gt16_bounds": [
+          7,
+          19,
+          73,
+          72
+        ],
+        "transparent_background_pass": true,
+        "native80": false,
+        "visual_review": "Actual80/40 light/dark contact sheet reviewed; clear identity and no clipping."
+      }
+    },
+    "heart": {
+      "name": "Weather Heart",
+      "icon": "\u263c",
+      "action": "cross",
+      "hp": 8,
+      "text": "Stationary. Fires for 1 in all four directions. Trees and walls intercept shots.",
+      "status": "reviewed",
+      "source": "art-production/enemies/raw/heart.png",
+      "processed": "art-production/enemies/processed/heart.png",
+      "inputpaths": [
+        "art-pilot/builtin-simple80/raw/enemy-1.png",
+        "art-pilot/builtin-simple80/raw/enemy-2.png",
+        "art-pilot/builtin-simple80/reference-character-strip.png"
+      ],
+      "actual_source_path": "art-production/enemies/raw/heart.png",
+      "tool_output_path": "art-production/enemies/raw/heart.png",
+      "source_dimensions": [
+        1297,
+        1213
+      ],
+      "source_alpha_extrema": [
+        0,
+        255
+      ],
+      "processed_sha256": "2f946f6d6e80f2fbaf33733a23a46ec7660ecd11e7e76d03ef808acec956e068",
+      "prompt_path": "art-production/enemies/prompts/heart.txt",
+      "qa": {
+        "canvas": [
+          80,
+          80
+        ],
+        "bounds": [
+          7,
+          14,
+          73,
+          72
+        ],
+        "generated_alpha_preserved": true,
+        "processing": "alpha>16 bounding box crop only (original alpha retained inside crop) + Lanczos resize + transparent canvas positioning only",
+        "dimensions": [
+          80,
+          80
+        ],
+        "sha256": "2f946f6d6e80f2fbaf33733a23a46ec7660ecd11e7e76d03ef808acec956e068",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "alpha_zero_fraction": 0.5194,
+        "visible_alpha_gt16_bounds": [
+          7,
+          14,
+          73,
+          72
+        ],
+        "transparent_background_pass": true,
+        "native80": false,
+        "visual_review": "Actual80/40 light/dark contact sheet reviewed; clear identity and no clipping."
+      }
+    },
+    "sovereign": {
+      "name": "The Auditor",
+      "icon": "\u2318",
+      "action": "audit",
+      "hp": 6,
+      "text": "Alternates mortar fire and shields. Its defeat releases the district from control.",
+      "status": "reviewed",
+      "source": "art-production/enemies/raw/sovereign.png",
+      "processed": "art-production/enemies/processed/sovereign.png",
+      "inputpaths": [
+        "art-pilot/builtin-simple80/raw/enemy-1.png",
+        "art-pilot/builtin-simple80/raw/enemy-2.png",
+        "art-pilot/builtin-simple80/reference-character-strip.png"
+      ],
+      "actual_source_path": "art-production/enemies/raw/sovereign.png",
+      "tool_output_path": "art-production/enemies/raw/sovereign.png",
+      "source_dimensions": [
+        1295,
+        1214
+      ],
+      "source_alpha_extrema": [
+        0,
+        255
+      ],
+      "processed_sha256": "09029a00877c871bf3f1ffd25cf606389add6d7619956d4bdd213b3b5b9d5ded",
+      "prompt_path": "art-production/enemies/prompts/sovereign.txt",
+      "qa": {
+        "canvas": [
+          80,
+          80
+        ],
+        "bounds": [
+          11,
+          14,
+          69,
+          72
+        ],
+        "generated_alpha_preserved": true,
+        "processing": "alpha>16 bounding box crop only (original alpha retained inside crop) + Lanczos resize + transparent canvas positioning only",
+        "dimensions": [
+          80,
+          80
+        ],
+        "sha256": "09029a00877c871bf3f1ffd25cf606389add6d7619956d4bdd213b3b5b9d5ded",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "alpha_zero_fraction": 0.6491,
+        "visible_alpha_gt16_bounds": [
+          11,
+          14,
+          69,
+          72
+        ],
+        "transparent_background_pass": true,
+        "native80": false,
+        "visual_review": "Actual80/40 light/dark contact sheet reviewed; clear identity and no clipping."
+      }
+    }
+  }
+}

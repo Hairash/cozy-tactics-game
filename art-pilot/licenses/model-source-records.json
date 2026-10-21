@@ -1,0 +1,55 @@
+{
+  "ByteDance/SDXL-Lightning": {
+    "id": "ByteDance/SDXL-Lightning",
+    "sha": "c9a24f48e1c025556787b0c58dd67a091ece2e44",
+    "cardData": {
+      "license": "openrail++",
+      "tags": [
+        "text-to-image",
+        "stable-diffusion"
+      ],
+      "library_name": "diffusers",
+      "inference": false
+    }
+  },
+  "h94/IP-Adapter": {
+    "id": "h94/IP-Adapter",
+    "sha": "018e402774aeeddd60609b4ecdb7e298259dc729",
+    "cardData": {
+      "tags": [
+        "text-to-image",
+        "stable-diffusion"
+      ],
+      "license": "apache-2.0",
+      "language": [
+        "en"
+      ],
+      "library_name": "diffusers"
+    }
+  },
+  "Lykon/dreamshaper-xl-v2-turbo": {
+    "id": "Lykon/dreamshaper-xl-v2-turbo",
+    "sha": "f70ad5bce436c640d23fc02cd0a6ccc787280b6e",
+    "cardData": {
+      "language": [
+        "en"
+      ],
+      "license": "openrail++",
+      "tags": [
+        "stable-diffusion",
+        "stable-diffusion-diffusers",
+        "stable-diffusion-xl",
+        "stable-diffusion-xl-turbo",
+        "text-to-image",
+        "art",
+        "artistic",
+        "diffusers",
+        "anime",
+        "dreamshaper",
+        "turbo",
+        "lcm"
+      ],
+      "duplicated_from": "lykon/dreamshaper-xl-v2-turbo"
+    }
+  }
+}

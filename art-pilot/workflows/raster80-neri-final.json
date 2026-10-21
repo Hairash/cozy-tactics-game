@@ -1,0 +1,9 @@
+{
+  "ally-2": {
+    "denoise": 0.55,
+    "style_weight": 0.6,
+    "seed": 784840,
+    "prompt": "One adult river keeper woman, calm neutral face with TWO TINY DOT EYES and tiny closed mouth, a small reserved face deep in a plain asymmetric ivory crescent hood. Narrow teal workcoat with huge cuffs, broad cream front, chunky square boots, one brass hooked tide staff in her hand. Quiet serious character. Angular illustrated gouache shapes, bold dark irregular ink edges, few broad painted planes, restrained detail, elevated frontal view, isolated white background. No floor, no shadows.",
+    "negative": "text, sheets, panels, multiple subjects, scenery, ground, floor, cast shadow, contact shadow, oval base, gradients, glossy plastic, realistic, photo, 3d, mobile game, tiny details, filigree, fine hatching, individual leaves, curved blob, soft round forms, vector logo, flat icon, sticker, anime, huge eyes, eyelashes, long legs, profile, back view, diamond tile, bird, beak, animal, anthropomorphic, mask, teal skin, feather, duck, large nose, chibi, child, baby, kawaii, manga, anime face, open mouth, moustache, mustache, beard, eyebrows, ears, cat ears, horns, feather, hair spikes, facial expression, decorative lines"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "ally-1": {
+    "denoise": 0.44,
+    "style_weight": 0.2,
+    "composition_weight": 0.95,
+    "cfg": 2.5,
+    "seed": 428613
+  },
+  "ally-2": {
+    "denoise": 0.44,
+    "style_weight": 0.2,
+    "composition_weight": 0.95,
+    "cfg": 2.5,
+    "seed": 428613
+  }
+}

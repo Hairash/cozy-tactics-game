@@ -1,0 +1,47 @@
+/* Final raster pass: no painted shadows or lighting filters over the approved art. */
+.cell{background-image:none!important}
+.ground-art.raster-ground{position:absolute;inset:0;width:100%;height:100%;max-width:none;opacity:1;object-fit:fill;filter:none!important;border-radius:inherit;pointer-events:none}
+.terrain-overlay{z-index:1}
+.unit-sprite .piece.raster-unit{position:absolute;left:-5%;top:-9%;width:110%;height:110%;max-width:none;max-height:none;object-fit:contain;filter:none!important;pointer-events:none}
+.cell .object{position:absolute;inset:0;width:100%;height:100%;max-width:none;pointer-events:none}
+.cell .object .raster-object{position:absolute;left:-5%;top:-9%;width:110%;height:110%;max-width:none;max-height:none;object-fit:contain;filter:none!important}
+.piece.raster-unit,.scenery.raster-object{filter:none!important;object-fit:contain}
+.portrait .piece.raster-unit,.speaker-portrait .piece.raster-unit{width:100%;height:100%;max-width:100%;max-height:100%;filter:none!important}
+.guide-symbol .raster-unit,.guide-symbol .raster-object,.inspection-art .raster-unit,.inspection-art .raster-object{width:100%;height:100%;max-width:100%;max-height:100%;object-fit:contain}
+.guide-terrain{position:relative;display:block;width:100%;height:100%;overflow:hidden;border-radius:8px}
+.terrain-direction{position:absolute;inset:0;display:grid;place-items:center;color:#f6e7bc;font-size:clamp(18px,3vw,30px);font-weight:800;text-shadow:0 1px 2px #243d43;z-index:1;pointer-events:none}
+.river-art{position:absolute;inset:0;width:100%;height:100%;z-index:1;pointer-events:none}
+
+
+
+.fx-ghost.object .raster-object{position:absolute;left:-5%;top:-9%;width:110%;height:110%;max-width:none;max-height:none;object-fit:contain;filter:none!important}
+
+.cell.goal:after{content:"";position:absolute;inset:5%;border:2px solid #d7b35f;border-radius:3px;z-index:2;pointer-events:none}
+.cell.move:before{z-index:2}
+.cell.active .raster-unit{transform-origin:50% 90%;animation:crew-breathe 3.5s ease-in-out infinite}
+
+/* Rule overlays sit above opaque artwork. */
+.cell-highlight{position:absolute;inset:2px;z-index:2;border-radius:2px;pointer-events:none;box-sizing:border-box}
+.move-highlight{background:#45a47b35;border:2px solid #2f8467;box-shadow:inset 0 0 0 1px #edf4cb80}
+.target-highlight{background:#f2b95350;border:3px solid #b66b27;box-shadow:inset 0 0 0 1px #fff0bc}
+.cell.path-step .move-highlight{background:#cee79e80;border-color:#1b6657}
+.cell.active{outline:3px solid #fff0b8!important;outline-offset:-3px}
+.cell:hover .cell-highlight{border-color:#fff1c6}
+.river-art{overflow:hidden;border-radius:inherit}
+.river-art path{fill:none;stroke-linecap:butt;stroke-linejoin:round}
+.river-art .river-ink{stroke:#354a43;stroke-width:66}
+.river-art .river-bank{stroke:#c7bd92;stroke-width:63}
+.river-art .river-surface{stroke-width:54}
+.river-art .river-flow{stroke:#e1e4bd;stroke-width:1.5;stroke-opacity:.48;stroke-dasharray:6 16}
+.river-art .river-arrow{stroke:#f5e8bc;stroke-width:3;stroke-linecap:round}
+.cell .object.object-bridge .raster-object,.fx-ghost.object-bridge .raster-object{left:0;top:0;width:100%;height:100%;transform:rotate(var(--bridge-turn,0deg))}
+.unit-effects{position:absolute;left:1px;top:1px;z-index:5;display:flex;flex-wrap:wrap;align-content:flex-start;gap:2px;max-width:calc(100% - 13px);--effect-size:clamp(9px,calc(var(--cell-size,64px)*.19),14px)}
+.unit-effect{position:static!important;display:grid;place-items:center;flex:0 0 var(--effect-size);width:var(--effect-size);height:var(--effect-size);font:700 calc(var(--effect-size)*.78)/1 system-ui;color:#264640;background:#f3e9c4;border:1px solid #315653;border-radius:2px;box-sizing:border-box;text-shadow:none}
+@media(max-width:700px){.battle-layout .board-wrap{width:max-content;max-width:100%;margin-inline:auto}.battle-layout .board{margin-inline:auto}}
+
+.unit-effects{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px;width:min(calc(100% - 11px),calc(var(--cell-size,64px)*.72),41px);max-width:none}
+.unit-effect{width:100%;height:auto;aspect-ratio:1;min-width:0;font-size:clamp(4px,calc(var(--cell-size,64px)*.15),10px)}
+@media(max-width:700px){html{scrollbar-gutter:stable}}
+
+/* The delivery carrier must remain obvious among ordinary status effects. */
+.fragment-carrier{position:absolute;right:0;top:0;z-index:8;width:clamp(15px,27%,22px);height:clamp(15px,27%,22px);display:grid;place-items:center;background:#f3d36b;color:#253e3b;border:2px solid #334a43;border-radius:4px;font:bold clamp(13px,2vw,19px)/1 Georgia,serif;box-shadow:0 1px 2px #182d3055}.weather-help{font-size:16px;line-height:1.45;margin:10px 0}

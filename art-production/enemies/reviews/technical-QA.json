@@ -1,0 +1,382 @@
+{
+  "sentinel": {
+    "dimensions": [
+      80,
+      80
+    ],
+    "sha256": "2ca4fd0d2e64e2eeaf7058d9fde869b461ee27aad221cb1a3203fccc39278451",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_zero_fraction": 0.788,
+    "visible_alpha_gt16_bounds": [
+      19,
+      10,
+      60,
+      72
+    ],
+    "transparent_background_pass": true
+  },
+  "brute": {
+    "dimensions": [
+      80,
+      80
+    ],
+    "sha256": "bc77aeca9b378a7cfe2f1c5bd076acabdacdf45d8afdc44c94a23f94bfb4d7d1",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_zero_fraction": 0.6681,
+    "visible_alpha_gt16_bounds": [
+      7,
+      26,
+      73,
+      72
+    ],
+    "transparent_background_pass": true
+  },
+  "gunner": {
+    "dimensions": [
+      80,
+      80
+    ],
+    "sha256": "1aca58d6ac587e554235fab529481ce6efd613719d00b60aacbf5385c4c9f0b1",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_zero_fraction": 0.7897,
+    "visible_alpha_gt16_bounds": [
+      7,
+      41,
+      73,
+      72
+    ],
+    "transparent_background_pass": true
+  },
+  "mortar": {
+    "dimensions": [
+      80,
+      80
+    ],
+    "sha256": "242c6ffe805c6b9e49e820601b187defebf8ac8d3aaf5f5b25f6d27c567fd8b6",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_zero_fraction": 0.6494,
+    "visible_alpha_gt16_bounds": [
+      12,
+      10,
+      67,
+      72
+    ],
+    "transparent_background_pass": true
+  },
+  "webber": {
+    "dimensions": [
+      80,
+      80
+    ],
+    "sha256": "f202c42550cca99e80e78d3b83f41cdc39d3a464b3dd6408c35b9e7ac71ef303",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_zero_fraction": 0.6475,
+    "visible_alpha_gt16_bounds": [
+      7,
+      19,
+      73,
+      72
+    ],
+    "transparent_background_pass": true
+  },
+  "arsonist": {
+    "dimensions": [
+      80,
+      80
+    ],
+    "sha256": "825caac837d30a8ae2ff9d52611b9365620d41a645d30435a6ec5bf4a19d48e3",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_zero_fraction": 0.6816,
+    "visible_alpha_gt16_bounds": [
+      17,
+      10,
+      63,
+      72
+    ],
+    "transparent_background_pass": true
+  },
+  "sower": {
+    "dimensions": [
+      80,
+      80
+    ],
+    "sha256": "d979ea8aed9cbaafa1cc4644821e62cd0048bb40ce430a77095b1bd3b018af27",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_zero_fraction": 0.6147,
+    "visible_alpha_gt16_bounds": [
+      14,
+      10,
+      66,
+      72
+    ],
+    "transparent_background_pass": true
+  },
+  "sapper": {
+    "dimensions": [
+      80,
+      80
+    ],
+    "sha256": "9762b0961c3a6db496b3ab02ae7f4d16d719bd47b4450bd77ac5a1c1026889be",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_zero_fraction": 0.6802,
+    "visible_alpha_gt16_bounds": [
+      7,
+      15,
+      73,
+      72
+    ],
+    "transparent_background_pass": true
+  },
+  "leech": {
+    "dimensions": [
+      80,
+      80
+    ],
+    "sha256": "c36307bc466f92a4d5cb0a27367b5b851df9ec99d58ba679be9c76b2021126bf",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_zero_fraction": 0.5964,
+    "visible_alpha_gt16_bounds": [
+      7,
+      20,
+      73,
+      72
+    ],
+    "transparent_background_pass": true
+  },
+  "healer": {
+    "dimensions": [
+      80,
+      80
+    ],
+    "sha256": "82e99999a666b7432bbd8a215c99acce8ea0d15a2a4a7b6517a546621f8401ac",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_zero_fraction": 0.763,
+    "visible_alpha_gt16_bounds": [
+      7,
+      33,
+      73,
+      72
+    ],
+    "transparent_background_pass": true
+  },
+  "rammer": {
+    "dimensions": [
+      80,
+      80
+    ],
+    "sha256": "537ba73a54c563df94f61e54d1bf6ab039ec7e4b037d960fad8fd680145d8128",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_zero_fraction": 0.6772,
+    "visible_alpha_gt16_bounds": [
+      7,
+      34,
+      73,
+      72
+    ],
+    "transparent_background_pass": true
+  },
+  "mesmer": {
+    "dimensions": [
+      80,
+      80
+    ],
+    "sha256": "7da1d317ef92e5feec9094825eb7eac2a5d47f877f5e1a798ed6d5e65e8e961f",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_zero_fraction": 0.7381,
+    "visible_alpha_gt16_bounds": [
+      22,
+      10,
+      58,
+      72
+    ],
+    "transparent_background_pass": true
+  },
+  "warden": {
+    "dimensions": [
+      80,
+      80
+    ],
+    "sha256": "b728a7fec63f3d58f3cfb5ded1b1c3954315aa23580205fd18d9d919190b0f12",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_zero_fraction": 0.6036,
+    "visible_alpha_gt16_bounds": [
+      14,
+      10,
+      65,
+      72
+    ],
+    "transparent_background_pass": true
+  },
+  "drone": {
+    "dimensions": [
+      80,
+      80
+    ],
+    "sha256": "1c193b9081cdb9db2bd7aeceed4eabe04a9c7d297844754e7aa561543a772d3d",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_zero_fraction": 0.6447,
+    "visible_alpha_gt16_bounds": [
+      12,
+      10,
+      68,
+      72
+    ],
+    "transparent_background_pass": true
+  },
+  "foundry": {
+    "dimensions": [
+      80,
+      80
+    ],
+    "sha256": "eceacb2529afeec4cbdeb2bf8963f3aacdcf851c9c590704789fac14419bd1f6",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_zero_fraction": 0.5495,
+    "visible_alpha_gt16_bounds": [
+      7,
+      18,
+      73,
+      72
+    ],
+    "transparent_background_pass": true
+  },
+  "saboteur": {
+    "dimensions": [
+      80,
+      80
+    ],
+    "sha256": "7cada3938055b13e2729ae858efd3d00b3878001bf5eae473b4d4ecdad35a498",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_zero_fraction": 0.6903,
+    "visible_alpha_gt16_bounds": [
+      7,
+      18,
+      73,
+      72
+    ],
+    "transparent_background_pass": true
+  },
+  "bellkeeper": {
+    "dimensions": [
+      80,
+      80
+    ],
+    "sha256": "2b9a321614efb30a06c43bdc2f200f34d3f92fecd39377eb93b198856a2d0334",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_zero_fraction": 0.7375,
+    "visible_alpha_gt16_bounds": [
+      17,
+      10,
+      63,
+      72
+    ],
+    "transparent_background_pass": true
+  },
+  "frost": {
+    "dimensions": [
+      80,
+      80
+    ],
+    "sha256": "356952b1ac430a57a5237e42198c137f4384a2371db40b88ba7dfd0b353cb4f0",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_zero_fraction": 0.6431,
+    "visible_alpha_gt16_bounds": [
+      7,
+      19,
+      73,
+      72
+    ],
+    "transparent_background_pass": true
+  },
+  "heart": {
+    "dimensions": [
+      80,
+      80
+    ],
+    "sha256": "2f946f6d6e80f2fbaf33733a23a46ec7660ecd11e7e76d03ef808acec956e068",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_zero_fraction": 0.5194,
+    "visible_alpha_gt16_bounds": [
+      7,
+      14,
+      73,
+      72
+    ],
+    "transparent_background_pass": true
+  },
+  "sovereign": {
+    "dimensions": [
+      80,
+      80
+    ],
+    "sha256": "09029a00877c871bf3f1ffd25cf606389add6d7619956d4bdd213b3b5b9d5ded",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_zero_fraction": 0.6491,
+    "visible_alpha_gt16_bounds": [
+      11,
+      14,
+      69,
+      72
+    ],
+    "transparent_background_pass": true
+  }
+}

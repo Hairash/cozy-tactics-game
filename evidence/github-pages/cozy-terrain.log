@@ -1,0 +1,40 @@
+PASS A top-to-left bend reverses to left-to-top, then restores
+PASS Legacy bends infer upstream from neighboring outgoing flow
+PASS An isolated segment defaults to straight and forks choose a stable primary
+PASS Global reversal snapshots all upstream sides before changing flow
+PASS Tidecaller explicitly makes an isolated bend and both edges remain distinct
+PASS crate follows two bent current segments and leaves land only once
+PASS bomb follows two bent current segments and leaves land only once
+PASS barrel follows two bent current segments and leaves land only once
+PASS boulder follows two bent current segments and leaves land only once
+PASS cart follows two bent current segments and leaves land only once
+PASS oil follows two bent current segments and leaves land only once
+PASS A movable object leaves the final current on its first land tile
+PASS Ice sends a crate into a current with the same resolver as a unit
+PASS Spring launches a bomb and every animation frame retains its fuse coordinates
+PASS Paired gates transport a crate once and restore the gate when it leaves
+PASS A blocked portal never overwrites its destination or linked gates
+PASS A crate cannot overwrite a collection objective
+PASS Opposing springs cannot cause a forced movement loop
+PASS Fixed river objectives relocate without losing count and portal links follow
+PASS Creating a current beneath a fixed object normalizes immediately
+PASS Bridgewright only builds on empty straight water
+PASS Conductor applies its global circuit immediately with no target selection
+PASS Both teams share every active effect and descriptive inspection
+PASS Every loaded map contains no fixed river objects and no bent bridges
+PASS A bridge suppresses current for a pushed object without losing the bridge
+PASS A conveyor moves a crate only once and enters the destination current
+PASS A current stops movable objects before a collision without overwriting it
+PASS No available land preserves a fixed objective on a safe island
+PASS Fixed wall relocation rejects water while boulders can enter it
+PASS Unit river landing activates a paired portal
+PASS Object river landing activates a paired portal
+PASS Unit river landing activates a spring with a bounded current budget
+PASS Object river landing activates a spring with a bounded current budget
+PASS Destroying crate over a portal restores its fixture and preserves links
+PASS Destroying bomb over a portal restores its fixture and preserves links
+PASS Unit slides on ice after leaving a river
+PASS Object slides on ice after leaving a river
+PASS A drain remains a dry outlet instead of becoming an ineffective relocated prop
+PASS Roots and a nearby anchor both appear in current effects
+39 terrain regressions passed.

@@ -1,0 +1,82 @@
+PASS 100 distinct missions, ten acts, all unlocked
+PASS Catalog expansion is used by campaign rosters and map designs
+PASS All deployments are distinct, in bounds and clear on 100 maps
+PASS A current follows a bend at every segment
+PASS Entering the last segment moves exactly one tile onto land
+PASS Entering the penultimate segment can exit but never drifts two land tiles
+PASS Westbound and northbound river directions are respected
+PASS Current stops before a blocker and at the map edge
+PASS River loop is bounded to two drift cells
+PASS River previews and animation frames agree at a bend
+PASS Tidecaller chooses a segment direction and can redirect existing water
+PASS Northward fan pushes one cell north, not east
+PASS Westward fan collision damages both units
+PASS Partial movement, deselection, and action closure remain intact
+PASS Acting first permits the full movement phase
+PASS Mud uses two points; forced drift remains free
+PASS Ice slides, then joins the connected current
+PASS Fire damages on entry and safe automatic paths avoid it
+PASS Undo restores current direction, action and movement points
+PASS Pits disable pushed units and bridges suppress dangerous terrain
+PASS Portal pairs teleport once without a bounce loop
+PASS Shields absorb one hit and roots resist forced movement
+PASS A column damages a two-cell line and frees cages
+PASS Environment fire spreads one wooden cell, not the entire chain
+PASS Scripted reinforcements and twists produce dialogue and real state changes
+PASS Enemy behaviors produce distinct effects, not only different shot damage
+PASS Playable ability: Vanguard
+PASS Playable ability: Ranger
+PASS Playable ability: Gardener
+PASS Playable ability: Engineer
+PASS Playable ability: Tidecaller
+PASS Playable ability: Longbow
+PASS Playable ability: Field medic
+PASS Playable ability: Transporter
+PASS Playable ability: Maw tender
+PASS Playable ability: Vine weaver
+PASS Playable ability: Hearth shaman
+PASS Playable ability: Blight keeper
+PASS Playable ability: Bulldozer
+PASS Playable ability: Witch
+PASS Playable ability: Astronomer
+PASS Playable ability: Channel digger
+PASS Playable ability: Geomancer
+PASS Playable ability: Sapper
+PASS Playable ability: Mirror dancer
+PASS Playable ability: Blink runner
+PASS Playable ability: Ferryman
+PASS Playable ability: Bridgewright
+PASS Playable ability: Alchemist
+PASS Playable ability: Firestarter
+PASS Playable ability: Warden
+PASS Playable ability: Whisper herder
+PASS Playable ability: Gust caller
+PASS Playable ability: Magnetist
+PASS Playable ability: Courier
+PASS Playable ability: Anchorite
+PASS Playable ability: Tinkerer
+PASS Playable ability: Conductor
+PASS Playable ability: Gate weaver
+PASS Playable ability: Siren
+PASS Playable ability: Icewright
+PASS Playable ability: Beekeeper
+PASS Playable ability: Detonator
+PASS Playable ability: Recaller
+PASS Playable ability: Scout
+PASS Playable ability: Liberator
+PASS Playable ability: Harvester
+PASS Playable ability: River turner
+PASS Playable ability: Rainmaker
+PASS Playable ability: Firefighter
+PASS Playable ability: Stone mover
+PASS Playable ability: Lantern keeper
+PASS Playable ability: Spore artist
+PASS Playable ability: Puppeteer
+PASS Playable ability: Rigger
+PASS Playable ability: Bombardier
+PASS Gold objective markers survive terraforming
+PASS Courier stops at the chosen dash tile
+PASS A conveyor moves each occupant once per round
+PASS Archive records and marked charge casings survive explosions
+PASS Every surviving portal pair has two actual portal objects
+81 rules tests passed.

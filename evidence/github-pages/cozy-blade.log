@@ -1,0 +1,14 @@
+PASS An empty adjacent cell never allows a remote shove
+PASS A gap ends the line and objects beyond it stay untouched
+PASS A mixed contiguous line shifts by one cell
+PASS wall crushes every member without shifting
+PASS edge crushes every member without shifting
+PASS A fixed adjacent object cannot be bulldozed or toppled
+PASS Pushed objects still follow the river after their one-cell shove
+PASS A bridge remains walkable beneath a pushed line
+PASS Fragment pickup marks the exact carrier and inspection describes it
+PASS Astronomer rain changes the expected field
+PASS Astronomer frost changes the expected field
+PASS Astronomer wind changes the expected field
+PASS Astronomer storm changes the expected field
+13 blade / delivery / weather regressions passed.

@@ -1,0 +1,495 @@
+[
+  {
+    "mission": 1,
+    "title": "A crack in the quay",
+    "won": true,
+    "rounds": 2,
+    "actions": [
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 1,
+        "y": 3
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 2,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 5,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 3,
+        "y": 4
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 2,
+        "y": 5
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 3,
+        "y": 3
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 4,
+        "y": 3
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 4,
+        "y": 3
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 5,
+        "y": 3
+      }
+    ]
+  },
+  {
+    "mission": 2,
+    "title": "The green shortcut",
+    "won": true,
+    "rounds": 4,
+    "actions": [
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 1,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 4,
+        "y": 3
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 1,
+        "y": 3
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 1,
+        "y": 5
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 0,
+        "y": 5
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 2,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 5,
+        "y": 4
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 2,
+        "y": 5
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 2,
+        "y": 1
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 5,
+        "y": 5
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 3,
+        "y": 1
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 3,
+        "y": 0
+      }
+    ]
+  },
+  {
+    "mission": 3,
+    "title": "Borrowed time",
+    "won": true,
+    "rounds": 2,
+    "actions": [
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 0,
+        "y": 3
+      },
+      {
+        "type": "interact",
+        "id": "a0"
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 3,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 4,
+        "y": 1
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 5,
+        "y": 4
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 3,
+        "y": 0
+      }
+    ]
+  },
+  {
+    "mission": 4,
+    "title": "A place to stand",
+    "won": true,
+    "rounds": 3,
+    "actions": [
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 0,
+        "y": 3
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 5,
+        "y": 3
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 3,
+        "y": 6
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 6,
+        "y": 3
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 1,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 1,
+        "y": 3
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 6,
+        "y": 3
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 4,
+        "y": 3
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 4,
+        "y": 6
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 1,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 4,
+        "y": 5
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 4,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 4,
+        "y": 3
+      },
+      {
+        "type": "end"
+      }
+    ]
+  },
+  {
+    "mission": 5,
+    "title": "The long evening",
+    "won": true,
+    "rounds": 5,
+    "actions": [
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 2,
+        "y": 3
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 1,
+        "y": 1
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 4,
+        "y": 5
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 3,
+        "y": 6
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 3,
+        "y": 4
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 2,
+        "y": 1
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 2,
+        "y": 3
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 4,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 2,
+        "y": 2
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 1,
+        "y": 1
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 1,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 1,
+        "y": 3
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 2,
+        "y": 4
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 2,
+        "y": 6
+      },
+      {
+        "type": "end"
+      }
+    ]
+  },
+  {
+    "mission": 6,
+    "title": "Let the city breathe",
+    "won": true,
+    "rounds": 4,
+    "actions": [
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 3,
+        "y": 3
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 2,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 6,
+        "y": 5
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 4,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 6,
+        "y": 6
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 4,
+        "y": 3
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 2,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 5,
+        "y": 5
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 3,
+        "y": 1
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 0,
+        "y": 3
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 5,
+        "y": 4
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 3,
+        "y": 1
+      },
+      {
+        "type": "end"
+      }
+    ]
+  }
+]

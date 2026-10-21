@@ -1,0 +1,46 @@
+{
+  "ally-1": {
+    "prompt": "Mara wears a short asymmetrical rust-red work cape, small low ochre cap, cream tunic, plain dark boots, and carries a large blunt brass shield with teal center. Rust and ochre silhouette. One mature adult harbor worker in an angular illustrated fantasy world. Lean adult proportions, small angular head, bent elbow and bent knees, quietly balanced working stance. Two short dark line eyes, plain calm face, no visible hair. Broad flat matte color planes, confident irregular ink outline, subtle handmade edge variation, only one restrained darker plane, restrained woodcut storybook illustration. No small decorations, no fabric folds, no highlights. Entire single figure elevated frontal view on pure white empty background, no floor, no cast shadow.",
+    "negative": "child, baby, chibi, kawaii, anime, mobile game character, glossy, plastic, 3d, realistic, detailed face, hair strands, hair lines, eyebrows, eyelashes, dot eyes, big eyes, smile, open mouth, moustache, beard, decorative buttons, buckles, embroidery, straps, fabric folds, dramatic shading, gradient, highlights, boot shine, glare, tiny detail, scenery, floor, ground shadow, multiple figures, sheet, text, border, cropped, weapon sword",
+    "init_image": "mature-ally-1.png",
+    "reference": "mature-ally-1.png",
+    "style_reference": "mature-crew-style.png",
+    "denoise": 0.56,
+    "style_weight": 0.35,
+    "composition_weight": 0.8,
+    "cfg": 2.0,
+    "steps": 8,
+    "sampler": "dpmpp_sde",
+    "scheduler": "karras",
+    "seed": 843231,
+    "source_type": "comfyui-raster",
+    "art_direction_model": "gpt-6-astra-low",
+    "vector_file": null,
+    "export_size": [
+      80,
+      80
+    ]
+  },
+  "ally-2": {
+    "prompt": "Neri wears a long asymmetrical teal work coat with plain ivory hood and cream front, plain dark boots, holds a tall blunt hooked brass tide staff in a bent arm. Teal and ivory silhouette. One mature adult harbor worker in an angular illustrated fantasy world. Lean adult proportions, small angular head, bent elbow and bent knees, quietly balanced working stance. Two short dark line eyes, plain calm face, no visible hair. Broad flat matte color planes, confident irregular ink outline, subtle handmade edge variation, only one restrained darker plane, restrained woodcut storybook illustration. No small decorations, no fabric folds, no highlights. Entire single figure elevated frontal view on pure white empty background, no floor, no cast shadow.",
+    "negative": "child, baby, chibi, kawaii, anime, mobile game character, glossy, plastic, 3d, realistic, detailed face, hair strands, hair lines, eyebrows, eyelashes, dot eyes, big eyes, smile, open mouth, moustache, beard, decorative buttons, buckles, embroidery, straps, fabric folds, dramatic shading, gradient, highlights, boot shine, glare, tiny detail, scenery, floor, ground shadow, multiple figures, sheet, text, border, cropped, weapon sword",
+    "init_image": "mature-ally-2.png",
+    "reference": "mature-ally-2.png",
+    "style_reference": "mature-crew-style.png",
+    "denoise": 0.56,
+    "style_weight": 0.35,
+    "composition_weight": 0.8,
+    "cfg": 2.0,
+    "steps": 8,
+    "sampler": "dpmpp_sde",
+    "scheduler": "karras",
+    "seed": 843232,
+    "source_type": "comfyui-raster",
+    "art_direction_model": "gpt-6-astra-low",
+    "vector_file": null,
+    "export_size": [
+      80,
+      80
+    ]
+  }
+}

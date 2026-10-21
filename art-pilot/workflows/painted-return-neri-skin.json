@@ -1,0 +1,8 @@
+{
+  "ally-2": {
+    "init_image": "painted-return-neri-skin.png",
+    "reference": "painted-return-neri-skin.png",
+    "denoise": 0.28,
+    "seed": 751913
+  }
+}

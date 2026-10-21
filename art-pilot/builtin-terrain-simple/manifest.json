@@ -1,0 +1,66 @@
+{
+  "phase": "ab-review-ready",
+  "canonical_terrain_unchanged": true,
+  "default": "original",
+  "actual_sources_larger_than_requested80": true,
+  "assets": {
+    "ground": {
+      "status": "processed",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "export_size": [
+        80,
+        80
+      ],
+      "edge_mean_difference_rgb": [
+        1.82,
+        0.6
+      ],
+      "interior_neighbor_mean_rgb": 0.52,
+      "edge_note": "numerical seam differences reported, visual repeat review required",
+      "variants": "90degree rotations only",
+      "sha256": "ad92aaa98c3062be1839f1cfd09904ffca1935f871a2919e4260f2ee6e0c9917"
+    },
+    "grass": {
+      "status": "processed",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "export_size": [
+        80,
+        80
+      ],
+      "edge_mean_difference_rgb": [
+        4.18,
+        2.62
+      ],
+      "interior_neighbor_mean_rgb": 0.78,
+      "edge_note": "numerical seam differences reported, visual repeat review required",
+      "variants": "90degree rotations only",
+      "sha256": "bb26b589fba948f2854ce123e63f9929600abdda13d8743bb50bf818e136352f"
+    },
+    "water": {
+      "status": "processed",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "export_size": [
+        80,
+        80
+      ],
+      "edge_mean_difference_rgb": [
+        0.95,
+        0.59
+      ],
+      "interior_neighbor_mean_rgb": 1.23,
+      "edge_note": "numerical seam differences reported, visual repeat review required",
+      "variants": "90degree rotations only",
+      "sha256": "4507d74e63737856a0520d14a9986f5a8c424568716c20c55afafb99fa0a2a44"
+    }
+  },
+  "browser_review": "64px and40px tile modes; original restored on click and reload"
+}

@@ -1,0 +1,1737 @@
+{
+  "category": "roles",
+  "phase": "category-complete",
+  "assets": {
+    "vanguard": {
+      "id": "vanguard",
+      "name": "Mara",
+      "title": "Vanguard",
+      "status": "reused",
+      "file": "processed/vanguard.png",
+      "source": "art-pilot/builtin-simple80/processed/ally-1.png",
+      "qa": {
+        "failures": [],
+        "coverage": 0.2739,
+        "main_component_share": 1.0,
+        "bbox": [
+          18,
+          10,
+          62,
+          72
+        ]
+      }
+    },
+    "ranger": {
+      "id": "ranger",
+      "name": "Ivo",
+      "title": "Ranger",
+      "status": "reviewed",
+      "file": "processed/ranger.png",
+      "prompt": "prompts/ranger.txt",
+      "signature": "sage short surveyor coat, brown close cap, large coiled grapple rope with one blunt hook, no bow",
+      "raw": "raw/ranger.png",
+      "builtin_source": "raw/ranger.png",
+      "actual_source_size": [
+        1254,
+        1254
+      ],
+      "export_size": [
+        80,
+        80
+      ],
+      "bbox": [
+        18,
+        10,
+        61,
+        72
+      ],
+      "coverage": 0.2769,
+      "sha256": "8df80b72809ebf69b03427044cc6af9d1f13f62e5b7d84d9374d4ab40dbd138d",
+      "references": [
+        "art-pilot/builtin-simple80/reference-character-strip.png",
+        "art-pilot/builtin-simple80/raw/ally-1.png"
+      ],
+      "qa": {
+        "failures": [],
+        "coverage": 0.2769,
+        "main_component_share": 1.0,
+        "bbox": [
+          18,
+          10,
+          61,
+          72
+        ]
+      }
+    },
+    "gardener": {
+      "id": "gardener",
+      "name": "Fern",
+      "title": "Gardener",
+      "status": "reviewed",
+      "file": "processed/gardener.png",
+      "prompt": "prompts/gardener.txt",
+      "signature": "sage broad gardening apron, wide straw hat, small ivory seed tin with one sprout",
+      "raw": "raw/gardener.png",
+      "builtin_source": "raw/gardener.png",
+      "actual_source_size": [
+        1254,
+        1254
+      ],
+      "export_size": [
+        80,
+        80
+      ],
+      "bbox": [
+        15,
+        10,
+        65,
+        72
+      ],
+      "coverage": 0.2884,
+      "sha256": "9038474fbbc3b51de3e75b2abce0ef32b1a60ac2dda79ed24dfe0a06ceb0f908",
+      "references": [
+        "art-pilot/builtin-simple80/reference-character-strip.png",
+        "art-pilot/builtin-simple80/raw/ally-1.png"
+      ],
+      "qa": {
+        "failures": [],
+        "coverage": 0.2884,
+        "main_component_share": 1.0,
+        "bbox": [
+          15,
+          10,
+          65,
+          72
+        ]
+      }
+    },
+    "engineer": {
+      "id": "engineer",
+      "name": "Pip",
+      "title": "Engineer",
+      "status": "reviewed",
+      "file": "processed/engineer.png",
+      "prompt": "prompts/engineer.txt",
+      "signature": "ochre work vest, rust flat cap, carrying one round charge and broad wrench",
+      "raw": "raw/engineer.png",
+      "builtin_source": "raw/engineer.png",
+      "actual_source_size": [
+        1254,
+        1254
+      ],
+      "export_size": [
+        80,
+        80
+      ],
+      "bbox": [
+        12,
+        10,
+        68,
+        72
+      ],
+      "coverage": 0.3164,
+      "sha256": "5b7b4c82c9f64962b01d908b3937555cde266f47619a163f038d432be84c6781",
+      "references": [
+        "art-pilot/builtin-simple80/reference-character-strip.png",
+        "art-pilot/builtin-simple80/raw/ally-1.png"
+      ],
+      "qa": {
+        "failures": [],
+        "coverage": 0.3164,
+        "main_component_share": 1.0,
+        "bbox": [
+          12,
+          10,
+          68,
+          72
+        ]
+      }
+    },
+    "tidecaller": {
+      "id": "tidecaller",
+      "name": "Neri",
+      "title": "Tidecaller",
+      "status": "reused",
+      "file": "processed/tidecaller.png",
+      "source": "art-pilot/builtin-simple80/processed/ally-2.png",
+      "qa": {
+        "failures": [],
+        "coverage": 0.2778,
+        "main_component_share": 1.0,
+        "bbox": [
+          16,
+          10,
+          63,
+          72
+        ]
+      }
+    },
+    "archer": {
+      "id": "archer",
+      "name": "Ash",
+      "title": "Longbow",
+      "status": "reviewed",
+      "file": "processed/archer.png",
+      "prompt": "prompts/archer.txt",
+      "signature": "muted plum short cape, uncovered dark hair, one large simple longbow",
+      "raw": "raw/archer.png",
+      "builtin_source": "raw/archer.png",
+      "actual_source_size": [
+        1254,
+        1254
+      ],
+      "export_size": [
+        80,
+        80
+      ],
+      "bbox": [
+        12,
+        10,
+        67,
+        72
+      ],
+      "coverage": 0.3008,
+      "sha256": "430d728297ecfcb72246cafbd3a4dd87c63c66e09c180b52a30468122f91a6a7",
+      "references": [
+        "art-pilot/builtin-simple80/reference-character-strip.png",
+        "art-pilot/builtin-simple80/raw/ally-1.png"
+      ],
+      "qa": {
+        "failures": [],
+        "coverage": 0.3008,
+        "main_component_share": 1.0,
+        "bbox": [
+          12,
+          10,
+          67,
+          72
+        ]
+      }
+    },
+    "medic": {
+      "id": "medic",
+      "name": "Lio",
+      "title": "Field medic",
+      "status": "reviewed",
+      "file": "processed/medic.png",
+      "prompt": "prompts/medic.txt",
+      "signature": "ivory tabard with one rust medical cross, ochre soft cap, broad medical satchel",
+      "raw": "raw/medic.png",
+      "builtin_source": "raw/medic.png",
+      "actual_source_size": [
+        1254,
+        1254
+      ],
+      "export_size": [
+        80,
+        80
+      ],
+      "bbox": [
+        21,
+        10,
+        59,
+        72
+      ],
+      "coverage": 0.263,
+      "sha256": "2854eb7cef4dc5e7b0d11bb727e82a4f9dc9bf8f2a7039bc8ad5ab6088f34e7e",
+      "references": [
+        "art-pilot/builtin-simple80/reference-character-strip.png",
+        "art-pilot/builtin-simple80/raw/ally-1.png"
+      ],
+      "qa": {
+        "failures": [],
+        "coverage": 0.263,
+        "main_component_share": 1.0,
+        "bbox": [
+          21,
+          10,
+          59,
+          72
+        ]
+      }
+    },
+    "carrier": {
+      "id": "carrier",
+      "name": "Ada",
+      "title": "Transporter",
+      "status": "reviewed",
+      "file": "processed/carrier.png",
+      "prompt": "prompts/carrier.txt",
+      "signature": "teal rolled sleeves, broad ivory padded shoulder yoke, sturdy open carrying frame on back",
+      "raw": "raw/carrier.png",
+      "builtin_source": "raw/carrier.png",
+      "actual_source_size": [
+        1254,
+        1254
+      ],
+      "export_size": [
+        80,
+        80
+      ],
+      "bbox": [
+        19,
+        10,
+        61,
+        72
+      ],
+      "coverage": 0.2739,
+      "sha256": "fc65067313df2d202cdf19ed22f3005f5953ac8a2f51fc0ba1cbc64a181d6c44",
+      "references": [
+        "art-pilot/builtin-simple80/reference-character-strip.png",
+        "art-pilot/builtin-simple80/raw/ally-1.png"
+      ],
+      "qa": {
+        "failures": [],
+        "coverage": 0.2739,
+        "main_component_share": 1.0,
+        "bbox": [
+          19,
+          10,
+          61,
+          72
+        ]
+      }
+    },
+    "mawkeeper": {
+      "id": "mawkeeper",
+      "name": "Bram",
+      "title": "Maw tender",
+      "status": "reviewed",
+      "file": "processed/mawkeeper.png",
+      "prompt": "prompts/mawkeeper.txt",
+      "signature": "sage overalls, ochre floppy hat, one pot holding a single broad toothed plant mouth",
+      "raw": "raw/mawkeeper.png",
+      "builtin_source": "raw/mawkeeper.png",
+      "actual_source_size": [
+        1254,
+        1254
+      ],
+      "export_size": [
+        80,
+        80
+      ],
+      "bbox": [
+        16,
+        10,
+        63,
+        72
+      ],
+      "coverage": 0.3045,
+      "sha256": "afde1cf4d445c2aaf33a3f2996f52cbeebb036bbe5eba97f95b0c091c7c513d9",
+      "references": [
+        "art-pilot/builtin-simple80/reference-character-strip.png",
+        "art-pilot/builtin-simple80/raw/ally-1.png"
+      ],
+      "qa": {
+        "failures": [],
+        "coverage": 0.3045,
+        "main_component_share": 1.0,
+        "bbox": [
+          16,
+          10,
+          63,
+          72
+        ]
+      }
+    },
+    "vinekeeper": {
+      "id": "vinekeeper",
+      "name": "Tess",
+      "title": "Vine weaver",
+      "status": "reviewed",
+      "file": "processed/vinekeeper.png",
+      "prompt": "prompts/vinekeeper.txt",
+      "signature": "deepteal wrap, sage leaf shaped shoulder cape, one large simple loop of vine",
+      "raw": "raw/vinekeeper.png",
+      "builtin_source": "raw/vinekeeper.png",
+      "actual_source_size": [
+        1254,
+        1254
+      ],
+      "export_size": [
+        80,
+        80
+      ],
+      "bbox": [
+        15,
+        10,
+        64,
+        72
+      ],
+      "coverage": 0.2919,
+      "sha256": "ca581fc4a55704481ff60780fab6687b0370b1ef9872bd351089b51a30ab71af",
+      "references": [
+        "art-pilot/builtin-simple80/reference-character-strip.png",
+        "art-pilot/builtin-simple80/raw/ally-1.png"
+      ],
+      "qa": {
+        "failures": [],
+        "coverage": 0.2919,
+        "main_component_share": 1.0,
+        "bbox": [
+          15,
+          10,
+          64,
+          72
+        ]
+      }
+    },
+    "shaman": {
+      "id": "shaman",
+      "name": "Oru",
+      "title": "Hearth shaman",
+      "status": "reviewed",
+      "file": "processed/shaman.png",
+      "prompt": "prompts/shaman.txt",
+      "signature": "rust draped shawl, ivory hair bun, one short ochre hearth totem with simple flame shape",
+      "raw": "raw/shaman.png",
+      "builtin_source": "raw/shaman.png",
+      "actual_source_size": [
+        1254,
+        1254
+      ],
+      "export_size": [
+        80,
+        80
+      ],
+      "bbox": [
+        14,
+        10,
+        66,
+        72
+      ],
+      "coverage": 0.3184,
+      "sha256": "f346ca0239cba4ca11da8a38924649ec7071232f9ee430be2506119fc8c06e60",
+      "references": [
+        "art-pilot/builtin-simple80/reference-character-strip.png",
+        "art-pilot/builtin-simple80/raw/ally-1.png"
+      ],
+      "qa": {
+        "failures": [],
+        "coverage": 0.3184,
+        "main_component_share": 1.0,
+        "bbox": [
+          14,
+          10,
+          66,
+          72
+        ]
+      }
+    },
+    "blight": {
+      "id": "blight",
+      "name": "Sen",
+      "title": "Blight keeper",
+      "status": "reviewed",
+      "file": "processed/blight.png",
+      "prompt": "prompts/blight.txt",
+      "signature": "mutedplum long apron, sage headscarf, one squat dark vessel with one pale green droplet",
+      "raw": "raw/blight.png",
+      "builtin_source": "raw/blight.png",
+      "actual_source_size": [
+        1254,
+        1254
+      ],
+      "export_size": [
+        80,
+        80
+      ],
+      "bbox": [
+        17,
+        10,
+        62,
+        72
+      ],
+      "coverage": 0.3003,
+      "sha256": "2b622d43e8ab18fd77df7fa1836a51a1e879c21a1557f91a212d9fd4aa2f4b03",
+      "references": [
+        "art-pilot/builtin-simple80/reference-character-strip.png",
+        "art-pilot/builtin-simple80/raw/ally-1.png"
+      ],
+      "qa": {
+        "failures": [],
+        "coverage": 0.3003,
+        "main_component_share": 1.0,
+        "bbox": [
+          17,
+          10,
+          62,
+          72
+        ]
+      }
+    },
+    "bulldozer": {
+      "id": "bulldozer",
+      "name": "Rook",
+      "title": "Bulldozer",
+      "status": "reviewed",
+      "file": "processed/bulldozer.png",
+      "prompt": "prompts/bulldozer.txt",
+      "signature": "broad ochre work coat, rust helmet, enormous plain rectangular pushing board held across torso",
+      "raw": "raw/bulldozer.png",
+      "builtin_source": "raw/bulldozer.png",
+      "actual_source_size": [
+        1254,
+        1254
+      ],
+      "export_size": [
+        80,
+        80
+      ],
+      "bbox": [
+        14,
+        10,
+        65,
+        72
+      ],
+      "coverage": 0.3442,
+      "sha256": "a80826fc6621eb37a39e23a02eb801c28b79b7c5e23b4d3894ffd04ffd8876aa",
+      "references": [
+        "art-pilot/builtin-simple80/reference-character-strip.png",
+        "art-pilot/builtin-simple80/raw/ally-1.png"
+      ],
+      "qa": {
+        "failures": [],
+        "coverage": 0.3442,
+        "main_component_share": 1.0,
+        "bbox": [
+          14,
+          10,
+          65,
+          72
+        ]
+      }
+    },
+    "witch": {
+      "id": "witch",
+      "name": "Vale",
+      "title": "Witch",
+      "status": "reviewed",
+      "file": "processed/witch.png",
+      "prompt": "prompts/witch.txt",
+      "signature": "mutedplum crooked brim hat, ivory shawl, one crescent shaped charm held forward",
+      "raw": "raw/witch.png",
+      "builtin_source": "raw/witch.png",
+      "actual_source_size": [
+        1254,
+        1254
+      ],
+      "export_size": [
+        80,
+        80
+      ],
+      "bbox": [
+        16,
+        10,
+        63,
+        72
+      ],
+      "coverage": 0.2761,
+      "sha256": "15c02181f9c5e44097206c46f1f3b17e435114b284ee9e0c90b76d18ca214d7e",
+      "references": [
+        "art-pilot/builtin-simple80/reference-character-strip.png",
+        "art-pilot/builtin-simple80/raw/ally-1.png"
+      ],
+      "qa": {
+        "failures": [],
+        "coverage": 0.2761,
+        "main_component_share": 1.0,
+        "bbox": [
+          16,
+          10,
+          63,
+          72
+        ]
+      }
+    },
+    "astronomer": {
+      "id": "astronomer",
+      "name": "Edda",
+      "title": "Astronomer",
+      "status": "reviewed",
+      "file": "processed/astronomer.png",
+      "prompt": "prompts/astronomer.txt",
+      "signature": "deepteal long coat, ivory round cap, one large brass astrolabe ring",
+      "raw": "raw/astronomer.png",
+      "builtin_source": "raw/astronomer.png",
+      "actual_source_size": [
+        1254,
+        1254
+      ],
+      "export_size": [
+        80,
+        80
+      ],
+      "bbox": [
+        19,
+        10,
+        61,
+        72
+      ],
+      "coverage": 0.2697,
+      "sha256": "e1ce84d027ff4bf369a38885b1e7dacaa10cb5acec3510ab2e7977393852eb05",
+      "references": [
+        "art-pilot/builtin-simple80/reference-character-strip.png",
+        "art-pilot/builtin-simple80/raw/ally-1.png"
+      ],
+      "qa": {
+        "failures": [],
+        "coverage": 0.2697,
+        "main_component_share": 1.0,
+        "bbox": [
+          19,
+          10,
+          61,
+          72
+        ]
+      }
+    },
+    "digger": {
+      "id": "digger",
+      "name": "Dax",
+      "title": "Channel digger",
+      "status": "reviewed",
+      "file": "processed/digger.png",
+      "prompt": "prompts/digger.txt",
+      "signature": "sage rolled sleeves, ochre workcap, large broad spade across shoulder",
+      "raw": "raw/digger.png",
+      "builtin_source": "raw/digger.png",
+      "actual_source_size": [
+        1254,
+        1254
+      ],
+      "export_size": [
+        80,
+        80
+      ],
+      "bbox": [
+        9,
+        10,
+        70,
+        72
+      ],
+      "coverage": 0.3133,
+      "sha256": "e35c8ed1ff833795fa7c70fc033b6d03d616461675c139d85283c0d6f517897a",
+      "references": [
+        "art-pilot/builtin-simple80/reference-character-strip.png",
+        "art-pilot/builtin-simple80/raw/ally-1.png"
+      ],
+      "qa": {
+        "failures": [],
+        "coverage": 0.3133,
+        "main_component_share": 1.0,
+        "bbox": [
+          9,
+          10,
+          70,
+          72
+        ]
+      }
+    },
+    "geomancer": {
+      "id": "geomancer",
+      "name": "Moss",
+      "title": "Geomancer",
+      "status": "reviewed",
+      "file": "processed/geomancer.png",
+      "prompt": "prompts/geomancer.txt",
+      "signature": "ivory short mantle, sage hoodless tunic, holding one solid square stone block",
+      "raw": "raw/geomancer.png",
+      "builtin_source": "raw/geomancer.png",
+      "actual_source_size": [
+        1254,
+        1254
+      ],
+      "export_size": [
+        80,
+        80
+      ],
+      "bbox": [
+        18,
+        10,
+        62,
+        72
+      ],
+      "coverage": 0.2739,
+      "sha256": "12ac4187a1977d7a956a6121ce24b30ae9c651d149f76fbb2dce76e8298b4a4a",
+      "references": [
+        "art-pilot/builtin-simple80/reference-character-strip.png",
+        "art-pilot/builtin-simple80/raw/ally-1.png"
+      ],
+      "qa": {
+        "failures": [],
+        "coverage": 0.2739,
+        "main_component_share": 1.0,
+        "bbox": [
+          18,
+          10,
+          62,
+          72
+        ]
+      }
+    },
+    "sapper": {
+      "id": "sapper",
+      "name": "Kit",
+      "title": "Sapper",
+      "status": "reviewed",
+      "file": "processed/sapper.png",
+      "prompt": "prompts/sapper.txt",
+      "signature": "rust short jacket, ivory headband, large simple demolition shears held low",
+      "raw": "raw/sapper.png",
+      "builtin_source": "raw/sapper.png",
+      "actual_source_size": [
+        1254,
+        1254
+      ],
+      "export_size": [
+        80,
+        80
+      ],
+      "bbox": [
+        14,
+        10,
+        66,
+        72
+      ],
+      "coverage": 0.2891,
+      "sha256": "d7e14b6e96e11fafc4b81e34b4490135f9b5db36d81c559195e65898c43ff0d2",
+      "references": [
+        "art-pilot/builtin-simple80/reference-character-strip.png",
+        "art-pilot/builtin-simple80/raw/ally-1.png"
+      ],
+      "qa": {
+        "failures": [],
+        "coverage": 0.2891,
+        "main_component_share": 1.0,
+        "bbox": [
+          14,
+          10,
+          66,
+          72
+        ]
+      }
+    },
+    "mirror": {
+      "id": "mirror",
+      "name": "Yara",
+      "title": "Mirror dancer",
+      "status": "reviewed",
+      "file": "processed/mirror.png",
+      "prompt": "prompts/mirror.txt",
+      "signature": "mutedplum asymmetric dancer robe, ivory hair sweep, one broad oval handheld mirror",
+      "raw": "raw/mirror.png",
+      "builtin_source": "raw/mirror.png",
+      "actual_source_size": [
+        1254,
+        1254
+      ],
+      "export_size": [
+        80,
+        80
+      ],
+      "bbox": [
+        14,
+        10,
+        66,
+        72
+      ],
+      "coverage": 0.3108,
+      "sha256": "1085e390b110601ee4b5b16dba14a45cfd0f6675cdf9f2baebde37ba2f5871ff",
+      "references": [
+        "art-pilot/builtin-simple80/reference-character-strip.png",
+        "art-pilot/builtin-simple80/raw/ally-1.png"
+      ],
+      "qa": {
+        "failures": [],
+        "coverage": 0.3108,
+        "main_component_share": 1.0,
+        "bbox": [
+          14,
+          10,
+          66,
+          72
+        ]
+      }
+    },
+    "blink": {
+      "id": "blink",
+      "name": "Noa",
+      "title": "Blink runner",
+      "status": "reviewed",
+      "file": "processed/blink.png",
+      "prompt": "prompts/blink.txt",
+      "signature": "teal short fitted tunic, rust scarf trailing one broad ribbon, lightly bent running stance, no weapon",
+      "raw": "raw/blink.png",
+      "builtin_source": "raw/blink.png",
+      "actual_source_size": [
+        1254,
+        1254
+      ],
+      "export_size": [
+        80,
+        80
+      ],
+      "bbox": [
+        10,
+        10,
+        70,
+        72
+      ],
+      "coverage": 0.2973,
+      "sha256": "138163d5c1b21bf53489cc31a144bbfb4b4ca8c3b93ce2ba604003bce62db543",
+      "references": [
+        "art-pilot/builtin-simple80/reference-character-strip.png",
+        "art-pilot/builtin-simple80/raw/ally-1.png"
+      ],
+      "qa": {
+        "failures": [],
+        "coverage": 0.2973,
+        "main_component_share": 1.0,
+        "bbox": [
+          10,
+          10,
+          70,
+          72
+        ]
+      }
+    },
+    "ferryman": {
+      "id": "ferryman",
+      "name": "Keel",
+      "title": "Ferryman",
+      "status": "reviewed",
+      "file": "processed/ferryman.png",
+      "prompt": "prompts/ferryman.txt",
+      "signature": "ochre raincape, broad flat teal boat hat, one long blunt wooden paddle",
+      "raw": "raw/ferryman.png",
+      "builtin_source": "raw/ferryman.png",
+      "actual_source_size": [
+        1254,
+        1254
+      ],
+      "export_size": [
+        80,
+        80
+      ],
+      "bbox": [
+        12,
+        10,
+        68,
+        72
+      ],
+      "coverage": 0.2872,
+      "sha256": "2fa1c38610fe88cd18ebbf844656e1137c19741358bb588d5356888ec7c2bb3f",
+      "references": [
+        "art-pilot/builtin-simple80/reference-character-strip.png",
+        "art-pilot/builtin-simple80/raw/ally-1.png"
+      ],
+      "qa": {
+        "failures": [],
+        "coverage": 0.2872,
+        "main_component_share": 1.0,
+        "bbox": [
+          12,
+          10,
+          68,
+          72
+        ]
+      }
+    },
+    "builder": {
+      "id": "builder",
+      "name": "June",
+      "title": "Bridgewright",
+      "status": "reviewed",
+      "file": "processed/builder.png",
+      "prompt": "prompts/builder.txt",
+      "signature": "ivory workshirt, teal apron, ochre cap, one broad bridge plank and simple mallet",
+      "raw": "raw/builder.png",
+      "builtin_source": "raw/builder.png",
+      "actual_source_size": [
+        1254,
+        1254
+      ],
+      "export_size": [
+        80,
+        80
+      ],
+      "bbox": [
+        12,
+        10,
+        67,
+        72
+      ],
+      "coverage": 0.3342,
+      "sha256": "f904aa7d52bb3a64e8eea4f3aa5cbde7f5439e8715c2e7b07a6720bb83f5fbab",
+      "references": [
+        "art-pilot/builtin-simple80/reference-character-strip.png",
+        "art-pilot/builtin-simple80/raw/ally-1.png"
+      ],
+      "qa": {
+        "failures": [],
+        "coverage": 0.3342,
+        "main_component_share": 1.0,
+        "bbox": [
+          12,
+          10,
+          67,
+          72
+        ]
+      }
+    },
+    "alchemist": {
+      "id": "alchemist",
+      "name": "Iris",
+      "title": "Alchemist",
+      "status": "reviewed",
+      "file": "processed/alchemist.png",
+      "prompt": "prompts/alchemist.txt",
+      "signature": "sage long apron, ivory headscarf, one broad flask containing pale teal liquid",
+      "raw": "raw/alchemist.png",
+      "builtin_source": "raw/alchemist.png",
+      "actual_source_size": [
+        1254,
+        1254
+      ],
+      "export_size": [
+        80,
+        80
+      ],
+      "bbox": [
+        18,
+        10,
+        61,
+        72
+      ],
+      "coverage": 0.288,
+      "sha256": "fc5627241485977eed15a3bda4f36395f9723fcd0b0f7974d97a862393ce3ced",
+      "references": [
+        "art-pilot/builtin-simple80/reference-character-strip.png",
+        "art-pilot/builtin-simple80/raw/ally-1.png"
+      ],
+      "qa": {
+        "failures": [],
+        "coverage": 0.288,
+        "main_component_share": 1.0,
+        "bbox": [
+          18,
+          10,
+          61,
+          72
+        ]
+      }
+    },
+    "firestarter": {
+      "id": "firestarter",
+      "name": "Cinder",
+      "title": "Firestarter",
+      "status": "reviewed",
+      "file": "processed/firestarter.png",
+      "prompt": "prompts/firestarter.txt",
+      "signature": "rust sleeveless mantle, dark hair topknot, one simple orange flame cup",
+      "raw": "raw/firestarter.png",
+      "builtin_source": "raw/firestarter.png",
+      "actual_source_size": [
+        1254,
+        1254
+      ],
+      "export_size": [
+        80,
+        80
+      ],
+      "bbox": [
+        14,
+        10,
+        66,
+        72
+      ],
+      "coverage": 0.2617,
+      "sha256": "9ed0ce8e0e2c37b444c8be60693cd18ba67671ca7967ceca446e9b8bcebfa126",
+      "references": [
+        "art-pilot/builtin-simple80/reference-character-strip.png",
+        "art-pilot/builtin-simple80/raw/ally-1.png"
+      ],
+      "qa": {
+        "failures": [],
+        "coverage": 0.2617,
+        "main_component_share": 0.9875,
+        "bbox": [
+          14,
+          10,
+          66,
+          72
+        ]
+      }
+    },
+    "warden": {
+      "id": "warden",
+      "name": "Holt",
+      "title": "Warden",
+      "status": "reviewed",
+      "file": "processed/warden.png",
+      "prompt": "prompts/warden.txt",
+      "signature": "ivory heavy coat, ochre guard helmet, large round teal protective shield",
+      "raw": "raw/warden.png",
+      "builtin_source": "raw/warden.png",
+      "actual_source_size": [
+        1254,
+        1254
+      ],
+      "export_size": [
+        80,
+        80
+      ],
+      "bbox": [
+        17,
+        10,
+        63,
+        72
+      ],
+      "coverage": 0.2855,
+      "sha256": "2c690ca17bd26910e92285afd9004d28aa67fa7d31e5bb4fc80291ef3269b892",
+      "references": [
+        "art-pilot/builtin-simple80/reference-character-strip.png",
+        "art-pilot/builtin-simple80/raw/ally-1.png"
+      ],
+      "qa": {
+        "failures": [],
+        "coverage": 0.2855,
+        "main_component_share": 1.0,
+        "bbox": [
+          17,
+          10,
+          63,
+          72
+        ]
+      }
+    },
+    "herder": {
+      "id": "herder",
+      "name": "Mina",
+      "title": "Whisper herder",
+      "status": "reviewed",
+      "file": "processed/herder.png",
+      "prompt": "prompts/herder.txt",
+      "signature": "sage dress, ivory scarf, one short wooden flute held near mouth",
+      "raw": "raw/herder.png",
+      "builtin_source": "raw/herder.png",
+      "actual_source_size": [
+        1254,
+        1254
+      ],
+      "export_size": [
+        80,
+        80
+      ],
+      "bbox": [
+        14,
+        10,
+        65,
+        72
+      ],
+      "coverage": 0.3111,
+      "sha256": "2402b3df44308a8846d1960a35579db007da296df4e97549d24b02a21e7c73a9",
+      "references": [
+        "art-pilot/builtin-simple80/reference-character-strip.png",
+        "art-pilot/builtin-simple80/raw/ally-1.png"
+      ],
+      "qa": {
+        "failures": [],
+        "coverage": 0.3111,
+        "main_component_share": 1.0,
+        "bbox": [
+          14,
+          10,
+          65,
+          72
+        ]
+      }
+    },
+    "gust": {
+      "id": "gust",
+      "name": "Gale",
+      "title": "Gust caller",
+      "status": "reviewed",
+      "file": "processed/gust.png",
+      "prompt": "prompts/gust.txt",
+      "signature": "ivory loose tunic, teal swept cape, one large simple folding fan",
+      "raw": "raw/gust.png",
+      "builtin_source": "raw/gust.png",
+      "actual_source_size": [
+        1254,
+        1254
+      ],
+      "export_size": [
+        80,
+        80
+      ],
+      "bbox": [
+        8,
+        10,
+        71,
+        72
+      ],
+      "coverage": 0.3277,
+      "sha256": "425c4056191014f70983332d4ee44fdc34b30ac95a68ced214c36dbf20a3d2cf",
+      "references": [
+        "art-pilot/builtin-simple80/reference-character-strip.png",
+        "art-pilot/builtin-simple80/raw/ally-1.png"
+      ],
+      "qa": {
+        "failures": [],
+        "coverage": 0.3277,
+        "main_component_share": 1.0,
+        "bbox": [
+          8,
+          10,
+          71,
+          72
+        ]
+      }
+    },
+    "magnet": {
+      "id": "magnet",
+      "name": "Pol",
+      "title": "Magnetist",
+      "status": "reviewed",
+      "file": "processed/magnet.png",
+      "prompt": "prompts/magnet.txt",
+      "signature": "teal workjacket, ochre close cap, one enormous horseshoe magnet with rust tips",
+      "raw": "raw/magnet.png",
+      "builtin_source": "raw/magnet.png",
+      "actual_source_size": [
+        1254,
+        1254
+      ],
+      "export_size": [
+        80,
+        80
+      ],
+      "bbox": [
+        12,
+        10,
+        67,
+        72
+      ],
+      "coverage": 0.3342,
+      "sha256": "406ee4deef89ca993d96d05f8ae321faa4dc705789628523b4bfeecefe5e6a4c",
+      "references": [
+        "art-pilot/builtin-simple80/reference-character-strip.png",
+        "art-pilot/builtin-simple80/raw/ally-1.png"
+      ],
+      "qa": {
+        "failures": [],
+        "coverage": 0.3342,
+        "main_component_share": 1.0,
+        "bbox": [
+          12,
+          10,
+          67,
+          72
+        ]
+      }
+    },
+    "courier": {
+      "id": "courier",
+      "name": "Wren",
+      "title": "Courier",
+      "status": "reviewed",
+      "file": "processed/courier.png",
+      "prompt": "prompts/courier.txt",
+      "signature": "rust short coat, ivory messenger cap, large teal envelope pouch, forward running pose",
+      "raw": "raw/courier.png",
+      "builtin_source": "raw/courier.png",
+      "actual_source_size": [
+        1254,
+        1254
+      ],
+      "export_size": [
+        80,
+        80
+      ],
+      "bbox": [
+        12,
+        10,
+        68,
+        72
+      ],
+      "coverage": 0.3036,
+      "sha256": "c95d212f9c46f753417f3e13969c7e90b8f83deb441c9e9f21021b3eabefba47",
+      "references": [
+        "art-pilot/builtin-simple80/reference-character-strip.png",
+        "art-pilot/builtin-simple80/raw/ally-1.png"
+      ],
+      "qa": {
+        "failures": [],
+        "coverage": 0.3036,
+        "main_component_share": 1.0,
+        "bbox": [
+          12,
+          10,
+          68,
+          72
+        ]
+      }
+    },
+    "anchorite": {
+      "id": "anchorite",
+      "name": "Ansel",
+      "title": "Anchorite",
+      "status": "reviewed",
+      "file": "processed/anchorite.png",
+      "prompt": "prompts/anchorite.txt",
+      "signature": "ochre heavy robe, ivory bare head and short beard, holding simple dark anchor stone",
+      "raw": "raw/anchorite.png",
+      "builtin_source": "raw/anchorite.png",
+      "actual_source_size": [
+        1254,
+        1254
+      ],
+      "export_size": [
+        80,
+        80
+      ],
+      "bbox": [
+        14,
+        10,
+        66,
+        72
+      ],
+      "coverage": 0.3528,
+      "sha256": "7b568d25d3f9f2acd76d15fe45d90aa82fa26d69f11f77ed3714d8cc11ac8ec8",
+      "references": [
+        "art-pilot/builtin-simple80/reference-character-strip.png",
+        "art-pilot/builtin-simple80/raw/ally-1.png"
+      ],
+      "qa": {
+        "failures": [],
+        "coverage": 0.3528,
+        "main_component_share": 1.0,
+        "bbox": [
+          14,
+          10,
+          66,
+          72
+        ]
+      }
+    },
+    "tinkerer": {
+      "id": "tinkerer",
+      "name": "Mika",
+      "title": "Tinkerer",
+      "status": "reviewed",
+      "file": "processed/tinkerer.png",
+      "prompt": "prompts/tinkerer.txt",
+      "signature": "sage workvest, rust beret, one broad crank handle and small square gear",
+      "raw": "raw/tinkerer.png",
+      "builtin_source": "raw/tinkerer.png",
+      "actual_source_size": [
+        1254,
+        1254
+      ],
+      "export_size": [
+        80,
+        80
+      ],
+      "bbox": [
+        13,
+        10,
+        66,
+        72
+      ],
+      "coverage": 0.2997,
+      "sha256": "f1f9ae0c7d4cdf6af490c328a1d5eb6edfb7e483241db16c9a4d9385ac262120",
+      "references": [
+        "art-pilot/builtin-simple80/reference-character-strip.png",
+        "art-pilot/builtin-simple80/raw/ally-1.png"
+      ],
+      "qa": {
+        "failures": [],
+        "coverage": 0.2997,
+        "main_component_share": 1.0,
+        "bbox": [
+          13,
+          10,
+          66,
+          72
+        ]
+      }
+    },
+    "conductor": {
+      "id": "conductor",
+      "name": "Bea",
+      "title": "Conductor",
+      "status": "reviewed",
+      "file": "processed/conductor.png",
+      "prompt": "prompts/conductor.txt",
+      "signature": "deepteal uniform coat, ivory conductor cap, one short ochre signal baton raised",
+      "raw": "raw/conductor.png",
+      "builtin_source": "raw/conductor.png",
+      "actual_source_size": [
+        1254,
+        1254
+      ],
+      "export_size": [
+        80,
+        80
+      ],
+      "bbox": [
+        16,
+        10,
+        64,
+        72
+      ],
+      "coverage": 0.2742,
+      "sha256": "cd082f87468712b648c9e98644d1fb721b34d9247249829b848243378e95d1ed",
+      "references": [
+        "art-pilot/builtin-simple80/reference-character-strip.png",
+        "art-pilot/builtin-simple80/raw/ally-1.png"
+      ],
+      "qa": {
+        "failures": [],
+        "coverage": 0.2742,
+        "main_component_share": 1.0,
+        "bbox": [
+          16,
+          10,
+          64,
+          72
+        ]
+      }
+    },
+    "weaver": {
+      "id": "weaver",
+      "name": "Loom",
+      "title": "Gate weaver",
+      "status": "reviewed",
+      "file": "processed/weaver.png",
+      "prompt": "prompts/weaver.txt",
+      "signature": "mutedplum shawl, ivory cloth cap, one large open oval loom loop with two crossing threads",
+      "raw": "raw/weaver.png",
+      "builtin_source": "raw/weaver.png",
+      "actual_source_size": [
+        1254,
+        1254
+      ],
+      "export_size": [
+        80,
+        80
+      ],
+      "bbox": [
+        11,
+        10,
+        69,
+        72
+      ],
+      "coverage": 0.3347,
+      "sha256": "71c663e106aba666032ca77344c9fa672496c5042ecce1cb1f186e1f5ad631e4",
+      "references": [
+        "art-pilot/builtin-simple80/reference-character-strip.png",
+        "art-pilot/builtin-simple80/raw/ally-1.png"
+      ],
+      "qa": {
+        "failures": [],
+        "coverage": 0.3347,
+        "main_component_share": 1.0,
+        "bbox": [
+          11,
+          10,
+          69,
+          72
+        ]
+      }
+    },
+    "siren": {
+      "id": "siren",
+      "name": "Una",
+      "title": "Siren",
+      "status": "reviewed",
+      "file": "processed/siren.png",
+      "prompt": "prompts/siren.txt",
+      "signature": "deepteal flowing dress, ivory hair bob, one broad shell horn",
+      "raw": "raw/siren.png",
+      "builtin_source": "raw/siren.png",
+      "actual_source_size": [
+        1254,
+        1254
+      ],
+      "export_size": [
+        80,
+        80
+      ],
+      "bbox": [
+        14,
+        10,
+        65,
+        72
+      ],
+      "coverage": 0.3006,
+      "sha256": "30eadd5ed9d527c5cd2658f1f33f247cae709624c43ccc4ace214a06fa6cdc81",
+      "references": [
+        "art-pilot/builtin-simple80/reference-character-strip.png",
+        "art-pilot/builtin-simple80/raw/ally-1.png"
+      ],
+      "qa": {
+        "failures": [],
+        "coverage": 0.3006,
+        "main_component_share": 1.0,
+        "bbox": [
+          14,
+          10,
+          65,
+          72
+        ]
+      }
+    },
+    "icewright": {
+      "id": "icewright",
+      "name": "Fenn",
+      "title": "Icewright",
+      "status": "reviewed",
+      "file": "processed/icewright.png",
+      "prompt": "prompts/icewright.txt",
+      "signature": "ivory workcoat with teal cuffs, sage cap, one large pale teal ice crystal block",
+      "raw": "raw/icewright.png",
+      "builtin_source": "raw/icewright.png",
+      "actual_source_size": [
+        1254,
+        1254
+      ],
+      "export_size": [
+        80,
+        80
+      ],
+      "bbox": [
+        16,
+        10,
+        63,
+        72
+      ],
+      "coverage": 0.3128,
+      "sha256": "00909a0b60275083a9f25daa34250957f8a5601491826c65d66b7e1080fcfa34",
+      "references": [
+        "art-pilot/builtin-simple80/reference-character-strip.png",
+        "art-pilot/builtin-simple80/raw/ally-1.png"
+      ],
+      "qa": {
+        "failures": [],
+        "coverage": 0.3128,
+        "main_component_share": 1.0,
+        "bbox": [
+          16,
+          10,
+          63,
+          72
+        ]
+      }
+    },
+    "beekeeper": {
+      "id": "beekeeper",
+      "name": "Bex",
+      "title": "Beekeeper",
+      "status": "reviewed",
+      "file": "processed/beekeeper.png",
+      "prompt": "prompts/beekeeper.txt",
+      "signature": "ochre smock, broad ivory beekeeper veil silhouette, one simple round honey pot and single small bee drone",
+      "raw": "raw/beekeeper.png",
+      "builtin_source": "raw/beekeeper.png",
+      "actual_source_size": [
+        1254,
+        1254
+      ],
+      "export_size": [
+        80,
+        80
+      ],
+      "bbox": [
+        13,
+        10,
+        66,
+        72
+      ],
+      "coverage": 0.3489,
+      "sha256": "f61a1a9fd3fc372bcba51e450e7e81c39852fd3f4bcc0fe6aea4cf2bcb2aac84",
+      "references": [
+        "art-pilot/builtin-simple80/reference-character-strip.png",
+        "art-pilot/builtin-simple80/raw/ally-1.png"
+      ],
+      "qa": {
+        "failures": [],
+        "coverage": 0.3489,
+        "main_component_share": 0.9391,
+        "bbox": [
+          13,
+          10,
+          66,
+          72
+        ]
+      }
+    },
+    "demolition": {
+      "id": "demolition",
+      "name": "Boom",
+      "title": "Detonator",
+      "status": "reviewed",
+      "file": "processed/demolition.png",
+      "prompt": "prompts/demolition.txt",
+      "signature": "rust padded jacket, ochre helmet, broad square detonator box with one plunger",
+      "raw": "raw/demolition.png",
+      "builtin_source": "raw/demolition.png",
+      "actual_source_size": [
+        1254,
+        1254
+      ],
+      "export_size": [
+        80,
+        80
+      ],
+      "bbox": [
+        13,
+        10,
+        67,
+        72
+      ],
+      "coverage": 0.36,
+      "sha256": "40fa21169a18b25a8ab097cc1321bcd2331e3513aba2fd7189525fe737fd8693",
+      "references": [
+        "art-pilot/builtin-simple80/reference-character-strip.png",
+        "art-pilot/builtin-simple80/raw/ally-1.png"
+      ],
+      "qa": {
+        "failures": [],
+        "coverage": 0.36,
+        "main_component_share": 1.0,
+        "bbox": [
+          13,
+          10,
+          67,
+          72
+        ]
+      }
+    },
+    "recaller": {
+      "id": "recaller",
+      "name": "Remy",
+      "title": "Recaller",
+      "status": "reviewed",
+      "file": "processed/recaller.png",
+      "prompt": "prompts/recaller.txt",
+      "signature": "mutedplum travel coat, ivory hood folded down, one large simple compass disk",
+      "raw": "raw/recaller.png",
+      "builtin_source": "raw/recaller.png",
+      "actual_source_size": [
+        1254,
+        1254
+      ],
+      "export_size": [
+        80,
+        80
+      ],
+      "bbox": [
+        17,
+        10,
+        62,
+        72
+      ],
+      "coverage": 0.2969,
+      "sha256": "5907405af47b49b5479e348fa6f139cfbcf036f5444d34e8a58250815683eb72",
+      "references": [
+        "art-pilot/builtin-simple80/reference-character-strip.png",
+        "art-pilot/builtin-simple80/raw/ally-1.png"
+      ],
+      "qa": {
+        "failures": [],
+        "coverage": 0.2969,
+        "main_component_share": 1.0,
+        "bbox": [
+          17,
+          10,
+          62,
+          72
+        ]
+      }
+    },
+    "scout": {
+      "id": "scout",
+      "name": "Sable",
+      "title": "Scout",
+      "status": "reviewed",
+      "file": "processed/scout.png",
+      "prompt": "prompts/scout.txt",
+      "signature": "sage short cloak, rust featherless cap, broad map scroll held open, crouched ready stance",
+      "raw": "raw/scout.png",
+      "builtin_source": "raw/scout.png",
+      "actual_source_size": [
+        1254,
+        1254
+      ],
+      "export_size": [
+        80,
+        80
+      ],
+      "bbox": [
+        11,
+        10,
+        69,
+        72
+      ],
+      "coverage": 0.3234,
+      "sha256": "173422063c52a1fd7d151bba5acecbf083594442127d7279fef4fa04fbb872dd",
+      "references": [
+        "art-pilot/builtin-simple80/reference-character-strip.png",
+        "art-pilot/builtin-simple80/raw/ally-1.png"
+      ],
+      "qa": {
+        "failures": [],
+        "coverage": 0.3234,
+        "main_component_share": 1.0,
+        "bbox": [
+          11,
+          10,
+          69,
+          72
+        ]
+      }
+    },
+    "liberator": {
+      "id": "liberator",
+      "name": "Luz",
+      "title": "Liberator",
+      "status": "reviewed",
+      "file": "processed/liberator.png",
+      "prompt": "prompts/liberator.txt",
+      "signature": "ivory tunic, rust scarf, one enormous brass key held upward",
+      "raw": "raw/liberator.png",
+      "builtin_source": "raw/liberator.png",
+      "actual_source_size": [
+        1254,
+        1254
+      ],
+      "export_size": [
+        80,
+        80
+      ],
+      "bbox": [
+        10,
+        10,
+        69,
+        72
+      ],
+      "coverage": 0.2242,
+      "sha256": "412641675fc1222a9d2677168bf7067357210fd4602ff8915a537efa5d5d529b",
+      "references": [
+        "art-pilot/builtin-simple80/reference-character-strip.png",
+        "art-pilot/builtin-simple80/raw/ally-1.png"
+      ],
+      "qa": {
+        "failures": [],
+        "coverage": 0.2242,
+        "main_component_share": 1.0,
+        "bbox": [
+          10,
+          10,
+          69,
+          72
+        ]
+      }
+    },
+    "harvester": {
+      "id": "harvester",
+      "name": "Reed",
+      "title": "Harvester",
+      "status": "delegated-to-primary",
+      "file": "processed/harvester.png",
+      "prompt": "prompts/harvester.txt",
+      "signature": "sage workapron, ivory rolled sleeves, one broad curved pruning sickle held low"
+    },
+    "plumber": {
+      "id": "plumber",
+      "name": "Elin",
+      "title": "River turner",
+      "status": "delegated-to-primary",
+      "file": "processed/plumber.png",
+      "prompt": "prompts/plumber.txt",
+      "signature": "deepteal overalls, ochre cap, one enormous pipe wrench with open jaw"
+    },
+    "rainmaker": {
+      "id": "rainmaker",
+      "name": "Rin",
+      "title": "Rainmaker",
+      "status": "delegated-to-primary",
+      "file": "processed/rainmaker.png",
+      "prompt": "prompts/rainmaker.txt",
+      "signature": "sage raincoat, ivory brim hat, one broad teal umbrella held overhead"
+    },
+    "firefighter": {
+      "id": "firefighter",
+      "name": "Faro",
+      "title": "Firefighter",
+      "status": "delegated-to-primary",
+      "file": "processed/firefighter.png",
+      "prompt": "prompts/firefighter.txt",
+      "signature": "rust rescue coat, ivory protective helmet, broad dark hose nozzle held forward"
+    },
+    "mason": {
+      "id": "mason",
+      "name": "Slate",
+      "title": "Stone mover",
+      "status": "delegated-to-primary",
+      "file": "processed/mason.png",
+      "prompt": "prompts/mason.txt",
+      "signature": "ivory workvest, sage cap, one large blunt stone lifting tong gripping square block"
+    },
+    "lantern": {
+      "id": "lantern",
+      "name": "Lux",
+      "title": "Lantern keeper",
+      "status": "delegated-to-primary",
+      "file": "processed/lantern.png",
+      "prompt": "prompts/lantern.txt",
+      "signature": "deepteal longcoat, ochre softcap, one broad warm ivory lantern with dark frame"
+    },
+    "spore": {
+      "id": "spore",
+      "name": "Myra",
+      "title": "Spore artist",
+      "status": "delegated-to-primary",
+      "file": "processed/spore.png",
+      "prompt": "prompts/spore.txt",
+      "signature": "mutedplum apron, sage mushroom shaped hat, one broad spore puff vessel, no floating particle cloud"
+    },
+    "puppeteer": {
+      "id": "puppeteer",
+      "name": "Nox",
+      "title": "Puppeteer",
+      "status": "delegated-to-primary",
+      "file": "processed/puppeteer.png",
+      "prompt": "prompts/puppeteer.txt",
+      "signature": "mutedplum short mantle, ivory closecap, one large wooden control cross with two clear strings"
+    },
+    "rigger": {
+      "id": "rigger",
+      "name": "Rivet",
+      "title": "Rigger",
+      "status": "delegated-to-primary",
+      "file": "processed/rigger.png",
+      "prompt": "prompts/rigger.txt",
+      "signature": "ochre overalls, teal workcap, holding one short broad conveyor roller section"
+    },
+    "bombardier": {
+      "id": "bombardier",
+      "name": "Kestrel",
+      "title": "Bombardier",
+      "status": "delegated-to-primary",
+      "file": "processed/bombardier.png",
+      "prompt": "prompts/bombardier.txt",
+      "signature": "rust aviator workcoat, ivory cap, one round blunt shell tucked under arm, no gun"
+    }
+  },
+  "completion": {
+    "assigned": 40,
+    "new_generated": 38,
+    "reused": 2,
+    "delegated": 10,
+    "technical_failures": []
+  }
+}

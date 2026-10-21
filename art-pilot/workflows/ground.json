@@ -1,0 +1,142 @@
+{
+  "1": {
+    "class_type": "CheckpointLoaderSimple",
+    "inputs": {
+      "ckpt_name": "DreamShaperXL_Turbo_v2_1.safetensors"
+    }
+  },
+  "2": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "1",
+        1
+      ],
+      "text": "Seamless flat TOP DOWN quiet sandstone soil texture, muted warm ochre beige, a few very small angular stone flecks and fine matte gouache paper grain. No objects no perspective no grid no diamond pattern no borders no grass clumps."
+    }
+  },
+  "3": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "1",
+        1
+      ],
+      "text": "multiple figures, collection, variants, character sheet, panels, frames, border, swatches, diagram, text, letters, watermark, profile, side view, diamond ground tile, glossy plastic, 3d render, photograph, anime, big eyes, eyelashes, realistic anatomy, long legs, icon, sticker, vector logo, thick smooth outlines, neon glow, skull, skeleton, horns, demon, scenery, building, plants, floor tiles, crosshatch, diamond pattern"
+    }
+  },
+  "4": {
+    "class_type": "EmptyLatentImage",
+    "inputs": {
+      "width": 768,
+      "height": 768,
+      "batch_size": 1
+    }
+  },
+  "5": {
+    "class_type": "KSampler",
+    "inputs": {
+      "model": [
+        "12",
+        0
+      ],
+      "positive": [
+        "2",
+        0
+      ],
+      "negative": [
+        "3",
+        0
+      ],
+      "latent_image": [
+        "4",
+        0
+      ],
+      "seed": 485510,
+      "steps": 6,
+      "cfg": 2.0,
+      "sampler_name": "dpmpp_sde",
+      "scheduler": "karras",
+      "denoise": 1.0
+    }
+  },
+  "6": {
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "5",
+        0
+      ],
+      "vae": [
+        "1",
+        2
+      ]
+    }
+  },
+  "7": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "6",
+        0
+      ],
+      "filename_prefix": "pilot/ground"
+    }
+  },
+  "9": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "pilot-ground.png"
+    }
+  },
+  "10": {
+    "class_type": "CLIPVisionLoader",
+    "inputs": {
+      "clip_name": "CLIP-ViT-H-14-laion2B-s32B-b79K.safetensors"
+    }
+  },
+  "11": {
+    "class_type": "IPAdapterModelLoader",
+    "inputs": {
+      "ipadapter_file": "ip-adapter-plus_sdxl_vit-h.safetensors"
+    }
+  },
+  "12": {
+    "class_type": "IPAdapterStyleComposition",
+    "inputs": {
+      "model": [
+        "1",
+        0
+      ],
+      "ipadapter": [
+        "11",
+        0
+      ],
+      "image_style": [
+        "14",
+        0
+      ],
+      "image_composition": [
+        "9",
+        0
+      ],
+      "weight_style": 0.35,
+      "weight_composition": 0.2,
+      "expand_style": false,
+      "combine_embeds": "average",
+      "start_at": 0.0,
+      "end_at": 1.0,
+      "embeds_scaling": "V only",
+      "clip_vision": [
+        "10",
+        0
+      ]
+    }
+  },
+  "14": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "pilot-style-map.png"
+    }
+  }
+}

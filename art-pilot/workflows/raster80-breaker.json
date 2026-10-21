@@ -1,0 +1,8 @@
+{
+  "enemy-2": {
+    "denoise": 0.61,
+    "seed": 784973,
+    "prompt": "A heavy squat industrial Breaker maintenance automaton, broad asymmetrical dark teal steel body, huge square blunt ram forearms, chipped ivory top plate, TWO SMALL AMBER INDICATOR LIGHTS inside one narrow dark horizontal sensor slit, sealed plain lower chest plate, short massive square feet. Restrained serious mechanical design. Angular hand-painted gouache, confident irregular ink edges, three broad matte value planes, minimal large chips only. Front elevated view, isolated pure white background, no floor or shadow.",
+    "negative": "text, sheets, panels, multiple subjects, scenery, ground, floor, cast shadow, contact shadow, oval base, gradients, glossy plastic, realistic, photo, 3d, mobile game, tiny details, filigree, fine hatching, individual leaves, curved blob, soft round forms, vector logo, flat icon, sticker, anime, huge eyes, eyelashes, long legs, profile, back view, diamond tile, mouth, teeth, monster, silly, expressive face, multiple eyes, large eyes, cartoon face, wood grain, tiny bolts, high detail"
+  }
+}

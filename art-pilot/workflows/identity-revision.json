@@ -1,0 +1,38 @@
+{
+  "ally-1": {
+    "init_image": "pilot-ally-1-init.png",
+    "reference": "pilot-ally-1-init.png",
+    "denoise": 0.72,
+    "composition_weight": 0.8,
+    "style_weight": 0.65,
+    "steps": 8,
+    "cfg": 2.5,
+    "seed": 485410,
+    "prompt": "One cozy harbor keeper woman, short sturdy proportions, very large asymmetric triangular teal work cloak, cream cuffs, chunky square boots, tiny face shaded under crooked hood, a large blunt rectangular brass ram guard on left forearm, free right hand. Broad lopsided silhouette, no sword. Peculiar angular hand-painted fantasy storybook gouache, thin broken dark ink contours, flat matte paint, muted cream sage teal ochre, restrained detail. Full object visible from elevated FRONT camera, centered alone, plain white background. One single complete painted game piece. Keep the broad graphic silhouette and equipment. White empty background.",
+    "negative": "multiple figures, collection, variants, character sheet, panels, frames, border, swatches, diagram, text, letters, watermark, profile, side view, diamond ground tile, glossy plastic, 3d render, photograph, anime, big eyes, eyelashes, realistic anatomy, long legs, icon, sticker, vector logo, thick smooth outlines, neon glow, skull, skeleton, horns, demon, dagger, sword, baby, child, cute anime face, scenery, trees in background"
+  },
+  "ally-2": {
+    "init_image": "pilot-ally-2-init.png",
+    "reference": "pilot-ally-2-init.png",
+    "denoise": 0.72,
+    "composition_weight": 0.8,
+    "style_weight": 0.65,
+    "steps": 8,
+    "cfg": 2.5,
+    "seed": 485489,
+    "prompt": "One cozy river tender, oversized sharp pointed cream hood, tiny face shaded deep in the hood with two small eyes, short asymmetric deep teal coat with huge cuffs, short square boots, holding one curved brass tuning fork with small round turquoise tide dial. Narrow angular silhouette, no flames. Peculiar angular hand-painted fantasy storybook gouache, thin broken dark ink contours, flat matte paint, muted cream sage teal ochre, restrained detail. Full object visible from elevated FRONT camera, centered alone, plain white background. One single complete painted game piece. Keep the broad graphic silhouette and equipment. White empty background.",
+    "negative": "multiple figures, collection, variants, character sheet, panels, frames, border, swatches, diagram, text, letters, watermark, profile, side view, diamond ground tile, glossy plastic, 3d render, photograph, anime, big eyes, eyelashes, realistic anatomy, long legs, icon, sticker, vector logo, thick smooth outlines, neon glow, skull, skeleton, horns, demon, dagger, sword, baby, child, cute anime face, scenery, trees in background"
+  },
+  "enemy-2": {
+    "init_image": "pilot-enemy-2-init.png",
+    "reference": "pilot-enemy-2-init.png",
+    "denoise": 0.72,
+    "composition_weight": 0.8,
+    "style_weight": 0.65,
+    "steps": 8,
+    "cfg": 2.5,
+    "seed": 485647,
+    "prompt": "One heavy Bellwether maintenance robot, broad lopsided slate trapezoid body, huge blunt square ram forearms, two short thick mechanical legs, chipped ivory shoulder shell, tiny amber horizontal eye slit, brass joints. Squat angular silhouette. Clearly a machine, no skull or monster. Peculiar angular hand-painted fantasy storybook gouache, thin broken dark ink contours, flat matte paint, muted cream sage teal ochre, restrained detail. Full object visible from elevated FRONT camera, centered alone, plain white background. One single complete painted game piece. Keep the broad graphic silhouette and equipment. White empty background.",
+    "negative": "multiple figures, collection, variants, character sheet, panels, frames, border, swatches, diagram, text, letters, watermark, profile, side view, diamond ground tile, glossy plastic, 3d render, photograph, anime, big eyes, eyelashes, realistic anatomy, long legs, icon, sticker, vector logo, thick smooth outlines, neon glow, skull, skeleton, horns, demon, dagger, sword, baby, child, cute anime face, scenery, trees in background"
+  }
+}

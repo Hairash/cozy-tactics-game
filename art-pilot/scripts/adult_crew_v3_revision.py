@@ -1,0 +1,12 @@
+from pathlib import Path
+import shutil,json
+r=Path(__file__).resolve().parents[1];src=r/'reference/adult-crew-v3';inp=r.parents[1]/'art-runtime/ComfyUI/input'
+for aid in ['ally-1','ally-2']:shutil.copy2(src/f'{aid}-init.png',inp/f'adultv3-{aid}.png')
+shutil.copy2(src/'style-reference.png',inp/'adultv3-style.png')
+common='Single experienced adult expedition worker, mature restrained editorial adventure illustration. Six-head adult anatomy, small faceted three-quarter face, a defined projecting angular nose and cheek plane, narrow slanted horizontal eyes, quiet unsmiling expression, visible neck. Lean torso, narrow wrists, bent elbow, asymmetrical grounded weight-bearing stance, angular knees, separate modest boots. Thin firm dark ink contours with sharp joins. Five flat matte colors, one broad ochre facial plane, large simple coat panels. No tiny decoration, no rendered highlights. Entire single figure in elevated frontal view, pure white background, no floor or shadow.'
+negative='child, toddler, baby, chibi, cute, kawaii, anime, mascot, childish, toy, cartoon, storybook, round face, big head, dot eyes, round eyes, large eyes, round chin, blank mask face, mitten hands, huge hands, huge boots, flared trousers, baseball cap, visor, hoodie drawstrings, smile, open mouth, eyelashes, rosy cheeks, glossy, plastic, 3d, mobile game character, hair strands, detailed hair, buckles, buttons, embroidery, filigree, boot shine, gradient, dramatic shading, highlights, tiny details, scenery, floor, ground shadow, oval base, sheet, multiple characters, text, watermark'
+changes={}
+for aid in ['ally-1','ally-2']:
+ subject={'ally-1':'Mara, adult woman guard, faceted brimless ochre guard helmet, short rust-red angular mantle, cream tunic, teal trousers, modest black ankle boots, large ochre shield with teal inset.','ally-2':'Neri, adult woman tidekeeper, modest folded ivory angular hood, long teal workcoat, cream center panel, teal trousers, modest black ankle boots, one tall plain hooked ochre tide staff in right hand.'}[aid]
+ changes[aid]={'prompt':subject+' '+common,'negative':negative,'init_image':f'adultv3-{aid}.png','reference':f'adultv3-{aid}.png','style_reference':'adultv3-style.png','denoise':.48,'style_weight':.25,'composition_weight':.9,'cfg':2.5,'steps':8,'sampler':'dpmpp_sde','scheduler':'karras','seed':594731,'art_direction_model':'gpt-6-astra-low','source_type':'comfyui-raster','export_size':[80,80]}
+(r/'workflows/adult-crew-v3-revision.json').write_text(json.dumps(changes,indent=2))

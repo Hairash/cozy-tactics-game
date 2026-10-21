@@ -1,0 +1,482 @@
+[
+  {
+    "id": "vanguard",
+    "failures": [],
+    "coverage": 0.2739,
+    "main_component_share": 1.0,
+    "bbox": [
+      18,
+      10,
+      62,
+      72
+    ]
+  },
+  {
+    "id": "ranger",
+    "failures": [],
+    "coverage": 0.2769,
+    "main_component_share": 1.0,
+    "bbox": [
+      18,
+      10,
+      61,
+      72
+    ]
+  },
+  {
+    "id": "gardener",
+    "failures": [],
+    "coverage": 0.2884,
+    "main_component_share": 1.0,
+    "bbox": [
+      15,
+      10,
+      65,
+      72
+    ]
+  },
+  {
+    "id": "engineer",
+    "failures": [],
+    "coverage": 0.3164,
+    "main_component_share": 1.0,
+    "bbox": [
+      12,
+      10,
+      68,
+      72
+    ]
+  },
+  {
+    "id": "tidecaller",
+    "failures": [],
+    "coverage": 0.2778,
+    "main_component_share": 1.0,
+    "bbox": [
+      16,
+      10,
+      63,
+      72
+    ]
+  },
+  {
+    "id": "archer",
+    "failures": [],
+    "coverage": 0.3008,
+    "main_component_share": 1.0,
+    "bbox": [
+      12,
+      10,
+      67,
+      72
+    ]
+  },
+  {
+    "id": "medic",
+    "failures": [],
+    "coverage": 0.263,
+    "main_component_share": 1.0,
+    "bbox": [
+      21,
+      10,
+      59,
+      72
+    ]
+  },
+  {
+    "id": "carrier",
+    "failures": [],
+    "coverage": 0.2739,
+    "main_component_share": 1.0,
+    "bbox": [
+      19,
+      10,
+      61,
+      72
+    ]
+  },
+  {
+    "id": "mawkeeper",
+    "failures": [],
+    "coverage": 0.3045,
+    "main_component_share": 1.0,
+    "bbox": [
+      16,
+      10,
+      63,
+      72
+    ]
+  },
+  {
+    "id": "vinekeeper",
+    "failures": [],
+    "coverage": 0.2919,
+    "main_component_share": 1.0,
+    "bbox": [
+      15,
+      10,
+      64,
+      72
+    ]
+  },
+  {
+    "id": "shaman",
+    "failures": [],
+    "coverage": 0.3184,
+    "main_component_share": 1.0,
+    "bbox": [
+      14,
+      10,
+      66,
+      72
+    ]
+  },
+  {
+    "id": "blight",
+    "failures": [],
+    "coverage": 0.3003,
+    "main_component_share": 1.0,
+    "bbox": [
+      17,
+      10,
+      62,
+      72
+    ]
+  },
+  {
+    "id": "bulldozer",
+    "failures": [],
+    "coverage": 0.3442,
+    "main_component_share": 1.0,
+    "bbox": [
+      14,
+      10,
+      65,
+      72
+    ]
+  },
+  {
+    "id": "witch",
+    "failures": [],
+    "coverage": 0.2761,
+    "main_component_share": 1.0,
+    "bbox": [
+      16,
+      10,
+      63,
+      72
+    ]
+  },
+  {
+    "id": "astronomer",
+    "failures": [],
+    "coverage": 0.2697,
+    "main_component_share": 1.0,
+    "bbox": [
+      19,
+      10,
+      61,
+      72
+    ]
+  },
+  {
+    "id": "digger",
+    "failures": [],
+    "coverage": 0.3133,
+    "main_component_share": 1.0,
+    "bbox": [
+      9,
+      10,
+      70,
+      72
+    ]
+  },
+  {
+    "id": "geomancer",
+    "failures": [],
+    "coverage": 0.2739,
+    "main_component_share": 1.0,
+    "bbox": [
+      18,
+      10,
+      62,
+      72
+    ]
+  },
+  {
+    "id": "sapper",
+    "failures": [],
+    "coverage": 0.2891,
+    "main_component_share": 1.0,
+    "bbox": [
+      14,
+      10,
+      66,
+      72
+    ]
+  },
+  {
+    "id": "mirror",
+    "failures": [],
+    "coverage": 0.3108,
+    "main_component_share": 1.0,
+    "bbox": [
+      14,
+      10,
+      66,
+      72
+    ]
+  },
+  {
+    "id": "blink",
+    "failures": [],
+    "coverage": 0.2973,
+    "main_component_share": 1.0,
+    "bbox": [
+      10,
+      10,
+      70,
+      72
+    ]
+  },
+  {
+    "id": "ferryman",
+    "failures": [],
+    "coverage": 0.2872,
+    "main_component_share": 1.0,
+    "bbox": [
+      12,
+      10,
+      68,
+      72
+    ]
+  },
+  {
+    "id": "builder",
+    "failures": [],
+    "coverage": 0.3342,
+    "main_component_share": 1.0,
+    "bbox": [
+      12,
+      10,
+      67,
+      72
+    ]
+  },
+  {
+    "id": "alchemist",
+    "failures": [],
+    "coverage": 0.288,
+    "main_component_share": 1.0,
+    "bbox": [
+      18,
+      10,
+      61,
+      72
+    ]
+  },
+  {
+    "id": "firestarter",
+    "failures": [],
+    "coverage": 0.2617,
+    "main_component_share": 0.9875,
+    "bbox": [
+      14,
+      10,
+      66,
+      72
+    ]
+  },
+  {
+    "id": "warden",
+    "failures": [],
+    "coverage": 0.2855,
+    "main_component_share": 1.0,
+    "bbox": [
+      17,
+      10,
+      63,
+      72
+    ]
+  },
+  {
+    "id": "herder",
+    "failures": [],
+    "coverage": 0.3111,
+    "main_component_share": 1.0,
+    "bbox": [
+      14,
+      10,
+      65,
+      72
+    ]
+  },
+  {
+    "id": "gust",
+    "failures": [],
+    "coverage": 0.3277,
+    "main_component_share": 1.0,
+    "bbox": [
+      8,
+      10,
+      71,
+      72
+    ]
+  },
+  {
+    "id": "magnet",
+    "failures": [],
+    "coverage": 0.3342,
+    "main_component_share": 1.0,
+    "bbox": [
+      12,
+      10,
+      67,
+      72
+    ]
+  },
+  {
+    "id": "courier",
+    "failures": [],
+    "coverage": 0.3036,
+    "main_component_share": 1.0,
+    "bbox": [
+      12,
+      10,
+      68,
+      72
+    ]
+  },
+  {
+    "id": "anchorite",
+    "failures": [],
+    "coverage": 0.3528,
+    "main_component_share": 1.0,
+    "bbox": [
+      14,
+      10,
+      66,
+      72
+    ]
+  },
+  {
+    "id": "tinkerer",
+    "failures": [],
+    "coverage": 0.2997,
+    "main_component_share": 1.0,
+    "bbox": [
+      13,
+      10,
+      66,
+      72
+    ]
+  },
+  {
+    "id": "conductor",
+    "failures": [],
+    "coverage": 0.2742,
+    "main_component_share": 1.0,
+    "bbox": [
+      16,
+      10,
+      64,
+      72
+    ]
+  },
+  {
+    "id": "weaver",
+    "failures": [],
+    "coverage": 0.3347,
+    "main_component_share": 1.0,
+    "bbox": [
+      11,
+      10,
+      69,
+      72
+    ]
+  },
+  {
+    "id": "siren",
+    "failures": [],
+    "coverage": 0.3006,
+    "main_component_share": 1.0,
+    "bbox": [
+      14,
+      10,
+      65,
+      72
+    ]
+  },
+  {
+    "id": "icewright",
+    "failures": [],
+    "coverage": 0.3128,
+    "main_component_share": 1.0,
+    "bbox": [
+      16,
+      10,
+      63,
+      72
+    ]
+  },
+  {
+    "id": "beekeeper",
+    "failures": [],
+    "coverage": 0.3489,
+    "main_component_share": 0.9391,
+    "bbox": [
+      13,
+      10,
+      66,
+      72
+    ]
+  },
+  {
+    "id": "demolition",
+    "failures": [],
+    "coverage": 0.36,
+    "main_component_share": 1.0,
+    "bbox": [
+      13,
+      10,
+      67,
+      72
+    ]
+  },
+  {
+    "id": "recaller",
+    "failures": [],
+    "coverage": 0.2969,
+    "main_component_share": 1.0,
+    "bbox": [
+      17,
+      10,
+      62,
+      72
+    ]
+  },
+  {
+    "id": "scout",
+    "failures": [],
+    "coverage": 0.3234,
+    "main_component_share": 1.0,
+    "bbox": [
+      11,
+      10,
+      69,
+      72
+    ]
+  },
+  {
+    "id": "liberator",
+    "failures": [],
+    "coverage": 0.2242,
+    "main_component_share": 1.0,
+    "bbox": [
+      10,
+      10,
+      69,
+      72
+    ]
+  }
+]

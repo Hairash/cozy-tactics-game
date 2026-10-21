@@ -1,0 +1,178 @@
+{
+  "ally-1": {
+    "prompt": "Mara, short sturdy harbor woman, broad asymmetric burnt-orange cape, low brass cap with short angular rust crest, cream tunic, enormous blunt brass forearm shield with dark teal inset, square boots, tiny visible calm face. Warm rust silhouette. Single full isolated game sprite. Angular hand-painted gouache illustration, irregular confident dark ink edges, broad matte color planes, very restrained brush variation, three clear value groups. Exaggerated geometric shapes and cut corners, a few natural irregularities, not a flat icon. Elevated frontal view, entire subject visible, white empty background. Strong silhouette readable at80pixels. No floor or ground shadow.",
+    "negative": "text, sheets, panels, multiple subjects, scenery, ground, floor, cast shadow, contact shadow, oval base, gradients, glossy plastic, realistic, photo, 3d, mobile game, tiny details, filigree, fine hatching, individual leaves, curved blob, soft round forms, vector logo, flat icon, sticker, anime, huge eyes, eyelashes, long legs, profile, back view, diamond tile",
+    "model": "DreamShaperXL_Turbo_v2_1.safetensors",
+    "sampler": "dpmpp_sde",
+    "scheduler": "karras",
+    "steps": 8,
+    "cfg": 2.5,
+    "init_image": "raster80-ally-1.png",
+    "reference": "raster80-ally-1.png",
+    "style_reference": "pilot-style-map.png",
+    "style_weight": 0.45,
+    "composition_weight": 0.7,
+    "denoise": 0.48,
+    "seed": 784321,
+    "source_type": "comfyui-raster",
+    "vector_file": null,
+    "export_size": [
+      80,
+      80
+    ]
+  },
+  "ally-2": {
+    "prompt": "Neri river tender, narrow deep teal coat, asymmetric crescent-shaped ivory hood with a jagged folded edge, small shaded face, tall angular brass hooked tide staff, square boots. Cool teal and ivory silhouette. Single full isolated game sprite. Angular hand-painted gouache illustration, irregular confident dark ink edges, broad matte color planes, very restrained brush variation, three clear value groups. Exaggerated geometric shapes and cut corners, a few natural irregularities, not a flat icon. Elevated frontal view, entire subject visible, white empty background. Strong silhouette readable at80pixels. No floor or ground shadow.",
+    "negative": "text, sheets, panels, multiple subjects, scenery, ground, floor, cast shadow, contact shadow, oval base, gradients, glossy plastic, realistic, photo, 3d, mobile game, tiny details, filigree, fine hatching, individual leaves, curved blob, soft round forms, vector logo, flat icon, sticker, anime, huge eyes, eyelashes, long legs, profile, back view, diamond tile",
+    "model": "DreamShaperXL_Turbo_v2_1.safetensors",
+    "sampler": "dpmpp_sde",
+    "scheduler": "karras",
+    "steps": 8,
+    "cfg": 2.5,
+    "init_image": "raster80-ally-2.png",
+    "reference": "raster80-ally-2.png",
+    "style_reference": "pilot-style-map.png",
+    "style_weight": 0.45,
+    "composition_weight": 0.7,
+    "denoise": 0.48,
+    "seed": 784428,
+    "source_type": "comfyui-raster",
+    "vector_file": null,
+    "export_size": [
+      80,
+      80
+    ]
+  },
+  "enemy-1": {
+    "prompt": "A peculiar compact Sentinel weather automaton, sharp triangular dark teal ceramic body, one round amber eye, three short brass mechanical legs, short blunt front emitter. No human face. Single full isolated game sprite. Angular hand-painted gouache illustration, irregular confident dark ink edges, broad matte color planes, very restrained brush variation, three clear value groups. Exaggerated geometric shapes and cut corners, a few natural irregularities, not a flat icon. Elevated frontal view, entire subject visible, white empty background. Strong silhouette readable at80pixels. No floor or ground shadow.",
+    "negative": "text, sheets, panels, multiple subjects, scenery, ground, floor, cast shadow, contact shadow, oval base, gradients, glossy plastic, realistic, photo, 3d, mobile game, tiny details, filigree, fine hatching, individual leaves, curved blob, soft round forms, vector logo, flat icon, sticker, anime, huge eyes, eyelashes, long legs, profile, back view, diamond tile",
+    "model": "DreamShaperXL_Turbo_v2_1.safetensors",
+    "sampler": "dpmpp_sde",
+    "scheduler": "karras",
+    "steps": 8,
+    "cfg": 2.5,
+    "init_image": "raster80-enemy-1.png",
+    "reference": "raster80-enemy-1.png",
+    "style_reference": "pilot-style-map.png",
+    "style_weight": 0.45,
+    "composition_weight": 0.7,
+    "denoise": 0.48,
+    "seed": 784535,
+    "source_type": "comfyui-raster",
+    "vector_file": null,
+    "export_size": [
+      80,
+      80
+    ]
+  },
+  "enemy-2": {
+    "prompt": "A heavy squat Breaker maintenance robot, broad irregular teal trapezoid torso, oversized rectangular blunt ram forearms, crooked ivory shoulder shell, two tiny amber eyes in dark slit, short thick feet. Single full isolated game sprite. Angular hand-painted gouache illustration, irregular confident dark ink edges, broad matte color planes, very restrained brush variation, three clear value groups. Exaggerated geometric shapes and cut corners, a few natural irregularities, not a flat icon. Elevated frontal view, entire subject visible, white empty background. Strong silhouette readable at80pixels. No floor or ground shadow.",
+    "negative": "text, sheets, panels, multiple subjects, scenery, ground, floor, cast shadow, contact shadow, oval base, gradients, glossy plastic, realistic, photo, 3d, mobile game, tiny details, filigree, fine hatching, individual leaves, curved blob, soft round forms, vector logo, flat icon, sticker, anime, huge eyes, eyelashes, long legs, profile, back view, diamond tile",
+    "model": "DreamShaperXL_Turbo_v2_1.safetensors",
+    "sampler": "dpmpp_sde",
+    "scheduler": "karras",
+    "steps": 8,
+    "cfg": 2.5,
+    "init_image": "raster80-enemy-2.png",
+    "reference": "raster80-enemy-2.png",
+    "style_reference": "pilot-style-map.png",
+    "style_weight": 0.45,
+    "composition_weight": 0.7,
+    "denoise": 0.48,
+    "seed": 784642,
+    "source_type": "comfyui-raster",
+    "vector_file": null,
+    "export_size": [
+      80,
+      80
+    ]
+  },
+  "tree": {
+    "prompt": "One crooked small fantasy tree, three broad irregular angular sage and teal foliage masses, bent ochre trunk, two small rusty orange fruit. Very simple foliage, no individual leaves. Single full isolated game sprite. Angular hand-painted gouache illustration, irregular confident dark ink edges, broad matte color planes, very restrained brush variation, three clear value groups. Exaggerated geometric shapes and cut corners, a few natural irregularities, not a flat icon. Elevated frontal view, entire subject visible, white empty background. Strong silhouette readable at80pixels. No floor or ground shadow.",
+    "negative": "text, sheets, panels, multiple subjects, scenery, ground, floor, cast shadow, contact shadow, oval base, gradients, glossy plastic, realistic, photo, 3d, mobile game, tiny details, filigree, fine hatching, individual leaves, curved blob, soft round forms, vector logo, flat icon, sticker, anime, huge eyes, eyelashes, long legs, profile, back view, diamond tile",
+    "model": "DreamShaperXL_Turbo_v2_1.safetensors",
+    "sampler": "dpmpp_sde",
+    "scheduler": "karras",
+    "steps": 8,
+    "cfg": 2.5,
+    "init_image": "raster80-tree.png",
+    "reference": "raster80-tree.png",
+    "style_reference": "pilot-style-map.png",
+    "style_weight": 0.45,
+    "composition_weight": 0.7,
+    "denoise": 0.48,
+    "seed": 784749,
+    "source_type": "comfyui-raster",
+    "vector_file": null,
+    "export_size": [
+      80,
+      80
+    ]
+  },
+  "column": {
+    "prompt": "One squat ruined ivory stone column, large skewed square cap, broad tapering shaft, compact wide foot, one bold zigzag crack, two simple sage moss patches. Large substantial silhouette. Single full isolated game sprite. Angular hand-painted gouache illustration, irregular confident dark ink edges, broad matte color planes, very restrained brush variation, three clear value groups. Exaggerated geometric shapes and cut corners, a few natural irregularities, not a flat icon. Elevated frontal view, entire subject visible, white empty background. Strong silhouette readable at80pixels. No floor or ground shadow.",
+    "negative": "text, sheets, panels, multiple subjects, scenery, ground, floor, cast shadow, contact shadow, oval base, gradients, glossy plastic, realistic, photo, 3d, mobile game, tiny details, filigree, fine hatching, individual leaves, curved blob, soft round forms, vector logo, flat icon, sticker, anime, huge eyes, eyelashes, long legs, profile, back view, diamond tile",
+    "model": "DreamShaperXL_Turbo_v2_1.safetensors",
+    "sampler": "dpmpp_sde",
+    "scheduler": "karras",
+    "steps": 8,
+    "cfg": 2.5,
+    "init_image": "raster80-column.png",
+    "reference": "raster80-column.png",
+    "style_reference": "pilot-style-map.png",
+    "style_weight": 0.45,
+    "composition_weight": 0.7,
+    "denoise": 0.48,
+    "seed": 784856,
+    "source_type": "comfyui-raster",
+    "vector_file": null,
+    "export_size": [
+      80,
+      80
+    ]
+  },
+  "wall": {
+    "prompt": "One low solid ivory masonry barrier, three huge irregular angular stones, two dark joints, flat horizontal top, one tiny moss patch. No step or stairs. Single full isolated game sprite. Angular hand-painted gouache illustration, irregular confident dark ink edges, broad matte color planes, very restrained brush variation, three clear value groups. Exaggerated geometric shapes and cut corners, a few natural irregularities, not a flat icon. Elevated frontal view, entire subject visible, white empty background. Strong silhouette readable at80pixels. No floor or ground shadow.",
+    "negative": "text, sheets, panels, multiple subjects, scenery, ground, floor, cast shadow, contact shadow, oval base, gradients, glossy plastic, realistic, photo, 3d, mobile game, tiny details, filigree, fine hatching, individual leaves, curved blob, soft round forms, vector logo, flat icon, sticker, anime, huge eyes, eyelashes, long legs, profile, back view, diamond tile",
+    "model": "DreamShaperXL_Turbo_v2_1.safetensors",
+    "sampler": "dpmpp_sde",
+    "scheduler": "karras",
+    "steps": 8,
+    "cfg": 2.5,
+    "init_image": "raster80-wall.png",
+    "reference": "raster80-wall.png",
+    "style_reference": "pilot-style-map.png",
+    "style_weight": 0.45,
+    "composition_weight": 0.7,
+    "denoise": 0.48,
+    "seed": 784963,
+    "source_type": "comfyui-raster",
+    "vector_file": null,
+    "export_size": [
+      80,
+      80
+    ]
+  },
+  "fan": {
+    "prompt": "One squat antique weather fan, simple brass circular rim with angular chipped silhouette, three huge dark teal and ivory blades, chunky small pedestal on wide low base. No grille, no thin wires. Single full isolated game sprite. Angular hand-painted gouache illustration, irregular confident dark ink edges, broad matte color planes, very restrained brush variation, three clear value groups. Exaggerated geometric shapes and cut corners, a few natural irregularities, not a flat icon. Elevated frontal view, entire subject visible, white empty background. Strong silhouette readable at80pixels. No floor or ground shadow.",
+    "negative": "text, sheets, panels, multiple subjects, scenery, ground, floor, cast shadow, contact shadow, oval base, gradients, glossy plastic, realistic, photo, 3d, mobile game, tiny details, filigree, fine hatching, individual leaves, curved blob, soft round forms, vector logo, flat icon, sticker, anime, huge eyes, eyelashes, long legs, profile, back view, diamond tile",
+    "model": "DreamShaperXL_Turbo_v2_1.safetensors",
+    "sampler": "dpmpp_sde",
+    "scheduler": "karras",
+    "steps": 8,
+    "cfg": 2.5,
+    "init_image": "raster80-fan.png",
+    "reference": "raster80-fan.png",
+    "style_reference": "pilot-style-map.png",
+    "style_weight": 0.45,
+    "composition_weight": 0.7,
+    "denoise": 0.48,
+    "seed": 785070,
+    "source_type": "comfyui-raster",
+    "vector_file": null,
+    "export_size": [
+      80,
+      80
+    ]
+  }
+}

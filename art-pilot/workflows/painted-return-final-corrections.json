@@ -1,0 +1,14 @@
+{
+  "ally-2": {
+    "init_image": "painted-return-neri-skin.png",
+    "reference": "painted-return-neri-skin.png",
+    "denoise": 0.28,
+    "seed": 751913
+  },
+  "fan": {
+    "denoise": 0.22,
+    "style_weight": 0.7,
+    "composition_weight": 0.9,
+    "seed": 751913
+  }
+}

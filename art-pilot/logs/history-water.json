@@ -1,0 +1,214 @@
+{
+  "prompt": [
+    26,
+    "e210eb9b-a31b-44e7-99ef-a6078571ea27",
+    {
+      "1": {
+        "class_type": "CheckpointLoaderSimple",
+        "inputs": {
+          "ckpt_name": "DreamShaperXL_Turbo_v2_1.safetensors"
+        }
+      },
+      "2": {
+        "class_type": "CLIPTextEncode",
+        "inputs": {
+          "clip": [
+            "1",
+            1
+          ],
+          "text": "Seamless flat TOP DOWN turquoise water texture, muted teal gouache, a few tiny thin cream broken ripples, matte painted surface, quiet broad flat color. No objects no perspective no grid no lines across entire image no waves no banks no borders."
+        }
+      },
+      "3": {
+        "class_type": "CLIPTextEncode",
+        "inputs": {
+          "clip": [
+            "1",
+            1
+          ],
+          "text": "multiple figures, collection, variants, character sheet, panels, frames, border, swatches, diagram, text, letters, watermark, profile, side view, diamond ground tile, glossy plastic, 3d render, photograph, anime, big eyes, eyelashes, realistic anatomy, long legs, icon, sticker, vector logo, thick smooth outlines, neon glow, skull, skeleton, horns, demon, scenery, building, plants, floor tiles, crosshatch, diamond pattern"
+        }
+      },
+      "4": {
+        "class_type": "EmptyLatentImage",
+        "inputs": {
+          "width": 768,
+          "height": 768,
+          "batch_size": 1
+        }
+      },
+      "5": {
+        "class_type": "KSampler",
+        "inputs": {
+          "model": [
+            "12",
+            0
+          ],
+          "positive": [
+            "2",
+            0
+          ],
+          "negative": [
+            "3",
+            0
+          ],
+          "latent_image": [
+            "4",
+            0
+          ],
+          "seed": 485652,
+          "steps": 6,
+          "cfg": 2.0,
+          "sampler_name": "dpmpp_sde",
+          "scheduler": "karras",
+          "denoise": 1.0
+        }
+      },
+      "6": {
+        "class_type": "VAEDecode",
+        "inputs": {
+          "samples": [
+            "5",
+            0
+          ],
+          "vae": [
+            "1",
+            2
+          ]
+        }
+      },
+      "7": {
+        "class_type": "SaveImage",
+        "inputs": {
+          "images": [
+            "6",
+            0
+          ],
+          "filename_prefix": "pilot/water"
+        }
+      },
+      "9": {
+        "class_type": "LoadImage",
+        "inputs": {
+          "image": "pilot-water.png"
+        }
+      },
+      "10": {
+        "class_type": "CLIPVisionLoader",
+        "inputs": {
+          "clip_name": "CLIP-ViT-H-14-laion2B-s32B-b79K.safetensors"
+        }
+      },
+      "11": {
+        "class_type": "IPAdapterModelLoader",
+        "inputs": {
+          "ipadapter_file": "ip-adapter-plus_sdxl_vit-h.safetensors"
+        }
+      },
+      "12": {
+        "class_type": "IPAdapterStyleComposition",
+        "inputs": {
+          "model": [
+            "1",
+            0
+          ],
+          "ipadapter": [
+            "11",
+            0
+          ],
+          "image_style": [
+            "14",
+            0
+          ],
+          "image_composition": [
+            "9",
+            0
+          ],
+          "weight_style": 0.35,
+          "weight_composition": 0.2,
+          "expand_style": false,
+          "combine_embeds": "average",
+          "start_at": 0.0,
+          "end_at": 1.0,
+          "embeds_scaling": "V only",
+          "clip_vision": [
+            "10",
+            0
+          ]
+        }
+      },
+      "14": {
+        "class_type": "LoadImage",
+        "inputs": {
+          "image": "pilot-style-map.png"
+        }
+      }
+    },
+    {
+      "client_id": "last-current-pilot",
+      "create_time": 1792762115004
+    },
+    [
+      "7"
+    ]
+  ],
+  "outputs": {
+    "7": {
+      "images": [
+        {
+          "filename": "water_00002_.png",
+          "subfolder": "pilot",
+          "type": "output",
+          "metadata": {
+            "kind": "image",
+            "width": 768,
+            "height": 768
+          }
+        }
+      ]
+    }
+  },
+  "status": {
+    "status_str": "success",
+    "completed": true,
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "e210eb9b-a31b-44e7-99ef-a6078571ea27",
+          "timestamp": 1792762115004
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [
+            "1",
+            "3",
+            "4",
+            "10",
+            "11",
+            "14"
+          ],
+          "prompt_id": "e210eb9b-a31b-44e7-99ef-a6078571ea27",
+          "timestamp": 1792762115005
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "e210eb9b-a31b-44e7-99ef-a6078571ea27",
+          "timestamp": 1792762130718
+        }
+      ]
+    ]
+  },
+  "meta": {
+    "7": {
+      "node_id": "7",
+      "display_node": "7",
+      "parent_node": null,
+      "real_node_id": "7"
+    }
+  }
+}

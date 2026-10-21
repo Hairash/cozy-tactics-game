@@ -1,0 +1,710 @@
+[
+  {
+    "mission": 27,
+    "title": "The toll keeper",
+    "goal": "boss",
+    "won": true,
+    "rounds": 6,
+    "actions": [
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 1,
+        "y": 6
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 4,
+        "y": 8
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 4,
+        "y": 8
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 5,
+        "y": 8
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 3,
+        "y": 6
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 1,
+        "y": 8
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 1,
+        "y": 4
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 1,
+        "y": 3
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 3,
+        "y": 7
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 1,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 2,
+        "y": 3
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 3,
+        "y": 3
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 3,
+        "y": 5
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 2,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 2,
+        "y": 5
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 2,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 4,
+        "y": 8
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 5,
+        "y": 8
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 2,
+        "y": 4
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 2,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 2,
+        "y": 3
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 2,
+        "y": 3
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 4,
+        "y": 8
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 5,
+        "y": 8
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 2,
+        "y": 6
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 2,
+        "y": 1
+      }
+    ],
+    "seconds": 1.33
+  },
+  {
+    "mission": 59,
+    "title": "The observatory’s last order",
+    "goal": "boss",
+    "won": false,
+    "seconds": 13.8
+  },
+  {
+    "mission": 60,
+    "title": "The horizon moves",
+    "goal": "deliver",
+    "won": true,
+    "rounds": 2,
+    "actions": [
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 1,
+        "y": 5
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 3,
+        "y": 4
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 3,
+        "y": 9,
+        "dir": 0
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 3,
+        "y": 6
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 3,
+        "y": 7
+      },
+      {
+        "type": "act",
+        "id": "a3",
+        "x": 2,
+        "y": 10
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 2,
+        "y": 7
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 2,
+        "y": 6
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 3,
+        "y": 1
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 5,
+        "y": 3
+      },
+      {
+        "type": "interact",
+        "id": "a2",
+        "x": 4,
+        "y": 3
+      }
+    ],
+    "seconds": 0.9
+  },
+  {
+    "mission": 88,
+    "title": "The dark between districts",
+    "goal": "clear",
+    "won": true,
+    "rounds": 8,
+    "actions": [
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 0,
+        "y": 8
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 0,
+        "y": 7
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 1,
+        "y": 8
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 0,
+        "y": 8,
+        "dir": 0
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 1,
+        "y": 10
+      },
+      {
+        "type": "act",
+        "id": "a3",
+        "x": 1,
+        "y": 10
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 1,
+        "y": 9
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 4,
+        "y": 9
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 5,
+        "y": 8
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 0,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 1,
+        "y": 5
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 1,
+        "y": 6
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 5,
+        "y": 5
+      },
+      {
+        "type": "act",
+        "id": "a3",
+        "x": 5,
+        "y": 5
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 0,
+        "y": 4,
+        "dir": 0
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 7,
+        "y": 3
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 3,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "reinforcement1",
+        "x": 3,
+        "y": 3
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 1,
+        "y": 1
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 2,
+        "y": 3,
+        "dir": 1
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 1,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 1,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 1,
+        "y": 3
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 4,
+        "y": 1
+      },
+      {
+        "type": "act",
+        "id": "a3",
+        "x": 1,
+        "y": 1
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 2,
+        "y": 1
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 0,
+        "y": 0
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 2,
+        "y": 0,
+        "dir": 1
+      },
+      {
+        "type": "act",
+        "id": "a3",
+        "x": 4,
+        "y": 1
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 0,
+        "y": 1
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 1,
+        "y": 0
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 1,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 0,
+        "y": 2
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 2,
+        "y": 0
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 2,
+        "y": 1
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 1,
+        "y": 0,
+        "dir": 0
+      },
+      {
+        "type": "act",
+        "id": "a3",
+        "x": 0,
+        "y": 0
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 1,
+        "y": 1
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 1,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 0,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 0,
+        "y": 1
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 2,
+        "y": 1
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 1,
+        "y": 0,
+        "dir": 0
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 1,
+        "y": 0
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 2,
+        "y": 4
+      },
+      {
+        "type": "act",
+        "id": "reinforcement5",
+        "x": 4,
+        "y": 4
+      },
+      {
+        "type": "act",
+        "id": "reinforcement6",
+        "x": 5,
+        "y": 5
+      },
+      {
+        "type": "act",
+        "id": "reinforcement7",
+        "x": 5,
+        "y": 3
+      },
+      {
+        "type": "act",
+        "id": "reinforcement8",
+        "x": 6,
+        "y": 4
+      },
+      {
+        "type": "act",
+        "id": "reinforcement9",
+        "x": 7,
+        "y": 6
+      },
+      {
+        "type": "act",
+        "id": "reinforcement10",
+        "x": 7,
+        "y": 3
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 2,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "reinforcement9",
+        "x": 5,
+        "y": 5
+      },
+      {
+        "type": "act",
+        "id": "reinforcement6",
+        "x": 2,
+        "y": 3
+      },
+      {
+        "type": "act",
+        "id": "reinforcement14",
+        "x": 4,
+        "y": 4
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 4,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "reinforcement11",
+        "x": 8,
+        "y": 5
+      },
+      {
+        "type": "act",
+        "id": "reinforcement8",
+        "x": 5,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "reinforcement7",
+        "x": 6,
+        "y": 8
+      },
+      {
+        "type": "act",
+        "id": "reinforcement15",
+        "x": 3,
+        "y": 4
+      },
+      {
+        "type": "act",
+        "id": "reinforcement18",
+        "x": 2,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "reinforcement10",
+        "x": 6,
+        "y": 6
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "reinforcement22",
+        "x": 6,
+        "y": 4
+      },
+      {
+        "type": "act",
+        "id": "a3",
+        "x": 2,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "reinforcement15",
+        "x": 5,
+        "y": 3
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 2,
+        "y": 1
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 2,
+        "y": 0,
+        "dir": 2
+      }
+    ],
+    "seconds": 21.14
+  }
+]

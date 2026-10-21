@@ -1,0 +1,9 @@
+{
+  "ally-1": {
+    "prompt": "One angular cozy adult harbor guardian in triangular teal hood and cream coat. Her left forearm is hidden behind a huge blunt rectangular brass SHIELD, strapped against her arm, flat armored front with central teal inset. Empty right hand. Small shaded face, short sturdy boots. Hand painted gouache, broken ink lines, matte sage cream brass palette, full body front elevated view, isolated white background.",
+    "negative": "multiple figures, collection, variants, character sheet, panels, frames, border, swatches, diagram, text, letters, watermark, profile, side view, diamond ground tile, glossy plastic, 3d render, photograph, anime, big eyes, eyelashes, realistic anatomy, long legs, icon, sticker, vector logo, thick smooth outlines, neon glow, skull, skeleton, horns, demon, dagger, sword, baby, child, cute anime face, scenery, trees in background, bag, handbag, suitcase, purse, satchel, handle, luggage, briefcase",
+    "denoise": 0.54,
+    "seed": 485454,
+    "cfg": 3.0
+  }
+}

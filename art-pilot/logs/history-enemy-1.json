@@ -1,0 +1,224 @@
+{
+  "prompt": [
+    55,
+    "0412f9fc-3861-45ec-a2fa-23f9ac88f5af",
+    {
+      "1": {
+        "class_type": "CheckpointLoaderSimple",
+        "inputs": {
+          "ckpt_name": "DreamShaperXL_Turbo_v2_1.safetensors"
+        }
+      },
+      "2": {
+        "class_type": "CLIPTextEncode",
+        "inputs": {
+          "clip": [
+            "1",
+            1
+          ],
+          "text": "Sentinel weather automaton, tall narrow conical slate ceramic body, one small amber eye and three mechanical brass legs. Faithful hand-painted fantasy adventure game sprite, fine irregular dark ink drawing, broad restrained matte gouache color planes, subtle brush texture, muted teal ivory warm rust ochre palette, readable silhouette, consistent moderate detail, two or three large value planes per material, no shiny glints. Same elevated frontal square-grid camera. Single complete subject isolated on pure white background, no floor, no ground shadow."
+        }
+      },
+      "3": {
+        "class_type": "CLIPTextEncode",
+        "inputs": {
+          "clip": [
+            "1",
+            1
+          ],
+          "text": "vector art, geometric abstraction, flat icon, thick uniform outline, sticker, plastic 3D, glossy highlights, mobile game render, photorealistic, dense scratches, filigree, tiny ornaments, detailed hair strands, boot laces, sparkles, ground shadow, cast shadow, floor, scenery, text, panels, sheet, multiple figures, cropped, diamond base, toy, toddler, huge anime eyes, eyelashes"
+        }
+      },
+      "4": {
+        "class_type": "VAEEncode",
+        "inputs": {
+          "pixels": [
+            "15",
+            0
+          ],
+          "vae": [
+            "1",
+            2
+          ]
+        }
+      },
+      "5": {
+        "class_type": "KSampler",
+        "inputs": {
+          "model": [
+            "12",
+            0
+          ],
+          "positive": [
+            "2",
+            0
+          ],
+          "negative": [
+            "3",
+            0
+          ],
+          "latent_image": [
+            "4",
+            0
+          ],
+          "seed": 751913,
+          "steps": 8,
+          "cfg": 2.5,
+          "sampler_name": "dpmpp_sde",
+          "scheduler": "karras",
+          "denoise": 0.4
+        }
+      },
+      "6": {
+        "class_type": "VAEDecode",
+        "inputs": {
+          "samples": [
+            "5",
+            0
+          ],
+          "vae": [
+            "1",
+            2
+          ]
+        }
+      },
+      "7": {
+        "class_type": "SaveImage",
+        "inputs": {
+          "images": [
+            "6",
+            0
+          ],
+          "filename_prefix": "pilot/enemy-1"
+        }
+      },
+      "9": {
+        "class_type": "LoadImage",
+        "inputs": {
+          "image": "painted-return-enemy-1.png"
+        }
+      },
+      "10": {
+        "class_type": "CLIPVisionLoader",
+        "inputs": {
+          "clip_name": "CLIP-ViT-H-14-laion2B-s32B-b79K.safetensors"
+        }
+      },
+      "11": {
+        "class_type": "IPAdapterModelLoader",
+        "inputs": {
+          "ipadapter_file": "ip-adapter-plus_sdxl_vit-h.safetensors"
+        }
+      },
+      "12": {
+        "class_type": "IPAdapterStyleComposition",
+        "inputs": {
+          "model": [
+            "1",
+            0
+          ],
+          "ipadapter": [
+            "11",
+            0
+          ],
+          "image_style": [
+            "14",
+            0
+          ],
+          "image_composition": [
+            "9",
+            0
+          ],
+          "weight_style": 0.45,
+          "weight_composition": 0.8,
+          "expand_style": false,
+          "combine_embeds": "average",
+          "start_at": 0.0,
+          "end_at": 1.0,
+          "embeds_scaling": "V only",
+          "clip_vision": [
+            "10",
+            0
+          ]
+        }
+      },
+      "14": {
+        "class_type": "LoadImage",
+        "inputs": {
+          "image": "painted-return-style.png"
+        }
+      },
+      "15": {
+        "class_type": "LoadImage",
+        "inputs": {
+          "image": "painted-return-enemy-1.png"
+        }
+      }
+    },
+    {
+      "client_id": "last-current-pilot",
+      "create_time": 1792770697371
+    },
+    [
+      "7"
+    ]
+  ],
+  "outputs": {
+    "7": {
+      "images": [
+        {
+          "filename": "enemy-1_00004_.png",
+          "subfolder": "pilot",
+          "type": "output",
+          "metadata": {
+            "kind": "image",
+            "width": 512,
+            "height": 512
+          }
+        }
+      ]
+    }
+  },
+  "status": {
+    "status_str": "success",
+    "completed": true,
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "0412f9fc-3861-45ec-a2fa-23f9ac88f5af",
+          "timestamp": 1792770697371
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [
+            "1",
+            "3",
+            "10",
+            "11",
+            "14"
+          ],
+          "prompt_id": "0412f9fc-3861-45ec-a2fa-23f9ac88f5af",
+          "timestamp": 1792770697373
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "0412f9fc-3861-45ec-a2fa-23f9ac88f5af",
+          "timestamp": 1792770706952
+        }
+      ]
+    ]
+  },
+  "meta": {
+    "7": {
+      "node_id": "7",
+      "display_node": "7",
+      "parent_node": null,
+      "real_node_id": "7"
+    }
+  }
+}

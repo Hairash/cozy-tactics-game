@@ -1,0 +1,11360 @@
+[
+  {
+    "mission": 1,
+    "title": "A crack in the quay",
+    "goal": "clear",
+    "won": true,
+    "rounds": 2,
+    "actions": [
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 1,
+        "y": 3
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 2,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 5,
+        "y": 2
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 3,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 4,
+        "y": 2
+      }
+    ],
+    "seconds": 0.22
+  },
+  {
+    "mission": 2,
+    "title": "The green shortcut",
+    "goal": "collect",
+    "won": true,
+    "rounds": 3,
+    "actions": [
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 1,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 4,
+        "y": 3
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 1,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 4,
+        "y": 6,
+        "dir": 0
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 1,
+        "y": 6
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 1,
+        "y": 5
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 2,
+        "y": 5
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 5,
+        "y": 3
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 4,
+        "y": 3
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 1,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 3,
+        "y": 3,
+        "dir": 1
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 3,
+        "y": 3
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 3,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 1,
+        "y": 5
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 1,
+        "y": 6
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 0,
+        "y": 6
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 3,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 3,
+        "y": 0
+      }
+    ],
+    "seconds": 0.44
+  },
+  {
+    "mission": 3,
+    "title": "Borrowed time",
+    "goal": "reach",
+    "won": true,
+    "rounds": 2,
+    "actions": [
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 3,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 4,
+        "y": 3
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 4,
+        "y": 1
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 1,
+        "y": 4
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 4,
+        "y": 5
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 4,
+        "y": 0
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 2,
+        "y": 1
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 3,
+        "y": 4
+      },
+      {
+        "type": "end"
+      }
+    ],
+    "seconds": 0.19
+  },
+  {
+    "mission": 4,
+    "title": "A place to stand",
+    "goal": "hold",
+    "won": true,
+    "rounds": 3,
+    "actions": [
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 0,
+        "y": 3
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 5,
+        "y": 3
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 6,
+        "y": 3
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 4,
+        "y": 1,
+        "dir": 3
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 1,
+        "y": 5
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 1,
+        "y": 3
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 1,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 4,
+        "y": 4,
+        "dir": 0
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 5,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 4,
+        "y": 3
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 4,
+        "y": 3,
+        "dir": 1
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 1,
+        "y": 2
+      },
+      {
+        "type": "end"
+      }
+    ],
+    "seconds": 0.47
+  },
+  {
+    "mission": 5,
+    "title": "The long evening",
+    "goal": "survive",
+    "won": true,
+    "rounds": 5,
+    "actions": [
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 5,
+        "y": 3
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 5,
+        "y": 1
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 5,
+        "y": 1
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 3,
+        "y": 3
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 4,
+        "y": 5,
+        "dir": 3
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 4,
+        "y": 1
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 1,
+        "y": 5,
+        "dir": 0
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 4,
+        "y": 3
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 4,
+        "y": 5
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 5,
+        "y": 1
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 5,
+        "y": 5,
+        "dir": 1
+      },
+      {
+        "type": "end"
+      }
+    ],
+    "seconds": 1.6
+  },
+  {
+    "mission": 6,
+    "title": "Let the city breathe",
+    "goal": "boss",
+    "won": true,
+    "rounds": 4,
+    "actions": [
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 4,
+        "y": 3
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 3,
+        "y": 1
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 2,
+        "y": 3
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 4,
+        "y": 6
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 5,
+        "y": 4
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 4,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 4,
+        "y": 4
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 5,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 2,
+        "y": 1
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 4,
+        "y": 1
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 4,
+        "y": 3
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 6,
+        "y": 6
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 5,
+        "y": 6
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 5,
+        "y": 5
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 6,
+        "y": 5
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 2,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 3,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 3,
+        "y": 2
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 3,
+        "y": 2
+      }
+    ],
+    "seconds": 0.57
+  },
+  {
+    "mission": 7,
+    "title": "A letter without a stamp",
+    "goal": "reach",
+    "won": true,
+    "rounds": 1,
+    "actions": [
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 1,
+        "y": 3
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 3,
+        "y": 1
+      }
+    ],
+    "seconds": 0
+  },
+  {
+    "mission": 8,
+    "title": "The person in the pump",
+    "goal": "rescue",
+    "won": true,
+    "rounds": 1,
+    "actions": [
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 2,
+        "y": 4
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 3,
+        "y": 1
+      },
+      {
+        "type": "move",
+        "id": "reinforcement1",
+        "x": 2,
+        "y": 2
+      },
+      {
+        "type": "interact",
+        "id": "reinforcement1",
+        "x": 1,
+        "y": 2
+      }
+    ],
+    "seconds": 0.02
+  },
+  {
+    "mission": 9,
+    "title": "A map with a missing edge",
+    "goal": "seal",
+    "won": true,
+    "rounds": 1,
+    "actions": [
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 1,
+        "y": 4
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 1,
+        "y": 4,
+        "second": {
+          "x": 3,
+          "y": 2
+        }
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 5,
+        "y": 1
+      }
+    ],
+    "seconds": 0.02
+  },
+  {
+    "mission": 10,
+    "title": "The first unplanned rain",
+    "goal": "survive",
+    "won": true,
+    "rounds": 3,
+    "actions": [
+      {
+        "type": "act",
+        "id": "a3",
+        "x": 4,
+        "y": 6
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 2,
+        "y": 5
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 5,
+        "y": 5
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 4,
+        "y": 6,
+        "dir": 1
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 3,
+        "y": 5
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 3,
+        "y": 6
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 3,
+        "y": 4
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 3,
+        "y": 4,
+        "dir": 3
+      },
+      {
+        "type": "act",
+        "id": "a3",
+        "x": 3,
+        "y": 6
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 1,
+        "y": 4
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 3,
+        "y": 4,
+        "dir": 1
+      },
+      {
+        "type": "act",
+        "id": "a3",
+        "x": 5,
+        "y": 6
+      },
+      {
+        "type": "end"
+      }
+    ],
+    "seconds": 0.65
+  },
+  {
+    "mission": 11,
+    "title": "The catalogue of absences",
+    "goal": "collect",
+    "won": true,
+    "rounds": 2,
+    "actions": [
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 2,
+        "y": 3
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 4,
+        "y": 1
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 6,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 2,
+        "y": 4
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 3,
+        "y": 2
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 2,
+        "y": 2
+      }
+    ],
+    "seconds": 0.09
+  },
+  {
+    "mission": 12,
+    "title": "The librarian’s cart",
+    "goal": "push",
+    "won": true,
+    "rounds": 2,
+    "actions": [
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 2,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 3,
+        "y": 4
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 3,
+        "y": 0
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 3,
+        "y": 3
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 3,
+        "y": 0
+      }
+    ],
+    "seconds": 0.03
+  },
+  {
+    "mission": 13,
+    "title": "Smoke between the shelves",
+    "goal": "extinguish",
+    "won": true,
+    "rounds": 2,
+    "actions": [
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 4,
+        "y": 3
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 6,
+        "y": 3
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 2,
+        "y": 3
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 1,
+        "y": 3
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 3,
+        "y": 2
+      }
+    ],
+    "seconds": 0.05
+  },
+  {
+    "mission": 14,
+    "title": "Names planted in glass",
+    "goal": "plant",
+    "won": true,
+    "rounds": 3,
+    "actions": [
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 4,
+        "y": 4
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 3,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 0,
+        "y": 3
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 2,
+        "y": 5
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 5,
+        "y": 3
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 5,
+        "y": 1
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 3,
+        "y": 5
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 5,
+        "y": 5
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 7,
+        "y": 2
+      }
+    ],
+    "seconds": 0.12
+  },
+  {
+    "mission": 15,
+    "title": "The curator",
+    "goal": "boss",
+    "won": true,
+    "rounds": 6,
+    "actions": [
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 3,
+        "y": 3
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 3,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 2,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 2,
+        "y": 1
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 2,
+        "y": 3
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 2,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 1,
+        "y": 2
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 1,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 1,
+        "y": 0
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 1,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 1,
+        "y": 1
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 2,
+        "y": 1
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 2,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 2,
+        "y": 0
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 2,
+        "y": 1
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 4,
+        "y": 2
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 2,
+        "y": 0
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 0,
+        "y": 0
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 1,
+        "y": 0
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 1,
+        "y": 0
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 2,
+        "y": 1
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 3,
+        "y": 0
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 0,
+        "y": 0
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 1,
+        "y": 0
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 2,
+        "y": 1
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 1,
+        "y": 1
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 1,
+        "y": 0
+      }
+    ],
+    "seconds": 0.48
+  },
+  {
+    "mission": 16,
+    "title": "A fragile witness",
+    "goal": "escort",
+    "won": true,
+    "rounds": 4,
+    "actions": [
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 2,
+        "y": 6
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 3,
+        "y": 5
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 3,
+        "y": 6
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 2,
+        "y": 6
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 3,
+        "y": 6,
+        "second": {
+          "x": 3,
+          "y": 4
+        }
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 3,
+        "y": 6
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 3,
+        "y": 5
+      },
+      {
+        "type": "move",
+        "id": "reinforcement1",
+        "x": 3,
+        "y": 7
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 3,
+        "y": 7,
+        "second": {
+          "x": 2,
+          "y": 4
+        }
+      },
+      {
+        "type": "act",
+        "id": "reinforcement1",
+        "x": 3,
+        "y": 6
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 2,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 3,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 3,
+        "y": 6
+      },
+      {
+        "type": "act",
+        "id": "reinforcement1",
+        "x": 3,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "reinforcement1",
+        "x": 1,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 3,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 3,
+        "y": 5
+      },
+      {
+        "type": "move",
+        "id": "reinforcement1",
+        "x": 2,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 2,
+        "y": 2,
+        "second": {
+          "x": 4,
+          "y": 0
+        }
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 3,
+        "y": 1
+      }
+    ],
+    "seconds": 0.49
+  },
+  {
+    "mission": 17,
+    "title": "The quiet fuse",
+    "goal": "disarm",
+    "won": true,
+    "rounds": 4,
+    "actions": [
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 2,
+        "y": 5
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 1,
+        "y": 5
+      },
+      {
+        "type": "interact",
+        "id": "a0",
+        "x": 1,
+        "y": 4
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 4,
+        "y": 5
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 3,
+        "y": 2
+      },
+      {
+        "type": "interact",
+        "id": "a0",
+        "x": 3,
+        "y": 1
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 0,
+        "y": 5
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 3,
+        "y": 5
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 3,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 4,
+        "y": 2
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 2,
+        "y": 0
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 1,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 4,
+        "y": 0
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 1,
+        "y": 1
+      },
+      {
+        "type": "interact",
+        "id": "a0",
+        "x": 1,
+        "y": 2
+      }
+    ],
+    "seconds": 0.27
+  },
+  {
+    "mission": 18,
+    "title": "Two lanterns in the dark",
+    "goal": "hold",
+    "won": true,
+    "rounds": 3,
+    "actions": [
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 1,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 3,
+        "y": 4
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 3,
+        "y": 3
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 1,
+        "y": 5
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 1,
+        "y": 6
+      },
+      {
+        "type": "interact",
+        "id": "a2",
+        "x": 2,
+        "y": 4
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 4,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 1,
+        "y": 3
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 1,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 1,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 2,
+        "y": 4
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 1,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 4,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 4,
+        "y": 3
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 2,
+        "y": 2
+      },
+      {
+        "type": "end"
+      }
+    ],
+    "seconds": 0.46
+  },
+  {
+    "mission": 19,
+    "title": "The letter is delivered",
+    "goal": "deliver",
+    "won": true,
+    "rounds": 1,
+    "actions": [
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 2,
+        "y": 1
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 3,
+        "y": 1
+      }
+    ],
+    "seconds": 0
+  },
+  {
+    "mission": 20,
+    "title": "The room that remembers",
+    "goal": "seal",
+    "won": true,
+    "rounds": 1,
+    "actions": [
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 1,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 3,
+        "y": 1
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 3,
+        "y": 1
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 5,
+        "y": 1
+      }
+    ],
+    "seconds": 0.03
+  },
+  {
+    "mission": 21,
+    "title": "Beyond the painted sea",
+    "goal": "reach",
+    "won": true,
+    "rounds": 1,
+    "actions": [
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 3,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 4,
+        "y": 1
+      }
+    ],
+    "seconds": 0
+  },
+  {
+    "mission": 22,
+    "title": "The salt caravan",
+    "goal": "escort",
+    "won": true,
+    "rounds": 2,
+    "actions": [
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 1,
+        "y": 7,
+        "second": {
+          "x": 2,
+          "y": 4
+        }
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 2,
+        "y": 1
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 2,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 4,
+        "y": 6
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 3,
+        "y": 6
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 4,
+        "y": 3
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 4,
+        "y": 3
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 3,
+        "y": 2,
+        "second": {
+          "x": 4,
+          "y": 1
+        }
+      }
+    ],
+    "seconds": 0.13
+  },
+  {
+    "mission": 23,
+    "title": "Strangers under canvas",
+    "goal": "rescue",
+    "won": true,
+    "rounds": 1,
+    "actions": [
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 1,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "reinforcement1",
+        "x": 2,
+        "y": 1
+      },
+      {
+        "type": "interact",
+        "id": "reinforcement1",
+        "x": 3,
+        "y": 1
+      }
+    ],
+    "seconds": 0.02
+  },
+  {
+    "mission": 24,
+    "title": "The long tow",
+    "goal": "push",
+    "won": true,
+    "rounds": 2,
+    "actions": [
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 4,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 3,
+        "y": 5
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 4,
+        "y": 3
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 3,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 3,
+        "y": 5
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 6,
+        "y": 5
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 6,
+        "y": 5
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 4,
+        "y": 0
+      }
+    ],
+    "seconds": 0.06
+  },
+  {
+    "mission": 25,
+    "title": "What the road carried",
+    "goal": "collect",
+    "won": true,
+    "rounds": 1,
+    "actions": [
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 3,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 7,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 4,
+        "y": 1
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 6,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 2,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 4,
+        "y": 5
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 5,
+        "y": 1
+      }
+    ],
+    "seconds": 0.14
+  },
+  {
+    "mission": 26,
+    "title": "A bridge for everyone",
+    "goal": "evacuate",
+    "won": true,
+    "rounds": 1,
+    "actions": [
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 1,
+        "y": 4,
+        "second": {
+          "x": 3,
+          "y": 2
+        }
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 4,
+        "y": 1
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 4,
+        "y": 1
+      }
+    ],
+    "seconds": 0.03
+  },
+  {
+    "mission": 27,
+    "title": "The toll keeper",
+    "goal": "boss",
+    "won": true,
+    "rounds": 6,
+    "actions": [
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 1,
+        "y": 6
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 4,
+        "y": 8
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 4,
+        "y": 8
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 5,
+        "y": 8
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 3,
+        "y": 6
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 1,
+        "y": 8
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 1,
+        "y": 4
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 1,
+        "y": 3
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 3,
+        "y": 7
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 1,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 2,
+        "y": 3
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 3,
+        "y": 3
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 3,
+        "y": 5
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 2,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 2,
+        "y": 5
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 2,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 4,
+        "y": 8
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 5,
+        "y": 8
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 2,
+        "y": 4
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 2,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 2,
+        "y": 3
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 2,
+        "y": 3
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 4,
+        "y": 8
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 5,
+        "y": 8
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 2,
+        "y": 6
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 2,
+        "y": 1
+      }
+    ],
+    "seconds": 1.33
+  },
+  {
+    "mission": 28,
+    "title": "The camp’s last night",
+    "goal": "protect",
+    "won": true,
+    "rounds": 3,
+    "actions": [
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 3,
+        "y": 7
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 3,
+        "y": 8
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 0,
+        "y": 8
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 0,
+        "y": 7
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 4,
+        "y": 8
+      },
+      {
+        "type": "end"
+      }
+    ],
+    "seconds": 0.42
+  },
+  {
+    "mission": 29,
+    "title": "A road in reverse",
+    "goal": "reach",
+    "won": true,
+    "rounds": 2,
+    "actions": [
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 3,
+        "y": 5
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 3,
+        "y": 6
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 5,
+        "y": 3
+      }
+    ],
+    "seconds": 0.02
+  },
+  {
+    "mission": 30,
+    "title": "The shore that answered",
+    "goal": "hold",
+    "won": true,
+    "rounds": 4,
+    "actions": [
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 3,
+        "y": 6
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 3,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 2,
+        "y": 5
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 3,
+        "y": 5
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 3,
+        "y": 1
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 3,
+        "y": 3
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 3,
+        "y": 1
+      },
+      {
+        "type": "move",
+        "id": "reinforcement1",
+        "x": 3,
+        "y": 4
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 2,
+        "y": 2,
+        "dir": 3
+      },
+      {
+        "type": "act",
+        "id": "reinforcement1",
+        "x": 3,
+        "y": 4,
+        "weather": "storm"
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 3,
+        "y": 1
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 3,
+        "y": 5
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 2,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 3,
+        "y": 1
+      },
+      {
+        "type": "move",
+        "id": "reinforcement1",
+        "x": 1,
+        "y": 3
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 3,
+        "y": 3
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 2,
+        "y": 1,
+        "dir": 3
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 3,
+        "y": 1
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 3,
+        "y": 2
+      },
+      {
+        "type": "end"
+      }
+    ],
+    "seconds": 0.68
+  },
+  {
+    "mission": 31,
+    "title": "The roots have stairs",
+    "goal": "reach",
+    "won": true,
+    "rounds": 1,
+    "actions": [
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 1,
+        "y": 3
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 4,
+        "y": 1
+      }
+    ],
+    "seconds": 0
+  },
+  {
+    "mission": 32,
+    "title": "A hungry welcome",
+    "goal": "clear",
+    "won": true,
+    "rounds": 6,
+    "actions": [
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 1,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 1,
+        "y": 5
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 1,
+        "y": 6
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 1,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 0,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 1,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 1,
+        "y": 5
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 1,
+        "y": 0
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 1,
+        "y": 6
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 0,
+        "y": 6
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 0,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 0,
+        "y": 3
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 0,
+        "y": 4
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 0,
+        "y": 0
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 0,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 0,
+        "y": 2
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 2,
+        "y": 1
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 1,
+        "y": 1
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 0,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 0,
+        "y": 3
+      },
+      {
+        "type": "end"
+      }
+    ],
+    "seconds": 0.36
+  },
+  {
+    "mission": 33,
+    "title": "The orchard of names",
+    "goal": "plant",
+    "won": true,
+    "rounds": 4,
+    "actions": [
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 2,
+        "y": 5
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 2,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 4,
+        "y": 5
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 1,
+        "y": 6
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 4,
+        "y": 6
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 3,
+        "y": 3
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 4,
+        "y": 1
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 6,
+        "y": 3
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 1,
+        "y": 7
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 3,
+        "y": 5
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 4,
+        "y": 5
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 2,
+        "y": 5
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 6,
+        "y": 5
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 6,
+        "y": 2
+      }
+    ],
+    "seconds": 0.44
+  },
+  {
+    "mission": 34,
+    "title": "A medicine and a dose",
+    "goal": "extinguish",
+    "won": true,
+    "rounds": 1,
+    "actions": [
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 3,
+        "y": 3
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 1,
+        "y": 3
+      }
+    ],
+    "seconds": 0
+  },
+  {
+    "mission": 35,
+    "title": "The garden that bites",
+    "goal": "survive",
+    "won": true,
+    "rounds": 4,
+    "actions": [
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 5,
+        "y": 5
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 2,
+        "y": 4
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 5,
+        "y": 4
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 4,
+        "y": 4
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 5,
+        "y": 4
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 6,
+        "y": 3
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 4,
+        "y": 5
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 6,
+        "y": 5
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 5,
+        "y": 5
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 5,
+        "y": 5
+      },
+      {
+        "type": "end"
+      }
+    ],
+    "seconds": 0.41
+  },
+  {
+    "mission": 36,
+    "title": "The youngest old tree",
+    "goal": "rescue",
+    "won": true,
+    "rounds": 1,
+    "actions": [
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 2,
+        "y": 4
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 3,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "reinforcement1",
+        "x": 4,
+        "y": 1
+      },
+      {
+        "type": "interact",
+        "id": "reinforcement2",
+        "x": 5,
+        "y": 1
+      }
+    ],
+    "seconds": 0.04
+  },
+  {
+    "mission": 37,
+    "title": "Small wings",
+    "goal": "collect",
+    "won": true,
+    "rounds": 1,
+    "actions": [
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 4,
+        "y": 1
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 6,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 2,
+        "y": 2
+      }
+    ],
+    "seconds": 0.03
+  },
+  {
+    "mission": 38,
+    "title": "A place for the poison",
+    "goal": "seal",
+    "won": true,
+    "rounds": 4,
+    "actions": [
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 4,
+        "y": 7
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 1,
+        "y": 5
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 0,
+        "y": 4
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 1,
+        "y": 3
+      },
+      {
+        "type": "interact",
+        "id": "a0",
+        "x": 1,
+        "y": 2
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 3,
+        "y": 2
+      },
+      {
+        "type": "interact",
+        "id": "a0",
+        "x": 4,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 3,
+        "y": 6
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 3,
+        "y": 7
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 3,
+        "y": 1
+      }
+    ],
+    "seconds": 0.53
+  },
+  {
+    "mission": 39,
+    "title": "The forest’s heart",
+    "goal": "boss",
+    "won": true,
+    "rounds": 11,
+    "actions": [
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 4,
+        "y": 5
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 2,
+        "y": 6
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 2,
+        "y": 7
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 2,
+        "y": 7
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 4,
+        "y": 5
+      },
+      {
+        "type": "act",
+        "id": "a3",
+        "x": 1,
+        "y": 4
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 3,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 5,
+        "y": 3
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 2,
+        "y": 8
+      },
+      {
+        "type": "act",
+        "id": "a3",
+        "x": 4,
+        "y": 0
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 3,
+        "y": 5
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 3,
+        "y": 8
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 3,
+        "y": 8
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 3,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 6,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "a3",
+        "x": 5,
+        "y": 1
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 2,
+        "y": 3
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 5,
+        "y": 3
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 3,
+        "y": 7
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 3,
+        "y": 8
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 3,
+        "y": 4
+      },
+      {
+        "type": "act",
+        "id": "a3",
+        "x": 4,
+        "y": 1
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 3,
+        "y": 8
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 3,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 4,
+        "y": 3
+      },
+      {
+        "type": "act",
+        "id": "a3",
+        "x": 4,
+        "y": 6
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 3,
+        "y": 1
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 1,
+        "y": 1
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 3,
+        "y": 3
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 3,
+        "y": 8
+      },
+      {
+        "type": "act",
+        "id": "a3",
+        "x": 2,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 3,
+        "y": 8
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 0,
+        "y": 0
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 0,
+        "y": 3
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 1,
+        "y": 1
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 0,
+        "y": 1
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 3,
+        "y": 7
+      },
+      {
+        "type": "act",
+        "id": "a3",
+        "x": 2,
+        "y": 0
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 3,
+        "y": 8
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 3,
+        "y": 8
+      },
+      {
+        "type": "act",
+        "id": "a3",
+        "x": 3,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 0,
+        "y": 1
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 0,
+        "y": 1
+      },
+      {
+        "type": "act",
+        "id": "a3",
+        "x": 0,
+        "y": 5
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 0,
+        "y": 1
+      },
+      {
+        "type": "end"
+      }
+    ],
+    "seconds": 3.44
+  },
+  {
+    "mission": 40,
+    "title": "The name under the roots",
+    "goal": "deliver",
+    "won": true,
+    "rounds": 2,
+    "actions": [
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 1,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 3,
+        "y": 3
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 4,
+        "y": 5
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 3,
+        "y": 6
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 4,
+        "y": 6
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 4,
+        "y": 1
+      }
+    ],
+    "seconds": 0.1
+  },
+  {
+    "mission": 41,
+    "title": "The girl with the charges",
+    "goal": "rescue",
+    "won": true,
+    "rounds": 1,
+    "actions": [
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 2,
+        "y": 6
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 2,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "reinforcement1",
+        "x": 4,
+        "y": 0
+      }
+    ],
+    "seconds": 0.02
+  },
+  {
+    "mission": 42,
+    "title": "Kestrel’s apology",
+    "goal": "disarm",
+    "won": true,
+    "rounds": 5,
+    "actions": [
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 2,
+        "y": 7
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 2,
+        "y": 10
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 2,
+        "y": 9
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 6,
+        "y": 9
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 3,
+        "y": 5
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 1,
+        "y": 6
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 2,
+        "y": 3
+      },
+      {
+        "type": "interact",
+        "id": "a1",
+        "x": 2,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 3,
+        "y": 5
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 3,
+        "y": 10
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 3,
+        "y": 9
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "interact",
+        "id": "a1",
+        "x": 3,
+        "y": 3
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 3,
+        "y": 1
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 1,
+        "y": 10
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 4,
+        "y": 9
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 5,
+        "y": 9
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 5,
+        "y": 8
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "interact",
+        "id": "a1",
+        "x": 4,
+        "y": 1
+      }
+    ],
+    "seconds": 0.57
+  },
+  {
+    "mission": 43,
+    "title": "Heat without light",
+    "goal": "extinguish",
+    "won": true,
+    "rounds": 3,
+    "actions": [
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 4,
+        "y": 7
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 1,
+        "y": 7
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 1,
+        "y": 4
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 2,
+        "y": 6
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 4,
+        "y": 5
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 4,
+        "y": 2,
+        "dir": 0
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 1,
+        "y": 8
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 0,
+        "y": 7
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 0,
+        "y": 6
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 0,
+        "y": 6
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 6,
+        "y": 4,
+        "dir": 1
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 0,
+        "y": 4
+      }
+    ],
+    "seconds": 0.75
+  },
+  {
+    "mission": 44,
+    "title": "A careful explosion",
+    "goal": "push",
+    "won": true,
+    "rounds": 4,
+    "actions": [
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 1,
+        "y": 9
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 4,
+        "y": 8
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 3,
+        "y": 8
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 4,
+        "y": 9
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 4,
+        "y": 5
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 4,
+        "y": 9
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 5,
+        "y": 7
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 4,
+        "y": 7
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 4,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 3,
+        "y": 6
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 3,
+        "y": 6
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 4,
+        "y": 4
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 4,
+        "y": 3
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 5,
+        "y": 6
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 4,
+        "y": 4
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 4,
+        "y": 2
+      }
+    ],
+    "seconds": 0,
+    "manual": true,
+    "retainedVerifiedRoute": true
+  },
+  {
+    "mission": 45,
+    "title": "The iron shift",
+    "goal": "clear",
+    "won": true,
+    "rounds": 6,
+    "actions": [
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 2,
+        "y": 5
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 1,
+        "y": 4
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 1,
+        "y": 1,
+        "dir": 2
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 1,
+        "y": 3
+      },
+      {
+        "type": "act",
+        "id": "a3",
+        "x": 4,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 5,
+        "y": 5
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 1,
+        "y": 6
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 2,
+        "y": 3
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 5,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 2,
+        "y": 3,
+        "dir": 0
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 2,
+        "y": 1,
+        "dir": 1
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 4,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 2,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "a3",
+        "x": 2,
+        "y": 4
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 1,
+        "y": 3
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 3,
+        "y": 1,
+        "dir": 3
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 3,
+        "y": 2,
+        "dir": 3
+      },
+      {
+        "type": "act",
+        "id": "a3",
+        "x": 2,
+        "y": 4
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 4,
+        "y": 5
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 1,
+        "y": 7
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 1,
+        "y": 5
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 1,
+        "y": 6
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 2,
+        "y": 4
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 2,
+        "y": 4,
+        "dir": 1
+      }
+    ],
+    "seconds": 1.75
+  },
+  {
+    "mission": 46,
+    "title": "The warmest room",
+    "goal": "protect",
+    "won": true,
+    "rounds": 4,
+    "actions": [
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 3,
+        "y": 5
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 3,
+        "y": 6
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 4,
+        "y": 6
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 4,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 4,
+        "y": 6
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 3,
+        "y": 3
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 4,
+        "y": 5
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 5,
+        "y": 6
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 1,
+        "y": 6
+      },
+      {
+        "type": "end"
+      }
+    ],
+    "seconds": 0.45
+  },
+  {
+    "mission": 47,
+    "title": "The wrong direction",
+    "goal": "hold",
+    "won": true,
+    "rounds": 3,
+    "actions": [
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 3,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 4,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 2,
+        "y": 6
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 3,
+        "y": 5
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 2,
+        "y": 5
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 5,
+        "y": 5,
+        "dir": 0
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 3,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 4,
+        "y": 3
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 2,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 3,
+        "y": 3
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 5,
+        "y": 2,
+        "dir": 2
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 5,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 5,
+        "y": 1
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 1,
+        "y": 1
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 5,
+        "y": 2
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 5,
+        "y": 2
+      },
+      {
+        "type": "end"
+      }
+    ],
+    "seconds": 1.14
+  },
+  {
+    "mission": 48,
+    "title": "The keeper’s key",
+    "goal": "collect",
+    "won": true,
+    "rounds": 2,
+    "actions": [
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 1,
+        "y": 3
+      },
+      {
+        "type": "interact",
+        "id": "a0",
+        "x": 1,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 6,
+        "y": 6
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 6,
+        "y": 1
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 1,
+        "y": 3
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 1,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 2,
+        "y": 2
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 4,
+        "y": 1
+      }
+    ],
+    "seconds": 0.13
+  },
+  {
+    "mission": 49,
+    "title": "The furnace sovereign",
+    "goal": "boss",
+    "won": true,
+    "rounds": 6,
+    "actions": [
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 3,
+        "y": 8
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 3,
+        "y": 5
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 3,
+        "y": 8
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 1,
+        "y": 7
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 1,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 2,
+        "y": 10
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 3,
+        "y": 10
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 3,
+        "y": 9
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 2,
+        "y": 3
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 3,
+        "y": 5
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 1,
+        "y": 5
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 3,
+        "y": 9
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 3,
+        "y": 3
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 3,
+        "y": 8
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 3,
+        "y": 9
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 2,
+        "y": 9
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 2,
+        "y": 10
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 4,
+        "y": 1
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 2,
+        "y": 10
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 0,
+        "y": 3
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 1,
+        "y": 0
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 2,
+        "y": 1
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 2,
+        "y": 0
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 0,
+        "y": 1
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 2,
+        "y": 0
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 1,
+        "y": 0
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 2,
+        "y": 9
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 0,
+        "y": 0
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 3,
+        "y": 10
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 1,
+        "y": 1
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 1,
+        "y": 0
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 1,
+        "y": 1
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 2,
+        "y": 10
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 2,
+        "y": 9
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 3,
+        "y": 9
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 0,
+        "y": 0
+      }
+    ],
+    "seconds": 2.34
+  },
+  {
+    "mission": 50,
+    "title": "Seventy years late",
+    "goal": "evacuate",
+    "won": true,
+    "rounds": 8,
+    "actions": [
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 1,
+        "y": 10,
+        "second": {
+          "x": 2,
+          "y": 7
+        }
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 2,
+        "y": 8
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 2,
+        "y": 8,
+        "second": {
+          "x": 2,
+          "y": 4
+        }
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 2,
+        "y": 6
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 2,
+        "y": 10
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 2,
+        "y": 3
+      },
+      {
+        "type": "move",
+        "id": "a4",
+        "x": 6,
+        "y": 10
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 5,
+        "y": 10
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 2,
+        "y": 9
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 3,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 1,
+        "y": 3
+      },
+      {
+        "type": "act",
+        "id": "reinforcement1",
+        "x": 6,
+        "y": 10
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 2,
+        "y": 10
+      },
+      {
+        "type": "move",
+        "id": "reinforcement1",
+        "x": 3,
+        "y": 8
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 2,
+        "y": 9
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 2,
+        "y": 1
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 2,
+        "y": 6
+      },
+      {
+        "type": "move",
+        "id": "reinforcement1",
+        "x": 5,
+        "y": 8
+      },
+      {
+        "type": "move",
+        "id": "reinforcement1",
+        "x": 5,
+        "y": 7
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 3,
+        "y": 4
+      },
+      {
+        "type": "act",
+        "id": "reinforcement1",
+        "x": 6,
+        "y": 10
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "reinforcement1",
+        "x": 6,
+        "y": 10
+      },
+      {
+        "type": "move",
+        "id": "reinforcement1",
+        "x": 6,
+        "y": 7
+      },
+      {
+        "type": "move",
+        "id": "reinforcement1",
+        "x": 6,
+        "y": 6
+      },
+      {
+        "type": "move",
+        "id": "reinforcement1",
+        "x": 6,
+        "y": 5
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "reinforcement1",
+        "x": 3,
+        "y": 3
+      },
+      {
+        "type": "move",
+        "id": "a4",
+        "x": 6,
+        "y": 8
+      },
+      {
+        "type": "move",
+        "id": "a4",
+        "x": 5,
+        "y": 8
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 4,
+        "y": 8
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 4,
+        "y": 5
+      },
+      {
+        "type": "move",
+        "id": "a4",
+        "x": 5,
+        "y": 5
+      },
+      {
+        "type": "interact",
+        "id": "a4",
+        "x": 5,
+        "y": 6
+      },
+      {
+        "type": "act",
+        "id": "a3",
+        "x": 5,
+        "y": 3
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 3,
+        "y": 3
+      },
+      {
+        "type": "act",
+        "id": "a3",
+        "x": 2,
+        "y": 3
+      },
+      {
+        "type": "move",
+        "id": "a4",
+        "x": 3,
+        "y": 4
+      },
+      {
+        "type": "end"
+      }
+    ],
+    "seconds": 1.45
+  },
+  {
+    "mission": 51,
+    "title": "The maintenance stars",
+    "goal": "reach",
+    "won": true,
+    "rounds": 2,
+    "actions": [
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 3,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 4,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 4,
+        "y": 5
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 4,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 4,
+        "y": 1
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 5,
+        "y": 2
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "interact",
+        "id": "a0",
+        "x": 6,
+        "y": 2
+      }
+    ],
+    "seconds": 0.08
+  },
+  {
+    "mission": 52,
+    "title": "The rain above the sky",
+    "goal": "seal",
+    "won": true,
+    "rounds": 3,
+    "actions": [
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 3,
+        "y": 8
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 4,
+        "y": 6
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 2,
+        "y": 7
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 2,
+        "y": 6,
+        "dir": 0
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 4,
+        "y": 4
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 2,
+        "y": 8,
+        "dir": 2
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 4,
+        "y": 7,
+        "dir": 3
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 3,
+        "y": 4
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 4,
+        "y": 1
+      }
+    ],
+    "seconds": 0.6
+  },
+  {
+    "mission": 53,
+    "title": "Sol’s empty room",
+    "goal": "collect",
+    "won": true,
+    "rounds": 5,
+    "actions": [
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 2,
+        "y": 8
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 2,
+        "y": 7
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 1,
+        "y": 10
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 2,
+        "y": 5
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 6,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 1,
+        "y": 9
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 1,
+        "y": 7
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 1,
+        "y": 3
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 4,
+        "y": 1
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 7,
+        "y": 2
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "interact",
+        "id": "a1",
+        "x": 7,
+        "y": 3
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 4,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 7,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 6,
+        "y": 4
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 4,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 2,
+        "y": 2
+      }
+    ],
+    "seconds": 0.26
+  },
+  {
+    "mission": 54,
+    "title": "A child made of weather",
+    "goal": "protect",
+    "won": true,
+    "rounds": 6,
+    "actions": [
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 1,
+        "y": 7
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 1,
+        "y": 8
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 1,
+        "y": 9
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 2,
+        "y": 6
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 2,
+        "y": 7
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 1,
+        "y": 8
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 2,
+        "y": 8
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 5,
+        "y": 6
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 2,
+        "y": 3
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 1,
+        "y": 5
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 3,
+        "y": 6
+      },
+      {
+        "type": "end"
+      }
+    ],
+    "seconds": 0.57
+  },
+  {
+    "mission": 55,
+    "title": "The other Sol",
+    "goal": "rescue",
+    "won": true,
+    "rounds": 2,
+    "actions": [
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 1,
+        "y": 9,
+        "second": {
+          "x": 4,
+          "y": 8
+        }
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 4,
+        "y": 5
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 4,
+        "y": 1
+      },
+      {
+        "type": "move",
+        "id": "reinforcement1",
+        "x": 3,
+        "y": 2
+      },
+      {
+        "type": "interact",
+        "id": "reinforcement1",
+        "x": 2,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "reinforcement2",
+        "x": 2,
+        "y": 2,
+        "weather": "frost"
+      },
+      {
+        "type": "move",
+        "id": "reinforcement2",
+        "x": 2,
+        "y": 5
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "reinforcement2",
+        "x": 2,
+        "y": 8
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 2,
+        "y": 8,
+        "second": {
+          "x": 3,
+          "y": 9
+        }
+      },
+      {
+        "type": "move",
+        "id": "reinforcement1",
+        "x": 1,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 3,
+        "y": 8
+      },
+      {
+        "type": "act",
+        "id": "reinforcement3",
+        "x": 4,
+        "y": 9,
+        "weather": "wind"
+      },
+      {
+        "type": "end"
+      }
+    ],
+    "seconds": 1.09
+  },
+  {
+    "mission": 56,
+    "title": "What the frost kept",
+    "goal": "extinguish",
+    "won": true,
+    "rounds": 1,
+    "actions": [
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 4,
+        "y": 5
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 3,
+        "y": 3
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 1,
+        "y": 5
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 1,
+        "y": 0
+      }
+    ],
+    "seconds": 0.16
+  },
+  {
+    "mission": 57,
+    "title": "The hand on the glass",
+    "goal": "hold",
+    "won": true,
+    "rounds": 3,
+    "actions": [
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 2,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 4,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 3,
+        "y": 6
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 3,
+        "y": 4
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 2,
+        "y": 0
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 2,
+        "y": 4
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 4,
+        "y": 1
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 2,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 2,
+        "y": 1
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 2,
+        "y": 3
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 2,
+        "y": 1
+      },
+      {
+        "type": "end"
+      }
+    ],
+    "seconds": 0.43
+  },
+  {
+    "mission": 58,
+    "title": "The sky learns wind",
+    "goal": "reach",
+    "won": true,
+    "rounds": 2,
+    "actions": [
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 2,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 4,
+        "y": 5
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 2,
+        "y": 5
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 5,
+        "y": 1
+      }
+    ],
+    "seconds": 0.31
+  },
+  {
+    "mission": 59,
+    "title": "The observatory’s last order",
+    "goal": "boss",
+    "won": true,
+    "rounds": 6,
+    "actions": [
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 1,
+        "y": 6,
+        "weather": "frost"
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 2,
+        "y": 6
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 3,
+        "y": 3
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 1,
+        "y": 4
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 1,
+        "y": 2
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 1,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 1,
+        "y": 3
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 1,
+        "y": 0
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 1,
+        "y": 3
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 1,
+        "y": 0
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 1,
+        "y": 3
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 1,
+        "y": 0
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 1,
+        "y": 3
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 1,
+        "y": 0
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 1,
+        "y": 3
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 1,
+        "y": 0
+      }
+    ],
+    "seconds": 0,
+    "manual": true
+  },
+  {
+    "mission": 60,
+    "title": "The horizon moves",
+    "goal": "deliver",
+    "won": true,
+    "rounds": 2,
+    "actions": [
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 1,
+        "y": 5
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 3,
+        "y": 4
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 3,
+        "y": 9,
+        "dir": 0
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 3,
+        "y": 6
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 3,
+        "y": 7
+      },
+      {
+        "type": "act",
+        "id": "a3",
+        "x": 2,
+        "y": 10
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 2,
+        "y": 7
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 2,
+        "y": 6
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 3,
+        "y": 1
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 5,
+        "y": 3
+      },
+      {
+        "type": "interact",
+        "id": "a2",
+        "x": 4,
+        "y": 3
+      }
+    ],
+    "seconds": 0.9
+  },
+  {
+    "mission": 61,
+    "title": "A door with two handles",
+    "goal": "seal",
+    "won": true,
+    "rounds": 3,
+    "actions": [
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 2,
+        "y": 6
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 1,
+        "y": 9
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 0,
+        "y": 7
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 4,
+        "y": 3
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 0,
+        "y": 7
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 0,
+        "y": 8
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 5,
+        "y": 1
+      }
+    ],
+    "seconds": 0.13
+  },
+  {
+    "mission": 62,
+    "title": "The enemy’s garden",
+    "goal": "plant",
+    "won": true,
+    "rounds": 3,
+    "actions": [
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 2,
+        "y": 4
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 1,
+        "y": 4
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 2,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 2,
+        "y": 6
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 5,
+        "y": 6
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 1,
+        "y": 6
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 4,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 4,
+        "y": 1
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 0,
+        "y": 5
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 2,
+        "y": 5
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 5,
+        "y": 5
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 0,
+        "y": 6
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 6,
+        "y": 2
+      }
+    ],
+    "seconds": 0.38
+  },
+  {
+    "mission": 63,
+    "title": "The unarmed patrol",
+    "goal": "escort",
+    "won": true,
+    "rounds": 7,
+    "actions": [
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 3,
+        "y": 7
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 3,
+        "y": 8,
+        "second": {
+          "x": 4,
+          "y": 5
+        }
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 4,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 3,
+        "y": 8
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 4,
+        "y": 8
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 4,
+        "y": 7
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 3,
+        "y": 7
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 3,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 5,
+        "y": 2
+      },
+      {
+        "type": "interact",
+        "id": "a2",
+        "x": 6,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 4,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "e0",
+        "x": 3,
+        "y": 1
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 4,
+        "y": 4,
+        "second": {
+          "x": 4,
+          "y": 2
+        }
+      },
+      {
+        "type": "act",
+        "id": "e0",
+        "x": 5,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 4,
+        "y": 1
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 4,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 4,
+        "y": 3,
+        "second": {
+          "x": 4,
+          "y": 1
+        }
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 5,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "e0",
+        "x": 4,
+        "y": 1
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 5,
+        "y": 1
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 2,
+        "y": 1
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 4,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "e0",
+        "x": 4,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 2,
+        "y": 0
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 5,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 4,
+        "y": 3
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 4,
+        "y": 3,
+        "second": {
+          "x": 5,
+          "y": 1
+        }
+      },
+      {
+        "type": "move",
+        "id": "e0",
+        "x": 3,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "e0",
+        "x": 3,
+        "y": 1
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 4,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 2,
+        "y": 0
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 4,
+        "y": 0
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 5,
+        "y": 1
+      },
+      {
+        "type": "move",
+        "id": "e0",
+        "x": 4,
+        "y": 2
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "e0",
+        "x": 4,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 2,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "e0",
+        "x": 4,
+        "y": 1
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 3,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "e0",
+        "x": 5,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 5,
+        "y": 2,
+        "second": {
+          "x": 3,
+          "y": 1
+        }
+      },
+      {
+        "type": "act",
+        "id": "e0",
+        "x": 4,
+        "y": 1
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 4,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 3,
+        "y": 0
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 4,
+        "y": 0
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 5,
+        "y": 1
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 4,
+        "y": 1
+      }
+    ],
+    "seconds": 1.4
+  },
+  {
+    "mission": 64,
+    "title": "The price of passage",
+    "goal": "collect",
+    "won": true,
+    "rounds": 2,
+    "actions": [
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 1,
+        "y": 6
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 6,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 2,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 6,
+        "y": 9
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 0,
+        "y": 8
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 1,
+        "y": 10
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 2,
+        "y": 10
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 4,
+        "y": 1
+      }
+    ],
+    "seconds": 0.29
+  },
+  {
+    "mission": 65,
+    "title": "The people in the machines",
+    "goal": "rescue",
+    "won": true,
+    "rounds": 3,
+    "actions": [
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 4,
+        "y": 8
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "reinforcement1",
+        "x": 3,
+        "y": 2
+      },
+      {
+        "type": "interact",
+        "id": "reinforcement1",
+        "x": 2,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "reinforcement3",
+        "x": 5,
+        "y": 4
+      },
+      {
+        "type": "act",
+        "id": "reinforcement3",
+        "x": 5,
+        "y": 4,
+        "dir": 2
+      },
+      {
+        "type": "act",
+        "id": "reinforcement2",
+        "x": 5,
+        "y": 5,
+        "dir": 2
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 3,
+        "y": 8
+      },
+      {
+        "type": "move",
+        "id": "reinforcement2",
+        "x": 5,
+        "y": 9
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "reinforcement3",
+        "x": 4,
+        "y": 8
+      },
+      {
+        "type": "act",
+        "id": "reinforcement2",
+        "x": 4,
+        "y": 8,
+        "dir": 2
+      }
+    ],
+    "seconds": 1.67
+  },
+  {
+    "mission": 66,
+    "title": "A river through the wall",
+    "goal": "reach",
+    "won": true,
+    "rounds": 3,
+    "actions": [
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 4,
+        "y": 7
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 4,
+        "y": 8
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 4,
+        "y": 9
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 4,
+        "y": 6,
+        "dir": 0
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 4,
+        "y": 8,
+        "second": {
+          "x": 4,
+          "y": 6
+        }
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 2,
+        "y": 4,
+        "dir": 0
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 4,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 4,
+        "y": 3
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 4,
+        "y": 4
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 6,
+        "y": 3,
+        "dir": 2
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 4,
+        "y": 2,
+        "dir": 2
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 4,
+        "y": 3,
+        "second": {
+          "x": 6,
+          "y": 3
+        }
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 4,
+        "y": 2,
+        "second": {
+          "x": 4,
+          "y": 1
+        }
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 6,
+        "y": 3
+      },
+      {
+        "type": "interact",
+        "id": "a0",
+        "x": 7,
+        "y": 3
+      }
+    ],
+    "seconds": 0.95
+  },
+  {
+    "mission": 67,
+    "title": "Six hands on the relay",
+    "goal": "hold",
+    "won": true,
+    "rounds": 5,
+    "actions": [
+      {
+        "type": "move",
+        "id": "a5",
+        "x": 2,
+        "y": 3
+      },
+      {
+        "type": "move",
+        "id": "a4",
+        "x": 1,
+        "y": 3
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 2,
+        "y": 5
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 2,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 1,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 1,
+        "y": 5
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 2,
+        "y": 3
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 0,
+        "y": 3
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 2,
+        "y": 6
+      },
+      {
+        "type": "act",
+        "id": "a5",
+        "x": 1,
+        "y": 0
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a5",
+        "x": 3,
+        "y": 1
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 3,
+        "y": 4
+      },
+      {
+        "type": "act",
+        "id": "a4",
+        "x": 1,
+        "y": 3
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 2,
+        "y": 5
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 3,
+        "y": 5
+      },
+      {
+        "type": "act",
+        "id": "a5",
+        "x": 2,
+        "y": 0
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 0,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 0,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 1,
+        "y": 5
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a4",
+        "x": 1,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 3,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 1,
+        "y": 3
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 1,
+        "y": 4
+      },
+      {
+        "type": "act",
+        "id": "a5",
+        "x": 1,
+        "y": 0
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 0,
+        "y": 4
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 2,
+        "y": 1
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 4,
+        "y": 3
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 3,
+        "y": 1
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 1,
+        "y": 4
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 4,
+        "y": 1
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 2,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 1,
+        "y": 3
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 1,
+        "y": 1
+      },
+      {
+        "type": "act",
+        "id": "a3",
+        "x": 4,
+        "y": 6
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 3,
+        "y": 3
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a4",
+        "x": 1,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 4,
+        "y": 1
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 1,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 1,
+        "y": 1
+      },
+      {
+        "type": "end"
+      }
+    ],
+    "seconds": 2.2
+  },
+  {
+    "mission": 68,
+    "title": "The bridge of small things",
+    "goal": "evacuate",
+    "won": true,
+    "rounds": 2,
+    "actions": [
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 2,
+        "y": 7,
+        "second": {
+          "x": 3,
+          "y": 4
+        }
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 2,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 3,
+        "y": 7,
+        "second": {
+          "x": 4,
+          "y": 4
+        }
+      },
+      {
+        "type": "interact",
+        "id": "a0",
+        "x": 1,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 4,
+        "y": 1
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 2,
+        "y": 6
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 5,
+        "y": 6
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 6,
+        "y": 6
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 6,
+        "y": 5
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 5,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 3,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 4,
+        "y": 1
+      }
+    ],
+    "seconds": 0.29
+  },
+  {
+    "mission": 69,
+    "title": "The partition keeper",
+    "goal": "boss",
+    "won": true,
+    "rounds": 5,
+    "actions": [
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 5,
+        "y": 6
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 5,
+        "y": 0
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 4,
+        "y": 7
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 1,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 4,
+        "y": 6
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 1,
+        "y": 7
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 4,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 3,
+        "y": 4
+      },
+      {
+        "type": "act",
+        "id": "a3",
+        "x": 1,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 0,
+        "y": 3
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 0,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 5,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 1,
+        "y": 5
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 1,
+        "y": 4
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 3,
+        "y": 4
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 3,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 0,
+        "y": 0
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 1,
+        "y": 0
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 3,
+        "y": 3
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a3",
+        "x": 3,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 3,
+        "y": 0
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 1,
+        "y": 0
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 2,
+        "y": 0
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 2,
+        "y": 0
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 4,
+        "y": 3
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 2,
+        "y": 1
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 4,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 3,
+        "y": 3
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 4,
+        "y": 3
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 2,
+        "y": 0
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 2,
+        "y": 0
+      }
+    ],
+    "seconds": 0.93
+  },
+  {
+    "mission": 70,
+    "title": "The first shared breakfast",
+    "goal": "protect",
+    "won": true,
+    "rounds": 4,
+    "actions": [
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 3,
+        "y": 5
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 2,
+        "y": 5
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 4,
+        "y": 4
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 0,
+        "y": 6
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 4,
+        "y": 5
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 4,
+        "y": 6
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 3,
+        "y": 6
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 4,
+        "y": 6
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "reinforcement1",
+        "x": 2,
+        "y": 6
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 2,
+        "y": 3
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 6,
+        "y": 6
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 3,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "reinforcement1",
+        "x": 5,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "reinforcement1",
+        "x": 6,
+        "y": 4
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "reinforcement1",
+        "x": 5,
+        "y": 4
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 1,
+        "y": 6
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 3,
+        "y": 4
+      },
+      {
+        "type": "end"
+      }
+    ],
+    "seconds": 0.92
+  },
+  {
+    "mission": 71,
+    "title": "A summons in the rain",
+    "goal": "reach",
+    "won": true,
+    "rounds": 6,
+    "actions": [
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 1,
+        "y": 3
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 5,
+        "y": 3
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 4,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 5,
+        "y": 1
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 5,
+        "y": 3
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 5,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 5,
+        "y": 1
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 8,
+        "y": 1
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "interact",
+        "id": "a0",
+        "x": 8,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 8,
+        "y": 2
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 6,
+        "y": 1
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 5,
+        "y": 1
+      }
+    ],
+    "seconds": 0.18
+  },
+  {
+    "mission": 72,
+    "title": "Evidence that grows",
+    "goal": "collect",
+    "won": true,
+    "rounds": 4,
+    "actions": [
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 3,
+        "y": 7
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 3,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 1,
+        "y": 7
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 1,
+        "y": 9
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 1,
+        "y": 10
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 5,
+        "y": 1
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 2,
+        "y": 7
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 1,
+        "y": 10
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 2,
+        "y": 9
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 7,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 8,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 2,
+        "y": 9
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 2,
+        "y": 8
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "interact",
+        "id": "a2",
+        "x": 8,
+        "y": 3
+      }
+    ],
+    "seconds": 0.53
+  },
+  {
+    "mission": 73,
+    "title": "The witness stand",
+    "goal": "protect",
+    "won": true,
+    "rounds": 5,
+    "actions": [
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 2,
+        "y": 8
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 3,
+        "y": 7
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 2,
+        "y": 7
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 4,
+        "y": 7
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 3,
+        "y": 8
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 2,
+        "y": 8
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 3,
+        "y": 8
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 2,
+        "y": 7
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 2,
+        "y": 6
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 2,
+        "y": 7
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 2,
+        "y": 8
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 3,
+        "y": 8
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 4,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 2,
+        "y": 8
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 3,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 3,
+        "y": 6
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 3,
+        "y": 6
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 3,
+        "y": 8
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 1,
+        "y": 6
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 2,
+        "y": 7
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 1,
+        "y": 7
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 3,
+        "y": 4
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 3,
+        "y": 6
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 2,
+        "y": 8
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 3,
+        "y": 5
+      },
+      {
+        "type": "end"
+      }
+    ],
+    "seconds": 0.69
+  },
+  {
+    "mission": 74,
+    "title": "The court’s machinery",
+    "goal": "seal",
+    "won": true,
+    "rounds": 3,
+    "actions": [
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 1,
+        "y": 9
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 3,
+        "y": 7
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 4,
+        "y": 7
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 0,
+        "y": 9
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 2,
+        "y": 8
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 2,
+        "y": 7
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 6,
+        "y": 7
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 2,
+        "y": 9
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 4,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 3,
+        "y": 7
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 4,
+        "y": 1
+      }
+    ],
+    "seconds": 0.29
+  },
+  {
+    "mission": 75,
+    "title": "The keeper before Mara",
+    "goal": "rescue",
+    "won": true,
+    "rounds": 3,
+    "actions": [
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 2,
+        "y": 8
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 1,
+        "y": 11
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 2,
+        "y": 5
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 2,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "reinforcement1",
+        "x": 3,
+        "y": 1
+      },
+      {
+        "type": "interact",
+        "id": "reinforcement1",
+        "x": 4,
+        "y": 1
+      },
+      {
+        "type": "move",
+        "id": "reinforcement2",
+        "x": 4,
+        "y": 4
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "reinforcement2",
+        "x": 4,
+        "y": 7
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 1,
+        "y": 10
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 4,
+        "y": 11
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 4,
+        "y": 7
+      }
+    ],
+    "seconds": 0.69
+  },
+  {
+    "mission": 76,
+    "title": "What a promise costs",
+    "goal": "hold",
+    "won": true,
+    "rounds": 8,
+    "actions": [
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 4,
+        "y": 8
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 2,
+        "y": 7
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 2,
+        "y": 10
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 2,
+        "y": 8
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 4,
+        "y": 5
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 2,
+        "y": 5
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 2,
+        "y": 6
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 2,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 2,
+        "y": 3
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 3,
+        "y": 3
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 3,
+        "y": 4
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 2,
+        "y": 4
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 2,
+        "y": 3
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 4,
+        "y": 1
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 3,
+        "y": 3
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 3,
+        "y": 1
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 3,
+        "y": 0
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 3,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 2,
+        "y": 1
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 2,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 4,
+        "y": 1
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 3,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 2,
+        "y": 1
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 2,
+        "y": 1
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 3,
+        "y": 1
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 2,
+        "y": 1
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 3,
+        "y": 1
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 3,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 2,
+        "y": 1
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 1,
+        "y": 1
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 3,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 3,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 3,
+        "y": 2
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 3,
+        "y": 1
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 2,
+        "y": 1
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 1,
+        "y": 1
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 3,
+        "y": 2
+      },
+      {
+        "type": "end"
+      }
+    ],
+    "seconds": 1.38
+  },
+  {
+    "mission": 77,
+    "title": "The right to be afraid",
+    "goal": "disarm",
+    "won": true,
+    "rounds": 4,
+    "actions": [
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 2,
+        "y": 7
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 4,
+        "y": 9
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 4,
+        "y": 8
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 2,
+        "y": 7
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 1,
+        "y": 9
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 1,
+        "y": 8
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 1,
+        "y": 7
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 2,
+        "y": 7
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 4,
+        "y": 5
+      },
+      {
+        "type": "interact",
+        "id": "a0",
+        "x": 1,
+        "y": 6
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 1,
+        "y": 4
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 3,
+        "y": 2
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 3,
+        "y": 3
+      },
+      {
+        "type": "interact",
+        "id": "a2",
+        "x": 4,
+        "y": 1
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 3,
+        "y": 3
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 0,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 3,
+        "y": 7
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 3,
+        "y": 8
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 3,
+        "y": 9
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 0,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 3,
+        "y": 9
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 1,
+        "y": 2
+      },
+      {
+        "type": "interact",
+        "id": "a0",
+        "x": 2,
+        "y": 2
+      }
+    ],
+    "seconds": 0.52
+  },
+  {
+    "mission": 78,
+    "title": "The honest weather",
+    "goal": "extinguish",
+    "won": true,
+    "rounds": 1,
+    "actions": [
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 1,
+        "y": 8,
+        "weather": "rain"
+      }
+    ],
+    "seconds": 0
+  },
+  {
+    "mission": 79,
+    "title": "The Auditor’s question",
+    "goal": "boss",
+    "won": true,
+    "rounds": 5,
+    "actions": [
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 3,
+        "y": 5
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 3,
+        "y": 6
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 3,
+        "y": 7
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 6,
+        "y": 6
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 2,
+        "y": 4
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 3,
+        "y": 0
+      },
+      {
+        "type": "act",
+        "id": "a3",
+        "x": 3,
+        "y": 5
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 3,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 3,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 3,
+        "y": 8
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 2,
+        "y": 7
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 3,
+        "y": 7
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 3,
+        "y": 4
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a3",
+        "x": 3,
+        "y": 4
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 3,
+        "y": 0
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 2,
+        "y": 1
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 2,
+        "y": 0
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 2,
+        "y": 6
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 2,
+        "y": 5
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 2,
+        "y": 4
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 2,
+        "y": 0
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 3,
+        "y": 0
+      },
+      {
+        "type": "act",
+        "id": "a3",
+        "x": 3,
+        "y": 4
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 2,
+        "y": 0
+      }
+    ],
+    "seconds": 2.92
+  },
+  {
+    "mission": 80,
+    "title": "No verdict for the rain",
+    "goal": "evacuate",
+    "won": true,
+    "rounds": 4,
+    "actions": [
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 4,
+        "y": 5
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 2,
+        "y": 8,
+        "second": {
+          "x": 1,
+          "y": 5
+        }
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 1,
+        "y": 3
+      },
+      {
+        "type": "interact",
+        "id": "a1",
+        "x": 1,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 1,
+        "y": 6
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 4,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "e0",
+        "x": 3,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "e0",
+        "x": 3,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 3,
+        "y": 6
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 5,
+        "y": 1
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 3,
+        "y": 4
+      },
+      {
+        "type": "act",
+        "id": "e0",
+        "x": 3,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 3,
+        "y": 5
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 3,
+        "y": 5,
+        "second": {
+          "x": 3,
+          "y": 1
+        }
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 5,
+        "y": 1
+      }
+    ],
+    "seconds": 0.63
+  },
+  {
+    "mission": 81,
+    "title": "One bell, one street",
+    "goal": "hold",
+    "won": true,
+    "rounds": 5,
+    "actions": [
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 1,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 4,
+        "y": 6
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 3,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 4,
+        "y": 3
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 3,
+        "y": 3
+      },
+      {
+        "type": "interact",
+        "id": "a1",
+        "x": 4,
+        "y": 2
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 3,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 5,
+        "y": 1
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 4,
+        "y": 1
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 5,
+        "y": 2
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 3,
+        "y": 1
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 5,
+        "y": 1
+      },
+      {
+        "type": "end"
+      }
+    ],
+    "seconds": 0.57
+  },
+  {
+    "mission": 82,
+    "title": "The floodgate volunteers",
+    "goal": "seal",
+    "won": true,
+    "rounds": 2,
+    "actions": [
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 3,
+        "y": 5
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 3,
+        "y": 7,
+        "dir": 0
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 4,
+        "y": 5
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 3,
+        "y": 8,
+        "dir": 1
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 2,
+        "y": 6,
+        "dir": 0
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 1,
+        "y": 7
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 2,
+        "y": 6
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 7,
+        "y": 3
+      },
+      {
+        "type": "interact",
+        "id": "a1",
+        "x": 7,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 4,
+        "y": 2
+      },
+      {
+        "type": "interact",
+        "id": "a0",
+        "x": 3,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 5,
+        "y": 1
+      }
+    ],
+    "seconds": 0.97
+  },
+  {
+    "mission": 83,
+    "title": "A forest with open doors",
+    "goal": "plant",
+    "won": true,
+    "rounds": 9,
+    "actions": [
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 3,
+        "y": 9
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 3,
+        "y": 8
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 2,
+        "y": 6
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 1,
+        "y": 8
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 1,
+        "y": 9
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 2,
+        "y": 9
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 3,
+        "y": 5
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 3,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 4,
+        "y": 8
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 3,
+        "y": 9
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 3,
+        "y": 8
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 3,
+        "y": 9
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 5,
+        "y": 5
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 4,
+        "y": 7
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 6,
+        "y": 8
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 4,
+        "y": 6
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 3,
+        "y": 10
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 5,
+        "y": 8
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 6,
+        "y": 3
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 4,
+        "y": 9
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 5,
+        "y": 9
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 3,
+        "y": 5
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 2,
+        "y": 5
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 3,
+        "y": 9
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 2,
+        "y": 9
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 4,
+        "y": 10
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 5,
+        "y": 3
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 7,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 3,
+        "y": 9
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 5,
+        "y": 1
+      }
+    ],
+    "seconds": 2.07
+  },
+  {
+    "mission": 84,
+    "title": "The bridge breaks kindly",
+    "goal": "push",
+    "won": true,
+    "rounds": 5,
+    "actions": [
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 5,
+        "y": 8
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 4,
+        "y": 5
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 2,
+        "y": 8
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 5,
+        "y": 8
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 4,
+        "y": 8
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 4,
+        "y": 4
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 2,
+        "y": 7
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 1,
+        "y": 8
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 0,
+        "y": 8
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 4,
+        "y": 6
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 1,
+        "y": 8
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 1,
+        "y": 7
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 4,
+        "y": 5
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 6,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 4,
+        "y": 8
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 4,
+        "y": 5
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 5,
+        "y": 4
+      },
+      {
+        "type": "interact",
+        "id": "a2",
+        "x": 5,
+        "y": 3
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 4,
+        "y": 4
+      }
+    ],
+    "seconds": 0.66
+  },
+  {
+    "mission": 85,
+    "title": "The last ration ledger",
+    "goal": "deliver",
+    "won": true,
+    "rounds": 3,
+    "actions": [
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 2,
+        "y": 5
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 5,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 1,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 3,
+        "y": 6
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 3,
+        "y": 5
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 3,
+        "y": 5
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "interact",
+        "id": "a1",
+        "x": 6,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 2,
+        "y": 4
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 2,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 6,
+        "y": 1
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 1,
+        "y": 4
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 2,
+        "y": 4
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 4,
+        "y": 1
+      }
+    ],
+    "seconds": 0.44
+  },
+  {
+    "mission": 86,
+    "title": "A room for every echo",
+    "goal": "rescue",
+    "won": true,
+    "rounds": 6,
+    "actions": [
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 4,
+        "y": 9
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 2,
+        "y": 8
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 2,
+        "y": 11
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 2,
+        "y": 8
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 2,
+        "y": 11
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 4,
+        "y": 8
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 4,
+        "y": 5
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 4,
+        "y": 1
+      },
+      {
+        "type": "move",
+        "id": "reinforcement2",
+        "x": 2,
+        "y": 3
+      },
+      {
+        "type": "interact",
+        "id": "reinforcement2",
+        "x": 2,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "reinforcement1",
+        "x": 3,
+        "y": 11
+      },
+      {
+        "type": "act",
+        "id": "reinforcement3",
+        "x": 2,
+        "y": 1
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "reinforcement2",
+        "x": 3,
+        "y": 6
+      },
+      {
+        "type": "act",
+        "id": "reinforcement3",
+        "x": 3,
+        "y": 3
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 4,
+        "y": 11
+      },
+      {
+        "type": "act",
+        "id": "reinforcement1",
+        "x": 6,
+        "y": 10
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "reinforcement2",
+        "x": 3,
+        "y": 9
+      },
+      {
+        "type": "move",
+        "id": "reinforcement3",
+        "x": 2,
+        "y": 3
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 3,
+        "y": 9
+      },
+      {
+        "type": "act",
+        "id": "reinforcement3",
+        "x": 2,
+        "y": 0
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 3,
+        "y": 9
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "reinforcement2",
+        "x": 4,
+        "y": 10
+      },
+      {
+        "type": "act",
+        "id": "reinforcement1",
+        "x": 5,
+        "y": 11
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 4,
+        "y": 11
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 3,
+        "y": 9
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 4,
+        "y": 10
+      }
+    ],
+    "seconds": 2.73
+  },
+  {
+    "mission": 87,
+    "title": "The bells answer back",
+    "goal": "survive",
+    "won": true,
+    "rounds": 7,
+    "actions": [
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 2,
+        "y": 9
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 1,
+        "y": 9
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 3,
+        "y": 9
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 4,
+        "y": 9
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 2,
+        "y": 8
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "e0",
+        "x": 2,
+        "y": 0
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 1,
+        "y": 10
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 2,
+        "y": 4
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "e0",
+        "x": 2,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "e0",
+        "x": 2,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 2,
+        "y": 3
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "e0",
+        "x": 2,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 3,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 3,
+        "y": 10
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "e0",
+        "x": 2,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 0,
+        "y": 4
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 2,
+        "y": 8
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "e0",
+        "x": 2,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 1,
+        "y": 10
+      },
+      {
+        "type": "interact",
+        "id": "a0",
+        "x": 1,
+        "y": 4
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "e0",
+        "x": 2,
+        "y": 2
+      },
+      {
+        "type": "end"
+      }
+    ],
+    "seconds": 3.78
+  },
+  {
+    "mission": 88,
+    "title": "The dark between districts",
+    "goal": "clear",
+    "won": true,
+    "rounds": 8,
+    "actions": [
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 0,
+        "y": 8
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 0,
+        "y": 7
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 1,
+        "y": 8
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 0,
+        "y": 8,
+        "dir": 0
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 1,
+        "y": 10
+      },
+      {
+        "type": "act",
+        "id": "a3",
+        "x": 1,
+        "y": 10
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 1,
+        "y": 9
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 4,
+        "y": 9
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 5,
+        "y": 8
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 0,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 1,
+        "y": 5
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 1,
+        "y": 6
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 5,
+        "y": 5
+      },
+      {
+        "type": "act",
+        "id": "a3",
+        "x": 5,
+        "y": 5
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 0,
+        "y": 4,
+        "dir": 0
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 7,
+        "y": 3
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 3,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "reinforcement1",
+        "x": 3,
+        "y": 3
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 1,
+        "y": 1
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 2,
+        "y": 3,
+        "dir": 1
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 1,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 1,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 1,
+        "y": 3
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 4,
+        "y": 1
+      },
+      {
+        "type": "act",
+        "id": "a3",
+        "x": 1,
+        "y": 1
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 2,
+        "y": 1
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 0,
+        "y": 0
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 2,
+        "y": 0,
+        "dir": 1
+      },
+      {
+        "type": "act",
+        "id": "a3",
+        "x": 4,
+        "y": 1
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 0,
+        "y": 1
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 1,
+        "y": 0
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 1,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 0,
+        "y": 2
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 2,
+        "y": 0
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 2,
+        "y": 1
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 1,
+        "y": 0,
+        "dir": 0
+      },
+      {
+        "type": "act",
+        "id": "a3",
+        "x": 0,
+        "y": 0
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 1,
+        "y": 1
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 1,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 0,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 0,
+        "y": 1
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 2,
+        "y": 1
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 1,
+        "y": 0,
+        "dir": 0
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 1,
+        "y": 0
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 2,
+        "y": 4
+      },
+      {
+        "type": "act",
+        "id": "reinforcement5",
+        "x": 4,
+        "y": 4
+      },
+      {
+        "type": "act",
+        "id": "reinforcement6",
+        "x": 5,
+        "y": 5
+      },
+      {
+        "type": "act",
+        "id": "reinforcement7",
+        "x": 5,
+        "y": 3
+      },
+      {
+        "type": "act",
+        "id": "reinforcement8",
+        "x": 6,
+        "y": 4
+      },
+      {
+        "type": "act",
+        "id": "reinforcement9",
+        "x": 7,
+        "y": 6
+      },
+      {
+        "type": "act",
+        "id": "reinforcement10",
+        "x": 7,
+        "y": 3
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 2,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "reinforcement9",
+        "x": 5,
+        "y": 5
+      },
+      {
+        "type": "act",
+        "id": "reinforcement6",
+        "x": 2,
+        "y": 3
+      },
+      {
+        "type": "act",
+        "id": "reinforcement14",
+        "x": 4,
+        "y": 4
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 4,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "reinforcement11",
+        "x": 8,
+        "y": 5
+      },
+      {
+        "type": "act",
+        "id": "reinforcement8",
+        "x": 5,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "reinforcement7",
+        "x": 6,
+        "y": 8
+      },
+      {
+        "type": "act",
+        "id": "reinforcement15",
+        "x": 3,
+        "y": 4
+      },
+      {
+        "type": "act",
+        "id": "reinforcement18",
+        "x": 2,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "reinforcement10",
+        "x": 6,
+        "y": 6
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "reinforcement22",
+        "x": 6,
+        "y": 4
+      },
+      {
+        "type": "act",
+        "id": "a3",
+        "x": 2,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "reinforcement15",
+        "x": 5,
+        "y": 3
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 2,
+        "y": 1
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 2,
+        "y": 0,
+        "dir": 2
+      }
+    ],
+    "seconds": 21.14
+  },
+  {
+    "mission": 89,
+    "title": "The sea on the other side",
+    "goal": "reach",
+    "won": true,
+    "rounds": 1,
+    "actions": [
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 3,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 3,
+        "y": 1
+      }
+    ],
+    "seconds": 0
+  },
+  {
+    "mission": 90,
+    "title": "A hundred small decisions",
+    "goal": "protect",
+    "won": true,
+    "rounds": 7,
+    "actions": [
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 2,
+        "y": 7
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 3,
+        "y": 7
+      },
+      {
+        "type": "act",
+        "id": "a4",
+        "x": 4,
+        "y": 8
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 2,
+        "y": 8
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 4,
+        "y": 7
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 3,
+        "y": 7
+      },
+      {
+        "type": "move",
+        "id": "a4",
+        "x": 8,
+        "y": 8
+      },
+      {
+        "type": "move",
+        "id": "a4",
+        "x": 8,
+        "y": 7
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 3,
+        "y": 8
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 5,
+        "y": 7
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 3,
+        "y": 7
+      },
+      {
+        "type": "act",
+        "id": "a4",
+        "x": 7,
+        "y": 8
+      },
+      {
+        "type": "move",
+        "id": "a4",
+        "x": 7,
+        "y": 7
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 3,
+        "y": 7
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 4,
+        "y": 7
+      },
+      {
+        "type": "act",
+        "id": "a4",
+        "x": 6,
+        "y": 5
+      },
+      {
+        "type": "move",
+        "id": "a4",
+        "x": 8,
+        "y": 7
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 3,
+        "y": 5
+      },
+      {
+        "type": "move",
+        "id": "a4",
+        "x": 7,
+        "y": 7
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 3,
+        "y": 7
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 4,
+        "y": 7
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 1,
+        "y": 8
+      },
+      {
+        "type": "act",
+        "id": "a4",
+        "x": 5,
+        "y": 8
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 4,
+        "y": 7
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 3,
+        "y": 7
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 0,
+        "y": 8
+      },
+      {
+        "type": "act",
+        "id": "a4",
+        "x": 6,
+        "y": 7
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 4,
+        "y": 7
+      },
+      {
+        "type": "end"
+      }
+    ],
+    "seconds": 2.37
+  },
+  {
+    "mission": 91,
+    "title": "The engine under the sea",
+    "goal": "reach",
+    "won": true,
+    "rounds": 3,
+    "actions": [
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 2,
+        "y": 7
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 4,
+        "y": 6
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 1,
+        "y": 8
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 2,
+        "y": 7
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 3,
+        "y": 7
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 4,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 4,
+        "y": 4
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "interact",
+        "id": "a1",
+        "x": 7,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 4,
+        "y": 1
+      }
+    ],
+    "seconds": 0.35
+  },
+  {
+    "mission": 92,
+    "title": "The routes we inherited",
+    "goal": "collect",
+    "won": true,
+    "rounds": 4,
+    "actions": [
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 3,
+        "y": 5
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 2,
+        "y": 5
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 2,
+        "y": 8
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 3,
+        "y": 4,
+        "dir": 0
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 2,
+        "y": 4,
+        "dir": 3
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 2,
+        "y": 7
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 2,
+        "y": 6
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 3,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 5,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 3,
+        "y": 6
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 3,
+        "y": 2,
+        "dir": 0
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 6,
+        "y": 2,
+        "dir": 3
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 3,
+        "y": 7
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 4,
+        "y": 7
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 7,
+        "y": 1
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 3,
+        "y": 2,
+        "dir": 2
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 4,
+        "y": 1,
+        "dir": 3
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 4,
+        "y": 8
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 4,
+        "y": 8
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 7,
+        "y": 2
+      }
+    ],
+    "seconds": 1.15
+  },
+  {
+    "mission": 93,
+    "title": "No heart alone",
+    "goal": "hold",
+    "won": true,
+    "rounds": 5,
+    "actions": [
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 3,
+        "y": 6
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 4,
+        "y": 6
+      },
+      {
+        "type": "act",
+        "id": "a3",
+        "x": 3,
+        "y": 5
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 1,
+        "y": 6
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 2,
+        "y": 6
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 2,
+        "y": 7
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 1,
+        "y": 6
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 1,
+        "y": 7,
+        "dir": 0
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 3,
+        "y": 7
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 5,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 3,
+        "y": 4
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 5,
+        "y": 4,
+        "dir": 2
+      },
+      {
+        "type": "act",
+        "id": "a3",
+        "x": 4,
+        "y": 4
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 3,
+        "y": 7
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 5,
+        "y": 1
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 3,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 1,
+        "y": 5
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 2,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 3,
+        "y": 6
+      },
+      {
+        "type": "act",
+        "id": "a3",
+        "x": 5,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 4,
+        "y": 0,
+        "dir": 3
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a3",
+        "x": 3,
+        "y": 1
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 3,
+        "y": 3
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 4,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 2,
+        "y": 4,
+        "dir": 1
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 2,
+        "y": 4
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 3,
+        "y": 4
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a3",
+        "x": 6,
+        "y": 1
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 3,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 2,
+        "y": 3,
+        "dir": 0
+      },
+      {
+        "type": "end"
+      }
+    ],
+    "seconds": 3.09
+  },
+  {
+    "mission": 94,
+    "title": "The last sealed deck",
+    "goal": "rescue",
+    "won": true,
+    "rounds": 5,
+    "actions": [
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 1,
+        "y": 11,
+        "second": {
+          "x": 3,
+          "y": 10
+        }
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 3,
+        "y": 7
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 2,
+        "y": 10
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 3,
+        "y": 10
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 3,
+        "y": 11
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 2,
+        "y": 11
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "reinforcement1",
+        "x": 4,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 3,
+        "y": 6
+      },
+      {
+        "type": "move",
+        "id": "reinforcement2",
+        "x": 4,
+        "y": 11
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "reinforcement1",
+        "x": 5,
+        "y": 6
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 5,
+        "y": 5
+      },
+      {
+        "type": "move",
+        "id": "reinforcement2",
+        "x": 5,
+        "y": 11
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 5,
+        "y": 1
+      },
+      {
+        "type": "move",
+        "id": "reinforcement3",
+        "x": 3,
+        "y": 4
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "reinforcement1",
+        "x": 5,
+        "y": 9
+      },
+      {
+        "type": "move",
+        "id": "reinforcement3",
+        "x": 4,
+        "y": 5
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 2,
+        "y": 10
+      },
+      {
+        "type": "move",
+        "id": "reinforcement2",
+        "x": 4,
+        "y": 10
+      },
+      {
+        "type": "move",
+        "id": "reinforcement3",
+        "x": 4,
+        "y": 6
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "reinforcement1",
+        "x": 5,
+        "y": 11
+      }
+    ],
+    "seconds": 3.33
+  },
+  {
+    "mission": 95,
+    "title": "A place to put the storm",
+    "goal": "seal",
+    "won": true,
+    "rounds": 5,
+    "actions": [
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 2,
+        "y": 6
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 4,
+        "y": 6
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 3,
+        "y": 7
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 3,
+        "y": 4
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 0,
+        "y": 4,
+        "dir": 0
+      },
+      {
+        "type": "act",
+        "id": "a3",
+        "x": 5,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 2,
+        "y": 9
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 6,
+        "y": 5
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 2,
+        "y": 4
+      },
+      {
+        "type": "interact",
+        "id": "a1",
+        "x": 2,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 2,
+        "y": 8
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 0,
+        "y": 4,
+        "dir": 1
+      },
+      {
+        "type": "act",
+        "id": "a3",
+        "x": 5,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 1,
+        "y": 8
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 1,
+        "y": 7
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 2,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 6,
+        "y": 4
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 4,
+        "y": 3
+      },
+      {
+        "type": "act",
+        "id": "a3",
+        "x": 4,
+        "y": 4
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 3,
+        "y": 6,
+        "dir": 1
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 4,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 1,
+        "y": 8
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 4,
+        "y": 5
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 4,
+        "y": 9,
+        "dir": 1
+      },
+      {
+        "type": "act",
+        "id": "a3",
+        "x": 6,
+        "y": 3
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 6,
+        "y": 3
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 2,
+        "y": 6
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 3,
+        "y": 2
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "interact",
+        "id": "a3",
+        "x": 6,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 4,
+        "y": 1
+      }
+    ],
+    "seconds": 5.25
+  },
+  {
+    "mission": 96,
+    "title": "The keeper’s last key",
+    "goal": "deliver",
+    "won": true,
+    "rounds": 3,
+    "actions": [
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 2,
+        "y": 5
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 1,
+        "y": 3
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 4,
+        "y": 3
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 4,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 3,
+        "y": 9
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 4,
+        "y": 8
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "interact",
+        "id": "a1",
+        "x": 6,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 4,
+        "y": 1
+      }
+    ],
+    "seconds": 0.29
+  },
+  {
+    "mission": 97,
+    "title": "The Heart that was afraid",
+    "goal": "boss",
+    "won": true,
+    "rounds": 9,
+    "actions": [
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 2,
+        "y": 9
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 1,
+        "y": 9
+      },
+      {
+        "type": "act",
+        "id": "a4",
+        "x": 5,
+        "y": 12
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 5,
+        "y": 9
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 4,
+        "y": 12
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 1,
+        "y": 12
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 3,
+        "y": 7
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 3,
+        "y": 8
+      },
+      {
+        "type": "act",
+        "id": "a4",
+        "x": 4,
+        "y": 12
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 4,
+        "y": 6
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 2,
+        "y": 12
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 4,
+        "y": 5
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 4,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "a4",
+        "x": 2,
+        "y": 12
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 3,
+        "y": 6
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 3,
+        "y": 5
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 5,
+        "y": 12
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 2,
+        "y": 11
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 2,
+        "y": 10
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 5,
+        "y": 11
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 5,
+        "y": 1
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 3,
+        "y": 1
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 5,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "a4",
+        "x": 5,
+        "y": 11
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 2,
+        "y": 9
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 2,
+        "y": 10
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 3,
+        "y": 10
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 6,
+        "y": 12
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 3,
+        "y": 1
+      },
+      {
+        "type": "act",
+        "id": "a4",
+        "x": 5,
+        "y": 12
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 2,
+        "y": 10
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 3,
+        "y": 1
+      },
+      {
+        "type": "act",
+        "id": "a4",
+        "x": 5,
+        "y": 12
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 2,
+        "y": 11
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 2,
+        "y": 12
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 6,
+        "y": 1
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 3,
+        "y": 1
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 5,
+        "y": 0
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 4,
+        "y": 0
+      },
+      {
+        "type": "act",
+        "id": "a4",
+        "x": 5,
+        "y": 12
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 3,
+        "y": 12
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 4,
+        "y": 12
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 4,
+        "y": 11
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 5,
+        "y": 11
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 2,
+        "y": 1
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 0,
+        "y": 0
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 2,
+        "y": 0
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 1,
+        "y": 0
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 5,
+        "y": 11
+      },
+      {
+        "type": "act",
+        "id": "a4",
+        "x": 5,
+        "y": 12
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 3,
+        "y": 11
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 2,
+        "y": 12
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 0,
+        "y": 0
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 1,
+        "y": 0
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 3,
+        "y": 1
+      },
+      {
+        "type": "end"
+      }
+    ],
+    "seconds": 8.98
+  },
+  {
+    "mission": 98,
+    "title": "The city holds the line",
+    "goal": "survive",
+    "won": true,
+    "rounds": 6,
+    "actions": [
+      {
+        "type": "act",
+        "id": "a5",
+        "x": 5,
+        "y": 10
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 3,
+        "y": 6
+      },
+      {
+        "type": "act",
+        "id": "a3",
+        "x": 3,
+        "y": 10
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 4,
+        "y": 10
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 1,
+        "y": 9
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 4,
+        "y": 11,
+        "dir": 2
+      },
+      {
+        "type": "act",
+        "id": "a4",
+        "x": 6,
+        "y": 11,
+        "second": {
+          "x": 5,
+          "y": 9
+        }
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 4,
+        "y": 11,
+        "dir": 1
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a5",
+        "x": 3,
+        "y": 9
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 1,
+        "y": 10,
+        "dir": 1
+      },
+      {
+        "type": "act",
+        "id": "a3",
+        "x": 4,
+        "y": 8
+      },
+      {
+        "type": "act",
+        "id": "a5",
+        "x": 7,
+        "y": 9
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 2,
+        "y": 10
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 2,
+        "y": 9
+      },
+      {
+        "type": "act",
+        "id": "a5",
+        "x": 6,
+        "y": 9
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 2,
+        "y": 8,
+        "dir": 3
+      },
+      {
+        "type": "act",
+        "id": "a3",
+        "x": 3,
+        "y": 8
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a5",
+        "x": 5,
+        "y": 6
+      },
+      {
+        "type": "end"
+      }
+    ],
+    "seconds": 7.07
+  },
+  {
+    "mission": 99,
+    "title": "The first true horizon",
+    "goal": "evacuate",
+    "won": true,
+    "rounds": 10,
+    "actions": [
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 1,
+        "y": 11,
+        "second": {
+          "x": 2,
+          "y": 8
+        }
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 2,
+        "y": 5
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 4,
+        "y": 11,
+        "second": {
+          "x": 3,
+          "y": 8
+        }
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 3,
+        "y": 6
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 4,
+        "y": 6
+      },
+      {
+        "type": "act",
+        "id": "a4",
+        "x": 3,
+        "y": 11
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 1,
+        "y": 11
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 2,
+        "y": 11
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 2,
+        "y": 10
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 4,
+        "y": 3
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 2,
+        "y": 2
+      },
+      {
+        "type": "interact",
+        "id": "a0",
+        "x": 1,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "a4",
+        "x": 6,
+        "y": 11
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 1,
+        "y": 11
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 2,
+        "y": 11
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 2,
+        "y": 11,
+        "second": {
+          "x": 3,
+          "y": 8
+        }
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 2,
+        "y": 11
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 3,
+        "y": 5
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 3,
+        "y": 3
+      },
+      {
+        "type": "act",
+        "id": "a4",
+        "x": 2,
+        "y": 11
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 3,
+        "y": 11
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 4,
+        "y": 10
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 4,
+        "y": 3
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 4,
+        "y": 7
+      },
+      {
+        "type": "act",
+        "id": "a4",
+        "x": 5,
+        "y": 11
+      },
+      {
+        "type": "move",
+        "id": "a4",
+        "x": 6,
+        "y": 10
+      },
+      {
+        "type": "move",
+        "id": "a5",
+        "x": 7,
+        "y": 10
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 4,
+        "y": 5
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 6,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a5",
+        "x": 6,
+        "y": 9
+      },
+      {
+        "type": "act",
+        "id": "a4",
+        "x": 6,
+        "y": 10
+      },
+      {
+        "type": "move",
+        "id": "a4",
+        "x": 5,
+        "y": 9
+      },
+      {
+        "type": "move",
+        "id": "a4",
+        "x": 4,
+        "y": 9
+      },
+      {
+        "type": "move",
+        "id": "a5",
+        "x": 5,
+        "y": 9
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 6,
+        "y": 3
+      },
+      {
+        "type": "interact",
+        "id": "a2",
+        "x": 7,
+        "y": 3
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 3,
+        "y": 3
+      },
+      {
+        "type": "act",
+        "id": "a4",
+        "x": 5,
+        "y": 9
+      },
+      {
+        "type": "move",
+        "id": "a4",
+        "x": 5,
+        "y": 8
+      },
+      {
+        "type": "move",
+        "id": "a5",
+        "x": 6,
+        "y": 8
+      },
+      {
+        "type": "move",
+        "id": "a4",
+        "x": 5,
+        "y": 7
+      },
+      {
+        "type": "move",
+        "id": "a5",
+        "x": 6,
+        "y": 7
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 2,
+        "y": 1
+      },
+      {
+        "type": "move",
+        "id": "a4",
+        "x": 4,
+        "y": 5
+      },
+      {
+        "type": "move",
+        "id": "a5",
+        "x": 5,
+        "y": 5
+      },
+      {
+        "type": "act",
+        "id": "a4",
+        "x": 4,
+        "y": 5
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a4",
+        "x": 4,
+        "y": 5
+      },
+      {
+        "type": "move",
+        "id": "a5",
+        "x": 6,
+        "y": 3
+      },
+      {
+        "type": "move",
+        "id": "a4",
+        "x": 5,
+        "y": 5
+      },
+      {
+        "type": "move",
+        "id": "a4",
+        "x": 6,
+        "y": 4
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a5",
+        "x": 4,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a4",
+        "x": 5,
+        "y": 3
+      },
+      {
+        "type": "move",
+        "id": "a4",
+        "x": 5,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "a4",
+        "x": 4,
+        "y": 2
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a5",
+        "x": 5,
+        "y": 0
+      },
+      {
+        "type": "move",
+        "id": "a4",
+        "x": 4,
+        "y": 1
+      }
+    ],
+    "seconds": 2.45
+  },
+  {
+    "mission": 100,
+    "title": "The last current",
+    "goal": "seal",
+    "won": true,
+    "rounds": 3,
+    "actions": [
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 3,
+        "y": 6
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 3,
+        "y": 6
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 3,
+        "y": 7
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 3,
+        "y": 6
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 2,
+        "y": 7,
+        "dir": 1
+      },
+      {
+        "type": "act",
+        "id": "a3",
+        "x": 2,
+        "y": 8
+      },
+      {
+        "type": "move",
+        "id": "a4",
+        "x": 0,
+        "y": 8
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 3,
+        "y": 9
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 2,
+        "y": 9
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 3,
+        "y": 8
+      },
+      {
+        "type": "move",
+        "id": "a4",
+        "x": 0,
+        "y": 9
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "e0",
+        "x": 2,
+        "y": 1
+      },
+      {
+        "type": "act",
+        "id": "e0",
+        "x": 2,
+        "y": 1
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 2,
+        "y": 5
+      },
+      {
+        "type": "act",
+        "id": "a4",
+        "x": 2,
+        "y": 9
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 1,
+        "y": 6,
+        "dir": 1
+      },
+      {
+        "type": "act",
+        "id": "a3",
+        "x": 1,
+        "y": 8
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 3,
+        "y": 9
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "e0",
+        "x": 3,
+        "y": 1
+      }
+    ],
+    "seconds": 0.88
+  }
+]

@@ -1,0 +1,21 @@
+/* Final raster pass: no painted shadows or lighting filters over the approved art. */
+.cell{background-image:none!important}
+.ground-art.raster-ground{position:absolute;inset:0;width:100%;height:100%;max-width:none;opacity:1;object-fit:fill;filter:none!important;border-radius:inherit;pointer-events:none}
+.terrain-overlay{z-index:1}
+.unit-sprite .piece.raster-unit{position:absolute;left:-5%;top:-9%;width:110%;height:110%;max-width:none;max-height:none;object-fit:contain;filter:none!important;pointer-events:none}
+.cell .object{position:absolute;inset:0;width:100%;height:100%;max-width:none;pointer-events:none}
+.cell .object .raster-object{position:absolute;left:-5%;top:-9%;width:110%;height:110%;max-width:none;max-height:none;object-fit:contain;filter:none!important}
+.piece.raster-unit,.scenery.raster-object{filter:none!important;object-fit:contain}
+.portrait .piece.raster-unit,.speaker-portrait .piece.raster-unit{width:100%;height:100%;max-width:100%;max-height:100%;filter:none!important}
+.guide-symbol .raster-unit,.guide-symbol .raster-object,.inspection-art .raster-unit,.inspection-art .raster-object{width:100%;height:100%;max-width:100%;max-height:100%;object-fit:contain}
+.guide-terrain{position:relative;display:block;width:100%;height:100%;overflow:hidden;border-radius:8px}
+.terrain-direction{position:absolute;inset:0;display:grid;place-items:center;color:#f6e7bc;font-size:clamp(18px,3vw,30px);font-weight:800;text-shadow:0 1px 2px #243d43;z-index:1;pointer-events:none}
+.river-art{position:absolute;inset:0;width:100%;height:100%;z-index:1;pointer-events:none}
+
+
+
+.fx-ghost.object .raster-object{position:absolute;left:-5%;top:-9%;width:110%;height:110%;max-width:none;max-height:none;object-fit:contain;filter:none!important}
+
+.cell.goal:after{content:"";position:absolute;inset:5%;border:2px solid #d7b35f;border-radius:3px;z-index:2;pointer-events:none}
+.cell.move:before{z-index:2}
+.cell.active .raster-unit{transform-origin:50% 90%;animation:crew-breathe 3.5s ease-in-out infinite}

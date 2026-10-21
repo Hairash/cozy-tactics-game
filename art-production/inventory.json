@@ -1,0 +1,1138 @@
+{
+  "roles": {
+    "count": 50,
+    "items": {
+      "vanguard": {
+        "name": "Mara",
+        "title": "Vanguard",
+        "icon": "\u25c6",
+        "action": "ram",
+        "range": 1,
+        "ability": "Ram",
+        "desc": "Hit an adjacent unit for 1 and push it 1 tile. Crush walls; topple columns.",
+        "lore": "A harbor keeper who remembers every name on the missing list.",
+        "color": "#d4a159"
+      },
+      "ranger": {
+        "name": "Ivo",
+        "title": "Ranger",
+        "icon": "\u27b6",
+        "action": "pull",
+        "range": 7,
+        "ability": "Grapple",
+        "desc": "Pull a visible unit or movable object 1 tile toward you. No damage.",
+        "lore": "A former surveyor who trusts knots more than promises.",
+        "color": "#88a79b"
+      },
+      "gardener": {
+        "name": "Fern",
+        "title": "Gardener",
+        "icon": "\u2667",
+        "action": "tree",
+        "range": 3,
+        "ability": "Briar",
+        "desc": "Grow a blocking briar on empty ground within 3 tiles.",
+        "lore": "Carries the last seeds of the old city in a tea tin.",
+        "color": "#7e9860"
+      },
+      "engineer": {
+        "name": "Pip",
+        "title": "Engineer",
+        "icon": "\u2733",
+        "action": "bomb",
+        "range": 3,
+        "ability": "Charge",
+        "desc": "Place a charge within 3 tiles. After enemies act, it deals 2 damage in a cross.",
+        "lore": "Can repair anything except the things he says too quickly.",
+        "color": "#b9966e"
+      },
+      "tidecaller": {
+        "name": "Neri",
+        "title": "Tidecaller",
+        "icon": "\u2248",
+        "action": "channel",
+        "range": 3,
+        "ability": "Shape current",
+        "desc": "Choose a flow direction. Make or redirect a river segment; heal an ally or extinguish fire.",
+        "lore": "Learned to read rivers before she learned to read words.",
+        "color": "#72a8bc"
+      },
+      "archer": {
+        "name": "Ash",
+        "title": "Longbow",
+        "icon": "\u2197",
+        "action": "shoot",
+        "range": 7,
+        "ability": "Longbow",
+        "desc": "Fire a straight shot for 2 damage. The first unit or object stops it.",
+        "lore": "Gave up hunting when the birds stopped returning.",
+        "color": "#b58b99"
+      },
+      "medic": {
+        "name": "Lio",
+        "title": "Field medic",
+        "icon": "\u271a",
+        "action": "heal",
+        "range": 2,
+        "ability": "Field medic",
+        "desc": "Restore 2 HP to a crew member within 2 tiles.",
+        "lore": "Keeps empty beds ready, just in case.",
+        "color": "#bc9562"
+      },
+      "carrier": {
+        "name": "Ada",
+        "title": "Transporter",
+        "icon": "\u25b0",
+        "action": "carry",
+        "range": 1,
+        "ability": "Transporter",
+        "desc": "Pick an adjacent ally, then an empty destination within 3 tiles of you. Carry them there.",
+        "lore": "Her cargo license once said furniture. People were always more important.",
+        "color": "#699b88"
+      },
+      "mawkeeper": {
+        "name": "Bram",
+        "title": "Maw tender",
+        "icon": "\u265c",
+        "action": "maw",
+        "range": 3,
+        "ability": "Maw tender",
+        "desc": "Plant a hungry maw. After the enemy turn it bites every adjacent unit for 1.",
+        "lore": "Insists the carnivorous plants are misunderstood.",
+        "color": "#d4a159"
+      },
+      "vinekeeper": {
+        "name": "Tess",
+        "title": "Vine weaver",
+        "icon": "\u2767",
+        "action": "vine",
+        "range": 3,
+        "ability": "Vine weaver",
+        "desc": "Grow a vine tree. It roots adjacent enemies for their next turn.",
+        "lore": "Makes nets from roots and friendships from patience.",
+        "color": "#88a79b"
+      },
+      "shaman": {
+        "name": "Oru",
+        "title": "Hearth shaman",
+        "icon": "\u2668",
+        "action": "haste",
+        "range": 3,
+        "ability": "Hearth shaman",
+        "desc": "Place a hearth totem. Nearby allies begin their next turn with 4 move points.",
+        "lore": "Keeps the names that the Archive tried to erase.",
+        "color": "#7e9860"
+      },
+      "blight": {
+        "name": "Sen",
+        "title": "Blight keeper",
+        "icon": "\u2637",
+        "action": "blight",
+        "range": 3,
+        "ability": "Blight keeper",
+        "desc": "Place a blight totem. Poison spreads from it into adjacent ground each round.",
+        "lore": "Studies the difference between a medicine and a dose.",
+        "color": "#b9966e"
+      },
+      "bulldozer": {
+        "name": "Rook",
+        "title": "Bulldozer",
+        "icon": "\u21e5",
+        "action": "bulldoze",
+        "range": 4,
+        "ability": "Bulldozer",
+        "desc": "Choose a direction: push a whole occupied line away, farthest first.",
+        "lore": "Retired from demolition. The city has not accepted his resignation.",
+        "color": "#72a8bc"
+      },
+      "witch": {
+        "name": "Vale",
+        "title": "Witch",
+        "icon": "\u263e",
+        "action": "charm",
+        "range": 3,
+        "ability": "Witch",
+        "desc": "Charm an enemy for its next turn. It fights its former allies, then recovers.",
+        "lore": "Once accused of hearing the city think. She did.",
+        "color": "#b58b99"
+      },
+      "astronomer": {
+        "name": "Edda",
+        "title": "Astronomer",
+        "icon": "\u263c",
+        "action": "weather",
+        "range": 7,
+        "ability": "Astronomer",
+        "desc": "Choose rain, frost, wind or storm; change the weather for the whole next round.",
+        "lore": "Has never seen a star she did not draw herself.",
+        "color": "#bc9562"
+      },
+      "digger": {
+        "name": "Dax",
+        "title": "Channel digger",
+        "icon": "\u2301",
+        "action": "dig",
+        "range": 4,
+        "ability": "Channel digger",
+        "desc": "Cut a 3-cell channel in the chosen direction, clearing wood along the way.",
+        "lore": "Can hear buried water through the soles of his boots.",
+        "color": "#699b88"
+      },
+      "geomancer": {
+        "name": "Moss",
+        "title": "Geomancer",
+        "icon": "\u25a3",
+        "action": "wall",
+        "range": 3,
+        "ability": "Geomancer",
+        "desc": "Raise a stone wall on empty ground. Blocks movement and shots.",
+        "lore": "Builds small shelters for people who say they are fine.",
+        "color": "#d4a159"
+      },
+      "sapper": {
+        "name": "Kit",
+        "title": "Sapper",
+        "icon": "\u2702",
+        "action": "demolish",
+        "range": 4,
+        "ability": "Sapper",
+        "desc": "Destroy an object within 4 tiles. Can open cages and crush enemy nests.",
+        "lore": "Reads instruction manuals only after the explosion.",
+        "color": "#88a79b"
+      },
+      "mirror": {
+        "name": "Yara",
+        "title": "Mirror dancer",
+        "icon": "\u25c7",
+        "action": "swap",
+        "range": 4,
+        "ability": "Mirror dancer",
+        "desc": "Exchange positions with any unit within 4 tiles. Both arrivals trigger terrain.",
+        "lore": "Remembers a twin that no official record admits existed.",
+        "color": "#7e9860"
+      },
+      "blink": {
+        "name": "Noa",
+        "title": "Blink runner",
+        "icon": "\u22c4",
+        "action": "blink",
+        "range": 4,
+        "ability": "Blink runner",
+        "desc": "Teleport yourself to any empty tile within 4 tiles. Arrival triggers terrain.",
+        "lore": "Always gets there before she has thought of what to say.",
+        "color": "#b9966e"
+      },
+      "ferryman": {
+        "name": "Keel",
+        "title": "Ferryman",
+        "icon": "\u2693",
+        "action": "ferry",
+        "range": 5,
+        "ability": "Ferryman",
+        "desc": "Choose a unit standing in water, then another empty river tile. Ferry it there.",
+        "lore": "Does not ask passengers which side they are on.",
+        "color": "#72a8bc"
+      },
+      "builder": {
+        "name": "June",
+        "title": "Bridgewright",
+        "icon": "\u256c",
+        "action": "bridge",
+        "range": 3,
+        "ability": "Bridgewright",
+        "desc": "Build a bridge across a gap, pit, water or lava tile within 3 tiles.",
+        "lore": "Her bridges always have room for one more person.",
+        "color": "#b58b99"
+      },
+      "alchemist": {
+        "name": "Iris",
+        "title": "Alchemist",
+        "icon": "\u2697",
+        "action": "cleanse",
+        "range": 3,
+        "ability": "Alchemist",
+        "desc": "Turn dangerous terrain into safe moss and remove harmful objects on that tile.",
+        "lore": "Wants to give the city something that cannot be rationed.",
+        "color": "#bc9562"
+      },
+      "firestarter": {
+        "name": "Cinder",
+        "title": "Firestarter",
+        "icon": "\u2668",
+        "action": "ignite",
+        "range": 4,
+        "ability": "Firestarter",
+        "desc": "Ignite a tile within 4 tiles. Fire spreads through nearby wood.",
+        "lore": "A warm heart and an unfortunate sense of timing.",
+        "color": "#699b88"
+      },
+      "warden": {
+        "name": "Holt",
+        "title": "Warden",
+        "icon": "\u2b21",
+        "action": "shield",
+        "range": 3,
+        "ability": "Warden",
+        "desc": "Give an ally a shield that absorbs the next damaging hit.",
+        "lore": "Guarded the wrong door for thirty years. He chooses his doors now.",
+        "color": "#d4a159"
+      },
+      "herder": {
+        "name": "Mina",
+        "title": "Whisper herder",
+        "icon": "\u21b6",
+        "action": "lure",
+        "range": 4,
+        "ability": "Whisper herder",
+        "desc": "Attract a unit 2 tiles toward you, one step at a time. No direct damage.",
+        "lore": "Knows the old machines respond to lullabies.",
+        "color": "#88a79b"
+      },
+      "gust": {
+        "name": "Gale",
+        "title": "Gust caller",
+        "icon": "\u224b",
+        "action": "gust",
+        "range": 4,
+        "ability": "Gust caller",
+        "desc": "Choose a tile; push every neighboring unit one tile away from it.",
+        "lore": "Rarely speaks above a whisper. The wind does the rest.",
+        "color": "#7e9860"
+      },
+      "magnet": {
+        "name": "Pol",
+        "title": "Magnetist",
+        "icon": "\u2229",
+        "action": "magnet",
+        "range": 4,
+        "ability": "Magnetist",
+        "desc": "Pull every metal object and machine neighboring a chosen tile toward its center.",
+        "lore": "Collects lost keys to houses that no longer stand.",
+        "color": "#b9966e"
+      },
+      "courier": {
+        "name": "Wren",
+        "title": "Courier",
+        "icon": "\u00bb",
+        "action": "dash",
+        "range": 5,
+        "ability": "Courier",
+        "desc": "Dash yourself up to 5 tiles in a straight line, stopping before blockers. Costs your action.",
+        "lore": "Has delivered three thousand letters and opened none.",
+        "color": "#72a8bc"
+      },
+      "anchorite": {
+        "name": "Ansel",
+        "title": "Anchorite",
+        "icon": "\u2691",
+        "action": "pin",
+        "range": 4,
+        "ability": "Anchorite",
+        "desc": "Root a unit in place for its next turn. It cannot move or be pushed.",
+        "lore": "Stood through the flood so others could hold onto him.",
+        "color": "#b58b99"
+      },
+      "tinkerer": {
+        "name": "Mika",
+        "title": "Tinkerer",
+        "icon": "\u27f3",
+        "action": "rotate",
+        "range": 4,
+        "ability": "Tinkerer",
+        "desc": "Turn a fan, spring, mirror, conveyor or river segment clockwise.",
+        "lore": "Asks what would happen if everything pointed the other way.",
+        "color": "#bc9562"
+      },
+      "conductor": {
+        "name": "Bea",
+        "title": "Conductor",
+        "icon": "\u2318",
+        "action": "circuit",
+        "range": 7,
+        "ability": "Conductor",
+        "desc": "Activate every lever and console on the map at once.",
+        "lore": "Once directed trains; now coordinates strangers.",
+        "color": "#699b88"
+      },
+      "weaver": {
+        "name": "Loom",
+        "title": "Gate weaver",
+        "icon": "\u221e",
+        "action": "portal",
+        "range": 4,
+        "ability": "Gate weaver",
+        "desc": "Choose two empty tiles within 4 tiles to weave a pair of linked portals.",
+        "lore": "Follows the loose threads at the edge of the world.",
+        "color": "#d4a159"
+      },
+      "siren": {
+        "name": "Una",
+        "title": "Siren",
+        "icon": "\u266b",
+        "action": "sleep",
+        "range": 3,
+        "ability": "Siren",
+        "desc": "Put all enemies adjacent to the target tile to sleep for one enemy turn.",
+        "lore": "The Archive stored her songs under dangerous materials.",
+        "color": "#88a79b"
+      },
+      "icewright": {
+        "name": "Fenn",
+        "title": "Icewright",
+        "icon": "\u2744",
+        "action": "freeze",
+        "range": 3,
+        "ability": "Icewright",
+        "desc": "Freeze a cross of tiles. Water becomes ice; fires go out; units are rooted for one turn.",
+        "lore": "Builds temporary things because permanence frightened his father.",
+        "color": "#7e9860"
+      },
+      "beekeeper": {
+        "name": "Bex",
+        "title": "Beekeeper",
+        "icon": "\u273f",
+        "action": "swarm",
+        "range": 3,
+        "ability": "Beekeeper",
+        "desc": "Release a friendly drone on an empty tile. It moves and bites enemies for 3 rounds.",
+        "lore": "The bees came back to her before any birds came back to Ash.",
+        "color": "#b9966e"
+      },
+      "demolition": {
+        "name": "Boom",
+        "title": "Detonator",
+        "icon": "\u2739",
+        "action": "detonate",
+        "range": 7,
+        "ability": "Detonator",
+        "desc": "Detonate every charge and explosive barrel immediately. Keep your crew clear.",
+        "lore": "Has an excellent safety record, depending on how you count buildings.",
+        "color": "#72a8bc"
+      },
+      "recaller": {
+        "name": "Remy",
+        "title": "Recaller",
+        "icon": "\u21a9",
+        "action": "recall",
+        "range": 5,
+        "ability": "Recaller",
+        "desc": "Return an ally to its deployment tile. Restores no HP but can rescue it from danger.",
+        "lore": "Remembers the way home even when home moves.",
+        "color": "#b58b99"
+      },
+      "scout": {
+        "name": "Sable",
+        "title": "Scout",
+        "icon": "\u219f",
+        "action": "trail",
+        "range": 5,
+        "ability": "Scout",
+        "desc": "Leap to a tile within 5, clearing smoke and thorns in a cross on arrival.",
+        "lore": "Draws maps of the places everyone else walks past.",
+        "color": "#bc9562"
+      },
+      "liberator": {
+        "name": "Luz",
+        "title": "Liberator",
+        "icon": "\u2637",
+        "action": "liberate",
+        "range": 4,
+        "ability": "Liberator",
+        "desc": "Open a cage or convert a neutral unit into controllable crew from a distance.",
+        "lore": "Kept a door open for ten years. Someone finally walked through.",
+        "color": "#699b88"
+      },
+      "harvester": {
+        "name": "Reed",
+        "title": "Harvester",
+        "icon": "\u2692",
+        "action": "harvest",
+        "range": 3,
+        "ability": "Harvester",
+        "desc": "Cut all wooden objects around a target tile. Every cut heals adjacent crew by 1.",
+        "lore": "Can tell what a forest looked like from a single root.",
+        "color": "#d4a159"
+      },
+      "plumber": {
+        "name": "Elin",
+        "title": "River turner",
+        "icon": "\u21c4",
+        "action": "reverse",
+        "range": 7,
+        "ability": "River turner",
+        "desc": "Reverse every river and conveyor direction on the map. Does not move units immediately.",
+        "lore": "Finds that most emergencies are pressure looking for somewhere to go.",
+        "color": "#88a79b"
+      },
+      "rainmaker": {
+        "name": "Rin",
+        "title": "Rainmaker",
+        "icon": "\u2602",
+        "action": "rain",
+        "range": 3,
+        "ability": "Rainmaker",
+        "desc": "Rain over a cross: extinguish fire and heal every ally there by 1.",
+        "lore": "Was paid to promise sunshine. Prefers the truth.",
+        "color": "#7e9860"
+      },
+      "firefighter": {
+        "name": "Faro",
+        "title": "Firefighter",
+        "icon": "\u21a0",
+        "action": "hose",
+        "range": 6,
+        "ability": "Firefighter",
+        "desc": "Spray a straight line: extinguish flames and push the first unit or movable object.",
+        "lore": "A rescue worker from a city everyone was told had drowned.",
+        "color": "#b9966e"
+      },
+      "mason": {
+        "name": "Slate",
+        "title": "Stone mover",
+        "icon": "\u25a4",
+        "action": "relocate",
+        "range": 3,
+        "ability": "Stone mover",
+        "desc": "Select a wall or boulder, then an empty neighboring tile to move it into.",
+        "lore": "Sees buildings as things that have not finished moving yet.",
+        "color": "#72a8bc"
+      },
+      "lantern": {
+        "name": "Lux",
+        "title": "Lantern keeper",
+        "icon": "\u2727",
+        "action": "beacon",
+        "range": 3,
+        "ability": "Lantern keeper",
+        "desc": "Place a lantern. At round end it heals adjacent allies for 1.",
+        "lore": "Tends the lamps on a street erased from every map.",
+        "color": "#b58b99"
+      },
+      "spore": {
+        "name": "Myra",
+        "title": "Spore artist",
+        "icon": "\u25cc",
+        "action": "spores",
+        "range": 4,
+        "ability": "Spore artist",
+        "desc": "Spread poisonous ground in a cross. It hurts both sides at round end.",
+        "lore": "Paints warnings in colors that only the machines can see.",
+        "color": "#bc9562"
+      },
+      "puppeteer": {
+        "name": "Nox",
+        "title": "Puppeteer",
+        "icon": "\u21a6",
+        "action": "remotePush",
+        "range": 5,
+        "ability": "Puppeteer",
+        "desc": "Push a unit or movable object 1 tile in your chosen direction from a distance.",
+        "lore": "Refused an order for the first time. Has not stopped since.",
+        "color": "#699b88"
+      },
+      "rigger": {
+        "name": "Rivet",
+        "title": "Rigger",
+        "icon": "\u2261",
+        "action": "conveyor",
+        "range": 3,
+        "ability": "Rigger",
+        "desc": "Lay a directional conveyor. It pushes its occupant one tile at every round end.",
+        "lore": "Used to build assembly lines. Wants people to get off them.",
+        "color": "#d4a159"
+      },
+      "bombardier": {
+        "name": "Kestrel",
+        "title": "Bombardier",
+        "icon": "\u273a",
+        "action": "lob",
+        "range": 5,
+        "ability": "Bombardier",
+        "desc": "Lob a shell over obstacles: 1 damage in a cross, destroying fragile objects.",
+        "lore": "The saboteur who stayed to help rebuild what she broke.",
+        "color": "#88a79b"
+      }
+    }
+  },
+  "enemies": {
+    "count": 20,
+    "items": {
+      "sentinel": {
+        "name": "Sentinel",
+        "icon": "\u25c6",
+        "action": "shot",
+        "hp": 2,
+        "text": "Moves 1 tile, then fires for 1 at the first obstacle or unit in a straight line."
+      },
+      "brute": {
+        "name": "Breaker",
+        "icon": "\u25a3",
+        "action": "melee",
+        "hp": 3,
+        "text": "Closes in and hits an adjacent target for 1, pushing it away."
+      },
+      "gunner": {
+        "name": "Rail gunner",
+        "icon": "\u2197",
+        "action": "heavyShot",
+        "hp": 2,
+        "text": "Moves 1 tile and fires a 2-damage straight shot. Cover stops it."
+      },
+      "mortar": {
+        "name": "Mortar",
+        "icon": "\u273a",
+        "action": "mortar",
+        "hp": 2,
+        "text": "Lobs a 1-damage shell within 6 tiles, ignoring cover. Later patrols prioritize vulnerable crew."
+      },
+      "webber": {
+        "name": "Silk drone",
+        "icon": "\u2767",
+        "action": "root",
+        "hp": 2,
+        "text": "Roots a nearby crew member within 3 tiles, preventing movement next round. Recharges for a turn between webs."
+      },
+      "arsonist": {
+        "name": "Cinder drone",
+        "icon": "\u2668",
+        "action": "ignite",
+        "hp": 2,
+        "text": "Ignites ground near the nearest crew member. Fire spreads through wood."
+      },
+      "sower": {
+        "name": "Iron gardener",
+        "icon": "\u2667",
+        "action": "grow",
+        "hp": 2,
+        "text": "Plants a blocking vine near the crew, closing routes instead of shooting."
+      },
+      "sapper": {
+        "name": "Charge layer",
+        "icon": "\u2739",
+        "action": "bomb",
+        "hp": 2,
+        "text": "Places a charge near a crew member within 4 tiles. It explodes after the following enemy turn, leaving one player turn to escape or disarm it."
+      },
+      "leech": {
+        "name": "Siphon",
+        "icon": "\u263e",
+        "action": "drain",
+        "hp": 2,
+        "text": "Drains 1 HP from an adjacent unit, healing itself."
+      },
+      "healer": {
+        "name": "Repair drone",
+        "icon": "\u271a",
+        "action": "heal",
+        "hp": 2,
+        "text": "Repairs an injured machine within 3 tiles. Fires only if no repair is needed."
+      },
+      "rammer": {
+        "name": "Ram engine",
+        "icon": "\u21e5",
+        "action": "ram",
+        "hp": 3,
+        "text": "Moves up to 2 tiles, then pushes an adjacent target. Collisions hurt."
+      },
+      "mesmer": {
+        "name": "Hush unit",
+        "icon": "\u25cc",
+        "action": "sleep",
+        "hp": 2,
+        "text": "Silences a crew member within 3 tiles, taking away its next action. Must recharge between uses."
+      },
+      "warden": {
+        "name": "Shield bearer",
+        "icon": "\u2b21",
+        "action": "shield",
+        "hp": 3,
+        "text": "Shields another machine nearby. Shields absorb one damaging hit."
+      },
+      "drone": {
+        "name": "Leaping drone",
+        "icon": "\u22c4",
+        "action": "leap",
+        "hp": 1,
+        "text": "Leaps over intervening objects, then bites an adjacent crew member."
+      },
+      "foundry": {
+        "name": "Foundry",
+        "icon": "\u25a5",
+        "action": "spawn",
+        "hp": 4,
+        "text": "Stationary. Manufactures a sentinel every 3 rounds if there is space."
+      },
+      "saboteur": {
+        "name": "Flow saboteur",
+        "icon": "\u27f3",
+        "action": "rotate",
+        "hp": 2,
+        "text": "Rotates nearby fans and reverses nearby currents before firing."
+      },
+      "bellkeeper": {
+        "name": "Bell keeper",
+        "icon": "\u266b",
+        "action": "lure",
+        "hp": 3,
+        "text": "Pulls the nearest crew member toward itself, letting terrain do the harm."
+      },
+      "frost": {
+        "name": "Frost engine",
+        "icon": "\u2744",
+        "action": "freeze",
+        "hp": 2,
+        "text": "Freezes ground beneath a crew member within 4 tiles and roots it for a turn. Recharges between freezes."
+      },
+      "heart": {
+        "name": "Weather Heart",
+        "icon": "\u263c",
+        "action": "cross",
+        "hp": 8,
+        "text": "Stationary. Fires for 1 in all four directions. Trees and walls intercept shots."
+      },
+      "sovereign": {
+        "name": "The Auditor",
+        "icon": "\u2318",
+        "action": "audit",
+        "hp": 6,
+        "text": "Alternates mortar fire and shields. Its defeat releases the district from control."
+      }
+    }
+  },
+  "terrain": {
+    "count": 21,
+    "items": {
+      "ground": {
+        "name": "Ground",
+        "text": "Normal ground. One voluntary step costs 1 point.",
+        "color": "#e9edd3"
+      },
+      "water": {
+        "name": "Current",
+        "text": "Follow the arrow to the next river segment, at most 2 cells per entry. After leaving water, stop on the first land tile. The direction may turn at each segment.",
+        "color": "#a9d0cd"
+      },
+      "ice": {
+        "name": "Ice",
+        "text": "Entering slides in the entry direction until blocked or off the ice. Sliding is free.",
+        "color": "#c0dfe3"
+      },
+      "fire": {
+        "name": "Fire",
+        "text": "1 damage on entering and at round end. Spreads into adjacent wooden objects or grass. Rain extinguishes it.",
+        "color": "#e9b381"
+      },
+      "goal": {
+        "name": "Objective pad",
+        "text": "A marked exit, relay or delivery point. Read this mission\u2019s objective for its purpose.",
+        "color": "#e7d6a0"
+      },
+      "mud": {
+        "name": "Mud",
+        "text": "Entering costs 2 movement points. Forced movement is not slowed.",
+        "color": "#beae8a"
+      },
+      "poison": {
+        "name": "Poisoned ground",
+        "text": "Deals 1 damage to its occupant at round end. Cleansing or rain removes it.",
+        "color": "#b5bf87"
+      },
+      "conveyor": {
+        "name": "Conveyor",
+        "text": "At round end, pushes its occupant one tile in its arrow direction. Can be rotated.",
+        "color": "#b4c5b4"
+      },
+      "cracked": {
+        "name": "Cracked floor",
+        "text": "Collapses into a pit when a unit voluntarily leaves it. Forced entry is possible; plan your way out.",
+        "color": "#d0c19a"
+      },
+      "pit": {
+        "name": "Open pit",
+        "text": "Cannot be walked onto. A unit pushed into it is disabled. June can bridge it.",
+        "color": "#45676a"
+      },
+      "lava": {
+        "name": "Lava",
+        "text": "Deals 2 damage on entering and at round end. Can be bridged or cleansed.",
+        "color": "#dc8963"
+      },
+      "thorns": {
+        "name": "Thorns",
+        "text": "Deals 1 damage on entry. Does not hurt units standing still. Can be burned or cleared.",
+        "color": "#a8b78d"
+      },
+      "grass": {
+        "name": "Dry grass",
+        "text": "Safe to walk on. Adjacent fire ignites it at round end.",
+        "color": "#bdca99"
+      },
+      "smoke": {
+        "name": "Smoke",
+        "text": "Blocks straight shots and line-of-sight abilities. Walking through it clears it.",
+        "color": "#adb8ae"
+      },
+      "mist": {
+        "name": "Deep mist",
+        "text": "Units inside cannot use ranged abilities beyond 1 tile. Rain or a scout clears it.",
+        "color": "#c8d6cd"
+      },
+      "charged": {
+        "name": "Charged floor",
+        "text": "Harmless normally; deals 1 damage to its occupant during storm weather.",
+        "color": "#c6c8a1"
+      },
+      "quicksand": {
+        "name": "Quicksand",
+        "text": "Roots its occupant at round end, taking away next round\u2019s movement.",
+        "color": "#d7c18f"
+      },
+      "moss": {
+        "name": "Restoring moss",
+        "text": "Heals its occupant by 1 at round end. Helps both teams.",
+        "color": "#a7bf9a"
+      },
+      "runway": {
+        "name": "Old runway",
+        "text": "First entry each round grants the unit 1 extra move point. Cannot be farmed by walking back and forth.",
+        "color": "#c4c9b4"
+      },
+      "snow": {
+        "name": "Deep snow",
+        "text": "Costs 2 movement points to enter. Fire melts it into normal ground.",
+        "color": "#e0e7dc"
+      },
+      "springwater": {
+        "name": "Still water",
+        "text": "Extinguishes fire on entry and removes root. No current: it does not carry units.",
+        "color": "#b0d5d4"
+      }
+    }
+  },
+  "objects": {
+    "count": 39,
+    "items": {
+      "wall": {
+        "name": "Stone wall",
+        "text": "Blocks movement and shots. Ram, demolition, charges and falling columns destroy it.",
+        "icon": "\u25a6",
+        "block": true,
+        "wood": false,
+        "metal": false
+      },
+      "tree": {
+        "name": "Briar tree",
+        "text": "Blocks shots and movement. Burns beside fire. A shot destroys it.",
+        "icon": "\u2660",
+        "block": true,
+        "wood": true,
+        "metal": false
+      },
+      "column": {
+        "name": "Column",
+        "text": "Ram topples it along 2 tiles for 2 damage, crushing objects. Shots can shatter it.",
+        "icon": "\u265c",
+        "block": true,
+        "wood": false,
+        "metal": false
+      },
+      "crate": {
+        "name": "Wooden crate",
+        "text": "Can be pushed or grappled. Blocks shots and movement. Burns easily.",
+        "icon": "\u25a7",
+        "block": true,
+        "wood": true,
+        "metal": false
+      },
+      "seed": {
+        "name": "Seed capsule",
+        "text": "Walk onto it to collect it. Counts toward collection objectives.",
+        "icon": "\u2726",
+        "block": false,
+        "wood": false,
+        "metal": false
+      },
+      "lever": {
+        "name": "Lever",
+        "text": "Interact from an adjacent tile to open all gates and activate nearby mechanisms.",
+        "icon": "\u2691",
+        "block": false,
+        "wood": false,
+        "metal": false
+      },
+      "gate": {
+        "name": "Flood gate",
+        "text": "Blocks movement and shots until a lever or circuit opens it.",
+        "icon": "\u25a5",
+        "block": true,
+        "wood": false,
+        "metal": true
+      },
+      "bomb": {
+        "name": "Armed charge",
+        "text": "Detonates after the enemy turn: 2 damage in a cross. Both teams can be hurt. Movable.",
+        "icon": "\u2739",
+        "block": true,
+        "wood": false,
+        "metal": true
+      },
+      "fan": {
+        "name": "Directional fan",
+        "text": "At round end pushes units along its arrow direction. Rotation changes that direction.",
+        "icon": "\u2723",
+        "block": true,
+        "wood": false,
+        "metal": true
+      },
+      "barrel": {
+        "name": "Explosive barrel",
+        "text": "Explodes for 2 damage in a cross when hit. Can be pushed or grappled.",
+        "icon": "\u25c9",
+        "block": true,
+        "wood": false,
+        "metal": false
+      },
+      "boulder": {
+        "name": "Boulder",
+        "text": "A movable stone barrier. Can be pushed, grappled or relocated.",
+        "icon": "\u2b1f",
+        "block": true,
+        "wood": false,
+        "metal": false
+      },
+      "mirror": {
+        "name": "Turning mirror",
+        "text": "Reflects straight shots 90\u00b0 clockwise. Can be rotated to choose the outgoing direction.",
+        "icon": "\u25c7",
+        "block": true,
+        "wood": false,
+        "metal": true
+      },
+      "spring": {
+        "name": "Launch spring",
+        "text": "On entry, launches the unit 2 tiles in its arrow direction; collisions stop it.",
+        "icon": "\u219f",
+        "block": false,
+        "wood": false,
+        "metal": true
+      },
+      "portal": {
+        "name": "Woven gate",
+        "text": "Entering transports you to its linked partner if that tile is empty.",
+        "icon": "\u221e",
+        "block": false,
+        "wood": false,
+        "metal": false
+      },
+      "bridge": {
+        "name": "Bridge",
+        "text": "Makes a gap, pit, river or lava safe to cross; suppresses terrain beneath.",
+        "icon": "\u256c",
+        "block": false,
+        "wood": false,
+        "metal": false
+      },
+      "plate": {
+        "name": "Pressure plate",
+        "text": "Entering opens gates. No action needed.",
+        "icon": "\u229e",
+        "block": false,
+        "wood": false,
+        "metal": true
+      },
+      "spikes": {
+        "name": "Spike bed",
+        "text": "1 damage to an occupant at round end. Can be disabled by interaction.",
+        "icon": "\u22c0",
+        "block": false,
+        "wood": false,
+        "metal": true
+      },
+      "beacon": {
+        "name": "Healing lantern",
+        "text": "Heals adjacent crew by 1 at round end. Some missions require protecting it.",
+        "icon": "\u2727",
+        "block": true,
+        "wood": false,
+        "metal": false
+      },
+      "vine": {
+        "name": "Binding tree",
+        "text": "Roots adjacent enemies for their next turn. Also blocks shots and burns.",
+        "icon": "\u2767",
+        "block": true,
+        "wood": true,
+        "metal": false
+      },
+      "maw": {
+        "name": "Hungry maw",
+        "text": "Bites every neighboring unit for 1 at round end, including crew. Blocks shots.",
+        "icon": "\u2663",
+        "block": true,
+        "wood": true,
+        "metal": false
+      },
+      "haste": {
+        "name": "Hearth totem",
+        "text": "Allies within 1 tile begin the next round with 4 move points.",
+        "icon": "\u2668",
+        "block": true,
+        "wood": true,
+        "metal": false
+      },
+      "blight": {
+        "name": "Blight totem",
+        "text": "Turns neighboring ground to poison at round end. Burns like wood.",
+        "icon": "\u2637",
+        "block": true,
+        "wood": true,
+        "metal": false
+      },
+      "pump": {
+        "name": "Flow pump",
+        "text": "Interact to rotate all river directions clockwise.",
+        "icon": "\u27f3",
+        "block": true,
+        "wood": false,
+        "metal": true
+      },
+      "generator": {
+        "name": "Live generator",
+        "text": "During storms, damages all neighboring units for 1. Can be demolished.",
+        "icon": "\u03df",
+        "block": true,
+        "wood": false,
+        "metal": true
+      },
+      "switch": {
+        "name": "Mechanism switch",
+        "text": "Interact to turn all fans and conveyors clockwise.",
+        "icon": "\u2318",
+        "block": false,
+        "wood": false,
+        "metal": true
+      },
+      "nest": {
+        "name": "Machine nest",
+        "text": "Spawns a sentinel every 3 rounds if an adjacent tile is free.",
+        "icon": "\u25a5",
+        "block": true,
+        "wood": false,
+        "metal": true
+      },
+      "cage": {
+        "name": "Rescue cage",
+        "text": "Interact next to it or break it to free a controllable ally. The mission explains who is inside.",
+        "icon": "\u25a4",
+        "block": true,
+        "wood": false,
+        "metal": true
+      },
+      "supply": {
+        "name": "Medical cache",
+        "text": "Collect by stepping onto it: restores 1 HP.",
+        "icon": "\u271a",
+        "block": false,
+        "wood": false,
+        "metal": false
+      },
+      "relic": {
+        "name": "Archive fragment",
+        "text": "Collect by entering. Some missions require carrying a fragment to an exit. Its sealed casing withstands fire and shots.",
+        "icon": "\u25c8",
+        "block": false,
+        "wood": false,
+        "metal": false
+      },
+      "console": {
+        "name": "Relay console",
+        "text": "Interact next to it to seal or repair it. Sealed consoles become safe ground.",
+        "icon": "\u25a3",
+        "block": true,
+        "wood": false,
+        "metal": true
+      },
+      "cart": {
+        "name": "Evacuation cart",
+        "text": "Push or grapple this armored cart onto the gold delivery pad. It stops shots safely, but an explosion can destroy it.",
+        "icon": "\u25b0",
+        "block": true,
+        "wood": false,
+        "metal": true
+      },
+      "anchor": {
+        "name": "Anchor stone",
+        "text": "Prevents forced movement of neighboring units. Can be demolished.",
+        "icon": "\u2693",
+        "block": true,
+        "wood": false,
+        "metal": false
+      },
+      "emitter": {
+        "name": "Shield emitter",
+        "text": "At round end gives every adjacent unit a one-hit shield. Works for both teams.",
+        "icon": "\u2b21",
+        "block": true,
+        "wood": false,
+        "metal": true
+      },
+      "glass": {
+        "name": "Thin glass",
+        "text": "Shatters on entry. The tile remains walkable.",
+        "icon": "\u25b1",
+        "block": false,
+        "wood": false,
+        "metal": false
+      },
+      "oil": {
+        "name": "Oil cask",
+        "text": "Ignites its cross when hit or burned. Can be pushed.",
+        "icon": "\u25cd",
+        "block": true,
+        "wood": true,
+        "metal": false
+      },
+      "bell": {
+        "name": "Signal bell",
+        "text": "Draws enemy movement toward itself. Ring by interacting to stun adjacent enemies.",
+        "icon": "\u266b",
+        "block": true,
+        "wood": false,
+        "metal": true
+      },
+      "rod": {
+        "name": "Lightning rod",
+        "text": "Intercepts storm damage on itself and keeps adjacent units safe from storms.",
+        "icon": "\u03df",
+        "block": true,
+        "wood": false,
+        "metal": true
+      },
+      "drain": {
+        "name": "Drain grate",
+        "text": "Stops a current on this tile. Occupants leave water here and stop.",
+        "icon": "\u22a1",
+        "block": false,
+        "wood": false,
+        "metal": true
+      },
+      "sign": {
+        "name": "Field marker",
+        "text": "Interact to hear an optional clue from the district\u2019s residents.",
+        "icon": "\u2690",
+        "block": false,
+        "wood": false,
+        "metal": false
+      }
+    }
+  },
+  "companions": {
+    "count": 1,
+    "items": {
+      "worker-drone": {
+        "name": "Worker drone",
+        "description": "Beekeeper summon; distinct friendly honeybee sprite."
+      }
+    }
+  }
+}

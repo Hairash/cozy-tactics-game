@@ -1,0 +1,188 @@
+{
+  "checked": 11,
+  "failures": [],
+  "assets": [
+    {
+      "id": "ally-1",
+      "status": "processed",
+      "failures": [],
+      "size": [
+        80,
+        80
+      ],
+      "sha256": "ad314bcc7f11e81728f745f1efd5ea9a253626364da5eb3bdc050ddab6be758a",
+      "main_component_share": 1.0,
+      "coverage": 0.2739,
+      "foreground_bbox": [
+        18,
+        10,
+        62,
+        72
+      ],
+      "normalized_height": 0.775
+    },
+    {
+      "id": "ally-2",
+      "status": "processed",
+      "failures": [],
+      "size": [
+        80,
+        80
+      ],
+      "sha256": "48b5dbb26d8216785de8b735d7e74f6c0f153c0a9a727626b1b67fb797e4e00f",
+      "main_component_share": 1.0,
+      "coverage": 0.2778,
+      "foreground_bbox": [
+        16,
+        10,
+        63,
+        72
+      ],
+      "normalized_height": 0.775
+    },
+    {
+      "id": "enemy-1",
+      "status": "processed",
+      "failures": [],
+      "size": [
+        80,
+        80
+      ],
+      "sha256": "2ca4fd0d2e64e2eeaf7058d9fde869b461ee27aad221cb1a3203fccc39278451",
+      "main_component_share": 1.0,
+      "coverage": 0.1736,
+      "foreground_bbox": [
+        19,
+        10,
+        60,
+        72
+      ],
+      "normalized_height": 0.775
+    },
+    {
+      "id": "enemy-2",
+      "status": "processed",
+      "failures": [],
+      "size": [
+        80,
+        80
+      ],
+      "sha256": "bc77aeca9b378a7cfe2f1c5bd076acabdacdf45d8afdc44c94a23f94bfb4d7d1",
+      "main_component_share": 1.0,
+      "coverage": 0.2944,
+      "foreground_bbox": [
+        7,
+        26,
+        73,
+        72
+      ],
+      "normalized_height": 0.575
+    },
+    {
+      "id": "tree",
+      "status": "processed",
+      "failures": [],
+      "size": [
+        80,
+        80
+      ],
+      "sha256": "9ad02b83912447af19ff3bf657b0c78eddb51bb961a4f2f842df4baf181616cf",
+      "main_component_share": 1.0,
+      "coverage": 0.2922,
+      "foreground_bbox": [
+        12,
+        10,
+        67,
+        72
+      ],
+      "normalized_height": 0.775
+    },
+    {
+      "id": "column",
+      "status": "processed",
+      "failures": [],
+      "size": [
+        80,
+        80
+      ],
+      "sha256": "64890c8ec85d5fbe48aba297d2a3fe8de2894262348456a4fcdb3c602a8432af",
+      "main_component_share": 1.0,
+      "coverage": 0.2486,
+      "foreground_bbox": [
+        21,
+        10,
+        59,
+        72
+      ],
+      "normalized_height": 0.775
+    },
+    {
+      "id": "wall",
+      "status": "processed",
+      "failures": [],
+      "size": [
+        80,
+        80
+      ],
+      "sha256": "bc60444f1afaf7c3b7102eb9865ceed140042cc6a17148b6302a8cb1ce95024f",
+      "main_component_share": 1.0,
+      "coverage": 0.2917,
+      "foreground_bbox": [
+        7,
+        40,
+        73,
+        72
+      ],
+      "normalized_height": 0.4
+    },
+    {
+      "id": "fan",
+      "status": "processed",
+      "failures": [],
+      "size": [
+        80,
+        80
+      ],
+      "sha256": "6404227077d0ade89c07a1901804585501de2aa942fad7b2eeedbb280d0854c5",
+      "main_component_share": 1.0,
+      "coverage": 0.2702,
+      "foreground_bbox": [
+        16,
+        10,
+        63,
+        72
+      ],
+      "normalized_height": 0.775
+    },
+    {
+      "id": "ground",
+      "status": "processed",
+      "failures": [],
+      "size": [
+        80,
+        80
+      ],
+      "sha256": "59baaff906303e5e7c017d01570068069f3bd1837a60686f848f870196ef9a8e"
+    },
+    {
+      "id": "grass",
+      "status": "processed",
+      "failures": [],
+      "size": [
+        80,
+        80
+      ],
+      "sha256": "82c6096e10729c787b0a085835260eb03adf1693b2e17b2eb28f915c5e54ca87"
+    },
+    {
+      "id": "water",
+      "status": "processed",
+      "failures": [],
+      "size": [
+        80,
+        80
+      ],
+      "sha256": "bcd1895af16fcbe44296739d77e9b8a92a9444577ae11616ff340385fca6a80d"
+    }
+  ]
+}

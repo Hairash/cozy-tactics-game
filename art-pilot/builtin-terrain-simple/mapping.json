@@ -1,0 +1,29 @@
+{
+  "ground": {
+    "file": "builtin-terrain-simple/processed/ground.png",
+    "variants": [
+      "builtin-terrain-simple/processed/ground.png",
+      "builtin-terrain-simple/processed/ground-1.png",
+      "builtin-terrain-simple/processed/ground-2.png",
+      "builtin-terrain-simple/processed/ground-3.png"
+    ]
+  },
+  "grass": {
+    "file": "builtin-terrain-simple/processed/grass.png",
+    "variants": [
+      "builtin-terrain-simple/processed/grass.png",
+      "builtin-terrain-simple/processed/grass-1.png",
+      "builtin-terrain-simple/processed/grass-2.png",
+      "builtin-terrain-simple/processed/grass-3.png"
+    ]
+  },
+  "water": {
+    "file": "builtin-terrain-simple/processed/water.png",
+    "variants": [
+      "builtin-terrain-simple/processed/water.png",
+      "builtin-terrain-simple/processed/water-1.png",
+      "builtin-terrain-simple/processed/water-2.png",
+      "builtin-terrain-simple/processed/water-3.png"
+    ]
+  }
+}

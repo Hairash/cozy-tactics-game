@@ -1,0 +1,301 @@
+{
+  "generator": "Codex built-in image_gen",
+  "phase": "review-ready",
+  "native_resolution_control": false,
+  "production_approved": false,
+  "assets": {
+    "ally-1": {
+      "status": "processed",
+      "raw": "raw/ally-1.png",
+      "prompt": "prompts/ally-1.txt",
+      "actual_source_dimensions": [
+        1254,
+        1254
+      ],
+      "file": "processed/ally-1.png",
+      "qa": {
+        "raw_size": [
+          1254,
+          1254
+        ],
+        "raw_bbox": [
+          407,
+          237,
+          927,
+          968
+        ],
+        "size": [
+          80,
+          80
+        ],
+        "bbox": [
+          18,
+          10,
+          62,
+          72
+        ],
+        "coverage": 0.2739,
+        "alpha_preserved": true,
+        "sha256": "ad314bcc7f11e81728f745f1efd5ea9a253626364da5eb3bdc050ddab6be758a"
+      }
+    },
+    "ally-2": {
+      "status": "processed",
+      "raw": "raw/ally-2.png",
+      "prompt": "prompts/ally-2.txt",
+      "actual_source_dimensions": [
+        1254,
+        1254
+      ],
+      "file": "processed/ally-2.png",
+      "qa": {
+        "raw_size": [
+          1254,
+          1254
+        ],
+        "raw_bbox": [
+          409,
+          256,
+          1002,
+          1037
+        ],
+        "size": [
+          80,
+          80
+        ],
+        "bbox": [
+          16,
+          10,
+          63,
+          72
+        ],
+        "coverage": 0.2778,
+        "alpha_preserved": true,
+        "sha256": "48b5dbb26d8216785de8b735d7e74f6c0f153c0a9a727626b1b67fb797e4e00f"
+      }
+    },
+    "enemy-1": {
+      "status": "processed",
+      "raw": "raw/enemy-1.png",
+      "prompt": "prompts/enemy-1.txt",
+      "actual_source_dimensions": [
+        1254,
+        1254
+      ],
+      "file": "processed/enemy-1.png",
+      "qa": {
+        "raw_size": [
+          1254,
+          1254
+        ],
+        "raw_bbox": [
+          338,
+          139,
+          942,
+          1057
+        ],
+        "size": [
+          80,
+          80
+        ],
+        "bbox": [
+          19,
+          10,
+          60,
+          72
+        ],
+        "coverage": 0.1736,
+        "alpha_preserved": true,
+        "sha256": "2ca4fd0d2e64e2eeaf7058d9fde869b461ee27aad221cb1a3203fccc39278451"
+      }
+    },
+    "enemy-2": {
+      "status": "processed",
+      "raw": "raw/enemy-2.png",
+      "prompt": "prompts/enemy-2.txt",
+      "actual_source_dimensions": [
+        1254,
+        1254
+      ],
+      "file": "processed/enemy-2.png",
+      "qa": {
+        "raw_size": [
+          1254,
+          1254
+        ],
+        "raw_bbox": [
+          189,
+          379,
+          1072,
+          912
+        ],
+        "size": [
+          80,
+          80
+        ],
+        "bbox": [
+          7,
+          26,
+          73,
+          72
+        ],
+        "coverage": 0.2944,
+        "alpha_preserved": true,
+        "sha256": "bc77aeca9b378a7cfe2f1c5bd076acabdacdf45d8afdc44c94a23f94bfb4d7d1"
+      }
+    },
+    "tree": {
+      "status": "processed",
+      "raw": "raw/tree.png",
+      "prompt": "prompts/tree.txt",
+      "actual_source_dimensions": [
+        1254,
+        1254
+      ],
+      "file": "processed/tree.png",
+      "qa": {
+        "raw_size": [
+          1254,
+          1254
+        ],
+        "raw_bbox": [
+          294,
+          216,
+          1025,
+          1043
+        ],
+        "size": [
+          80,
+          80
+        ],
+        "bbox": [
+          12,
+          10,
+          67,
+          72
+        ],
+        "coverage": 0.2922,
+        "alpha_preserved": true,
+        "sha256": "9ad02b83912447af19ff3bf657b0c78eddb51bb961a4f2f842df4baf181616cf"
+      }
+    },
+    "column": {
+      "status": "processed",
+      "raw": "raw/column.png",
+      "prompt": "prompts/column.txt",
+      "actual_source_dimensions": [
+        1254,
+        1254
+      ],
+      "file": "processed/column.png",
+      "qa": {
+        "raw_size": [
+          1254,
+          1254
+        ],
+        "raw_bbox": [
+          301,
+          153,
+          954,
+          1134
+        ],
+        "size": [
+          80,
+          80
+        ],
+        "bbox": [
+          21,
+          10,
+          59,
+          72
+        ],
+        "coverage": 0.2486,
+        "alpha_preserved": true,
+        "sha256": "64890c8ec85d5fbe48aba297d2a3fe8de2894262348456a4fcdb3c602a8432af"
+      }
+    },
+    "wall": {
+      "status": "processed",
+      "raw": "raw/wall.png",
+      "prompt": "prompts/wall.txt",
+      "actual_source_dimensions": [
+        1774,
+        887
+      ],
+      "file": "processed/wall.png",
+      "qa": {
+        "raw_size": [
+          1774,
+          887
+        ],
+        "raw_bbox": [
+          293,
+          294,
+          1489,
+          671
+        ],
+        "size": [
+          80,
+          80
+        ],
+        "bbox": [
+          7,
+          40,
+          73,
+          72
+        ],
+        "coverage": 0.2917,
+        "alpha_preserved": true,
+        "sha256": "bc60444f1afaf7c3b7102eb9865ceed140042cc6a17148b6302a8cb1ce95024f"
+      }
+    },
+    "fan": {
+      "status": "processed",
+      "raw": "raw/fan.png",
+      "prompt": "prompts/fan.txt",
+      "actual_source_dimensions": [
+        1254,
+        1254
+      ],
+      "file": "processed/fan.png",
+      "qa": {
+        "raw_size": [
+          1254,
+          1254
+        ],
+        "raw_bbox": [
+          331,
+          233,
+          946,
+          1037
+        ],
+        "size": [
+          80,
+          80
+        ],
+        "bbox": [
+          16,
+          10,
+          63,
+          72
+        ],
+        "coverage": 0.2702,
+        "alpha_preserved": true,
+        "sha256": "6404227077d0ade89c07a1901804585501de2aa942fad7b2eeedbb280d0854c5"
+      }
+    }
+  },
+  "resolution_note": "Requestednative80 inprompt; builtintoolhas no sizeparameter and returned largerimages; exported80 bycrop/resize only",
+  "browser_qa": {
+    "browser": "Chrome CUA",
+    "laptop_tile_px": 64,
+    "phone_tile_px": 40,
+    "physical_device": false,
+    "all_eight_types_visible": true,
+    "screenshots": [
+      "reviews/simple80-laptop.png",
+      "reviews/simple80-phone-scale.png"
+    ]
+  },
+  "comparison": "reviews/simple80-old-new-64.png"
+}

@@ -1,0 +1,119 @@
+PASS 001 · clear · 2 rounds · 6 legal inputs
+PASS 002 · collect · 3 rounds · 20 legal inputs
+PASS 003 · reach · 2 rounds · 10 legal inputs
+PASS 004 · hold · 3 rounds · 15 legal inputs
+PASS 005 · survive · 5 rounds · 16 legal inputs
+PASS 006 · boss · 4 rounds · 22 legal inputs
+PASS 007 · reach · 1 rounds · 2 legal inputs
+PASS 008 · rescue · 1 rounds · 4 legal inputs
+PASS 009 · seal · 1 rounds · 3 legal inputs
+PASS 010 · survive · 3 rounds · 15 legal inputs
+PASS 011 · collect · 2 rounds · 7 legal inputs
+PASS 012 · push · 2 rounds · 6 legal inputs
+FAIL 13 Transcript no longer wins
++ actual - expected
+
++ undefined
+- 'victory'
+
+FAIL 14 Destination outside legal movement
+PASS 015 · boss · 6 rounds · 32 legal inputs
+PASS 016 · escort · 4 rounds · 23 legal inputs
+PASS 017 · disarm · 4 rounds · 18 legal inputs
+PASS 018 · hold · 3 rounds · 18 legal inputs
+PASS 019 · deliver · 1 rounds · 2 legal inputs
+PASS 020 · seal · 1 rounds · 4 legal inputs
+PASS 021 · reach · 1 rounds · 2 legal inputs
+PASS 022 · escort · 2 rounds · 9 legal inputs
+PASS 023 · rescue · 1 rounds · 3 legal inputs
+PASS 024 · push · 2 rounds · 9 legal inputs
+PASS 025 · collect · 1 rounds · 7 legal inputs
+PASS 026 · evacuate · 1 rounds · 3 legal inputs
+PASS 027 · boss · 6 rounds · 31 legal inputs
+PASS 028 · protect · 3 rounds · 8 legal inputs
+PASS 029 · reach · 2 rounds · 4 legal inputs
+PASS 030 · hold · 4 rounds · 23 legal inputs
+PASS 031 · reach · 1 rounds · 2 legal inputs
+PASS 032 · clear · 6 rounds · 26 legal inputs
+PASS 033 · plant · 4 rounds · 17 legal inputs
+PASS 034 · extinguish · 1 rounds · 2 legal inputs
+PASS 035 · survive · 4 rounds · 14 legal inputs
+PASS 036 · rescue · 1 rounds · 4 legal inputs
+PASS 037 · collect · 1 rounds · 3 legal inputs
+PASS 038 · seal · 4 rounds · 13 legal inputs
+PASS 039 · boss · 11 rounds · 56 legal inputs
+PASS 040 · deliver · 2 rounds · 7 legal inputs
+PASS 041 · rescue · 1 rounds · 3 legal inputs
+PASS 042 · disarm · 5 rounds · 22 legal inputs
+PASS 043 · extinguish · 3 rounds · 14 legal inputs
+PASS 044 · push · 4 rounds · 19 legal inputs
+PASS 045 · clear · 6 rounds · 29 legal inputs
+PASS 046 · protect · 4 rounds · 13 legal inputs
+PASS 047 · hold · 3 rounds · 19 legal inputs
+PASS 048 · collect · 2 rounds · 9 legal inputs
+PASS 049 · boss · 6 rounds · 41 legal inputs
+FAIL 50 Illegal ability target
+PASS 051 · reach · 2 rounds · 8 legal inputs
+FAIL 52 Destination outside legal movement
+PASS 053 · collect · 5 rounds · 20 legal inputs
+PASS 054 · protect · 6 rounds · 17 legal inputs
+PASS 055 · rescue · 2 rounds · 14 legal inputs
+PASS 056 · extinguish · 1 rounds · 4 legal inputs
+PASS 057 · hold · 3 rounds · 14 legal inputs
+PASS 058 · reach · 2 rounds · 5 legal inputs
+FAIL 59 Input after battle ended
+PASS 060 · deliver · 2 rounds · 12 legal inputs
+PASS 061 · seal · 3 rounds · 9 legal inputs
+PASS 062 · plant · 3 rounds · 15 legal inputs
+PASS 063 · escort · 7 rounds · 52 legal inputs
+FAIL 64 Destination outside legal movement
+PASS 065 · rescue · 3 rounds · 12 legal inputs
+PASS 066 · reach · 3 rounds · 17 legal inputs
+PASS 067 · hold · 5 rounds · 44 legal inputs
+PASS 068 · evacuate · 2 rounds · 13 legal inputs
+PASS 069 · boss · 5 rounds · 35 legal inputs
+PASS 070 · protect · 4 rounds · 21 legal inputs
+PASS 071 · reach · 6 rounds · 17 legal inputs
+PASS 072 · collect · 4 rounds · 17 legal inputs
+PASS 073 · protect · 5 rounds · 30 legal inputs
+PASS 074 · seal · 3 rounds · 13 legal inputs
+PASS 075 · rescue · 3 rounds · 13 legal inputs
+PASS 076 · hold · 8 rounds · 45 legal inputs
+PASS 077 · disarm · 4 rounds · 26 legal inputs
+PASS 078 · extinguish · 1 rounds · 1 legal inputs
+PASS 079 · boss · 5 rounds · 28 legal inputs
+PASS 080 · evacuate · 4 rounds · 18 legal inputs
+PASS 081 · hold · 5 rounds · 17 legal inputs
+FAIL 82 Destination outside legal movement
+PASS 083 · plant · 9 rounds · 38 legal inputs
+PASS 084 · push · 5 rounds · 23 legal inputs
+PASS 085 · deliver · 3 rounds · 15 legal inputs
+PASS 086 · rescue · 6 rounds · 31 legal inputs
+PASS 087 · survive · 7 rounds · 28 legal inputs
+PASS 088 · clear · 8 rounds · 74 legal inputs
+PASS 089 · reach · 1 rounds · 2 legal inputs
+PASS 090 · protect · 7 rounds · 35 legal inputs
+PASS 091 · reach · 3 rounds · 11 legal inputs
+FAIL 92 Destination outside legal movement
+PASS 093 · hold · 5 rounds · 35 legal inputs
+PASS 094 · rescue · 5 rounds · 24 legal inputs
+FAIL 95 Illegal interaction
+PASS 096 · deliver · 3 rounds · 10 legal inputs
+PASS 097 · boss · 9 rounds · 64 legal inputs
+PASS 098 · survive · 6 rounds · 24 legal inputs
+PASS 099 · evacuate · 10 rounds · 65 legal inputs
+PASS 100 · seal · 3 rounds · 21 legal inputs
+Verified 91 of 100 missions. [
+  {
+    mission: 13,
+    error: "Transcript no longer wins\n+ actual - expected\n\n+ undefined\n- 'victory'\n"
+  },
+  { mission: 14, error: 'Destination outside legal movement' },
+  { mission: 50, error: 'Illegal ability target' },
+  { mission: 52, error: 'Destination outside legal movement' },
+  { mission: 59, error: 'Input after battle ended' },
+  { mission: 64, error: 'Destination outside legal movement' },
+  { mission: 82, error: 'Destination outside legal movement' },
+  { mission: 92, error: 'Destination outside legal movement' },
+  { mission: 95, error: 'Illegal interaction' }
+]

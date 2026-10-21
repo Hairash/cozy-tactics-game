@@ -1,0 +1,14 @@
+{
+  "mission": 1,
+  "result": "victory",
+  "rounds": 2,
+  "checks": [
+    "ice slide and residual movement",
+    "ram collision and damage",
+    "move then act closes movement",
+    "enemy turn playback",
+    "persistent mid-battle dialogue",
+    "column topple with raster ghost",
+    "victory portrait and completion"
+  ]
+}

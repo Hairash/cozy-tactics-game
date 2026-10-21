@@ -1,0 +1,45 @@
+{
+  "runtime": "ComfyUI 0.42.0, local Apple MPS",
+  "comfy_commit": "bc5f880dbdd43e426077f42ccec53bb577ffee9f",
+  "ipadapter_commit": "a0f451a5113cf9becb0847b92884cb10cbdec0ef",
+  "models": [
+    {
+      "name": "SDXL-Lightning 8step full",
+      "source": "https://huggingface.co/ByteDance/SDXL-Lightning",
+      "bytes": 6938040682,
+      "sha256": "43f0501ac4ffcef84f3fc32a47779f24c181647fa97ef7f5ec4428107d732ae9",
+      "license": "OpenRAIL++ (SDXL derivative)"
+    },
+    {
+      "name": "IP-Adapter Plus SDXL ViT-H",
+      "source": "https://huggingface.co/h94/IP-Adapter",
+      "bytes": 847517512,
+      "sha256": "3f5062b8400c94b7159665b21ba5c62acdcd7682262743d7f2aefedef00e6581",
+      "license": "Apache-2.0 model repository"
+    },
+    {
+      "name": "CLIP ViT-H image encoder",
+      "source": "https://huggingface.co/h94/IP-Adapter",
+      "bytes": 2528373448,
+      "sha256": "6ca9667da1ca9e0b0f75e46bb030f7e011f44f86cbfb8d5a36590fcd7507b030"
+    },
+    {
+      "name": "u2net",
+      "source": "https://github.com/danielgatis/rembg/releases/download/v0.0.0/u2net.onnx",
+      "role": "local CPU foreground matting, selected explicitly"
+    },
+    {
+      "name": "DreamShaper XL Turbo v2.1",
+      "source": "https://huggingface.co/Lykon/dreamshaper-xl-v2-turbo",
+      "bytes": 6939220250,
+      "sha256": "4496b36d48bfd7cfe4e5dbce3485db567bcefa2bef7238d290dbd45612125083",
+      "license": "OpenRAIL++ (source model card)",
+      "role": "Current painterly pilot checkpoint"
+    }
+  ],
+  "paid_services": false,
+  "disk_cap_bytes": 25000000000,
+  "reference_usage": "Conditioning only; original reference crops never exported as final assets",
+  "runtime_disk_bytes": 21627695104,
+  "current_pilot_renderer": "Original FIRST painted raster compositions + shared original painted style, ComfyUI DreamShaperXL Turbo/IPAdapter,80px final exports"
+}

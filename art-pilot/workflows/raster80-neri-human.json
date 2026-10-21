@@ -1,0 +1,10 @@
+{
+  "ally-2": {
+    "init_image": "raster80-neri-human.png",
+    "reference": "raster80-neri-human.png",
+    "seed": 784629,
+    "denoise": 0.66,
+    "prompt": "Neri, an adult HUMAN woman river tender, tiny natural beige HUMAN face inside ivory crescent hood, two small dark eyes, small subtle mouth and nose, no mask. Narrow deep teal coat, angular folded ivory hood, square boots, tall brass hooked tide staff. Neri river tender, narrow deep teal coat, asymmetric crescent-shaped ivory hood with a jagged folded edge, small shaded face, tall angular brass hooked tide staff, square boots. Cool teal and ivory silhouette. Single full isolated game sprite. Angular hand-painted gouache illustration, irregular confident dark ink edges, broad matte color planes, very restrained brush variation, three clear value groups. Exaggerated geometric shapes and cut corners, a few natural irregularities, not a flat icon. Elevated frontal view, entire subject visible, white empty background. Strong silhouette readable at80pixels. No floor or ground shadow.",
+    "negative": "text, sheets, panels, multiple subjects, scenery, ground, floor, cast shadow, contact shadow, oval base, gradients, glossy plastic, realistic, photo, 3d, mobile game, tiny details, filigree, fine hatching, individual leaves, curved blob, soft round forms, vector logo, flat icon, sticker, anime, huge eyes, eyelashes, long legs, profile, back view, diamond tile, bird, beak, animal, anthropomorphic, mask, teal skin, feather, duck, large nose"
+  }
+}

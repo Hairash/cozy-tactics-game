@@ -1,0 +1,131 @@
+{
+  "1": {
+    "class_type": "CheckpointLoaderSimple",
+    "inputs": {
+      "ckpt_name": "sdxl_lightning_8step.safetensors"
+    }
+  },
+  "2": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "1",
+        1
+      ],
+      "text": "One waterway tender in an oversized angular cream hood and ragged teal work cloak, tiny face, chunky boots, holding a crooked brass staff with turquoise gauge. Cozy peculiar proportions, warm confident hand-painted storybook gouache, delicate broken ink contours, subtle paper grain inside flat painted forms, large simple shapes, restrained detail. Full body, elevated front view, isolated on plain white."
+    }
+  },
+  "3": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "1",
+        1
+      ],
+      "text": "multiple people, sheet, panels, frame, border, text, profile, side view, realistic anatomy, long legs, stick figure, icon, vector logo, gradients, 3d, glossy, anime, mobile game, scenery, floor, sticker, icon, vector, heavy black outlines, neon glow, thick smooth contour, gradients, candy colors"
+    }
+  },
+  "4": {
+    "class_type": "EmptyLatentImage",
+    "inputs": {
+      "width": 768,
+      "height": 768,
+      "batch_size": 1
+    }
+  },
+  "5": {
+    "class_type": "KSampler",
+    "inputs": {
+      "model": [
+        "12",
+        0
+      ],
+      "positive": [
+        "2",
+        0
+      ],
+      "negative": [
+        "3",
+        0
+      ],
+      "latent_image": [
+        "4",
+        0
+      ],
+      "seed": 1842803,
+      "steps": 8,
+      "cfg": 1.5,
+      "sampler_name": "euler",
+      "scheduler": "sgm_uniform",
+      "denoise": 1.0
+    }
+  },
+  "6": {
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "5",
+        0
+      ],
+      "vae": [
+        "1",
+        2
+      ]
+    }
+  },
+  "7": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "6",
+        0
+      ],
+      "filename_prefix": "pilot/test-neri-style"
+    }
+  },
+  "9": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "pilot-ally-2.png"
+    }
+  },
+  "10": {
+    "class_type": "CLIPVisionLoader",
+    "inputs": {
+      "clip_name": "CLIP-ViT-H-14-laion2B-s32B-b79K.safetensors"
+    }
+  },
+  "11": {
+    "class_type": "IPAdapterModelLoader",
+    "inputs": {
+      "ipadapter_file": "ip-adapter-plus_sdxl_vit-h.safetensors"
+    }
+  },
+  "12": {
+    "class_type": "IPAdapterAdvanced",
+    "inputs": {
+      "model": [
+        "1",
+        0
+      ],
+      "ipadapter": [
+        "11",
+        0
+      ],
+      "image": [
+        "9",
+        0
+      ],
+      "weight": 0.65,
+      "weight_type": "style transfer",
+      "combine_embeds": "concat",
+      "start_at": 0.0,
+      "end_at": 1.0,
+      "embeds_scaling": "V only",
+      "clip_vision": [
+        "10",
+        0
+      ]
+    }
+  }
+}

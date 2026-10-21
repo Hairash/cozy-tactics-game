@@ -1,0 +1,217 @@
+[
+  {
+    "mission": 59,
+    "title": "The observatory’s last order",
+    "goal": "boss",
+    "won": false,
+    "seconds": 3.15
+  },
+  {
+    "mission": 69,
+    "title": "The partition keeper",
+    "goal": "boss",
+    "won": true,
+    "rounds": 5,
+    "actions": [
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 5,
+        "y": 6
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 5,
+        "y": 0
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 4,
+        "y": 7
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 1,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 4,
+        "y": 6
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 1,
+        "y": 7
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 4,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 3,
+        "y": 4
+      },
+      {
+        "type": "act",
+        "id": "a3",
+        "x": 1,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 0,
+        "y": 3
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 0,
+        "y": 2
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 5,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 1,
+        "y": 5
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 1,
+        "y": 4
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 3,
+        "y": 4
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 3,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 0,
+        "y": 0
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 1,
+        "y": 0
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 3,
+        "y": 3
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a3",
+        "x": 3,
+        "y": 2
+      },
+      {
+        "type": "move",
+        "id": "a2",
+        "x": 3,
+        "y": 0
+      },
+      {
+        "type": "move",
+        "id": "a0",
+        "x": 1,
+        "y": 0
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 2,
+        "y": 0
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 2,
+        "y": 0
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 4,
+        "y": 3
+      },
+      {
+        "type": "act",
+        "id": "a1",
+        "x": 2,
+        "y": 1
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 4,
+        "y": 4
+      },
+      {
+        "type": "move",
+        "id": "a3",
+        "x": 3,
+        "y": 3
+      },
+      {
+        "type": "move",
+        "id": "a1",
+        "x": 4,
+        "y": 3
+      },
+      {
+        "type": "end"
+      },
+      {
+        "type": "act",
+        "id": "a0",
+        "x": 2,
+        "y": 0
+      },
+      {
+        "type": "act",
+        "id": "a2",
+        "x": 2,
+        "y": 0
+      }
+    ],
+    "seconds": 0.93
+  }
+]

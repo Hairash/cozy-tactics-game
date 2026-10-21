@@ -1,0 +1,597 @@
+[
+  {
+    "id": "crate",
+    "visibleBounds": [
+      9,
+      10,
+      70,
+      72
+    ],
+    "size": [
+      80,
+      80
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "id": "seed",
+    "visibleBounds": [
+      15,
+      10,
+      64,
+      72
+    ],
+    "size": [
+      80,
+      80
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "id": "lever",
+    "visibleBounds": [
+      16,
+      10,
+      63,
+      72
+    ],
+    "size": [
+      80,
+      80
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "id": "gate",
+    "visibleBounds": [
+      7,
+      23,
+      73,
+      72
+    ],
+    "size": [
+      80,
+      80
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "id": "bomb",
+    "visibleBounds": [
+      16,
+      10,
+      63,
+      72
+    ],
+    "size": [
+      80,
+      80
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "id": "barrel",
+    "visibleBounds": [
+      17,
+      10,
+      62,
+      72
+    ],
+    "size": [
+      80,
+      80
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "id": "boulder",
+    "visibleBounds": [
+      7,
+      11,
+      73,
+      72
+    ],
+    "size": [
+      80,
+      80
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "id": "mirror",
+    "visibleBounds": [
+      21,
+      10,
+      59,
+      72
+    ],
+    "size": [
+      80,
+      80
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "id": "spring",
+    "visibleBounds": [
+      22,
+      32,
+      58,
+      72
+    ],
+    "size": [
+      80,
+      80
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "id": "portal",
+    "visibleBounds": [
+      12,
+      44,
+      67,
+      72
+    ],
+    "size": [
+      80,
+      80
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "id": "bridge",
+    "visibleBounds": [
+      7,
+      51,
+      73,
+      72
+    ],
+    "size": [
+      80,
+      80
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "id": "plate",
+    "visibleBounds": [
+      18,
+      50,
+      62,
+      72
+    ],
+    "size": [
+      80,
+      80
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "id": "spikes",
+    "visibleBounds": [
+      9,
+      55,
+      71,
+      72
+    ],
+    "size": [
+      80,
+      80
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "id": "beacon",
+    "visibleBounds": [
+      19,
+      10,
+      60,
+      72
+    ],
+    "size": [
+      80,
+      80
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "id": "vine",
+    "visibleBounds": [
+      12,
+      10,
+      68,
+      72
+    ],
+    "size": [
+      80,
+      80
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "id": "maw",
+    "visibleBounds": [
+      8,
+      10,
+      72,
+      72
+    ],
+    "size": [
+      80,
+      80
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "id": "haste",
+    "visibleBounds": [
+      20,
+      10,
+      60,
+      72
+    ],
+    "size": [
+      80,
+      80
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "id": "blight",
+    "visibleBounds": [
+      18,
+      10,
+      61,
+      72
+    ],
+    "size": [
+      80,
+      80
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "id": "pump",
+    "visibleBounds": [
+      12,
+      10,
+      68,
+      72
+    ],
+    "size": [
+      80,
+      80
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "id": "generator",
+    "visibleBounds": [
+      7,
+      20,
+      73,
+      72
+    ],
+    "size": [
+      80,
+      80
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "id": "switch",
+    "visibleBounds": [
+      13,
+      10,
+      66,
+      72
+    ],
+    "size": [
+      80,
+      80
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "id": "nest",
+    "visibleBounds": [
+      7,
+      11,
+      73,
+      72
+    ],
+    "size": [
+      80,
+      80
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "id": "cage",
+    "visibleBounds": [
+      16,
+      10,
+      64,
+      72
+    ],
+    "size": [
+      80,
+      80
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "id": "supply",
+    "visibleBounds": [
+      7,
+      19,
+      73,
+      72
+    ],
+    "size": [
+      80,
+      80
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "id": "relic",
+    "visibleBounds": [
+      24,
+      10,
+      55,
+      72
+    ],
+    "size": [
+      80,
+      80
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "id": "console",
+    "visibleBounds": [
+      8,
+      10,
+      71,
+      72
+    ],
+    "size": [
+      80,
+      80
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "id": "cart",
+    "visibleBounds": [
+      7,
+      27,
+      73,
+      72
+    ],
+    "size": [
+      80,
+      80
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "id": "anchor",
+    "visibleBounds": [
+      12,
+      10,
+      67,
+      72
+    ],
+    "size": [
+      80,
+      80
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "id": "emitter",
+    "visibleBounds": [
+      18,
+      10,
+      62,
+      72
+    ],
+    "size": [
+      80,
+      80
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "id": "glass",
+    "visibleBounds": [
+      10,
+      55,
+      70,
+      72
+    ],
+    "size": [
+      80,
+      80
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "id": "oil",
+    "visibleBounds": [
+      9,
+      10,
+      70,
+      72
+    ],
+    "size": [
+      80,
+      80
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "id": "bell",
+    "visibleBounds": [
+      7,
+      10,
+      73,
+      72
+    ],
+    "size": [
+      80,
+      80
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "id": "rod",
+    "visibleBounds": [
+      29,
+      10,
+      51,
+      72
+    ],
+    "size": [
+      80,
+      80
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "id": "drain",
+    "visibleBounds": [
+      20,
+      48,
+      60,
+      72
+    ],
+    "size": [
+      80,
+      80
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "id": "sign",
+    "visibleBounds": [
+      10,
+      10,
+      70,
+      72
+    ],
+    "size": [
+      80,
+      80
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  }
+]

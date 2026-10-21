@@ -1,0 +1,50 @@
+{
+  "ally-1": {
+    "denoise": 0.7,
+    "style_weight": 0.7,
+    "composition_weight": 0.65,
+    "seed": 784375
+  },
+  "ally-2": {
+    "denoise": 0.7,
+    "style_weight": 0.7,
+    "composition_weight": 0.65,
+    "seed": 784482
+  },
+  "enemy-1": {
+    "denoise": 0.7,
+    "style_weight": 0.7,
+    "composition_weight": 0.65,
+    "seed": 784589
+  },
+  "enemy-2": {
+    "denoise": 0.7,
+    "style_weight": 0.7,
+    "composition_weight": 0.65,
+    "seed": 784696
+  },
+  "tree": {
+    "denoise": 0.7,
+    "style_weight": 0.7,
+    "composition_weight": 0.65,
+    "seed": 784803
+  },
+  "column": {
+    "denoise": 0.7,
+    "style_weight": 0.7,
+    "composition_weight": 0.65,
+    "seed": 784910
+  },
+  "wall": {
+    "denoise": 0.7,
+    "style_weight": 0.7,
+    "composition_weight": 0.65,
+    "seed": 785017
+  },
+  "fan": {
+    "denoise": 0.7,
+    "style_weight": 0.7,
+    "composition_weight": 0.65,
+    "seed": 785124
+  }
+}

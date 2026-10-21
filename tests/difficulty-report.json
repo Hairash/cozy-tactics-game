@@ -1,0 +1,3008 @@
+{
+  "verified": 100,
+  "method": "Every old and new route replayed through legal public gameplay inputs, recording actual victory, damage, losses and actions. Difficulty labels are design estimates from AI stage, survival margin and encounter demands; low-budget beam search is a sensitivity check, not a human-skill model. Browser playtests cover animation, interaction and selected battles, not 100 manual UI playthroughs.",
+  "acts": [
+    {
+      "act": 1,
+      "beforeEnemyPhases": 1.9,
+      "afterEnemyPhases": 1.9,
+      "beforeOneTurn": 3,
+      "afterOneTurn": 3,
+      "averageInputs": 11.3,
+      "averageCrewLost": 0.1,
+      "lowBudgetWins": 8
+    },
+    {
+      "act": 2,
+      "beforeEnemyPhases": 2,
+      "afterEnemyPhases": 1.9,
+      "beforeOneTurn": 2,
+      "afterOneTurn": 2,
+      "averageInputs": 12.7,
+      "averageCrewLost": 0,
+      "lowBudgetWins": 9
+    },
+    {
+      "act": 3,
+      "beforeEnemyPhases": 1.3,
+      "afterEnemyPhases": 1.5,
+      "beforeOneTurn": 4,
+      "afterOneTurn": 4,
+      "averageInputs": 9.9,
+      "averageCrewLost": 0,
+      "lowBudgetWins": 10
+    },
+    {
+      "act": 4,
+      "beforeEnemyPhases": 2,
+      "afterEnemyPhases": 2.8,
+      "beforeOneTurn": 4,
+      "afterOneTurn": 4,
+      "averageInputs": 14.4,
+      "averageCrewLost": 0.1,
+      "lowBudgetWins": 10
+    },
+    {
+      "act": 5,
+      "beforeEnemyPhases": 2.1,
+      "afterEnemyPhases": 3.5,
+      "beforeOneTurn": 2,
+      "afterOneTurn": 1,
+      "averageInputs": 21.3,
+      "averageCrewLost": 0.5,
+      "lowBudgetWins": 7
+    },
+    {
+      "act": 6,
+      "beforeEnemyPhases": 1.7,
+      "afterEnemyPhases": 2.5,
+      "beforeOneTurn": 4,
+      "afterOneTurn": 1,
+      "averageInputs": 12.6,
+      "averageCrewLost": 0,
+      "lowBudgetWins": 8
+    },
+    {
+      "act": 7,
+      "beforeEnemyPhases": 1.9,
+      "afterEnemyPhases": 2.9,
+      "beforeOneTurn": 3,
+      "afterOneTurn": 0,
+      "averageInputs": 22.7,
+      "averageCrewLost": 0.1,
+      "lowBudgetWins": 8
+    },
+    {
+      "act": 8,
+      "beforeEnemyPhases": 1.5,
+      "afterEnemyPhases": 3.5,
+      "beforeOneTurn": 3,
+      "afterOneTurn": 1,
+      "averageInputs": 20.8,
+      "averageCrewLost": 0.1,
+      "lowBudgetWins": 7
+    },
+    {
+      "act": 9,
+      "beforeEnemyPhases": 2.5,
+      "afterEnemyPhases": 4.6,
+      "beforeOneTurn": 3,
+      "afterOneTurn": 1,
+      "averageInputs": 27.6,
+      "averageCrewLost": 0.1,
+      "lowBudgetWins": 7
+    },
+    {
+      "act": 10,
+      "beforeEnemyPhases": 1.8,
+      "afterEnemyPhases": 4.6,
+      "beforeOneTurn": 3,
+      "afterOneTurn": 0,
+      "averageInputs": 31.1,
+      "averageCrewLost": 0.5,
+      "lowBudgetWins": 9
+    }
+  ],
+  "missions": [
+    {
+      "mission": 1,
+      "title": "A crack in the quay",
+      "act": 1,
+      "goal": "clear",
+      "ai": "Dormant",
+      "estimatedDifficulty": "Approachable",
+      "grade": 2,
+      "before": {
+        "round": 2,
+        "enemyPhases": 1,
+        "inputs": 6,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 2,
+        "remainingHP": 9
+      },
+      "now": {
+        "round": 2,
+        "enemyPhases": 1,
+        "inputs": 6,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 2,
+        "remainingHP": 9
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Use cover, objectives and distinct crew abilities together."
+    },
+    {
+      "mission": 2,
+      "title": "The green shortcut",
+      "act": 1,
+      "goal": "collect",
+      "ai": "Dormant",
+      "estimatedDifficulty": "Introductory",
+      "grade": 1,
+      "before": {
+        "round": 3,
+        "enemyPhases": 2,
+        "inputs": 20,
+        "crewLost": 0,
+        "damageTaken": 1,
+        "distinctAbilities": 3,
+        "remainingHP": 8
+      },
+      "now": {
+        "round": 3,
+        "enemyPhases": 2,
+        "inputs": 20,
+        "crewLost": 0,
+        "damageTaken": 1,
+        "distinctAbilities": 3,
+        "remainingHP": 8
+      },
+      "lowBudgetRouteFound": false,
+      "notes": "Use cover, objectives and distinct crew abilities together."
+    },
+    {
+      "mission": 3,
+      "title": "Borrowed time",
+      "act": 1,
+      "goal": "reach",
+      "ai": "Dormant",
+      "estimatedDifficulty": "Approachable",
+      "grade": 2,
+      "before": {
+        "round": 2,
+        "enemyPhases": 2,
+        "inputs": 10,
+        "crewLost": 0,
+        "damageTaken": 2,
+        "distinctAbilities": 2,
+        "remainingHP": 7
+      },
+      "now": {
+        "round": 2,
+        "enemyPhases": 2,
+        "inputs": 10,
+        "crewLost": 0,
+        "damageTaken": 2,
+        "distinctAbilities": 2,
+        "remainingHP": 7
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Use cover, objectives and distinct crew abilities together."
+    },
+    {
+      "mission": 4,
+      "title": "A place to stand",
+      "act": 1,
+      "goal": "hold",
+      "ai": "Dormant",
+      "estimatedDifficulty": "Introductory",
+      "grade": 1,
+      "before": {
+        "round": 3,
+        "enemyPhases": 3,
+        "inputs": 15,
+        "crewLost": 0,
+        "damageTaken": 2,
+        "distinctAbilities": 2,
+        "remainingHP": 8
+      },
+      "now": {
+        "round": 3,
+        "enemyPhases": 3,
+        "inputs": 15,
+        "crewLost": 0,
+        "damageTaken": 2,
+        "distinctAbilities": 2,
+        "remainingHP": 8
+      },
+      "lowBudgetRouteFound": false,
+      "notes": "Keep relays occupied through enemy and environmental phases."
+    },
+    {
+      "mission": 5,
+      "title": "The long evening",
+      "act": 1,
+      "goal": "survive",
+      "ai": "Dormant",
+      "estimatedDifficulty": "Introductory",
+      "grade": 1,
+      "before": {
+        "round": 5,
+        "enemyPhases": 5,
+        "inputs": 16,
+        "crewLost": 0,
+        "damageTaken": 2,
+        "distinctAbilities": 2,
+        "remainingHP": 11
+      },
+      "now": {
+        "round": 5,
+        "enemyPhases": 5,
+        "inputs": 16,
+        "crewLost": 0,
+        "damageTaken": 2,
+        "distinctAbilities": 2,
+        "remainingHP": 11
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Use cover, objectives and distinct crew abilities together."
+    },
+    {
+      "mission": 6,
+      "title": "Let the city breathe",
+      "act": 1,
+      "goal": "boss",
+      "ai": "Dormant",
+      "estimatedDifficulty": "Introductory",
+      "grade": 1,
+      "before": {
+        "round": 4,
+        "enemyPhases": 3,
+        "inputs": 22,
+        "crewLost": 1,
+        "damageTaken": 4,
+        "distinctAbilities": 3,
+        "remainingHP": 5
+      },
+      "now": {
+        "round": 4,
+        "enemyPhases": 3,
+        "inputs": 22,
+        "crewLost": 1,
+        "damageTaken": 4,
+        "distinctAbilities": 3,
+        "remainingHP": 5
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Prioritize support machines and combine abilities."
+    },
+    {
+      "mission": 7,
+      "title": "A letter without a stamp",
+      "act": 1,
+      "goal": "reach",
+      "ai": "Dormant",
+      "estimatedDifficulty": "Introductory",
+      "grade": 1,
+      "before": {
+        "round": 1,
+        "enemyPhases": 0,
+        "inputs": 2,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 1,
+        "remainingHP": 3
+      },
+      "now": {
+        "round": 1,
+        "enemyPhases": 0,
+        "inputs": 2,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 1,
+        "remainingHP": 3
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Environmental shortcut / breather."
+    },
+    {
+      "mission": 8,
+      "title": "The person in the pump",
+      "act": 1,
+      "goal": "rescue",
+      "ai": "Dormant",
+      "estimatedDifficulty": "Introductory",
+      "grade": 1,
+      "before": {
+        "round": 1,
+        "enemyPhases": 0,
+        "inputs": 4,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 1,
+        "remainingHP": 12
+      },
+      "now": {
+        "round": 1,
+        "enemyPhases": 0,
+        "inputs": 4,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 1,
+        "remainingHP": 12
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Environmental shortcut / breather."
+    },
+    {
+      "mission": 9,
+      "title": "A map with a missing edge",
+      "act": 1,
+      "goal": "seal",
+      "ai": "Dormant",
+      "estimatedDifficulty": "Introductory",
+      "grade": 1,
+      "before": {
+        "round": 1,
+        "enemyPhases": 0,
+        "inputs": 3,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 2,
+        "remainingHP": 6
+      },
+      "now": {
+        "round": 1,
+        "enemyPhases": 0,
+        "inputs": 3,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 2,
+        "remainingHP": 6
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Environmental shortcut / breather."
+    },
+    {
+      "mission": 10,
+      "title": "The first unplanned rain",
+      "act": 1,
+      "goal": "survive",
+      "ai": "Dormant",
+      "estimatedDifficulty": "Approachable",
+      "grade": 2,
+      "before": {
+        "round": 3,
+        "enemyPhases": 3,
+        "inputs": 15,
+        "crewLost": 0,
+        "damageTaken": 3,
+        "distinctAbilities": 3,
+        "remainingHP": 11
+      },
+      "now": {
+        "round": 3,
+        "enemyPhases": 3,
+        "inputs": 15,
+        "crewLost": 0,
+        "damageTaken": 3,
+        "distinctAbilities": 3,
+        "remainingHP": 11
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Use cover, objectives and distinct crew abilities together."
+    },
+    {
+      "mission": 11,
+      "title": "The catalogue of absences",
+      "act": 2,
+      "goal": "collect",
+      "ai": "Alert",
+      "estimatedDifficulty": "Approachable",
+      "grade": 2,
+      "before": {
+        "round": 2,
+        "enemyPhases": 1,
+        "inputs": 7,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 2,
+        "remainingHP": 6
+      },
+      "now": {
+        "round": 2,
+        "enemyPhases": 1,
+        "inputs": 7,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 2,
+        "remainingHP": 6
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Use cover, objectives and distinct crew abilities together."
+    },
+    {
+      "mission": 12,
+      "title": "The librarian’s cart",
+      "act": 2,
+      "goal": "push",
+      "ai": "Alert",
+      "estimatedDifficulty": "Approachable",
+      "grade": 2,
+      "before": {
+        "round": 2,
+        "enemyPhases": 1,
+        "inputs": 6,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 1,
+        "remainingHP": 6
+      },
+      "now": {
+        "round": 2,
+        "enemyPhases": 1,
+        "inputs": 6,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 1,
+        "remainingHP": 6
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Manage cart alignment, hazards and charge timing."
+    },
+    {
+      "mission": 13,
+      "title": "Smoke between the shelves",
+      "act": 2,
+      "goal": "extinguish",
+      "ai": "Alert",
+      "estimatedDifficulty": "Approachable",
+      "grade": 2,
+      "before": {
+        "round": 2,
+        "enemyPhases": 1,
+        "inputs": 6,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 2,
+        "remainingHP": 6
+      },
+      "now": {
+        "round": 2,
+        "enemyPhases": 1,
+        "inputs": 6,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 2,
+        "remainingHP": 6
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Use cover, objectives and distinct crew abilities together."
+    },
+    {
+      "mission": 14,
+      "title": "Names planted in glass",
+      "act": 2,
+      "goal": "plant",
+      "ai": "Alert",
+      "estimatedDifficulty": "Approachable",
+      "grade": 2,
+      "before": {
+        "round": 3,
+        "enemyPhases": 2,
+        "inputs": 11,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 2,
+        "remainingHP": 6
+      },
+      "now": {
+        "round": 3,
+        "enemyPhases": 2,
+        "inputs": 11,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 2,
+        "remainingHP": 6
+      },
+      "lowBudgetRouteFound": false,
+      "notes": "Use cover, objectives and distinct crew abilities together."
+    },
+    {
+      "mission": 15,
+      "title": "The curator",
+      "act": 2,
+      "goal": "boss",
+      "ai": "Alert",
+      "estimatedDifficulty": "Approachable",
+      "grade": 2,
+      "before": {
+        "round": 6,
+        "enemyPhases": 5,
+        "inputs": 32,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 3,
+        "remainingHP": 9
+      },
+      "now": {
+        "round": 6,
+        "enemyPhases": 5,
+        "inputs": 32,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 3,
+        "remainingHP": 9
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Prioritize support machines and combine abilities."
+    },
+    {
+      "mission": 16,
+      "title": "A fragile witness",
+      "act": 2,
+      "goal": "escort",
+      "ai": "Alert",
+      "estimatedDifficulty": "Approachable",
+      "grade": 2,
+      "before": {
+        "round": 3,
+        "enemyPhases": 3,
+        "inputs": 22,
+        "crewLost": 0,
+        "damageTaken": 2,
+        "distinctAbilities": 3,
+        "remainingHP": 10
+      },
+      "now": {
+        "round": 4,
+        "enemyPhases": 3,
+        "inputs": 23,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 3,
+        "remainingHP": 12
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Use cover, objectives and distinct crew abilities together."
+    },
+    {
+      "mission": 17,
+      "title": "The quiet fuse",
+      "act": 2,
+      "goal": "disarm",
+      "ai": "Alert",
+      "estimatedDifficulty": "Approachable",
+      "grade": 2,
+      "before": {
+        "round": 4,
+        "enemyPhases": 3,
+        "inputs": 16,
+        "crewLost": 0,
+        "damageTaken": 2,
+        "distinctAbilities": 2,
+        "remainingHP": 4
+      },
+      "now": {
+        "round": 4,
+        "enemyPhases": 3,
+        "inputs": 18,
+        "crewLost": 0,
+        "damageTaken": 2,
+        "distinctAbilities": 2,
+        "remainingHP": 4
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Use cover, objectives and distinct crew abilities together."
+    },
+    {
+      "mission": 18,
+      "title": "Two lanterns in the dark",
+      "act": 2,
+      "goal": "hold",
+      "ai": "Alert",
+      "estimatedDifficulty": "Approachable",
+      "grade": 2,
+      "before": {
+        "round": 4,
+        "enemyPhases": 4,
+        "inputs": 24,
+        "crewLost": 0,
+        "damageTaken": 3,
+        "distinctAbilities": 2,
+        "remainingHP": 9
+      },
+      "now": {
+        "round": 3,
+        "enemyPhases": 3,
+        "inputs": 18,
+        "crewLost": 0,
+        "damageTaken": 6,
+        "distinctAbilities": 3,
+        "remainingHP": 7
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Keep relays occupied through enemy and environmental phases."
+    },
+    {
+      "mission": 19,
+      "title": "The letter is delivered",
+      "act": 2,
+      "goal": "deliver",
+      "ai": "Alert",
+      "estimatedDifficulty": "Approachable",
+      "grade": 2,
+      "before": {
+        "round": 1,
+        "enemyPhases": 0,
+        "inputs": 2,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 1,
+        "remainingHP": 6
+      },
+      "now": {
+        "round": 1,
+        "enemyPhases": 0,
+        "inputs": 2,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 1,
+        "remainingHP": 6
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Environmental shortcut / breather."
+    },
+    {
+      "mission": 20,
+      "title": "The room that remembers",
+      "act": 2,
+      "goal": "seal",
+      "ai": "Alert",
+      "estimatedDifficulty": "Approachable",
+      "grade": 2,
+      "before": {
+        "round": 1,
+        "enemyPhases": 0,
+        "inputs": 4,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 2,
+        "remainingHP": 9
+      },
+      "now": {
+        "round": 1,
+        "enemyPhases": 0,
+        "inputs": 4,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 2,
+        "remainingHP": 9
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Environmental shortcut / breather."
+    },
+    {
+      "mission": 21,
+      "title": "Beyond the painted sea",
+      "act": 3,
+      "goal": "reach",
+      "ai": "Alert",
+      "estimatedDifficulty": "Approachable",
+      "grade": 2,
+      "before": {
+        "round": 1,
+        "enemyPhases": 0,
+        "inputs": 2,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 1,
+        "remainingHP": 6
+      },
+      "now": {
+        "round": 1,
+        "enemyPhases": 0,
+        "inputs": 2,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 1,
+        "remainingHP": 6
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Environmental shortcut / breather."
+    },
+    {
+      "mission": 22,
+      "title": "The salt caravan",
+      "act": 3,
+      "goal": "escort",
+      "ai": "Alert",
+      "estimatedDifficulty": "Approachable",
+      "grade": 2,
+      "before": {
+        "round": 2,
+        "enemyPhases": 1,
+        "inputs": 9,
+        "crewLost": 0,
+        "damageTaken": 1,
+        "distinctAbilities": 1,
+        "remainingHP": 8
+      },
+      "now": {
+        "round": 2,
+        "enemyPhases": 1,
+        "inputs": 9,
+        "crewLost": 0,
+        "damageTaken": 1,
+        "distinctAbilities": 1,
+        "remainingHP": 8
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Use cover, objectives and distinct crew abilities together."
+    },
+    {
+      "mission": 23,
+      "title": "Strangers under canvas",
+      "act": 3,
+      "goal": "rescue",
+      "ai": "Alert",
+      "estimatedDifficulty": "Approachable",
+      "grade": 2,
+      "before": {
+        "round": 1,
+        "enemyPhases": 0,
+        "inputs": 3,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 1,
+        "remainingHP": 12
+      },
+      "now": {
+        "round": 1,
+        "enemyPhases": 0,
+        "inputs": 3,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 1,
+        "remainingHP": 12
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Environmental shortcut / breather."
+    },
+    {
+      "mission": 24,
+      "title": "The long tow",
+      "act": 3,
+      "goal": "push",
+      "ai": "Alert",
+      "estimatedDifficulty": "Approachable",
+      "grade": 2,
+      "before": {
+        "round": 2,
+        "enemyPhases": 1,
+        "inputs": 9,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 2,
+        "remainingHP": 9
+      },
+      "now": {
+        "round": 2,
+        "enemyPhases": 1,
+        "inputs": 9,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 2,
+        "remainingHP": 9
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Manage cart alignment, hazards and charge timing."
+    },
+    {
+      "mission": 25,
+      "title": "What the road carried",
+      "act": 3,
+      "goal": "collect",
+      "ai": "Alert",
+      "estimatedDifficulty": "Approachable",
+      "grade": 2,
+      "before": {
+        "round": 1,
+        "enemyPhases": 0,
+        "inputs": 7,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 3,
+        "remainingHP": 9
+      },
+      "now": {
+        "round": 1,
+        "enemyPhases": 0,
+        "inputs": 7,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 3,
+        "remainingHP": 9
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Environmental shortcut / breather."
+    },
+    {
+      "mission": 26,
+      "title": "A bridge for everyone",
+      "act": 3,
+      "goal": "evacuate",
+      "ai": "Alert",
+      "estimatedDifficulty": "Approachable",
+      "grade": 2,
+      "before": {
+        "round": 1,
+        "enemyPhases": 0,
+        "inputs": 3,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 1,
+        "remainingHP": 12
+      },
+      "now": {
+        "round": 1,
+        "enemyPhases": 0,
+        "inputs": 3,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 1,
+        "remainingHP": 12
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Environmental shortcut / breather."
+    },
+    {
+      "mission": 27,
+      "title": "The toll keeper",
+      "act": 3,
+      "goal": "boss",
+      "ai": "Alert",
+      "estimatedDifficulty": "Approachable",
+      "grade": 2,
+      "before": {
+        "round": 3,
+        "enemyPhases": 3,
+        "inputs": 20,
+        "crewLost": 1,
+        "damageTaken": 3,
+        "distinctAbilities": 2,
+        "remainingHP": 6
+      },
+      "now": {
+        "round": 6,
+        "enemyPhases": 5,
+        "inputs": 31,
+        "crewLost": 0,
+        "damageTaken": 1,
+        "distinctAbilities": 2,
+        "remainingHP": 8
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Prioritize support machines and combine abilities."
+    },
+    {
+      "mission": 28,
+      "title": "The camp’s last night",
+      "act": 3,
+      "goal": "protect",
+      "ai": "Alert",
+      "estimatedDifficulty": "Approachable",
+      "grade": 2,
+      "before": {
+        "round": 3,
+        "enemyPhases": 3,
+        "inputs": 12,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 3,
+        "remainingHP": 9
+      },
+      "now": {
+        "round": 3,
+        "enemyPhases": 3,
+        "inputs": 8,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 2,
+        "remainingHP": 9
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Use cover, objectives and distinct crew abilities together."
+    },
+    {
+      "mission": 29,
+      "title": "A road in reverse",
+      "act": 3,
+      "goal": "reach",
+      "ai": "Alert",
+      "estimatedDifficulty": "Approachable",
+      "grade": 2,
+      "before": {
+        "round": 2,
+        "enemyPhases": 1,
+        "inputs": 4,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 0,
+        "remainingHP": 6
+      },
+      "now": {
+        "round": 2,
+        "enemyPhases": 1,
+        "inputs": 4,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 0,
+        "remainingHP": 6
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Use cover, objectives and distinct crew abilities together."
+    },
+    {
+      "mission": 30,
+      "title": "The shore that answered",
+      "act": 3,
+      "goal": "hold",
+      "ai": "Alert",
+      "estimatedDifficulty": "Approachable",
+      "grade": 2,
+      "before": {
+        "round": 4,
+        "enemyPhases": 4,
+        "inputs": 23,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 4,
+        "remainingHP": 12
+      },
+      "now": {
+        "round": 4,
+        "enemyPhases": 4,
+        "inputs": 23,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 4,
+        "remainingHP": 12
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Keep relays occupied through enemy and environmental phases."
+    },
+    {
+      "mission": 31,
+      "title": "The roots have stairs",
+      "act": 4,
+      "goal": "reach",
+      "ai": "Tactical",
+      "estimatedDifficulty": "Approachable",
+      "grade": 2,
+      "before": {
+        "round": 1,
+        "enemyPhases": 0,
+        "inputs": 2,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 1,
+        "remainingHP": 3
+      },
+      "now": {
+        "round": 1,
+        "enemyPhases": 0,
+        "inputs": 2,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 1,
+        "remainingHP": 3
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Environmental shortcut / breather."
+    },
+    {
+      "mission": 32,
+      "title": "A hungry welcome",
+      "act": 4,
+      "goal": "clear",
+      "ai": "Tactical",
+      "estimatedDifficulty": "Tactical",
+      "grade": 3,
+      "before": {
+        "round": 3,
+        "enemyPhases": 2,
+        "inputs": 16,
+        "crewLost": 1,
+        "damageTaken": 4,
+        "distinctAbilities": 3,
+        "remainingHP": 6
+      },
+      "now": {
+        "round": 6,
+        "enemyPhases": 6,
+        "inputs": 26,
+        "crewLost": 0,
+        "damageTaken": 5,
+        "distinctAbilities": 3,
+        "remainingHP": 7
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Use cover, objectives and distinct crew abilities together."
+    },
+    {
+      "mission": 33,
+      "title": "The orchard of names",
+      "act": 4,
+      "goal": "plant",
+      "ai": "Tactical",
+      "estimatedDifficulty": "Approachable",
+      "grade": 2,
+      "before": {
+        "round": 3,
+        "enemyPhases": 2,
+        "inputs": 9,
+        "crewLost": 0,
+        "damageTaken": 1,
+        "distinctAbilities": 3,
+        "remainingHP": 8
+      },
+      "now": {
+        "round": 4,
+        "enemyPhases": 3,
+        "inputs": 17,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 3,
+        "remainingHP": 9
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Use cover, objectives and distinct crew abilities together."
+    },
+    {
+      "mission": 34,
+      "title": "A medicine and a dose",
+      "act": 4,
+      "goal": "extinguish",
+      "ai": "Tactical",
+      "estimatedDifficulty": "Approachable",
+      "grade": 2,
+      "before": {
+        "round": 1,
+        "enemyPhases": 0,
+        "inputs": 2,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 2,
+        "remainingHP": 6
+      },
+      "now": {
+        "round": 1,
+        "enemyPhases": 0,
+        "inputs": 2,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 2,
+        "remainingHP": 6
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Environmental shortcut / breather."
+    },
+    {
+      "mission": 35,
+      "title": "The garden that bites",
+      "act": 4,
+      "goal": "survive",
+      "ai": "Tactical",
+      "estimatedDifficulty": "Tactical",
+      "grade": 3,
+      "before": {
+        "round": 4,
+        "enemyPhases": 4,
+        "inputs": 18,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 3,
+        "remainingHP": 9
+      },
+      "now": {
+        "round": 4,
+        "enemyPhases": 4,
+        "inputs": 14,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 3,
+        "remainingHP": 9
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Use cover, objectives and distinct crew abilities together."
+    },
+    {
+      "mission": 36,
+      "title": "The youngest old tree",
+      "act": 4,
+      "goal": "rescue",
+      "ai": "Tactical",
+      "estimatedDifficulty": "Approachable",
+      "grade": 2,
+      "before": {
+        "round": 1,
+        "enemyPhases": 0,
+        "inputs": 4,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 2,
+        "remainingHP": 12
+      },
+      "now": {
+        "round": 1,
+        "enemyPhases": 0,
+        "inputs": 4,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 2,
+        "remainingHP": 12
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Environmental shortcut / breather."
+    },
+    {
+      "mission": 37,
+      "title": "Small wings",
+      "act": 4,
+      "goal": "collect",
+      "ai": "Tactical",
+      "estimatedDifficulty": "Approachable",
+      "grade": 2,
+      "before": {
+        "round": 1,
+        "enemyPhases": 0,
+        "inputs": 3,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 1,
+        "remainingHP": 6
+      },
+      "now": {
+        "round": 1,
+        "enemyPhases": 0,
+        "inputs": 3,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 1,
+        "remainingHP": 6
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Environmental shortcut / breather."
+    },
+    {
+      "mission": 38,
+      "title": "A place for the poison",
+      "act": 4,
+      "goal": "seal",
+      "ai": "Tactical",
+      "estimatedDifficulty": "Approachable",
+      "grade": 2,
+      "before": {
+        "round": 5,
+        "enemyPhases": 4,
+        "inputs": 27,
+        "crewLost": 0,
+        "damageTaken": 2,
+        "distinctAbilities": 2,
+        "remainingHP": 7
+      },
+      "now": {
+        "round": 4,
+        "enemyPhases": 3,
+        "inputs": 13,
+        "crewLost": 0,
+        "damageTaken": 1,
+        "distinctAbilities": 2,
+        "remainingHP": 8
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Use cover, objectives and distinct crew abilities together."
+    },
+    {
+      "mission": 39,
+      "title": "The forest’s heart",
+      "act": 4,
+      "goal": "boss",
+      "ai": "Tactical",
+      "estimatedDifficulty": "Tactical",
+      "grade": 3,
+      "before": {
+        "round": 7,
+        "enemyPhases": 7,
+        "inputs": 46,
+        "crewLost": 0,
+        "damageTaken": 1,
+        "distinctAbilities": 4,
+        "remainingHP": 12
+      },
+      "now": {
+        "round": 11,
+        "enemyPhases": 11,
+        "inputs": 56,
+        "crewLost": 1,
+        "damageTaken": 5,
+        "distinctAbilities": 4,
+        "remainingHP": 8
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Prioritize support machines and combine abilities."
+    },
+    {
+      "mission": 40,
+      "title": "The name under the roots",
+      "act": 4,
+      "goal": "deliver",
+      "ai": "Tactical",
+      "estimatedDifficulty": "Approachable",
+      "grade": 2,
+      "before": {
+        "round": 2,
+        "enemyPhases": 1,
+        "inputs": 9,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 2,
+        "remainingHP": 9
+      },
+      "now": {
+        "round": 2,
+        "enemyPhases": 1,
+        "inputs": 7,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 2,
+        "remainingHP": 9
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Use cover, objectives and distinct crew abilities together."
+    },
+    {
+      "mission": 41,
+      "title": "The girl with the charges",
+      "act": 5,
+      "goal": "rescue",
+      "ai": "Tactical",
+      "estimatedDifficulty": "Approachable",
+      "grade": 2,
+      "before": {
+        "round": 1,
+        "enemyPhases": 0,
+        "inputs": 3,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 1,
+        "remainingHP": 12
+      },
+      "now": {
+        "round": 1,
+        "enemyPhases": 0,
+        "inputs": 3,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 2,
+        "remainingHP": 12
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Environmental shortcut / breather."
+    },
+    {
+      "mission": 42,
+      "title": "Kestrel’s apology",
+      "act": 5,
+      "goal": "disarm",
+      "ai": "Tactical",
+      "estimatedDifficulty": "Tactical",
+      "grade": 3,
+      "before": {
+        "round": 3,
+        "enemyPhases": 2,
+        "inputs": 11,
+        "crewLost": 0,
+        "damageTaken": 1,
+        "distinctAbilities": 2,
+        "remainingHP": 5
+      },
+      "now": {
+        "round": 5,
+        "enemyPhases": 4,
+        "inputs": 22,
+        "crewLost": 0,
+        "damageTaken": 2,
+        "distinctAbilities": 1,
+        "remainingHP": 4
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Use cover, objectives and distinct crew abilities together."
+    },
+    {
+      "mission": 43,
+      "title": "Heat without light",
+      "act": 5,
+      "goal": "extinguish",
+      "ai": "Tactical",
+      "estimatedDifficulty": "Approachable",
+      "grade": 2,
+      "before": {
+        "round": 2,
+        "enemyPhases": 1,
+        "inputs": 8,
+        "crewLost": 0,
+        "damageTaken": 2,
+        "distinctAbilities": 3,
+        "remainingHP": 7
+      },
+      "now": {
+        "round": 3,
+        "enemyPhases": 2,
+        "inputs": 14,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 3,
+        "remainingHP": 9
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Use cover, objectives and distinct crew abilities together."
+    },
+    {
+      "mission": 44,
+      "title": "A careful explosion",
+      "act": 5,
+      "goal": "push",
+      "ai": "Tactical",
+      "estimatedDifficulty": "Tactical",
+      "grade": 3,
+      "before": {
+        "round": 5,
+        "enemyPhases": 4,
+        "inputs": 24,
+        "crewLost": 0,
+        "damageTaken": 2,
+        "distinctAbilities": 2,
+        "remainingHP": 7
+      },
+      "now": {
+        "round": 4,
+        "enemyPhases": 3,
+        "inputs": 19,
+        "crewLost": 0,
+        "damageTaken": 2,
+        "distinctAbilities": 3,
+        "remainingHP": 7
+      },
+      "lowBudgetRouteFound": false,
+      "notes": "Manage cart alignment, hazards and charge timing."
+    },
+    {
+      "mission": 45,
+      "title": "The iron shift",
+      "act": 5,
+      "goal": "clear",
+      "ai": "Tactical",
+      "estimatedDifficulty": "Tactical",
+      "grade": 3,
+      "before": {
+        "round": 4,
+        "enemyPhases": 3,
+        "inputs": 24,
+        "crewLost": 0,
+        "damageTaken": 3,
+        "distinctAbilities": 4,
+        "remainingHP": 9
+      },
+      "now": {
+        "round": 6,
+        "enemyPhases": 5,
+        "inputs": 29,
+        "crewLost": 2,
+        "damageTaken": 6,
+        "distinctAbilities": 4,
+        "remainingHP": 6
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Use cover, objectives and distinct crew abilities together."
+    },
+    {
+      "mission": 46,
+      "title": "The warmest room",
+      "act": 5,
+      "goal": "protect",
+      "ai": "Tactical",
+      "estimatedDifficulty": "Tactical",
+      "grade": 3,
+      "before": {
+        "round": 3,
+        "enemyPhases": 3,
+        "inputs": 7,
+        "crewLost": 0,
+        "damageTaken": 3,
+        "distinctAbilities": 1,
+        "remainingHP": 9
+      },
+      "now": {
+        "round": 4,
+        "enemyPhases": 4,
+        "inputs": 13,
+        "crewLost": 0,
+        "damageTaken": 4,
+        "distinctAbilities": 2,
+        "remainingHP": 9
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Use cover, objectives and distinct crew abilities together."
+    },
+    {
+      "mission": 47,
+      "title": "The wrong direction",
+      "act": 5,
+      "goal": "hold",
+      "ai": "Tactical",
+      "estimatedDifficulty": "Tactical",
+      "grade": 3,
+      "before": {
+        "round": 2,
+        "enemyPhases": 2,
+        "inputs": 9,
+        "crewLost": 1,
+        "damageTaken": 4,
+        "distinctAbilities": 1,
+        "remainingHP": 8
+      },
+      "now": {
+        "round": 3,
+        "enemyPhases": 3,
+        "inputs": 19,
+        "crewLost": 0,
+        "damageTaken": 2,
+        "distinctAbilities": 2,
+        "remainingHP": 10
+      },
+      "lowBudgetRouteFound": false,
+      "notes": "Keep relays occupied through enemy and environmental phases."
+    },
+    {
+      "mission": 48,
+      "title": "The keeper’s key",
+      "act": 5,
+      "goal": "collect",
+      "ai": "Tactical",
+      "estimatedDifficulty": "Approachable",
+      "grade": 2,
+      "before": {
+        "round": 1,
+        "enemyPhases": 0,
+        "inputs": 4,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 2,
+        "remainingHP": 9
+      },
+      "now": {
+        "round": 2,
+        "enemyPhases": 1,
+        "inputs": 9,
+        "crewLost": 0,
+        "damageTaken": 1,
+        "distinctAbilities": 2,
+        "remainingHP": 8
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Connect local relays before completing the primary objective."
+    },
+    {
+      "mission": 49,
+      "title": "The furnace sovereign",
+      "act": 5,
+      "goal": "boss",
+      "ai": "Tactical",
+      "estimatedDifficulty": "Tactical",
+      "grade": 3,
+      "before": {
+        "round": 6,
+        "enemyPhases": 5,
+        "inputs": 33,
+        "crewLost": 2,
+        "damageTaken": 6,
+        "distinctAbilities": 3,
+        "remainingHP": 6
+      },
+      "now": {
+        "round": 6,
+        "enemyPhases": 5,
+        "inputs": 41,
+        "crewLost": 0,
+        "damageTaken": 2,
+        "distinctAbilities": 3,
+        "remainingHP": 10
+      },
+      "lowBudgetRouteFound": false,
+      "notes": "Prioritize support machines and combine abilities."
+    },
+    {
+      "mission": 50,
+      "title": "Seventy years late",
+      "act": 5,
+      "goal": "evacuate",
+      "ai": "Tactical",
+      "estimatedDifficulty": "Tactical",
+      "grade": 3,
+      "before": {
+        "round": 2,
+        "enemyPhases": 1,
+        "inputs": 11,
+        "crewLost": 0,
+        "damageTaken": 1,
+        "distinctAbilities": 1,
+        "remainingHP": 17
+      },
+      "now": {
+        "round": 8,
+        "enemyPhases": 8,
+        "inputs": 44,
+        "crewLost": 3,
+        "damageTaken": 11,
+        "distinctAbilities": 3,
+        "remainingHP": 7
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Use cover, objectives and distinct crew abilities together."
+    },
+    {
+      "mission": 51,
+      "title": "The maintenance stars",
+      "act": 6,
+      "goal": "reach",
+      "ai": "Tactical",
+      "estimatedDifficulty": "Approachable",
+      "grade": 2,
+      "before": {
+        "round": 1,
+        "enemyPhases": 0,
+        "inputs": 2,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 1,
+        "remainingHP": 6
+      },
+      "now": {
+        "round": 2,
+        "enemyPhases": 1,
+        "inputs": 8,
+        "crewLost": 0,
+        "damageTaken": 1,
+        "distinctAbilities": 2,
+        "remainingHP": 5
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Connect local relays before completing the primary objective."
+    },
+    {
+      "mission": 52,
+      "title": "The rain above the sky",
+      "act": 6,
+      "goal": "seal",
+      "ai": "Tactical",
+      "estimatedDifficulty": "Approachable",
+      "grade": 2,
+      "before": {
+        "round": 2,
+        "enemyPhases": 1,
+        "inputs": 5,
+        "crewLost": 0,
+        "damageTaken": 1,
+        "distinctAbilities": 1,
+        "remainingHP": 8
+      },
+      "now": {
+        "round": 3,
+        "enemyPhases": 2,
+        "inputs": 11,
+        "crewLost": 0,
+        "damageTaken": 3,
+        "distinctAbilities": 3,
+        "remainingHP": 6
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Use cover, objectives and distinct crew abilities together."
+    },
+    {
+      "mission": 53,
+      "title": "Sol’s empty room",
+      "act": 6,
+      "goal": "collect",
+      "ai": "Tactical",
+      "estimatedDifficulty": "Tactical",
+      "grade": 3,
+      "before": {
+        "round": 4,
+        "enemyPhases": 3,
+        "inputs": 14,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 2,
+        "remainingHP": 6
+      },
+      "now": {
+        "round": 5,
+        "enemyPhases": 4,
+        "inputs": 20,
+        "crewLost": 0,
+        "damageTaken": 2,
+        "distinctAbilities": 1,
+        "remainingHP": 4
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Connect local relays before completing the primary objective."
+    },
+    {
+      "mission": 54,
+      "title": "A child made of weather",
+      "act": 6,
+      "goal": "protect",
+      "ai": "Tactical",
+      "estimatedDifficulty": "Tactical",
+      "grade": 3,
+      "before": {
+        "round": 5,
+        "enemyPhases": 5,
+        "inputs": 23,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 2,
+        "remainingHP": 9
+      },
+      "now": {
+        "round": 6,
+        "enemyPhases": 6,
+        "inputs": 17,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 2,
+        "remainingHP": 9
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Use cover, objectives and distinct crew abilities together."
+    },
+    {
+      "mission": 55,
+      "title": "The other Sol",
+      "act": 6,
+      "goal": "rescue",
+      "ai": "Tactical",
+      "estimatedDifficulty": "Approachable",
+      "grade": 2,
+      "before": {
+        "round": 1,
+        "enemyPhases": 0,
+        "inputs": 4,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 2,
+        "remainingHP": 12
+      },
+      "now": {
+        "round": 2,
+        "enemyPhases": 2,
+        "inputs": 14,
+        "crewLost": 0,
+        "damageTaken": 1,
+        "distinctAbilities": 3,
+        "remainingHP": 14
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Free captives, protect a passenger and extract."
+    },
+    {
+      "mission": 56,
+      "title": "What the frost kept",
+      "act": 6,
+      "goal": "extinguish",
+      "ai": "Tactical",
+      "estimatedDifficulty": "Approachable",
+      "grade": 2,
+      "before": {
+        "round": 1,
+        "enemyPhases": 0,
+        "inputs": 2,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 2,
+        "remainingHP": 12
+      },
+      "now": {
+        "round": 1,
+        "enemyPhases": 0,
+        "inputs": 4,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 2,
+        "remainingHP": 12
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Environmental shortcut / breather."
+    },
+    {
+      "mission": 57,
+      "title": "The hand on the glass",
+      "act": 6,
+      "goal": "hold",
+      "ai": "Tactical",
+      "estimatedDifficulty": "Approachable",
+      "grade": 2,
+      "before": {
+        "round": 2,
+        "enemyPhases": 2,
+        "inputs": 10,
+        "crewLost": 0,
+        "damageTaken": 1,
+        "distinctAbilities": 2,
+        "remainingHP": 8
+      },
+      "now": {
+        "round": 3,
+        "enemyPhases": 3,
+        "inputs": 14,
+        "crewLost": 0,
+        "damageTaken": 1,
+        "distinctAbilities": 2,
+        "remainingHP": 8
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Keep relays occupied through enemy and environmental phases."
+    },
+    {
+      "mission": 58,
+      "title": "The sky learns wind",
+      "act": 6,
+      "goal": "reach",
+      "ai": "Tactical",
+      "estimatedDifficulty": "Approachable",
+      "grade": 2,
+      "before": {
+        "round": 1,
+        "enemyPhases": 0,
+        "inputs": 2,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 1,
+        "remainingHP": 9
+      },
+      "now": {
+        "round": 2,
+        "enemyPhases": 1,
+        "inputs": 5,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 1,
+        "remainingHP": 9
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Connect local relays before completing the primary objective."
+    },
+    {
+      "mission": 59,
+      "title": "The observatory’s last order",
+      "act": 6,
+      "goal": "boss",
+      "ai": "Tactical",
+      "estimatedDifficulty": "Tactical",
+      "grade": 3,
+      "before": {
+        "round": 6,
+        "enemyPhases": 5,
+        "inputs": 32,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 3,
+        "remainingHP": 9
+      },
+      "now": {
+        "round": 6,
+        "enemyPhases": 5,
+        "inputs": 21,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 3,
+        "remainingHP": 9
+      },
+      "lowBudgetRouteFound": false,
+      "notes": "Prioritize support machines and combine abilities."
+    },
+    {
+      "mission": 60,
+      "title": "The horizon moves",
+      "act": 6,
+      "goal": "deliver",
+      "ai": "Tactical",
+      "estimatedDifficulty": "Tactical",
+      "grade": 3,
+      "before": {
+        "round": 2,
+        "enemyPhases": 1,
+        "inputs": 12,
+        "crewLost": 0,
+        "damageTaken": 2,
+        "distinctAbilities": 3,
+        "remainingHP": 11
+      },
+      "now": {
+        "round": 2,
+        "enemyPhases": 1,
+        "inputs": 12,
+        "crewLost": 0,
+        "damageTaken": 2,
+        "distinctAbilities": 3,
+        "remainingHP": 10
+      },
+      "lowBudgetRouteFound": false,
+      "notes": "Connect local relays before completing the primary objective."
+    },
+    {
+      "mission": 61,
+      "title": "A door with two handles",
+      "act": 7,
+      "goal": "seal",
+      "ai": "Coordinated",
+      "estimatedDifficulty": "Tactical",
+      "grade": 3,
+      "before": {
+        "round": 3,
+        "enemyPhases": 2,
+        "inputs": 8,
+        "crewLost": 0,
+        "damageTaken": 1,
+        "distinctAbilities": 1,
+        "remainingHP": 5
+      },
+      "now": {
+        "round": 3,
+        "enemyPhases": 2,
+        "inputs": 9,
+        "crewLost": 0,
+        "damageTaken": 2,
+        "distinctAbilities": 1,
+        "remainingHP": 4
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Use cover, objectives and distinct crew abilities together."
+    },
+    {
+      "mission": 62,
+      "title": "The enemy’s garden",
+      "act": 7,
+      "goal": "plant",
+      "ai": "Coordinated",
+      "estimatedDifficulty": "Tactical",
+      "grade": 3,
+      "before": {
+        "round": 2,
+        "enemyPhases": 1,
+        "inputs": 9,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 2,
+        "remainingHP": 9
+      },
+      "now": {
+        "round": 3,
+        "enemyPhases": 2,
+        "inputs": 15,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 2,
+        "remainingHP": 9
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Use cover, objectives and distinct crew abilities together."
+    },
+    {
+      "mission": 63,
+      "title": "The unarmed patrol",
+      "act": 7,
+      "goal": "escort",
+      "ai": "Coordinated",
+      "estimatedDifficulty": "Demanding",
+      "grade": 4,
+      "before": {
+        "round": 6,
+        "enemyPhases": 5,
+        "inputs": 40,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 3,
+        "remainingHP": 12
+      },
+      "now": {
+        "round": 7,
+        "enemyPhases": 6,
+        "inputs": 52,
+        "crewLost": 0,
+        "damageTaken": 1,
+        "distinctAbilities": 4,
+        "remainingHP": 12
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Connect local relays before completing the primary objective."
+    },
+    {
+      "mission": 64,
+      "title": "The price of passage",
+      "act": 7,
+      "goal": "collect",
+      "ai": "Coordinated",
+      "estimatedDifficulty": "Tactical",
+      "grade": 3,
+      "before": {
+        "round": 1,
+        "enemyPhases": 0,
+        "inputs": 4,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 2,
+        "remainingHP": 9
+      },
+      "now": {
+        "round": 2,
+        "enemyPhases": 1,
+        "inputs": 9,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 3,
+        "remainingHP": 9
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Connect local relays before completing the primary objective."
+    },
+    {
+      "mission": 65,
+      "title": "The people in the machines",
+      "act": 7,
+      "goal": "rescue",
+      "ai": "Coordinated",
+      "estimatedDifficulty": "Tactical",
+      "grade": 3,
+      "before": {
+        "round": 1,
+        "enemyPhases": 0,
+        "inputs": 4,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 1,
+        "remainingHP": 15
+      },
+      "now": {
+        "round": 3,
+        "enemyPhases": 2,
+        "inputs": 12,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 1,
+        "remainingHP": 18
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Free captives, protect a passenger and extract."
+    },
+    {
+      "mission": 66,
+      "title": "A river through the wall",
+      "act": 7,
+      "goal": "reach",
+      "ai": "Coordinated",
+      "estimatedDifficulty": "Demanding",
+      "grade": 4,
+      "before": {
+        "round": 2,
+        "enemyPhases": 1,
+        "inputs": 11,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 3,
+        "remainingHP": 9
+      },
+      "now": {
+        "round": 3,
+        "enemyPhases": 2,
+        "inputs": 17,
+        "crewLost": 0,
+        "damageTaken": 1,
+        "distinctAbilities": 3,
+        "remainingHP": 8
+      },
+      "lowBudgetRouteFound": false,
+      "notes": "Connect local relays before completing the primary objective."
+    },
+    {
+      "mission": 67,
+      "title": "Six hands on the relay",
+      "act": 7,
+      "goal": "hold",
+      "ai": "Coordinated",
+      "estimatedDifficulty": "Demanding",
+      "grade": 4,
+      "before": {
+        "round": 2,
+        "enemyPhases": 2,
+        "inputs": 19,
+        "crewLost": 0,
+        "damageTaken": 2,
+        "distinctAbilities": 4,
+        "remainingHP": 18
+      },
+      "now": {
+        "round": 5,
+        "enemyPhases": 5,
+        "inputs": 44,
+        "crewLost": 1,
+        "damageTaken": 6,
+        "distinctAbilities": 6,
+        "remainingHP": 14
+      },
+      "lowBudgetRouteFound": false,
+      "notes": "Keep relays occupied through enemy and environmental phases."
+    },
+    {
+      "mission": 68,
+      "title": "The bridge of small things",
+      "act": 7,
+      "goal": "evacuate",
+      "ai": "Coordinated",
+      "estimatedDifficulty": "Tactical",
+      "grade": 3,
+      "before": {
+        "round": 1,
+        "enemyPhases": 0,
+        "inputs": 3,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 1,
+        "remainingHP": 12
+      },
+      "now": {
+        "round": 2,
+        "enemyPhases": 1,
+        "inputs": 13,
+        "crewLost": 0,
+        "damageTaken": 2,
+        "distinctAbilities": 2,
+        "remainingHP": 10
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Connect local relays before completing the primary objective."
+    },
+    {
+      "mission": 69,
+      "title": "The partition keeper",
+      "act": 7,
+      "goal": "boss",
+      "ai": "Coordinated",
+      "estimatedDifficulty": "Demanding",
+      "grade": 4,
+      "before": {
+        "round": 6,
+        "enemyPhases": 5,
+        "inputs": 44,
+        "crewLost": 0,
+        "damageTaken": 5,
+        "distinctAbilities": 4,
+        "remainingHP": 11
+      },
+      "now": {
+        "round": 5,
+        "enemyPhases": 4,
+        "inputs": 35,
+        "crewLost": 0,
+        "damageTaken": 3,
+        "distinctAbilities": 4,
+        "remainingHP": 11
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Prioritize support machines and combine abilities."
+    },
+    {
+      "mission": 70,
+      "title": "The first shared breakfast",
+      "act": 7,
+      "goal": "protect",
+      "ai": "Coordinated",
+      "estimatedDifficulty": "Demanding",
+      "grade": 4,
+      "before": {
+        "round": 3,
+        "enemyPhases": 3,
+        "inputs": 14,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 3,
+        "remainingHP": 12
+      },
+      "now": {
+        "round": 4,
+        "enemyPhases": 4,
+        "inputs": 21,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 4,
+        "remainingHP": 12
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Use cover, objectives and distinct crew abilities together."
+    },
+    {
+      "mission": 71,
+      "title": "A summons in the rain",
+      "act": 8,
+      "goal": "reach",
+      "ai": "Coordinated",
+      "estimatedDifficulty": "Demanding",
+      "grade": 4,
+      "before": {
+        "round": 1,
+        "enemyPhases": 0,
+        "inputs": 2,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 1,
+        "remainingHP": 3
+      },
+      "now": {
+        "round": 6,
+        "enemyPhases": 5,
+        "inputs": 17,
+        "crewLost": 0,
+        "damageTaken": 1,
+        "distinctAbilities": 1,
+        "remainingHP": 2
+      },
+      "lowBudgetRouteFound": false,
+      "notes": "Connect local relays before completing the primary objective."
+    },
+    {
+      "mission": 72,
+      "title": "Evidence that grows",
+      "act": 8,
+      "goal": "collect",
+      "ai": "Coordinated",
+      "estimatedDifficulty": "Tactical",
+      "grade": 3,
+      "before": {
+        "round": 2,
+        "enemyPhases": 1,
+        "inputs": 10,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 3,
+        "remainingHP": 9
+      },
+      "now": {
+        "round": 4,
+        "enemyPhases": 3,
+        "inputs": 17,
+        "crewLost": 0,
+        "damageTaken": 2,
+        "distinctAbilities": 3,
+        "remainingHP": 7
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Connect local relays before completing the primary objective."
+    },
+    {
+      "mission": 73,
+      "title": "The witness stand",
+      "act": 8,
+      "goal": "protect",
+      "ai": "Coordinated",
+      "estimatedDifficulty": "Demanding",
+      "grade": 4,
+      "before": {
+        "round": 3,
+        "enemyPhases": 3,
+        "inputs": 17,
+        "crewLost": 0,
+        "damageTaken": 2,
+        "distinctAbilities": 2,
+        "remainingHP": 9
+      },
+      "now": {
+        "round": 5,
+        "enemyPhases": 5,
+        "inputs": 30,
+        "crewLost": 0,
+        "damageTaken": 3,
+        "distinctAbilities": 3,
+        "remainingHP": 9
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Use cover, objectives and distinct crew abilities together."
+    },
+    {
+      "mission": 74,
+      "title": "The court’s machinery",
+      "act": 8,
+      "goal": "seal",
+      "ai": "Coordinated",
+      "estimatedDifficulty": "Tactical",
+      "grade": 3,
+      "before": {
+        "round": 2,
+        "enemyPhases": 1,
+        "inputs": 6,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 1,
+        "remainingHP": 9
+      },
+      "now": {
+        "round": 3,
+        "enemyPhases": 2,
+        "inputs": 13,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 2,
+        "remainingHP": 9
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Use cover, objectives and distinct crew abilities together."
+    },
+    {
+      "mission": 75,
+      "title": "The keeper before Mara",
+      "act": 8,
+      "goal": "rescue",
+      "ai": "Coordinated",
+      "estimatedDifficulty": "Tactical",
+      "grade": 3,
+      "before": {
+        "round": 1,
+        "enemyPhases": 0,
+        "inputs": 4,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 2,
+        "remainingHP": 12
+      },
+      "now": {
+        "round": 3,
+        "enemyPhases": 2,
+        "inputs": 13,
+        "crewLost": 0,
+        "damageTaken": 1,
+        "distinctAbilities": 2,
+        "remainingHP": 14
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Free captives, protect a passenger and extract."
+    },
+    {
+      "mission": 76,
+      "title": "What a promise costs",
+      "act": 8,
+      "goal": "hold",
+      "ai": "Coordinated",
+      "estimatedDifficulty": "Demanding",
+      "grade": 4,
+      "before": {
+        "round": 4,
+        "enemyPhases": 4,
+        "inputs": 23,
+        "crewLost": 1,
+        "damageTaken": 8,
+        "distinctAbilities": 2,
+        "remainingHP": 5
+      },
+      "now": {
+        "round": 8,
+        "enemyPhases": 8,
+        "inputs": 45,
+        "crewLost": 0,
+        "damageTaken": 8,
+        "distinctAbilities": 2,
+        "remainingHP": 7
+      },
+      "lowBudgetRouteFound": false,
+      "notes": "Keep relays occupied through enemy and environmental phases."
+    },
+    {
+      "mission": 77,
+      "title": "The right to be afraid",
+      "act": 8,
+      "goal": "disarm",
+      "ai": "Coordinated",
+      "estimatedDifficulty": "Tactical",
+      "grade": 3,
+      "before": {
+        "round": 3,
+        "enemyPhases": 2,
+        "inputs": 19,
+        "crewLost": 0,
+        "damageTaken": 1,
+        "distinctAbilities": 2,
+        "remainingHP": 8
+      },
+      "now": {
+        "round": 4,
+        "enemyPhases": 3,
+        "inputs": 26,
+        "crewLost": 0,
+        "damageTaken": 1,
+        "distinctAbilities": 3,
+        "remainingHP": 8
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Use cover, objectives and distinct crew abilities together."
+    },
+    {
+      "mission": 78,
+      "title": "The honest weather",
+      "act": 8,
+      "goal": "extinguish",
+      "ai": "Coordinated",
+      "estimatedDifficulty": "Approachable",
+      "grade": 2,
+      "before": {
+        "round": 1,
+        "enemyPhases": 0,
+        "inputs": 1,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 1,
+        "remainingHP": 9
+      },
+      "now": {
+        "round": 1,
+        "enemyPhases": 0,
+        "inputs": 1,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 1,
+        "remainingHP": 9
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Environmental shortcut / breather."
+    },
+    {
+      "mission": 79,
+      "title": "The Auditor’s question",
+      "act": 8,
+      "goal": "boss",
+      "ai": "Coordinated",
+      "estimatedDifficulty": "Demanding",
+      "grade": 4,
+      "before": {
+        "round": 3,
+        "enemyPhases": 3,
+        "inputs": 26,
+        "crewLost": 0,
+        "damageTaken": 3,
+        "distinctAbilities": 4,
+        "remainingHP": 11
+      },
+      "now": {
+        "round": 5,
+        "enemyPhases": 4,
+        "inputs": 28,
+        "crewLost": 0,
+        "damageTaken": 5,
+        "distinctAbilities": 4,
+        "remainingHP": 11
+      },
+      "lowBudgetRouteFound": false,
+      "notes": "Prioritize support machines and combine abilities."
+    },
+    {
+      "mission": 80,
+      "title": "No verdict for the rain",
+      "act": 8,
+      "goal": "evacuate",
+      "ai": "Coordinated",
+      "estimatedDifficulty": "Demanding",
+      "grade": 4,
+      "before": {
+        "round": 2,
+        "enemyPhases": 1,
+        "inputs": 8,
+        "crewLost": 0,
+        "damageTaken": 2,
+        "distinctAbilities": 2,
+        "remainingHP": 12
+      },
+      "now": {
+        "round": 4,
+        "enemyPhases": 3,
+        "inputs": 18,
+        "crewLost": 1,
+        "damageTaken": 4,
+        "distinctAbilities": 2,
+        "remainingHP": 10
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Connect local relays before completing the primary objective."
+    },
+    {
+      "mission": 81,
+      "title": "One bell, one street",
+      "act": 9,
+      "goal": "hold",
+      "ai": "Coordinated",
+      "estimatedDifficulty": "Demanding",
+      "grade": 4,
+      "before": {
+        "round": 3,
+        "enemyPhases": 3,
+        "inputs": 13,
+        "crewLost": 0,
+        "damageTaken": 5,
+        "distinctAbilities": 2,
+        "remainingHP": 6
+      },
+      "now": {
+        "round": 5,
+        "enemyPhases": 5,
+        "inputs": 17,
+        "crewLost": 0,
+        "damageTaken": 5,
+        "distinctAbilities": 2,
+        "remainingHP": 6
+      },
+      "lowBudgetRouteFound": false,
+      "notes": "Keep relays occupied through enemy and environmental phases."
+    },
+    {
+      "mission": 82,
+      "title": "The floodgate volunteers",
+      "act": 9,
+      "goal": "seal",
+      "ai": "Coordinated",
+      "estimatedDifficulty": "Tactical",
+      "grade": 3,
+      "before": {
+        "round": 2,
+        "enemyPhases": 1,
+        "inputs": 8,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 1,
+        "remainingHP": 9
+      },
+      "now": {
+        "round": 2,
+        "enemyPhases": 1,
+        "inputs": 13,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 2,
+        "remainingHP": 9
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Use cover, objectives and distinct crew abilities together."
+    },
+    {
+      "mission": 83,
+      "title": "A forest with open doors",
+      "act": 9,
+      "goal": "plant",
+      "ai": "Coordinated",
+      "estimatedDifficulty": "Demanding",
+      "grade": 4,
+      "before": {
+        "round": 3,
+        "enemyPhases": 2,
+        "inputs": 20,
+        "crewLost": 0,
+        "damageTaken": 1,
+        "distinctAbilities": 3,
+        "remainingHP": 9
+      },
+      "now": {
+        "round": 9,
+        "enemyPhases": 8,
+        "inputs": 38,
+        "crewLost": 0,
+        "damageTaken": 1,
+        "distinctAbilities": 2,
+        "remainingHP": 8
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Use cover, objectives and distinct crew abilities together."
+    },
+    {
+      "mission": 84,
+      "title": "The bridge breaks kindly",
+      "act": 9,
+      "goal": "push",
+      "ai": "Coordinated",
+      "estimatedDifficulty": "Demanding",
+      "grade": 4,
+      "before": {
+        "round": 5,
+        "enemyPhases": 4,
+        "inputs": 22,
+        "crewLost": 0,
+        "damageTaken": 4,
+        "distinctAbilities": 3,
+        "remainingHP": 5
+      },
+      "now": {
+        "round": 5,
+        "enemyPhases": 4,
+        "inputs": 23,
+        "crewLost": 1,
+        "damageTaken": 3,
+        "distinctAbilities": 1,
+        "remainingHP": 6
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Manage cart alignment, hazards and charge timing."
+    },
+    {
+      "mission": 85,
+      "title": "The last ration ledger",
+      "act": 9,
+      "goal": "deliver",
+      "ai": "Coordinated",
+      "estimatedDifficulty": "Tactical",
+      "grade": 3,
+      "before": {
+        "round": 1,
+        "enemyPhases": 0,
+        "inputs": 2,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 1,
+        "remainingHP": 9
+      },
+      "now": {
+        "round": 3,
+        "enemyPhases": 2,
+        "inputs": 15,
+        "crewLost": 0,
+        "damageTaken": 2,
+        "distinctAbilities": 3,
+        "remainingHP": 7
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Connect local relays before completing the primary objective."
+    },
+    {
+      "mission": 86,
+      "title": "A room for every echo",
+      "act": 9,
+      "goal": "rescue",
+      "ai": "Coordinated",
+      "estimatedDifficulty": "Demanding",
+      "grade": 4,
+      "before": {
+        "round": 1,
+        "enemyPhases": 0,
+        "inputs": 4,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 1,
+        "remainingHP": 15
+      },
+      "now": {
+        "round": 6,
+        "enemyPhases": 5,
+        "inputs": 31,
+        "crewLost": 0,
+        "damageTaken": 5,
+        "distinctAbilities": 4,
+        "remainingHP": 17
+      },
+      "lowBudgetRouteFound": false,
+      "notes": "Free captives, protect a passenger and extract."
+    },
+    {
+      "mission": 87,
+      "title": "The bells answer back",
+      "act": 9,
+      "goal": "survive",
+      "ai": "Coordinated",
+      "estimatedDifficulty": "Demanding",
+      "grade": 4,
+      "before": {
+        "round": 5,
+        "enemyPhases": 5,
+        "inputs": 32,
+        "crewLost": 0,
+        "damageTaken": 3,
+        "distinctAbilities": 4,
+        "remainingHP": 14
+      },
+      "now": {
+        "round": 7,
+        "enemyPhases": 7,
+        "inputs": 28,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 3,
+        "remainingHP": 15
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Use cover, objectives and distinct crew abilities together."
+    },
+    {
+      "mission": 88,
+      "title": "The dark between districts",
+      "act": 9,
+      "goal": "clear",
+      "ai": "Coordinated",
+      "estimatedDifficulty": "Demanding",
+      "grade": 4,
+      "before": {
+        "round": 5,
+        "enemyPhases": 5,
+        "inputs": 60,
+        "crewLost": 0,
+        "damageTaken": 2,
+        "distinctAbilities": 1,
+        "remainingHP": 12
+      },
+      "now": {
+        "round": 8,
+        "enemyPhases": 7,
+        "inputs": 74,
+        "crewLost": 0,
+        "damageTaken": 6,
+        "distinctAbilities": 4,
+        "remainingHP": 10
+      },
+      "lowBudgetRouteFound": false,
+      "notes": "Use cover, objectives and distinct crew abilities together."
+    },
+    {
+      "mission": 89,
+      "title": "The sea on the other side",
+      "act": 9,
+      "goal": "reach",
+      "ai": "Coordinated",
+      "estimatedDifficulty": "Approachable",
+      "grade": 2,
+      "before": {
+        "round": 1,
+        "enemyPhases": 0,
+        "inputs": 1,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 1,
+        "remainingHP": 9
+      },
+      "now": {
+        "round": 1,
+        "enemyPhases": 0,
+        "inputs": 2,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 1,
+        "remainingHP": 9
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Environmental shortcut / breather."
+    },
+    {
+      "mission": 90,
+      "title": "A hundred small decisions",
+      "act": 9,
+      "goal": "protect",
+      "ai": "Coordinated",
+      "estimatedDifficulty": "Demanding",
+      "grade": 4,
+      "before": {
+        "round": 5,
+        "enemyPhases": 5,
+        "inputs": 19,
+        "crewLost": 0,
+        "damageTaken": 4,
+        "distinctAbilities": 3,
+        "remainingHP": 15
+      },
+      "now": {
+        "round": 7,
+        "enemyPhases": 7,
+        "inputs": 35,
+        "crewLost": 0,
+        "damageTaken": 6,
+        "distinctAbilities": 4,
+        "remainingHP": 15
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Use cover, objectives and distinct crew abilities together."
+    },
+    {
+      "mission": 91,
+      "title": "The engine under the sea",
+      "act": 10,
+      "goal": "reach",
+      "ai": "Elite",
+      "estimatedDifficulty": "Tactical",
+      "grade": 3,
+      "before": {
+        "round": 1,
+        "enemyPhases": 0,
+        "inputs": 2,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 1,
+        "remainingHP": 6
+      },
+      "now": {
+        "round": 3,
+        "enemyPhases": 2,
+        "inputs": 11,
+        "crewLost": 0,
+        "damageTaken": 1,
+        "distinctAbilities": 2,
+        "remainingHP": 5
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Connect local relays before completing the primary objective."
+    },
+    {
+      "mission": 92,
+      "title": "The routes we inherited",
+      "act": 10,
+      "goal": "collect",
+      "ai": "Elite",
+      "estimatedDifficulty": "Tactical",
+      "grade": 3,
+      "before": {
+        "round": 3,
+        "enemyPhases": 2,
+        "inputs": 15,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 2,
+        "remainingHP": 9
+      },
+      "now": {
+        "round": 4,
+        "enemyPhases": 3,
+        "inputs": 23,
+        "crewLost": 0,
+        "damageTaken": 1,
+        "distinctAbilities": 3,
+        "remainingHP": 8
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Connect local relays before completing the primary objective."
+    },
+    {
+      "mission": 93,
+      "title": "No heart alone",
+      "act": 10,
+      "goal": "hold",
+      "ai": "Elite",
+      "estimatedDifficulty": "Demanding",
+      "grade": 4,
+      "before": {
+        "round": 3,
+        "enemyPhases": 3,
+        "inputs": 22,
+        "crewLost": 0,
+        "damageTaken": 5,
+        "distinctAbilities": 4,
+        "remainingHP": 12
+      },
+      "now": {
+        "round": 5,
+        "enemyPhases": 5,
+        "inputs": 35,
+        "crewLost": 0,
+        "damageTaken": 7,
+        "distinctAbilities": 4,
+        "remainingHP": 12
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Keep relays occupied through enemy and environmental phases."
+    },
+    {
+      "mission": 94,
+      "title": "The last sealed deck",
+      "act": 10,
+      "goal": "rescue",
+      "ai": "Elite",
+      "estimatedDifficulty": "Demanding",
+      "grade": 4,
+      "before": {
+        "round": 1,
+        "enemyPhases": 0,
+        "inputs": 4,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 2,
+        "remainingHP": 15
+      },
+      "now": {
+        "round": 5,
+        "enemyPhases": 4,
+        "inputs": 24,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 2,
+        "remainingHP": 18
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Free captives, protect a passenger and extract."
+    },
+    {
+      "mission": 95,
+      "title": "A place to put the storm",
+      "act": 10,
+      "goal": "seal",
+      "ai": "Elite",
+      "estimatedDifficulty": "Demanding",
+      "grade": 4,
+      "before": {
+        "round": 1,
+        "enemyPhases": 0,
+        "inputs": 5,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 0,
+        "remainingHP": 12
+      },
+      "now": {
+        "round": 5,
+        "enemyPhases": 4,
+        "inputs": 34,
+        "crewLost": 0,
+        "damageTaken": 1,
+        "distinctAbilities": 4,
+        "remainingHP": 11
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Use cover, objectives and distinct crew abilities together."
+    },
+    {
+      "mission": 96,
+      "title": "The keeper’s last key",
+      "act": 10,
+      "goal": "deliver",
+      "ai": "Elite",
+      "estimatedDifficulty": "Demanding",
+      "grade": 4,
+      "before": {
+        "round": 2,
+        "enemyPhases": 1,
+        "inputs": 6,
+        "crewLost": 0,
+        "damageTaken": 3,
+        "distinctAbilities": 1,
+        "remainingHP": 6
+      },
+      "now": {
+        "round": 3,
+        "enemyPhases": 2,
+        "inputs": 10,
+        "crewLost": 0,
+        "damageTaken": 2,
+        "distinctAbilities": 1,
+        "remainingHP": 7
+      },
+      "lowBudgetRouteFound": false,
+      "notes": "Connect local relays before completing the primary objective."
+    },
+    {
+      "mission": 97,
+      "title": "The Heart that was afraid",
+      "act": 10,
+      "goal": "boss",
+      "ai": "Elite",
+      "estimatedDifficulty": "Demanding",
+      "grade": 4,
+      "before": {
+        "round": 7,
+        "enemyPhases": 6,
+        "inputs": 50,
+        "crewLost": 1,
+        "damageTaken": 4,
+        "distinctAbilities": 4,
+        "remainingHP": 11
+      },
+      "now": {
+        "round": 9,
+        "enemyPhases": 9,
+        "inputs": 64,
+        "crewLost": 0,
+        "damageTaken": 4,
+        "distinctAbilities": 4,
+        "remainingHP": 11
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Prioritize support machines and combine abilities."
+    },
+    {
+      "mission": 98,
+      "title": "The city holds the line",
+      "act": 10,
+      "goal": "survive",
+      "ai": "Elite",
+      "estimatedDifficulty": "Demanding",
+      "grade": 4,
+      "before": {
+        "round": 4,
+        "enemyPhases": 4,
+        "inputs": 14,
+        "crewLost": 0,
+        "damageTaken": 4,
+        "distinctAbilities": 6,
+        "remainingHP": 21
+      },
+      "now": {
+        "round": 6,
+        "enemyPhases": 6,
+        "inputs": 24,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 6,
+        "remainingHP": 21
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Use cover, objectives and distinct crew abilities together."
+    },
+    {
+      "mission": 99,
+      "title": "The first true horizon",
+      "act": 10,
+      "goal": "evacuate",
+      "ai": "Elite",
+      "estimatedDifficulty": "Severe",
+      "grade": 5,
+      "before": {
+        "round": 2,
+        "enemyPhases": 1,
+        "inputs": 9,
+        "crewLost": 0,
+        "damageTaken": 0,
+        "distinctAbilities": 2,
+        "remainingHP": 18
+      },
+      "now": {
+        "round": 10,
+        "enemyPhases": 9,
+        "inputs": 65,
+        "crewLost": 4,
+        "damageTaken": 13,
+        "distinctAbilities": 2,
+        "remainingHP": 5
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Connect local relays before completing the primary objective."
+    },
+    {
+      "mission": 100,
+      "title": "The last current",
+      "act": 10,
+      "goal": "seal",
+      "ai": "Elite",
+      "estimatedDifficulty": "Demanding",
+      "grade": 4,
+      "before": {
+        "round": 2,
+        "enemyPhases": 1,
+        "inputs": 11,
+        "crewLost": 0,
+        "damageTaken": 1,
+        "distinctAbilities": 4,
+        "remainingHP": 17
+      },
+      "now": {
+        "round": 3,
+        "enemyPhases": 2,
+        "inputs": 21,
+        "crewLost": 1,
+        "damageTaken": 5,
+        "distinctAbilities": 6,
+        "remainingHP": 13
+      },
+      "lowBudgetRouteFound": true,
+      "notes": "Use cover, objectives and distinct crew abilities together."
+    }
+  ]
+}
